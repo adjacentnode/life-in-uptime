@@ -1,9 +1,21 @@
+import Link from "next/link";
 import { getEpisodes, formatDate } from "@/lib/episodes";
+import { transcripts } from "@/lib/transcripts";
 
 export const metadata = {
   title: "Episodes | Life in Uptime",
   description: "All episodes of Life in Uptime — real stories from engineers, IT leaders, and technologists.",
 };
+
+/**
+ * Given an RSS episode number string (e.g. "1", "12"), find the matching
+ * transcript slug. Transcripts store zero-padded numbers ("001", "012").
+ */
+function getSlugForEpisode(episodeNumber: string): string | null {
+  const padded = episodeNumber.padStart(3, "0");
+  const match = transcripts.find((t) => t.episodeNumber === padded);
+  return match ? match.slug : null;
+}
 
 export default async function EpisodesPage() {
   const episodes = await getEpisodes();
@@ -24,41 +36,67 @@ export default async function EpisodesPage() {
         <p className="text-navy/40">Could not load episodes. Check back soon.</p>
       ) : (
         <div className="flex flex-col gap-4">
-          {episodes.map((ep, i) => (
-            <a
-              key={ep.link || i}
-              href={ep.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="episode-card group bg-white rounded-2xl p-6 border border-sky-blue/30 flex flex-col sm:flex-row sm:items-start gap-4"
-            >
-              {/* Episode number bubble */}
-              <div
-                className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center text-sm font-black text-white"
-                style={{ background: "var(--sky-blue-mid)" }}
-              >
-                {ep.episodeNumber || String(episodes.length - i)}
-              </div>
+          {episodes.map((ep, i) => {
+            const slug = getSlugForEpisode(ep.episodeNumber || String(i + 1));
+            const internalHref = slug ? `/episodes/${slug}` : null;
 
-              <div className="flex-1 min-w-0">
-                <div className="flex flex-wrap items-center gap-3 mb-1">
-                  <h2 className="text-base font-bold text-navy group-hover:text-sky-blue-mid transition-colors">
-                    {ep.title}
-                  </h2>
+            return (
+              <div
+                key={ep.link || i}
+                className="episode-card bg-white rounded-2xl p-6 border border-sky-blue/30 flex flex-col sm:flex-row sm:items-start gap-4"
+              >
+                {/* Episode number bubble */}
+                <div
+                  className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center text-sm font-black text-white"
+                  style={{ background: "var(--sky-blue-mid)" }}
+                >
+                  {ep.episodeNumber || String(episodes.length - i)}
                 </div>
-                <p className="text-sm text-navy/55 leading-relaxed mb-2">
-                  {ep.description}
-                </p>
-                <div className="flex items-center gap-4 text-xs text-navy/40">
-                  <span>{formatDate(ep.pubDate)}</span>
-                  {ep.duration && <span>{ep.duration}</span>}
-                  <span className="text-sky-blue-mid font-semibold group-hover:underline">
-                    Listen &rarr;
-                  </span>
+
+                <div className="flex-1 min-w-0">
+                  <div className="flex flex-wrap items-center gap-3 mb-1">
+                    {internalHref ? (
+                      <Link
+                        href={internalHref}
+                        className="text-base font-bold text-navy hover:text-sky-blue-mid transition-colors"
+                      >
+                        {ep.title}
+                      </Link>
+                    ) : (
+                      <span className="text-base font-bold text-navy">
+                        {ep.title}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-sm text-navy/55 leading-relaxed mb-2">
+                    {ep.description}
+                  </p>
+                  <div className="flex flex-wrap items-center gap-4 text-xs text-navy/40">
+                    <span>{formatDate(ep.pubDate)}</span>
+                    {ep.duration && <span>{ep.duration}</span>}
+                    {internalHref && (
+                      <Link
+                        href={internalHref}
+                        className="text-sky-blue-mid font-semibold hover:underline"
+                      >
+                        Read transcript →
+                      </Link>
+                    )}
+                    {ep.link && (
+                      <a
+                        href={ep.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-navy/40 hover:text-sky-blue-mid font-semibold transition-colors"
+                      >
+                        Listen on Packet Pushers ↗
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
-            </a>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>
