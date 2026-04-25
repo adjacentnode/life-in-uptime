@@ -6,11 +6,20 @@ const HOSTS = [
     name: "Alexis Bertholf",
     photo: "/alexis-bertholf.jpg",
     bio: "Content creator, technologist, and podcast co-host. Alexis brings curiosity, warmth, and sharp questions to every conversation.",
+    links: [
+      { label: "Instagram", href: "https://www.instagram.com/digital.byte_/" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/alexisbertholf" },
+    ],
   },
   {
     name: "Kevin Nanns",
     photo: "/kevin-nanns.jpg",
     bio: "Network engineer with 15+ years of enterprise experience. CCNA, Cisco Champion, Juniper AI Innovator, and the voice behind Adjacentnode.",
+    links: [
+      { label: "Instagram", href: "https://www.instagram.com/adjacentnode" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/kevinnanns" },
+      { label: "YouTube", href: "https://www.youtube.com/@adjacentnode" },
+    ],
   },
 ];
 import { getEpisodes, formatDate } from "@/lib/episodes";
@@ -268,6 +277,19 @@ export default async function Home() {
               />
               <h3 className="text-xl font-bold text-navy">{host.name}</h3>
               <p className="text-navy/60 text-sm leading-relaxed">{host.bio}</p>
+              <div className="flex gap-3 mt-1">
+                {host.links.map((l) => (
+                  <a
+                    key={l.href}
+                    href={l.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs font-semibold text-sky-blue-mid hover:text-navy transition-colors"
+                  >
+                    {l.label} →
+                  </a>
+                ))}
+              </div>
             </div>
           ))}
         </div>
