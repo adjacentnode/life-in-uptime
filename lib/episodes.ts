@@ -45,7 +45,10 @@ export async function getEpisodes(): Promise<Episode[]> {
       const duration = extractText(item, "itunes:duration");
       const link = extractText(item, "link") || extractAttr(item, "link", "href");
       const audioUrl = extractAttr(item, "enclosure", "url");
-      const epNum = extractText(item, "itunes:episode") || String(episodes.length + 1);
+      // Try itunes:episode tag first, then fall back to LIU### in the title
+      const itunesEp = extractText(item, "itunes:episode");
+      const titleSlugMatch = title.match(/^LIU(\d+)/i);
+      const epNum = itunesEp || (titleSlugMatch ? String(parseInt(titleSlugMatch[1], 10)) : String(episodes.length + 1));
 
       if (title) {
         episodes.push({
