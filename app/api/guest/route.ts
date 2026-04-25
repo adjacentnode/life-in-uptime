@@ -26,7 +26,7 @@ How they heard about the show: ${referral || "Not provided"}
 
     // Send via Resend if API key is configured, otherwise log
     const RESEND_API_KEY = process.env.RESEND_API_KEY;
-    const TO_EMAIL = process.env.GUEST_EMAIL || "podcasts@packetpushers.net";
+    const TO_EMAILS = ["alexis@lifeinuptime.com", "kevin@lifeinuptime.com"];
     const FROM_EMAIL = process.env.FROM_EMAIL || "noreply@lifeinuptime.com";
 
     if (RESEND_API_KEY) {
@@ -38,7 +38,7 @@ How they heard about the show: ${referral || "Not provided"}
         },
         body: JSON.stringify({
           from: FROM_EMAIL,
-          to: [TO_EMAIL],
+          to: TO_EMAILS,
           reply_to: email,
           subject: `Guest Application: ${firstName} ${lastName} — ${title}`,
           text: emailBody,
