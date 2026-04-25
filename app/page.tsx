@@ -1,5 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
+
+const HOSTS = [
+  {
+    name: "Alexis Bertholf",
+    photo: "/alexis-bertholf.jpg",
+    bio: "Content creator, technologist, and podcast co-host. Alexis brings curiosity, warmth, and sharp questions to every conversation.",
+  },
+  {
+    name: "Kevin Nanns",
+    photo: "/kevin-nanns.jpg",
+    bio: "Network engineer with 15+ years of enterprise experience. CCNA, Cisco Champion, Juniper AI Innovator, and the voice behind Adjacentnode.",
+  },
+];
 import { getEpisodes, formatDate } from "@/lib/episodes";
 
 const COVER_ART =
@@ -241,26 +254,18 @@ export default async function Home() {
           Your Hosts
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {[
-            {
-              name: "Alexis Bertholf",
-              bio: "Content creator, technologist, and podcast co-host. Alexis brings curiosity, warmth, and sharp questions to every conversation.",
-            },
-            {
-              name: "Kevin Nanns",
-              bio: "Network engineer with 15+ years of enterprise experience. CCNA, Cisco Champion, Juniper AI Innovator, and the voice behind Adjacentnode.",
-            },
-          ].map((host) => (
+          {HOSTS.map((host) => (
             <div
               key={host.name}
               className="bg-white rounded-2xl p-8 border border-sky-blue/30 flex flex-col gap-3"
             >
-              <div
-                className="w-14 h-14 rounded-full flex items-center justify-center text-xl font-black text-white"
-                style={{ background: "var(--sky-blue-mid)" }}
-              >
-                {host.name.charAt(0)}
-              </div>
+              <Image
+                src={host.photo}
+                alt={host.name}
+                width={72}
+                height={72}
+                className="rounded-full object-cover w-18 h-18"
+              />
               <h3 className="text-xl font-bold text-navy">{host.name}</h3>
               <p className="text-navy/60 text-sm leading-relaxed">{host.bio}</p>
             </div>
