@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     siteName: "Life in Uptime",
     images: [
       {
-        url: "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f4/44/87/f44487a9-561e-3473-ba40-43ebaa2b975e/mza_11280545770999497642.jpg/600x600bb.jpg",
-        width: 600,
-        height: 600,
-        alt: "Life in Uptime podcast cover art",
+        url: "https://lifeinuptime.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Life in Uptime — Real stories from the people who keep the internet running.",
       },
     ],
     type: "website",
