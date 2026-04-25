@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   title: "Life in Uptime",
   description:
     "A podcast exploring the real journeys of the people who build and run the backbone of the internet. Hosted by Alexis Bertholf and Kevin Nanns. Part of the Packet Pushers network.",

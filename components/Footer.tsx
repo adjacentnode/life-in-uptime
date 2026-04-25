@@ -78,20 +78,20 @@ export default function Footer() {
                   label: "Apple Podcasts",
                 },
                 {
-                  href: "https://open.spotify.com/search/life%20in%20uptime%20packet%20pushers",
+                  href: "https://open.spotify.com/show/7yjZxObg2Q5LKBwikJwGl5",
                   label: "Spotify",
                 },
                 {
-                  href: "https://packetpushers.net/podcast/life-in-uptime/feed/",
-                  label: "RSS Feed",
-                },
-                {
-                  href: "https://overcast.fm/search#q=life+in+uptime",
+                  href: "https://overcast.fm/itunes1840914445",
                   label: "Overcast",
                 },
                 {
-                  href: "https://pocketcasts.com/podcasts/search/?q=life+in+uptime",
+                  href: "https://pca.st/zr4y1219",
                   label: "Pocket Casts",
+                },
+                {
+                  href: "https://feeds.packetpushers.net/life-in-uptime/",
+                  label: "RSS Feed",
                 },
               ].map((l) => (
                 <li key={l.href}>

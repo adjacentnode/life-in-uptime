@@ -17,7 +17,7 @@ const LISTEN_LINKS = [
   },
   {
     label: "Spotify",
-    href: "https://open.spotify.com/search/life%20in%20uptime%20packet%20pushers",
+    href: "https://open.spotify.com/show/7yjZxObg2Q5LKBwikJwGl5",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
         <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
@@ -26,7 +26,7 @@ const LISTEN_LINKS = [
   },
   {
     label: "Overcast",
-    href: "https://overcast.fm/search#q=life+in+uptime",
+    href: "https://overcast.fm/itunes1840914445",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
         <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 6a6 6 0 110 12A6 6 0 0112 6zm0 3a3 3 0 100 6 3 3 0 000-6zm0 1.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm-7.5 1.5a.75.75 0 010 1.5.75.75 0 010-1.5zm15 0a.75.75 0 010 1.5.75.75 0 010-1.5zM12 4.5a.75.75 0 010 1.5.75.75 0 010-1.5zm0 13.5a.75.75 0 010 1.5.75.75 0 010-1.5z" />
@@ -34,8 +34,17 @@ const LISTEN_LINKS = [
     ),
   },
   {
+    label: "Pocket Casts",
+    href: "https://pca.st/zr4y1219",
+    icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 4a8 8 0 110 16A8 8 0 0112 4zm0 3a5 5 0 100 10A5 5 0 0012 7zm0 3a2 2 0 110 4 2 2 0 010-4z" />
+      </svg>
+    ),
+  },
+  {
     label: "RSS Feed",
-    href: "https://packetpushers.net/podcast/life-in-uptime/feed/",
+    href: "https://feeds.packetpushers.net/life-in-uptime/",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
         <path d="M6.18 15.64a2.18 2.18 0 010 4.36 2.18 2.18 0 010-4.36M4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 006.18 7.27V4.44M4 10.1a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 006.18 12.93v-2.83z" />
