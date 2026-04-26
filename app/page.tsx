@@ -295,6 +295,56 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* LISTENER REVIEWS */}
+      <section className="max-w-5xl mx-auto px-6 py-20">
+        <div className="flex items-center gap-3 mb-3">
+          <h2 className="text-3xl font-bold text-navy">Listener Reviews</h2>
+        </div>
+        <p className="text-navy/50 text-sm mb-10 flex items-center gap-2">
+          <span>★★★★★</span>
+          <span>5.0 on Apple Podcasts</span>
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {[
+            {
+              title: "Great conversation great topics",
+              author: "Classic Side",
+              body: "I've tried many podcasts in the past. And couldn't tell you the names today. This is one I could years from now. They know the industry. And this one's super insightful. All have been. Great work!",
+            },
+            {
+              title: "Worth the listen!",
+              author: "Techsavyell",
+              body: "These two are awesome! I have already found valuable tidbits in the first full episode! Can't wait to see what comes next!",
+            },
+            {
+              title: "Making Networking Cool Again",
+              author: "mikejbou",
+              body: "Kevin and Alexis really work hard in all their content creation and giving back knowledge and tips to the community. Super excited to see what comes from them doing this podcast, definitely worth listening to if you work in the IT space.",
+            },
+          ].map((r) => (
+            <div
+              key={r.author}
+              className="bg-white rounded-2xl p-6 border border-sky-blue/30 flex flex-col gap-3"
+            >
+              <div className="text-sky-blue-mid text-sm tracking-widest">★★★★★</div>
+              <h3 className="font-bold text-navy text-base leading-snug">{r.title}</h3>
+              <p className="text-navy/60 text-sm leading-relaxed flex-1">{r.body}</p>
+              <p className="text-xs text-navy/35 font-medium">{r.author}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-8 text-center">
+          <a
+            href="https://podcasts.apple.com/us/podcast/life-in-uptime/id1840914445"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-semibold text-sky-blue-mid hover:text-navy transition-colors"
+          >
+            Leave a review on Apple Podcasts →
+          </a>
+        </div>
+      </section>
+
       {/* BOTTOM CTA */}
       <section className="watercolor-bg py-20">
         <div className="relative z-10 max-w-2xl mx-auto px-6 text-center">
