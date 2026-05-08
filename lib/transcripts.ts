@@ -5317,4 +5317,384 @@ Thank you. I appreciate that.
 Cool. Well, guys, that is it for this episode of Life in Uptime. Huge thanks to Ray for sharing his journey and thanks to you for listening.
 If you enjoyed this conversation, be sure to follow the show so you never miss an episode. And if today's story gave you something to think about, make sure you share it with a friend or a colleague who might need it. And until next time, keep learning, keep building, and keep your uptime high.`,
   },
+  {
+    episodeNumber: "014",
+    slug: "ep-014-linda-haviv-from-philosophy-major-to-ai-engineer",
+    title: `Linda Haviv: From Philosophy Major to AI Engineer`,
+    guest: `Linda Haviv`,
+    guestTitle: `AI Engineer & Developer Advocate`,
+    guestCompany: `Anyscale`,
+    guestLinkedIn: "https://www.linkedin.com/in/lindahaviv/",
+    description: `Alexis and Kevin sit down with Linda Haviv, an AI/ML Engineer and founder of Coding Crystals. Linda is known for making AI infrastructure accessible, and for a career path that went from philosophy student to professional singer to self-taught developer to AI engineer. Together they discuss the difference between AI infrastructure and AI engineering, the importance of community, and the best way for network engineers to dip their toes into the AI infrastructure pool.`,
+    airDate: "May 7, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu014-linda-haviv-from-philosophy-major-to-ai-engineer/",
+    youtubeUrl: "https://youtu.be/5qS7CQEQSx8",
+    transcript: `[Drew]
+Today's episode is brought to you by the North American Network Operators Group, or NANOG. They meet three times a year. The next gathering is NANOG 97 in Bellevue, Washington, June 1st through the 3rd.
+You can register today to attend at nanog.org, and we'll tell you more about why you should later in the show.
+[Kevin]
+Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected. I'm Kevin, joined by Alexis, and every week we sit down with engineers, leaders, and builders in tech to uncover the stories behind their careers, how they started, what they've learned, and where they're headed next. Our goal is simple, to help you see how far tech can take you, no matter where you start from.
+[Alexis]
+Alright guys, today we're joined by our good friend Linda. She's an AI ML engineer, content creator, and former AWS and AnyScale developer advocate. She's the founder of and one of the earliest women doing tech content creation on Instagram, starting all the way back in 2016.
+She's known for making AI infrastructure accessible, and for a career path that went from philosophy student to professional singer to self-taught developer to AI engineer. So Linda, welcome to Life in Uptime. 
+[Linda]
+Thank you so much for having me.
+And you know, speaking of content, it really is community. It's all about finding your community and your people. And so thank you guys, huge fans of everything you're doing.
+I love that dolphin video that you guys had. I think that was like, I couldn't, you know, I have a feel good album and it's like in there. So whenever I need a laugh and joy.
+And so thank you for all you're doing. 
+[Alexis]
+TikTok best hits for sure. Yes.
+[Kevin]
+You're one of the original like tech people on Instagram, which is awesome. Like, I can't even imagine what creating content was like back in 2016.
+[Linda]
+Oh, it was so funny. I feel like so I look back, you know, when you look back at certain points and you're like, you're laughing yourself really quick. It was like a very, you know, Instagram, for example, was very aesthetic.
+And what I realized was that there was a lot of tech community on X, but women specifically, or some people preferred Instagram. But there wasn't a lot of people create content there. And a fun fact is the reason I started creating content on Instagram about tech was because I went into tech because I saw Coder Girl on Instagram.
+She was like the first person. And what you did was you would put a picture with like your laptop and your code and you would microblog. So it's practically microblogging with a good photo, but it felt more community oriented and less hostile because I didn't feel comfortable on like I loved tech Twitter for like finding information and news, but I wasn't one to start like having like this like hot take.
+And especially not like that point in my career where I was like trying to just like learn. And so I really wanted to document in a way that's more optimistic. And slowly I found my like, there was so much community there.
+I mean, Tiffin Tech started at the same time, you know, Sundance, we all met like back when like, you know, this was like, that microblogging time period. And then when COVID happened, and everything shifted to video. That's when I shifted to video.
+But you know, like at first I hardly had, you know, I would microblog. I was used to photos. 
+[Alexis]
+I can't even imagine being on the internet and like looking back at content you created 10 years ago.
+I think we just hit, Kevin and I hit the three year mark just a couple months ago. Babies, 
+[Linda]
+what you've done in three years, it's not what you've done in three years is like, you know, 30. Like, I mean, I think like the it's all about the community you find in like the intention you have.
+And for me, like a lot of the relationships and a lot of my best friends and were people I met on social media. To add to that, a lot of people I worked with at AWS were I knew through first, like, Instagram, TikTok, you know, like, we all cross post, because I never like being like, just reliant on one platform. So you never know.
+So you always want kind of like to diversify. But also, there's different communities, like, actually AWS hired me after finding me on TikTok, which I was just, I was just posting I wasn't wasn't my main community. My main community was Instagram.
+But that's how they found me talking about cloud computing, because there weren't a lot of people talking about cloud computing. Now you do that with networking and so many other things. And it's different.
+And I always encourage people like, when there's people aren't talking about a topic, it's that doesn't mean there isn't a market there for that. And like a need for that it actually is the opposite. And you should lean into that.
+It's not that people aren't talking about that. That is the actual gap that needs that's needed for developers. And I see that now also with AI infra.
+We talked a lot about AI engineering, and which I'm also talking about. But I think there's a part there's less video content and format for AI infra and people learn in different ways. And we need to have all the different ways you can learn people are constantly on social.
+That's the place they are initially where they're spending time. And so who's better at I mean, you know, you guys know this, this is the format that I think helps in other ways. 
+[Alexis]
+Linda, I'm selfishly curious.
+I don't know that I could tell you the difference between AI infrastructure and AI engineering. So when you say, are you are you talking about the physical hardware and systems that need to be developed to support AI? 
+[Linda]
+Yeah, so I think when I say infrastructure, technically, there is an overlap between like AI engineering could in a way be broad.
+And you know, this kind of reminds me of the term DevOps, where when I was in DevOps, you know, I was a DevOps engineer. And so I come from DevOps before I was ever touching AI. And all that I was like, you know, before I have the whole boom of like having to adapt to that AWS.
+I was more a DevOps person in a cloud person. And the the terms sometimes overlap. And it's almost by design, right?
+Because DevOps is not a role. It's a it's a culture. It's a culture.
+And are some people called DevOps engineer? Yes, I think we're seeing that also with a bit AI engineering, and AI infra, and then you have ML engineer. And there's companies that are, you know, an AI engineer would do ML work.
+And then there's companies where it's like separate. So I think there is overlap. How I would define it right now.
+And from where I'm from, my standpoint is AI infra would be more like the DevOps adoption to ML ops, LLM ops, anything that you're dealing with the under the hood infrastructure, versus AI engineering would be more what you're building around an LLM, not the infrastructure to run the LLM, which is a little different, right? So I think that's how I'm looking at it. Although there is overlap, because you could argue that memory and all that might fall into both.
+And you know, it's a little, but I do think when I say AI, in front, what's not there? Like, I don't think people go in the weeds of like, inference, or like, a mixture of expert models, or KV cache, or pre filled all these terms, I don't think AI engineers are necessarily dealing with they're dealing with taking LLM and building this harness around it and all this stuff around it. And the AI infra part is more, how do you distribute the compute, it's almost closer to networking, right?
+It's like, it's really more the under the hood, I look at it as also people who have a DevOps background might want to go to AI infra more, which might be a distributed LLM inference engineer. That's a software engineer adapted to being like an inference engineer, but has the infrastructure background. So to me coming from cloud and DevOps, there is an adaptability that in my opinion, if you're a software engineer, or however, I mean, there's so many different terms, SRE, there is a part that you can either adapt up the stack and be an AI engineers, maybe you're building applications, they're more like, or like you're building agentic systems, or you could go down the stack and build the distributed computing layer. And this all this part that's actually the infrastructure holding it, which practically is DevOps, but, but in a way that's for AI ML problems, which there are other problems you're dealing with, with AI that were not in traditional DevOps.
+Interesting. Does that make sense? A little bit like front end versus back end, like I'm trying to obviously, I have a specific opinion about it.
+But I wouldn't say I have like the scientific term for it, because I think things evolve. I mean, yeah, yesterday, I was talking to someone about forward deployed engineering. I mean, these roles didn't exist till about like, you know, or like they were never there wasn't years ago.
+Yeah, so like, I think we're trying to put a term, the reason we have terms is to give a way for us to all communicate, right? There, you know, I never today, like I learned this over the years with tech. It's a yeah, AI ML, but we've had this before.
+DevOps went through this for years. It used to be just being like something specific, then you had an infrastructure engineer, SRE, CICD. And I mean, it was all like, it was like, I mean, this total overlap, it's very hard to actually say company Y and company X are the same role.
+So I think that's why even when you're looking for roles, you have to look at a few different titles, because not all companies have the same title for the same thing. So when I say AI and front end, I'm practically, yeah, like, to me, I'm talking about the things that are not just like, let's build agentic AI systems. But let's build the infrastructure under the hood that supports this stuff.
+So then it could be maybe where I used to work at AnyScale more like dealing with Ray, right, and the distributed computing layer. And so that might be different, right? It kind of overlaps with like, the unseen part, like anything that you would almost categorize as like a DevOps field.
+That's how I would look at it. But again, don't kill me for the definition, because I don't I don't know if there is a scientific definition. But these at this point, I just realized that it's also by popular demand, people make a definition, and then they go with it.
+And it's like, by by practically, you also 
+[Alexis]
+when you're writing these roles, you also I remember I was talking, I was out at a conference just a couple weeks ago. And they were talking about how to they were IT leaders talking about how to write an engaging job description in order to get the talent that you want. And so there is a whole other, you know, realm of writing the job description in order to attract the right talent.
+So you have to make it sound cool. In the title, you have to give it a cool title, you have to give it a cool name. It's not as simple as just naming the job that you're doing.
+[Linda]
+Right. And it's the world we live in. And I think also the reason I really love that we're talking about AI infra is that there is a lot of alignment with networking, because it's almost the in between between networking, and like the Kubernetes, like it's, it's practically the in between between the software engineering and the network is technically look at Neo clouds, right?
+Why are Neo clouds popular right now? As opposed to traditional cloud? Because it's a Neo cloud.
+Oh, that's a great question. Neo clouds are like, so they're not very Neo anymore. They used to be it was because they were new.
+They were called Neo clouds, but actually a lot of Neo clouds. First of all, let me give examples coreweave, Nibis, Lama, and there's a few, there's a lot of like pop, Cruzo. Those are all Neo clouds.
+There are different kind of cloud specialized for AI. Why are they specialized for AI? You would love this.
+It really comes down to networking. Because why? The GPUs need to communicate instantly.
+Traditional, traditional hardware was never really, they were built with more virtualization in mind, not about instant talking with GP across GPUs. Then when you have 1000s of GPUs talking to each other, instantly, it's a different, it's like the data center by default is built with that in mind, versus with cloud, the traditional cloud, and you know, which they're also doing that kind of thing. It's just that they have to adapt.
+And there's also a demand problem, because there's so much need right now for data centers. And I'm sure you know this, right? Then that now Neo clouds are helping.
+Yeah, it goes back to the companies who had open video contracts before. Yeah.
+[Linda Haviv]
+Sorry.
+[Alexis]
+Linda, just to take a step back. I believe you used to be a philosophy major before, before you got.
+[Kevin]
+What a transition, Alexis.
+[Alexis]
+Like we've been talking about AI infrastructure and.
+[Kevin]
+I know, we went deep, we went deep really fast.
+[Alexis]
+We got really deep into it. So just to take a step back, Linda, and talk a little bit about your journey. You were a philosophy major and then a singer.
+And then you took a hard pivot. Can you tell us about that? 
+[Linda]
+Yeah, you know, I find the philosophy coming from philosophy, it actually is very good for this undefined overlapping roles we have in tech.
+Because you start thinking of things as really the way humans communicate, and not as a 10 commandments contract. Because I think, especially when people go into the reason a lot of careers feel overwhelming is because we tend to always think everybody knows, like, the words we use tend to make people feel not as intelligent or not. It's like, there's a lot of terms, but you realize it's really all philosophy and how humans function to communicate with each other.
+And when you look at it from a humanity standpoint, you start not taking it so like, you start being able to develop your own thoughts about things. And in general, I'll go back. So clearly, philosophy does not have as much of an answer.
+I thought I was in law school. And I ended up realizing the reason I wanted to go to law school was to be a professional student. I just love to learn.
+I like the school part. And then I did not have any computer science. Yeah, I didn't have any computer science class that I ever took in college.
+But I ended up when I was working in media, I was working in media, right after college. In between, I was a production assistant, I used to work in like TV. And that was like the job I did, you know, and it was like one of those things that you do everything and I ended up building websites for anchors.
+And between that, and seeing coding, you know, Instagram, like seeing Coder Girl, which I she was very inspiring to me, and meetups in New York, I started realizing like, this is something I can do. And I think half of things are mindset. It's not just all the job exists is do I do I align to that job.
+And also when you do certain jobs, you realize what you don't want to do. And that is just as important and even more important than what you do want to do. When I tried media, I loved the media part, I did not love the news part.
+To me, it's very negative. I don't want to hear about shootings every day. I don't want to me, it caused me to have anxiety, I just can't do it.
+I think a lot of people at their risk, new journalists put their life at risk. It's fantastic. It wasn't me.
+And I learned that. But I loved media. And I loved more optimistic media, ones that bring people together, because I'm a musician at heart.
+And I love bringing people to music. And education is the other way to do that. And so the best parts I realized about tech were two things.
+One, I'm now reliant on a corporation, I could do this skill, it's a skill nobody could take from me, and I could freelance with it. And I could be with blue hair if I want to, and do it. I don't need to adapt because that was the part I couldn't envision myself as a lawyer.
+I was like, I don't know if I want to. And this was like 2016 2015. I mean, this was 2015 2014.
+Like there weren't weren't as much like independent empowerment. I feel like it was all like very corporate heavy company, company like right. So you know, you want to succeed in music, you need the company to want you not, it wasn't a social media play yet.
+You wanted to succeed in like law, you needed to first work for like a law firm, it was never like going first independent. With tech, you go first independent. So if tomorrow you don't have a job, you can go freelance.
+And I had three I want, you know, I was gonna have a family. And like, I knew that, like, I wanted something that adapts to my lifestyle. And I felt like at the time, it was actually the best career for parents, because you could do a remote, this is when the abstraction layer happened in tech, where you had JavaScript framework.
+So my first role was a JavaScript developer. So I went to a coding bootcamp actually called the flatter in school in New York, and it was in person. And I think Karlie Kloss at the time was starting the code with Karlie summer program.
+So this was around this is all 2015. This is the height of bootcamps.
+[Alexis]
+Crazy.
+[Linda]
+And I think a lot of that was social media played a part in my ability to have that mindset. And so for me, it was always community. I also worked in a lot of jobs, I was the only woman.
+And I never felt like I was the only woman because I always had such a big community. And it wasn't just women, it was just like in general. But it was a lot also that I met a lot through because coding crystals was a shop that was like about like, you know, hairpins and stuff.
+So naturally, it was very much a community of women that also ended up, I ended up meeting through this shop, which also was in my mind that I started doing when I was pregnant with my son, like, I pretty much like things like to build and building. I just wanted the tool to build what's in my mind. I'm a creative.
+So whether it be coding, whether it be, you know, learning how to make jewelry, whether it be sing, I just like creating. And when you have like a gap in how you could create, I wanted to take what's in my mind. And that's where I learned how to code.
+And I think when you today, it's actually so exciting, because more people can now take the overlap of imagination and building is now zero aligned, you know, what you had in your imagination used to be a very different than the piece you could build. You could in the same day, imagine it and start building it. And you don't have to know how to code.
+[Alexis]
+I think what's so cool about that, Linda, is that you mentioned that you were able to get into tech or you you had the idea to do a hard pivot from what you were doing because of what you saw online and because of seeing girls like CoderGirl and other people who are putting themselves out there. And I think it's a big advantage. I mean, when I was a student, again, I wanted to be an aerospace engineer.
+Why? I thought it sounded cool. I didn't know what people in technology actually did.
+I didn't know what people in I.T., what their day to day worked like, the opportunities and like the amount of flexibility they had working in their job. I didn't know any of that. I was like, airplanes, they look cool.
+I can see. I know what that is. I will go do that.
+And I think that it's not that you're obligated to, but kids in school who are graduating today have such a privilege to be able to almost peek under the hood into different career types. I mean, you have people making content about every type of engineering, every type of career field from being an electrician to a dentist to, you know, behind the scenes, taking your residency to be a surgeon, what it's like working in tech, the different roles you can get in tech, you can follow their journey, like what it was like when they were in school versus what their career is like now. And you have people at every level of their career creating content.
+So you can almost take a peek at this catalog and be like, what do I want my life to look like? Do I want to do this? Do I want to do this?
+[Linda]
+And I think we're in a renaissance. I'm no Da Vinci, right? But I think, you know, what happened with Da Vinci, right?
+What happened in the renaissance? You had the printing, you had advancements that caused people to be able to be astronomers and philosophers and artists. And this is a time to be more of you.
+And not only can you see those stories, you can, you're empowered to bring more of yourself because the differentiator between us and AI is our humanity.
+[Kevin]
+Personality.
+[Linda]
+It's judgment. It's storytelling. It's the way we deliver.
+I can have an AI voice deliver a video, but the delivery, the human part is why somebody's watching because it's also mentally, but not feeling alone.
+[Kevin]
+But do you think AI will eventually get to a point where it'll be able to mimic all of that?
+[Alexis]
+I think the people behind that AI will be famous. So it's almost like, yes, there could be great AI. I don't know if there's a Chloe versus history one that like, honestly, like, I feel like it's so brilliant.
+But you can tell that the person doing it, we don't know who it is. I have no idea who's building it. But the, the judgment, it's not AI slop that somebody just, you could tell that the judgment of the storytelling and the thought process of the topics and the way that, that is like, yes, it's AI talking to me.
+But the person that's actually interesting is the person behind that AI. And that's why I think even like with editing, right? It takes away your, it's its own thing.
+[Alexis]
+It takes away your excuse from wanting to be on camera. There's so many people. I mean, it's sad.
+[Linda]
+It's scary. It's scary for like, you know, in some ways, but also I think everything that kind of changes and especially in the pace that's changing could feel scary. Till we kind of, I can't say we don't, right.
+We don't know how it's going to play out, but usually happens in small steps, even when it's fast, it's happening slowly. So I think being able to adapt and being the artists of your life and not being like the victim of the situation, but more, how do I adapt and curate? For example, you could look at editing and can say, uh, video editing, and you could say, okay, well, so many tools could video at it.
+They could video at it. Great. But do they have the judgment to pick?
+They could advise, but I think you still want someone running the AI. So the skill set of running the AI is just an abstraction. And the editor can make more videos potentially down the road with the tools, but you still need the human running the thing in some respects as a manager, right?
+Yes, you need less and it's more lean, but the competition also goes up because how much of the quality of the videos are going up and still the former communicating. So it's, it's almost like, yes, you could do more, but there's also more demand and there's more also leveling. We're all also up leveling the quality.
+[Kevin]
+It's, it's very similar to how I see AI being in the workforce now of it being the agent doing the work and, but you still need that level of management on top saying like, what are you actually doing? Approve it. Uh, make sure they're not making mistakes, that kind of stuff.
+It's.
+[Linda]
+Yeah. And, and the same reason I think like, yes, for coders, I think system design is very important. Like, cause that judgment of system design that you have to make your, why do executives exist?
+[Kevin]
+I don't know.
+[Alexis]
+They're making decisions.
+[Kevin]
+Oh, they're there. They signed my paycheck. It's all I know.
+[Alexis]
+Yeah. They're, they're making decisions. Are they coding?
+Some are, but like, what are their job to make decisions? So now you, so in a way you're becoming your own executive as you have to put that, that, that mindset that you're more of a manager and more of a system thinker in everything, in everything you have to think. So I think the skills that are important are almost like the ones that are more business-like are more people-like are more undefined.
+They're undefined like, like by, by purpose, like philosophy, like psychology, like, uh, somebody who's an also in your expertise, you know, somebody who's like years in health understands and is able to manage the AI. I wouldn't be able to manage that. I don't have any expertise in doing that.
+I'm not taking people's lives in the whatever. So it's like, it's, it's, it's, it's almost like, I think it's going to be the up-leveling of the mix of bringing yourself. What are the passions you have?
+What are the technical skills you need? And you combine them and we're becoming it, not that you, but there is an empowerment of generalists a little bit, if you think about it. So it's not just, let me just learn how to code.
+It's let me make a combination of solving something that also aligns to me that I'm passionate about. That brings my full self that I'm uniquely, maybe positioned to do over time. I'm not saying initially, but that's what you're trying to build towards in my opinion.
+[Kevin]
+Yeah, yeah, for sure. I think it's AI is the, it lifts all your AI, your, your technical abilities up. Like I just, I deployed the, um, the website for our life in uptime website literally took me like 15 minutes.
+I had graphics, I had background, like everything, I populated all the episodes, transcribed the episodes, all that stuff in 15 minutes. And like, it was able to register to like, to sign up a domain DNS, all that kind of crap. And I haven't designed a website in like 20 years since like college.
+So for me to actually go back and have to do HTML and figure out all the new stuff, it would take me forever.
+[Linda Haviv]
+Yeah.
+[Kevin]
+I think anyone now, like someone's like, whatever, like non-technical background whatsoever can spend a day or two researching AI.
+[Linda Haviv]
+And the cost to do that is lower.
+[Kevin]
+It's extremely, it's 20 bucks for cloud code. Like, like anyone can do that. And so, and it's amazing that number one thing for AI for me is helping the average person be able to start creating and doing the projects and stuff that's inside their head, like you were talking about without the, without the five years of, of school and, you know, three years of on the job training.
+[Linda]
+And there's more and more personalization because if you think about it now, uh, the dash, I don't need to get some like a template dashboard. Every family's like, for example, I just built up my family, a dashboard. So my babysitter, my family will all have the same thing, but what I need in that dashboard is different than a different family.
+So there's a personalization aspect. We're not just like all like if our business building, we're building in a personalized way for really what works for us. And you don't need it to work for everybody else.
+It's like literally so much more personalized in your life. And we're building a lot more headless systems that are not with like some application on top. We need them to integrate with everything else in our life.
+And it's less UI even in more systems too. And so it's kind of like, there's a whole other, there's more to build in AI that's so, because we don't all eat an Oreo cookie the same way. And so now in the past, maybe I would take something templatized and today I'm building something for that specifically for me with a fraction of the cost, something I would never be able to also build even if I paid somebody in that way, because it would never make sense to have that.
+I will.
+[Kevin]
+It's all for APS now. You don't need a GUI.
+[Alexis]
+Exactly. I will caveat both of you. I consider, I feel like I'm still in the stone ages with AI.
+I'm going to expose myself.
+[Kevin]
+You are. Alexis came to my house and I showed her like my setup and like my bot. And she was like, well, her mind was like blown.
+[Alexis]
+Well, I'm sitting in Kevin's record. It's basically a recording studio. He's got the teleprompter with the camera and the lights and like all the bells and whistles.
+[Linda Haviv]
+I love it.
+[Alexis]
+I need some tips people. Oh, it looks beautiful. I was like, I feel like a caveman.
+I still record with the front camera on my iPhone with my iPhone notes held up as a teleprompter. And this is my microphone. This is my microphone.
+OK, this is my podcast setup. And when we're talking about building some of these things in AI, I think a large part of my mental capacity is reserved for just making sure I have a place to sleep and my plane is going in the right direction and staying on top of email. And I don't know if I'm just starting to get flooded with maybe I need to take things off my plate.
+I think I have a lot. There's a lot going on. But then I look at what people are building with AI and I'm like, I feel like I'm getting left behind, which I know we're all.
+But there's so that it's it's as an engineer myself, it's hard to see other people developing things that are so powerful and so impactful in their lives. And my my the water level, right, is just it's at my eyes and I'm trying to stay afloat. And I'm like, oh, my God, where do I even start?
+[Linda]
+It feels like I think it's also deceiving. I think it's deceiving. Like what if what it looks like from the outside?
+Because and this kind of reminds of social media, right? First of all, the tools are moving so fast that even the system that people are building might be trashed the next day. OK.
+Might have something more advanced that does the job and you just have to like now jump to the next thing. OK, that's number one. Number two, not everything needs AI.
+What if it works? Sometimes less is more. AI is there to solve a business problem.
+It's not about putting AI on everything. It's about the business problem or the problem in your life. So maybe it's something like that's the emails that you're overwhelmed with emails.
+Maybe over time you will find and build into that something that reminds you just of that. But sometimes something that does too much is not even something you need. It's only adding to the overwhelm to add to that.
+We're all overwhelmed. And I was also looking at Andrew McCarthy's tweet because he said it best. He's the co-founder of OpenAI.
+He he was, you know, meeting Tesla. And he said he's overwhelmed if he's overwhelmed. What does that say for everybody else?
+[Kevin]
+Not a good sign for us.
+[Linda]
+We are dealing actually. I actually need I think the thing we will all need is mental health space and wellness with no tech retreats. That's what I think we will need.
+And we will need community events more and more and experiences because we are humans. And at the end of the day, we are not built to take on all this. And also the pace no one could keep up.
+Everyone's showing the positive and they're showing what they build. They're not showing the days they're crying from overwhelm. They're not showing that.
+OK, they're not showing the parts of how they feel imposter syndrome of what they didn't try because it is impossible to try all that stuff. It's not humanly possible. And and it's not it doesn't mean somebody is more ahead or not.
+Sometimes just by seeing what's going on, you might be like looking from the outside and you have a better perspective and the person is just drowning in tools. So like, I think it's very like, first of all, you're so not behind. Second of all, you have a very big open.
+Also, remember that the challenges you're dealing with with traveling and whatnot brings you a different perspective that you can bring when you feel like starting to build certain systems that a person who's been building this whole year wouldn't have. 
+[Alexis]
+So I just think I have a stroke of motivation on my next 18 hour flight. I'm going to open up OpenClaw and I'm going to mind meld with it and we're going to become one. That's that's usually what happens. I will I will sit and procrastinate on so many things and I feel like either I get writer's block or I can't I just can't get stuff done. And then I'll be sleep deprived on like a long haul flight and I'll be like, now my brain goes, now is the time and it all gets out of the time.
+[Linda]
+I feel you. I'm the same way. I feel like I need deadlines and I always end up doing.
+[Alexis]
+Linda, I do want to ask. You mentioned earlier that Amazon found you on TikTok and hired you as a developer advocate. And I think it's one thing I've said multiple times is you need to build skills for the job that you want, not the job that you have.
+Right. So if that's the job you want, start acting like now. So you so you can get there.
+I have a lot of people ask me how I got my job at Megaport. And the answer was, I just started creating content and acting like it was my job until it became my job. You have to already be there in your head.
+Yeah.
+[Linda Haviv]
+Yeah, exactly. It's exactly what happened with me. I actually I'll go even further. I manifested it.
+So in a way, when I was debating to go into like when I wanted to go into tech, my my main concern was I'm a people person. And I knew deep down that what was my what did I envision myself? And at that point, I really wanted to be behind the scenes building.
+But deep down, I knew that at some point, everything will connect. At first, I need to build individual skills. But I knew I went to a Google meetup when I was one of the meetups I went to during that time where I was exploring and I was working in TV.
+One of the meetups was a Google one with someone called a technical evangelist who was giving the talk about Firebase and literally her name was Sarah. And she's still working. She had some developer experience.
+Correct me if I'm wrong, but she's still she was she was practically like a technical evangelist which today is a developer advocate. It was called technical evangelist. It's the same thing.
+Yeah, it's the same thing. And I was looking at that role. And I was like, I will be that in 10 years.
+I will be that 10 years. I don't want that now because I don't think I'll earn trust with developers when I don't have my like, I wouldn't want to do that kind of role. I want I was very hungry to build.
+But I was like, oh, one day, when I have a lot to give, and when I get I become more senior. I'll be doing that role. I knew it.
+Like, I didn't know how I'm gonna get there. I did. I you know, there were a lot of routes.
+I started as a JavaScript developer. I didn't know about cloud. Then I started upscaling in cloud started doing internal meetups in at Fox.
+I was working at Fox at the time. Right. I was I was a DevOps engineer was building like, you know, everything from Super Bowl to whatever, election maps.
+And like, at that time, I was a more of a more of a API middleware and front end developer. And then I ended up becoming like, more of a back end, because I started going into cloud. And I started when when companies were adapting their data centers to cloud.
+I was curious about how to get all this, all the DevOps challenge of getting a million people on election maps at the same time. And so that was where like, I started getting curious. I knew that like, no one was sort of I started doing like certifications, like for AWS, and he started teaching them.
+And then we were a customer of AWS. So that's how I started creating content about AWS before I ever joined AWS, because I was living it from a customer standpoint. And it was adapting, which is why I ended up getting a DevOps role at Fox, because I ended up becoming an SRE internally, because I was doing so much with the other end.
+And so I adapted based on always doing it first. So let's say I wasn't skilled, other people trying to learn, I started teaching it, I was a great, I'll start lunch and learns. I'll learn for the certification, other people learning for certification would come, I started networking with the rest of the company that was on that end.
+And I ended up getting my job on the other end. And I couldn't predict that in the route. I just there was a North Star in the back of my brain.
+I didn't know how I'm going to get there. I didn't try to define it. But it was always about how do I up level and always leading with curiosity, adaptability and things you're actually curious about how they work.
+Because for me, for a while, DevOps was a madman would just seem like magic. I was building applications, I had zero clue how all this was actually happening on the back end. They were the people who were kind of not thanked when everything was actually running smoothly.
+And, you know, over time, I was like, wow, I really like the architecture problems, more than just making at the time, a site work with Internet Explorer and Chrome, which also needed practically more work. Like I had to redo a whole site practically just for to work on Internet Explorer and work on those were the days, you know, you know, and like over time, you're like, I just want to curse out your screen. I was like, well, this feels like I just spent three days on making this work in this hover work.
+Hover was not working on the election map. I think you need the data to, you know, the whole thing is live. You know, it's live data.
+You can't have an accurate data on that. So like you need everything to work in a different way. And it gets complicated making it actually work on all these different sites at the time.
+This is not a problem today, but it was a problem then. And so like there were a lot of things I was like, I actually am curious about the bigger picture and I know enough about this. What's the next phase?
+I did five years of JavaScript, more JavaScript development, and then went into into DevOps and infrastructure. And so that was like a big shift in cloud and cloud became a passion of mine for many years till today. Very much passion of mine.
+And that's why I ended up working at AWS. I manifested also AWS because I knew I was like I was a community builder before I ever worked at AWS. It was just a natural next step.
+When I worked at AWS, the same thing practically I felt like I was doing. But now I was like internal and I was able to see things in a different way and learn in different ways. It was one of my favorite times ever working for AWS.
+And so, you know, it's almost like you always do the job before you have it, as you said, Alexis. And I think that the tech enables that too. Like this is a career path that there is a low barrier to entry in many of these things.
+It's actually overload of information. And you need to and I think people like you and Kevin and what we do is try to actually make it just easier to navigate because there's no one roadmap. It's by design also, but it's also the part that like makes it very overwhelming for people.
+Two things could be true. It's democratized, but the part is like where do you start and how do I how what's the next step? People like having some roadmap, but there's not always one roadmap fits all.
+[Alexis]
+Well, and the roadmap changes when technology changes and time goes on, which that's part of the reason we started this podcast is just we get asked all the time. How do I get into tech? How do I get my first job?
+How do I get promoted? How do I do this? And our journeys are unique to us.
+And we wanted the ability to share other people's journeys with our audience. 
+[Linda]
+It's and it's so much of it is also like community, right? Like you could build in a silo, but what why does open source?
+Why is open source so so so wonderful? I think it really is about innovating together innovation. You can you can innovate alone.
+You're not going to go as far. In general, that's like tech culture, right? We share information.
+It's part of the culture of tech because the tech becomes better when you when you share. If you think even about cloud itself and why cloud is what it is, it's because when you're solving business X problem and then giving it to business Y and economies of scale design from a business standpoint, you're able to give a bigger, a higher level of tech for Bank of America and Chase and whatever else because you've solved it for one of them and it's a lower cost for them. And so now you're able to do this stuff at scale, which for them to do on their own would never work.
+So like the whole concept of technology and streamlining things is innovation and moving faster together versus moving slower alone. That's the same concept. 
+[Alexis]
+One point I do want to make is you don't have to create content to find a community.
+There are so many communities out there that are already stood up that you could just join whether they're just content. Yeah, I think contents contents fun because you feel when you start putting yourself out there as a creator, you have a certain bond with other creators because you get it, right? It's like we're all in the same we're in the same bubble like you understand me and you feel like you know people the same way.
+I don't know. There's some celebrities or other big creators I follow and they post content every day and I've been I've been there's girls I've been following online since 2015 like Linda when you started growing up together. There's there's some fitness influencers that I've been following literally since I was in high school and I've watched them you know build houses, get married, get dogs, have kids and I'm like I feel like I know you, right?
+We've been following you for 10 years. 
+[Linda]
+That's what happens when we met like when I met you. I felt like like it doesn't matter that we didn't meet in person.
+I'm all my friends I practically met first for years online and like I would never feel like it's like somebody I didn't meet. It's like we actually feel more it's more intimate than what I would do from a coffee chat. Like I feel like it's more like and I would meet someone in a I would never get that information of their kids and this people like have been you know the community.
+I have some people like remember me before kids. They remember before my three kids and before you know pregnant and you know like all that. 
+[Alexis]
+But also you don't you don't need to post content in order to find a community like that.
+I think it's a four good examples. I always I know you left AWS but like the AWS community builders program or any like they have the Cisco champions program or there's so many meetups you can join. 
+[Linda]
+I mean people contributing to open source are very strong communities like there's communities of maintainers who are just like they know each other and there's Reddit and there's like there's a lot of community.
+The thing you have to ask yourself is what do you enjoy from a format to find community. There's many ways. Content is a one format.
+It's one format and within content there's many types of formats. There are people who like to write. There are people who like to you know do videos.
+There's people like long form short form. There's comfort zones in style and and I think like meetups themselves like I met so many people just at meetups. They were just avid goers to meetups and specific type of meetups or they like to speak or they like to be helping run workshops or they like to contribute to certain repos.
+Like there's so many ways to get community that's not content. I think it's just a format to find community because content is really a way to communicate just with other fellows and people who are like drop in the comment section.
+[Kevin]
+Yeah. I feel like the content creators are the people who like really do want to do speeches and they want to do us up. We're the minority.
+We're the weirdos where the vast majority of people just want to go and just have a conversation and just like not have the spotlight on them but just talk about their daily jobs and connect with people who are doing the same stuff. And I think that's that's the majority of people and that's completely okay. That is completely valid.
+You do not need to be in the spotlight.
+[Linda]
+And the beauty with tech is there's so much opportunity for that. The whole culture of meetups and tech and all that is really for that. It's not for you know starting to socialize it.
+It's literally to me people like minded who want to build with a certain technology. And there's so much of that in tech. It's actually quite that's I think what's the beauty about tech and why even in 2015 it was like that.
+Okay. Is the that culture of the meetups and free information that in itself like you might be someone that really likes a specific technology. They will probably be or you could make that meetup or you could.
+That's nothing to do with content creation. It's very much. And it could be a digital community.
+It could end up being a digital Reddit group that you know that you guys share updates. You know it's all about how you communicate with other people and what you're comfortable with doing. And there's plenty of people who do not want any social.
+They want to be anonymous. And that is majority. And actually that's the whole thing.
+I think tech is the one place you can do that. You know my husband's in finance and I you know wonder where the community and commercial mortgage backed securities is. Let me tell you I don't know if anybody you know it's not that simple.
+It's not like in tech where everything's like open. You know finance is the opposite of that. And so what I'm trying to say tech we take it for granted that it's actually a super open community of information.
+People want to share information. You want coffee. Believe me there's so many people who will have coffee with you to share.
+They just want to talk about it because they're passionate about this technology. So I think that's the part that always made me want to be in tech. And like when 2015 it was like oh this is not like in law or in finance where I felt like it was a lot more not like it was it was less open.
+And I felt like the culture of tech is all about sharing information for free. 
+[Alexis]
+Yeah. Well and also I feel like people that work in finance it's not that they don't wish they had that same community.
+Maybe someone could build that. 
+[Linda]
+When someone could build one. And there are like silo communities but it's not in the culture like I think when you want to be involved in tech it's much easier to find your footing in any format whether it be anonymous whether it be you know it doesn't need to be content.
+But to find community because there's communities around technologies and usually people are pretty passionate about different technologies. Right. And they get pretty opinionated about it too.
+Yeah. And that's the beauty. 
+[Alexis]
+So Linda I'm curious most of our audience is network or infrastructure engineers.
+They're not necessarily AI people yet. Can you make the case for why they should care about investing early and learning about AI infrastructure. 
+[Linda]
+Yeah.
+First of all AI infrastructure is practically a networking problem with a trench coat because if you think about it it's it's like the reason neoclouds which we were referring to earlier you know earlier neoclouds exist is is is a networking problem. So when we say AI infra and ML and MLOps even machine learning has a DevOps problem orchestration. What are you doing with mixture of expert models and larger good models orchestration.
+It just has a little bit of a different issue as far as how like like how memory having how compute like there's different challenges a little bit with LLMs. Right. There are different challenges that you're just adapting to. But the transferable skill set for networking or from DevOps or from all these things is actually the same.
+It's just another label. I think who was I talking to. I was talking to the co-founder of Kubernetes.
+OK. And we literally talked about this and he was like this is an or it's just an orchestration problem. It's an orchestration problem.
+You know call it X call it Y. That's a transferable skill. And so I think we put labels and it sounds that's also like you know it sounds whatever.
+It's sometimes very much with the same foundations. You're not that behind even if you didn't touch right. All this the newer things the shiny objects I call it the you know I'm like Dory you know Dory shiny shiny object.
+It's just because you didn't you know it's you also can't touch every shiny object. Oh yes that. No it's not that.
+It's really about what solves your problem. And all it is is another abstraction of the same problem with networking. That is a huge issue.
+It's not just compute. We don't just have a compute problem with AI. We have a networking problem.
+So how is that not. And you could call it AI AI skills because the AI problem. It's an AI problem.
+When new clouds pretty much exist because of that AI problem. And what are they doing. It's a networking problem.
+InfiniBand exists to cause GPUs to communicate. It's a networking problem. Now does it have other things involved in like is a combination.
+We're also seeing a combination of skill sets. What's happening is people need more of a combination of skill sets. Right.
+But they may be a specialist in something and they just need to also learn. So for example the software engineer needs to learn product and the product person needs to learn software engineering and the researcher needs to learn how to be a little bit more of a like a you know think of like other things you know like the stack engineer. Yeah.
+And the you know the full stack engineer is starting to read research papers in about like ML. I mean all it is is we're just becoming a little more generalist. However specialty is very important.
+It's like a T-shape thing. I just think we're empowered to also be more generalists because the accessibility and the need to know be an expert in something you could start without being an expert in it.
+[Linda Haviv]
+Right.
+Same thing happened. This is not new. Same thing happened in the bootcamp phase of coding before around 2015.
+Before you had frameworks in JavaScript that were doing a lot under the hood for you. You had to know a lot more fundamentals before you ever did certain things. That's how tech always works.
+It's an abstraction layer. We build abstractions. We started with binary and we're building abstractions more where people used to do punch cards with IBM and we build abstractions more and more on top of it.
+And so you're learning the abstractions and abstractions usually are less time to learn. So you are more empowered. You don't need to know how everything is helpful.
+Yeah you do need that specialist here and there to know. And by the way if you're that specialist that's fantastic. It's a more niche role but it's needed and it's just about being open well rounded in the bigger picture.
+That's what it is. It's not as much of like I think you know we look at the whole staircase and it gets overwhelming but it's really just the next step like what actually helps your problem in your job to know more. Ask that because it's not about just putting AI at everything.
+We're not just like here let me put a sticker. No it's about it's about like it's about actually solving a business problem. That's why it exists.
+And you will find the business. Believe me as developers we'll find the business problems because they are going to come in our face you know. It's like you know.
+So I think it's more about trying to find the next step in what you're actually doing and what are the problems you're dealing with.
+[Drew]
+And a quick break to tell you about our sponsor NANOG the North American Network Operators Group. NANOG is one of the premier NOGs on the planet. NANOG 97 is June 1st through the 3rd in Bellevue Washington.
+So what goes on at NANOG the format is educational talks and workshops from people who are on the cutting edge of network along with social events and a peering forum so you can get some human networking done. And speaking of talks program talks include Designing for Constrained Environments. One's called From CLI to AI A Network Engineer's Guide to Building Useful Agents.
+There's also DWDM Optical Networking Concepts and Technologies and many more. At NANOG you get hands-on practical knowledge from people that have done it are doing it or who are figuring out how to do it. All the content is by and for engineers so you're hearing from people you might not have otherwise had access to and you can go talk to them afterwards.
+The hallway track is one of the highlights of these events. You can register for NANOG 97 now. It's happening June 1st through the 3rd.
+Just go to nanog.org click on the events link and you can figure out the rest from there. Just go to nanog.org N-A-N-O-G.org and we thank NANOG for being a sponsor.
+[Alexis]
+So Linda we're talking a lot about developing cross-functional skills for AI or for someone who is maybe being hired as an AI engineer. If you're the first person in your organization that's doing these tasks how do you prevent scope creep? 
+[Linda]
+I think it's such a great question and I think it's one that many people are going to find challenging as companies are also trying to figure this out as well.
+I think you have a lot of roles that practically overlap and we know like coming from DevRel, DevRel is naturally a role that also was always very cross-functional right because I had speaking and content and building and feedback and you can't be all of that. So I think it's really systems and also expectations setting expectations just like any role. I think there's a lot of alignment that needs to happen with companies and I think the other thing especially now with AI is where can I build a system that helps me automate some things but when you think about that there needs to be capacity to also build that system.
+So the companies kind of understand that so I think it all comes down to actually very good communication and alignment on what is actually realistic and what actually ties right. So I think to answer I know it's a little bit of like a broad answer but I think also you have to know how you work. You need to ask yourself what is the best way I work?
+Not everybody works the same way. For example I need filming days and scripting days and building days. I can't do it on the same day.
+Some people might function differently and I had peers who functioned very differently. So I would first get very clear on how you work best and you want to drive you want to maybe make it very clear in some doc in some way brainstorm with Claude or something and make it very clear like what are the days and things you can really do and what's the bottom even on a worst bad day versus the top on a great one and you want to kind of give the bottom and over deliver right. But I do think that also it aligns with companies you know there's an education part that happens some companies might have unrealistic expectations and you're you know so I do think that you need to kind of be able to communicate the value you're bringing.
+So sometimes you could do it by deliverables or by certain things so you could say okay I'm going to deliver x talks and x whatever but you don't give yourself an exact like you know in this quarter right. So it becomes more realistic actual life. 
+[Alexis]
+I would also say looking at almost like ROI of your tasks what are your most important tasks that you have to get done because if you're in a very cross-functional role like you said you have a lot of different things you could be doing or a lot of different things that are getting thrown at you maybe from different team members you're collaborating with a lot of different teams and they're like can you jump into this can you jump into this can you participate on this and before you know it you've got your hands you're like an octopus right you've got your hands and all sorts of different paths you're you're spending all these time on calls just participating but looking at where where is your most valuable time being spent and also what matters the most to you. 
+[Linda]
+And where do you borrow is I think that's a very big thing I had to learn Amazon for example is where I learned the most how I'm a yes person and the place that taught me the most about having to say no because you need to say yes to other things is Amazon because they have so many different products I mean dev rel across so many different services I was not tied you know sometimes I was tied maybe some priorities but I was a general developer advocate at first especially for the for AI boom it was very like all over the place and you know to prioritize being deep enough on certain things and giving things the time it needs to be able to be well versed in speaking on it or doing the research I had to learn how to say no or prioritize and that is a very big skill it's something that I still struggle with as far as being able to communicate that why and prioritization right so there is this part that you have to get good at being able to say where do I borrow is and I usually phrase it also that way where it's like where can I be the valuable to the company but what is something that I should take off the table or also maybe sometimes I had to propose having an agency do something it's not always like you know and be able to vouch for that and wrote a paper explaining that here's where I think this is not the best you know you're paying you here's where I think this is not the best use of my time to put everything in here's what some agencies are here's the paper here's what agency I recommend here's what I wanted actually deliver on so sometimes you have to also propose the solution dependent you know and and take initiative on that because sometimes they don't know the problem if you're especially an expert in something that other people don't know like short videos some people don't know how much it takes and so like hard to communicate that you have to also educate so a great way that I learned for Amazon is the one pagers you know the one pagers where everyone communicates it's like very simple and easy to see it usually is data-driven sometimes you know that always works a little bit especially if you're like a more corporate environment if you're in startup environment prioritization is also very key you're going to do a lot of different roles and you need you and also you need to have like an ability to adapt you have to think in startups it might change in a month like it might change in three weeks and it's more survival with startups so you need to really think through like how you build that in so instead of saying I'm going to do this video here and that video in a month you say I'm going to deliver x you know three talks about by the end of the quarter right like like whatever because otherwise you're just not going to give yourself adaptation and there might be priority shifts yeah 
+[Kevin]
+100 we're getting close to our time and before we we leave you if we have a network engineer out there listening who wants to get involved with AI infrastructure what is the best way or in your opinion the best
+[Linda]
+way of getting involved that's such a great question and I think networking engineers are especially well positioned for this because they come with experience that a lot of people don't understand and they're the experts in the room I think the goal for a networking engineer is to also be able to be of a person in the room who has like ability to understand they don't have to be the expert of AI ML but they have to have the lingo and understand and the best way to understand in my opinion is a little bit of hands-on experimentation and so I think the next step of what networking networking engineer because it all feels overwhelming until you try it and you're like oh we put agent systems this system's workload at the end of the day it's a freaking eight you you prompted it with natural language and it was doing something wonderful like yes I built like you know it's it sounds and we have a tendency to give everything a very scientific term at the end of the day they a lot of people know more than they think and it's more about becoming well versed in speaking the language in the room to other people because I think communication to other parts of the you know especially even as a networking engineer to other parts of the team is part of what positions you very good in a job okay so what I recommend is especially let's say there's many things in AI ML they could upskill in I would say what I recommend as far as AI infra is thinking about how you then take one layer above networking where you're dealing with like the compute so let's say maybe the goal is how do you distribute GPUs across like for distributed computing so one way to do that is there's a lot of great courses or hands I would say you want something with hands-on to actually see the Python script and you probably want to start with like and my suggestion would be something with Python that is more like okay let me do a quick like how do I actually train a model not because you're becoming an ML engineer but because under the hood you have to distribute compute and you're learning the terms that then somebody would use for the NVIDIA GPU and then how they distribute it with Python that you could also in you're using a yes it's not like you're coding this manually you can literally like learn the terminology and see how it works and it's all logic and yeah maybe it's you know usually all this compute will be worth nothing without the fabric underneath okay we could talk all day about you know but networking is like actually the I think it's like what more people would need to know on top of that I my personal opinion is people are just going to want to have their own networking at home right people want more data centers at home they want their their information at home so I just think there's going to be more and more of a trend of people wanting to learn networking skills too so when you're able to communicate the AI part and the overlap for people okay when they build their applications and they want to run something at home and distribute that compute it's more about like the problem you're trying to solve I think you know that's probably the best it's more one becoming well-versed start with fundamentals that like NVIDIA has a deep learning AI institute they have like a bunch of hands-on labs I would say try to go for things that are more like let me train my first LLM or something that shows how to distribute and maybe use NVIDIA because it's very common you know with the nickel nickel or something NCCL or something like that and see how they use it in Python to then take the GPU and distribute that the other thing is maybe deep learning AI how to serve certain you know models all of that is really an orchestration infrastructure problem and I think you kind of start getting like the idea when you see a more hands-on and they're like sandbox environments so it's super easy to get started it's super easy to like just understand the fundamentals and how to communicate it and just see how what happens above the networking layer that my that my peers are dealing with right because then it kind of just gives you a more well-versed because a lot of the role today in my opinion and more and more is communicating is being the manager even when you're networking you want to be able to communicate to the people in the room so it's not about becoming the expert it's about having enough well-versed that you understand kind of the terminology what they're dealing with and believe me it's not as as much work as people think think start with baby you know don't think the whole staircase just start with the next step I think start with something that has a hands-on in the course or if you're also think about the best way you learn but I personally enjoy the ones like deep learning AI that have like hands-on only because you then get to do it and it's sandbox and it's easy and I don't need to spin up anything and I see how it actually works with the networking end which you bring that is like a leg up to be honest because most of the people do not know the network and actually I think if you're able to educate on that and communicate that that's a leg up for people in the room because a lot of people are learning AI ML but you could be the bridge
+[Kevin]
+so I think definitely hands-on is is one of the best ways of learning it's I've been doing that with AI in my own house just like I started with a local LLM on on a Mac mini or whatever and just you know started messing with it and just slowly you know I didn't set out to build this huge AI agent but I just want to say okay well so what is this thing and what can it do and you slowly start building your your experience and that's the key to everything I think yeah 
+[Linda]
+I mean you just hit the best point and honestly that should be the advice because at the end of the day we all have stuff in our own lives that we might utilize so I think even if you start with something that's like oh you're putting like you know you're making um uh let's say you're putting open or something like you want something local right I think if you're starting with that and you have you know some some compute at home or something you I think that in building something for your family or building something that actually helps you in your house and your life or your passions or whatever that is that is actually the best way that is actually the best way and so what you were saying about you having to I mean even for people who are trying to do this as businesses start internally start with your own role how do I help automate some of the stuff I don't want to do or like let's say if you're a networking engineer and you're suddenly in meetings a lot and whatever how can I build agents to help me just do the annoying stuff I don't want to do yeah a calendar box so like that's that's really it right it's it's so I think when you're where you're kind of thinking that way that's a great way and I think with AI and for specifically especially if you're doing something local and you're dealing with open source models run open source models locally and then try to build something out of it you're learning you know that's practically how you learn it right so it's that's so far-fetched than what the skills that you already have it's just a few other new things on top of it yeah and slowly slowly start building it yeah advice well [Alexis]
+Linda I think we're coming up on time if someone wanted to find you on the internet where would they do 
+[Kevin]
+that that sounds so creepy yeah if it's somebody uh you know I have a funny story with you much better if someone wants to stalk you and find you on the internet where would they go
+[Alexis]
+so I I'm uh Linda Viva on socials which is my last name backwards so on LinkedIn I'm Linda H-A-V-I-B and on socials I'm Linda Viva I know confusing this was the days where I created content creation on the side and didn't want my full-time job fully seeing everything even though I was talking about tech but you know it was different days um and it's exciting to see that today we could combine it so now um yeah so it's Linda Viva LinkedIn Linda Viva on socials let's connect it's end the day it's all about community it's all about building together um and I hope and you know I think what you're doing in the mission of this podcast as well that it seems in everything else that we're all doing is really making people feel less alone and more supported in that journey and yeah connect connect with all of us and thank you so much for having me on I really appreciate it 
+[Alexis]
+thanks for coming so that is it for this episode of Life in Uptime huge thank you to Linda for sharing her journey and thank you to you for listening if you enjoyed this conversation be sure to follow the show so you never miss an episode and if Linda's story today gave you something to think about share it with a friend or colleague who might need it and until next time keep learning keep building and keep your uptime high`,
+  }
 ];
