@@ -1,6 +1,6 @@
 import Link from "next/link";
-import type { Metadata, ResolvingMetadata } from "next";
-import { transcripts, type EpisodeTranscript } from "@/lib/transcripts";
+import type { Metadata } from "next";
+import { transcripts } from "@/lib/transcripts";
 import { notFound } from "next/navigation";
 
 type Props = {
@@ -11,10 +11,7 @@ export async function generateStaticParams() {
   return transcripts.map((ep) => ({ slug: ep.slug }));
 }
 
-export async function generateMetadata(
-  { params }: Props,
-  _parent: ResolvingMetadata
-): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const ep = transcripts.find((e) => e.slug === slug);
   if (!ep) return { title: "Episode Not Found | Life in Uptime" };

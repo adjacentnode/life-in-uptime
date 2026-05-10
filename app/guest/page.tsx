@@ -41,7 +41,7 @@ export default function GuestPage() {
         </p>
         <p className="text-navy/50 text-sm mt-3">
           Guest inquiries are reviewed by the Life in Uptime team at{" "}
-          <strong>Packet Pushers</strong>. We'll be in touch if it's a fit.
+          <strong>Packet Pushers</strong>. We&apos;ll be in touch if it&apos;s a fit.
         </p>
       </div>
 
@@ -50,7 +50,7 @@ export default function GuestPage() {
           <div className="text-4xl mb-4">🎙️</div>
           <h2 className="text-xl font-bold text-navy mb-2">Application received!</h2>
           <p className="text-navy/60">
-            We'll review your submission and reach out if it's a good fit.
+            We&apos;ll review your submission and reach out if it&apos;s a good fit.
             Thanks for sharing your story.
           </p>
         </div>
