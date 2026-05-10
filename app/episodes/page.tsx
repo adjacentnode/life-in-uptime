@@ -4,7 +4,7 @@ import { transcripts } from "@/lib/transcripts";
 
 export const metadata = {
   title: "Episodes | Life in Uptime",
-  description: "All episodes of Life in Uptime — real stories from engineers, IT leaders, and technologists.",
+  description: "All episodes of Life in Uptime: real stories from engineers, IT leaders, and technologists.",
 };
 
 /**

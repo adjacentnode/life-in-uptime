@@ -40,7 +40,7 @@ export async function getEpisodes(): Promise<Episode[]> {
       const title = extractText(item, "title");
       const rawDesc = extractText(item, "description") || extractText(item, "itunes:summary");
       // strip HTML tags from description
-      const description = rawDesc.replace(/<[^>]+>/g, "").trim().slice(0, 300) + (rawDesc.length > 300 ? "…" : "");
+      const description = rawDesc.replace(/<[^>]+>/g, "").trim().slice(0, 220) + (rawDesc.length > 220 ? "…" : "");
       const pubDate = extractText(item, "pubDate");
       const duration = extractText(item, "itunes:duration");
       const link = extractText(item, "link") || extractAttr(item, "link", "href");
@@ -74,15 +74,22 @@ export async function getEpisodes(): Promise<Episode[]> {
 
 function formatDuration(raw: string): string {
   if (!raw) return "";
+  const cleaned = raw.trim();
+
+  if (["0", "00:00", "0:00", "00:00:00"].includes(cleaned)) return "";
+
   // already formatted like "1h 5m"
-  if (raw.includes("h") || raw.includes("m")) return raw;
+  if (cleaned.includes("h") || cleaned.includes("m")) {
+    return cleaned === "0m" ? "" : cleaned;
+  }
+
   // seconds
-  const secs = parseInt(raw, 10);
-  if (isNaN(secs)) return raw;
+  const secs = parseInt(cleaned, 10);
+  if (isNaN(secs) || secs <= 0) return isNaN(secs) ? cleaned : "";
   const h = Math.floor(secs / 3600);
   const m = Math.floor((secs % 3600) / 60);
   if (h > 0) return `${h}h ${m}m`;
-  return `${m}m`;
+  return m > 0 ? `${m}m` : "";
 }
 
 export function formatDate(raw: string): string {

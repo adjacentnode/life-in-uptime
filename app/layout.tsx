@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         url: "https://lifeinuptime.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Life in Uptime — Real stories from the people who keep the internet running.",
+        alt: "Life in Uptime: Real stories from the people who keep the internet running.",
       },
     ],
     type: "website",

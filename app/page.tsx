@@ -5,6 +5,8 @@ const HOSTS = [
   {
     name: "Alexis Bertholf",
     photo: "/alexis-bertholf.jpg",
+    role: "Co-host, creator, and the voice of the curious newcomer",
+    quote: "Alexis asks the questions people are thinking but rarely say out loud.",
     bio: "Content creator, technologist, and podcast co-host. Alexis brings curiosity, warmth, and sharp questions to every conversation.",
     links: [
       { label: "Instagram", href: "https://www.instagram.com/digital.byte_/" },
@@ -14,6 +16,8 @@ const HOSTS = [
   {
     name: "Kevin Nanns",
     photo: "/kevin-nanns.jpg",
+    role: "Co-host, network engineer, and career-path translator",
+    quote: "Kevin connects the story back to the real work behind the network.",
     bio: "Network engineer with 15+ years of enterprise experience. CCNA, Cisco Champion, Juniper AI Innovator, and the voice behind Adjacentnode.",
     links: [
       { label: "Instagram", href: "https://www.instagram.com/adjacentnode" },
@@ -26,6 +30,28 @@ import { getEpisodes, formatDate } from "@/lib/episodes";
 
 const COVER_ART =
   "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f4/44/87/f44487a9-561e-3473-ba40-43ebaa2b975e/mza_11280545770999497642.jpg/600x600bb.jpg";
+
+const PATHWAYS = [
+  "First job in IT",
+  "Career pivots",
+  "Certs and self-study",
+  "Building credibility",
+];
+
+const REVIEW_QUOTES = [
+  {
+    quote: "This is one I could remember years from now.",
+    author: "Classic Side",
+  },
+  {
+    quote: "Valuable tidbits in the first full episode.",
+    author: "Techsavyell",
+  },
+  {
+    quote: "Worth listening to if you work in the IT space.",
+    author: "mikejbou",
+  },
+];
 
 const LISTEN_LINKS = [
   {
@@ -78,6 +104,8 @@ const LISTEN_LINKS = [
 export default async function Home() {
   const episodes = await getEpisodes();
   const latest = episodes.slice(0, 3);
+  const startEpisode = latest[0];
+  const episodeCount = Number.parseInt(startEpisode?.episodeNumber || "0", 10) || episodes.length;
 
   return (
     <>
@@ -117,11 +145,29 @@ export default async function Home() {
                 <span className="font-semibold text-navy">Alexis Bertholf</span>{" "}
                 &amp;{" "}
                 <span className="font-semibold text-navy">Kevin Nanns</span>
-                {" "}&mdash; biweekly, every other Thursday.
+                {" "}, biweekly, every other Thursday.
               </p>
 
-              {/* Listen links */}
+              {/* Primary CTA */}
               <div className="flex flex-wrap gap-3 mt-8">
+                <a
+                  href={startEpisode?.link || "https://packetpushers.net/podcast/life-in-uptime/"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 rounded-full bg-navy text-white text-sm font-semibold hover:bg-navy/80 transition-colors shadow-lg shadow-navy/10"
+                >
+                  Start with the Latest Episode
+                </a>
+                <Link
+                  href="/episodes"
+                  className="px-6 py-3 rounded-full border-2 border-navy text-navy text-sm font-semibold hover:bg-navy/5 transition-colors"
+                >
+                  Browse Episodes
+                </Link>
+              </div>
+
+              {/* Listen links */}
+              <div className="flex flex-wrap gap-3 mt-5">
                 {LISTEN_LINKS.map((l) => (
                   <a
                     key={l.label}
@@ -136,19 +182,12 @@ export default async function Home() {
                 ))}
               </div>
 
-              {/* CTA buttons */}
-              <div className="flex flex-wrap gap-3 mt-6">
-                <Link
-                  href="/guest"
-                  className="px-5 py-2.5 rounded-full bg-navy text-white text-sm font-semibold hover:bg-navy/80 transition-colors"
-                >
-                  Apply to Be a Guest
+              <div className="flex flex-wrap gap-4 mt-5 text-sm font-semibold">
+                <Link href="/guest" className="text-[#3f7186] hover:text-navy transition-colors">
+                  Apply to be a guest →
                 </Link>
-                <Link
-                  href="/advertise"
-                  className="px-5 py-2.5 rounded-full border-2 border-navy text-navy text-sm font-semibold hover:bg-navy/5 transition-colors"
-                >
-                  Advertise With Us
+                <Link href="/advertise" className="text-navy/55 hover:text-navy transition-colors">
+                  Advertise with us →
                 </Link>
               </div>
             </div>
@@ -172,13 +211,53 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* START HERE */}
+      {startEpisode && (
+        <section className="max-w-5xl mx-auto px-6 pt-16 pb-6">
+          <div className="bg-navy text-off-white rounded-[2rem] p-8 md:p-10 grid grid-cols-1 lg:grid-cols-[1fr_0.8fr] gap-8 items-center overflow-hidden relative">
+            <div className="absolute -right-16 -top-16 w-48 h-48 rounded-full bg-sky-blue/20 blur-3xl" />
+            <div className="relative z-10">
+              <p className="text-xs font-semibold tracking-[0.3em] uppercase text-sky-blue-light/80 mb-3">
+                Start here
+              </p>
+              <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-4">
+                New to the show? Listen to the latest conversation first.
+              </h2>
+              <p className="text-off-white/75 leading-relaxed max-w-xl mb-6">
+                Each episode is a real career map, how someone got in, what changed, and what they learned the hard way.
+              </p>
+              <a
+                href={startEpisode.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex px-6 py-3 rounded-full bg-off-white text-navy text-sm font-semibold hover:bg-sky-blue-light transition-colors"
+              >
+                Listen to {startEpisode.title.replace(/^LIU\d+:\s*/, "")}
+              </a>
+            </div>
+            <div className="relative z-10 bg-off-white/8 rounded-2xl border border-off-white/15 p-5">
+              <p className="text-xs font-semibold tracking-widest uppercase text-sky-blue-light/70 mb-4">
+                Paths we cover
+              </p>
+              <div className="grid grid-cols-2 gap-3">
+                {PATHWAYS.map((path) => (
+                  <div key={path} className="rounded-xl bg-off-white/10 px-4 py-3 text-sm font-semibold text-off-white">
+                    {path}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* LATEST EPISODES */}
       <section className="max-w-5xl mx-auto px-6 py-20">
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-3xl font-bold text-navy">Latest Episodes</h2>
           <Link
             href="/episodes"
-            className="text-sm font-semibold text-sky-blue-mid hover:text-navy transition-colors"
+            className="text-sm font-semibold text-[#3f7186] hover:text-navy transition-colors"
           >
             View all &rarr;
           </Link>
@@ -194,10 +273,10 @@ export default async function Home() {
               className="episode-card bg-white rounded-2xl p-6 border border-sky-blue/30 flex flex-col gap-3"
             >
               <div className="flex items-center justify-between">
-                <span className="text-xs font-semibold tracking-widest uppercase text-sky-blue-mid">
+                <span className="text-xs font-semibold tracking-widest uppercase text-[#3f7186]">
                   {ep.episodeNumber ? `Ep. ${ep.episodeNumber}` : ""}
                 </span>
-                <span className="text-xs text-navy/40">{ep.duration}</span>
+                {ep.duration && <span className="text-xs text-navy/40">{ep.duration}</span>}
               </div>
               <h3 className="text-base font-bold text-navy leading-snug">
                 {ep.title}
@@ -237,7 +316,7 @@ export default async function Home() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { stat: "13+", label: "Episodes" },
+                { stat: `${episodeCount}+`, label: "Episodes" },
                 { stat: "5.0★", label: "Apple Podcasts" },
                 { stat: "Biweekly", label: "Every other Thursday" },
                 { stat: "2025", label: "Launched" },
@@ -259,38 +338,68 @@ export default async function Home() {
 
       {/* HOSTS */}
       <section className="max-w-5xl mx-auto px-6 py-20">
-        <h2 className="text-3xl font-bold text-navy mb-10 text-center">
-          Your Hosts
-        </h2>
+        <div className="max-w-2xl mx-auto text-center mb-10">
+          <p className="text-sm font-semibold tracking-widest uppercase text-[#3f7186] mb-2">
+            Two sides of the conversation
+          </p>
+          <h2 className="text-3xl font-bold text-navy mb-3">Your Hosts</h2>
+          <p className="text-navy/60 leading-relaxed">
+            Alexis brings the outside-looking-in curiosity. Kevin brings the scars and context from years in the field. Together they make technical careers feel human.
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {HOSTS.map((host) => (
             <div
               key={host.name}
-              className="bg-white rounded-2xl p-8 border border-sky-blue/30 flex flex-col gap-3"
+              className="bg-white rounded-[1.75rem] p-6 border border-sky-blue/30 flex flex-col sm:flex-row gap-5 items-start shadow-sm shadow-navy/5"
             >
               <Image
                 src={host.photo}
                 alt={host.name}
-                width={72}
-                height={72}
-                className="rounded-full object-cover w-18 h-18"
+                width={160}
+                height={160}
+                className="rounded-2xl object-cover w-full sm:w-36 aspect-square"
               />
-              <h3 className="text-xl font-bold text-navy">{host.name}</h3>
-              <p className="text-navy/60 text-sm leading-relaxed">{host.bio}</p>
-              <div className="flex gap-3 mt-1">
-                {host.links.map((l) => (
-                  <a
-                    key={l.href}
-                    href={l.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs font-semibold text-sky-blue-mid hover:text-navy transition-colors"
-                  >
-                    {l.label} →
-                  </a>
-                ))}
+              <div className="flex-1 min-w-0">
+                <p className="text-xs font-semibold leading-snug text-[#3f7186] mb-2">
+                  {host.role}
+                </p>
+                <h3 className="text-xl font-bold text-navy">{host.name}</h3>
+                <p className="text-navy/65 text-sm leading-relaxed mt-2">{host.bio}</p>
+                <blockquote className="mt-4 text-sm leading-relaxed text-navy/70 border-t border-sky-blue/30 pt-4">
+                  “{host.quote}”
+                </blockquote>
+                <div className="flex flex-wrap gap-3 mt-4">
+                  {host.links.map((l) => (
+                    <a
+                      key={l.href}
+                      href={l.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs font-semibold text-[#3f7186] hover:text-navy transition-colors"
+                    >
+                      {l.label} →
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
+          ))}
+        </div>
+      </section>
+
+      {/* SOCIAL PROOF */}
+      <section className="max-w-5xl mx-auto px-6 pb-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {REVIEW_QUOTES.map((item) => (
+            <figure key={item.author} className="rounded-2xl bg-sky-blue-light/45 border border-sky-blue/30 p-5">
+              <blockquote className="text-navy text-lg font-semibold leading-snug">
+                “{item.quote}”
+              </blockquote>
+              <figcaption className="text-xs font-semibold tracking-widest uppercase text-navy/45 mt-4">
+                {item.author}
+              </figcaption>
+            </figure>
           ))}
         </div>
       </section>
@@ -326,10 +435,10 @@ export default async function Home() {
               key={r.author}
               className="bg-white rounded-2xl p-6 border border-sky-blue/30 flex flex-col gap-3"
             >
-              <div className="text-sky-blue-mid text-sm tracking-widest">★★★★★</div>
+              <div className="text-[#3f7186] text-sm tracking-widest">★★★★★</div>
               <h3 className="font-bold text-navy text-base leading-snug">{r.title}</h3>
               <p className="text-navy/60 text-sm leading-relaxed flex-1">{r.body}</p>
-              <p className="text-xs text-navy/35 font-medium">{r.author}</p>
+              <p className="text-xs text-navy/50 font-medium">{r.author}</p>
             </div>
           ))}
         </div>
@@ -338,7 +447,7 @@ export default async function Home() {
             href="https://podcasts.apple.com/us/podcast/life-in-uptime/id1840914445"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-semibold text-sky-blue-mid hover:text-navy transition-colors"
+            className="text-sm font-semibold text-[#3f7186] hover:text-navy transition-colors"
           >
             Leave a review on Apple Podcasts →
           </a>

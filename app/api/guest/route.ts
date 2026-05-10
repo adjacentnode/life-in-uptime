@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
 
     // Format a clean email to send
     const emailBody = `
-New Guest Application — Life in Uptime
+New Guest Application: Life in Uptime
 
 Name: ${firstName} ${lastName}
 Email: ${email}
@@ -40,7 +40,7 @@ How they heard about the show: ${referral || "Not provided"}
           from: FROM_EMAIL,
           to: TO_EMAILS,
           reply_to: email,
-          subject: `Guest Application: ${firstName} ${lastName} — ${title}`,
+          subject: `Guest Application: ${firstName} ${lastName}: ${title}`,
           text: emailBody,
         }),
       });
@@ -51,7 +51,7 @@ How they heard about the show: ${referral || "Not provided"}
         return NextResponse.json({ error: "Email send failed" }, { status: 500 });
       }
     } else {
-      // Dev mode — just log it
+      // Dev mode: just log it
       console.log("Guest application (no RESEND_API_KEY set):\n", emailBody);
     }
 
