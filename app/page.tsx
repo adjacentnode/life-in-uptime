@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getEpisodes, formatDate } from "@/lib/episodes";
+import { transcripts } from "@/lib/transcripts";
 
 const HOSTS = [
   {
@@ -68,6 +69,8 @@ const FORMAT_POINTS = [
   },
 ];
 
+const FEATURED_EPISODE_NUMBERS = ["002", "003", "004"];
+
 const LISTEN_LINKS = [
   {
     label: "Apple Podcasts",
@@ -121,6 +124,9 @@ export default async function Home() {
   const latest = episodes.slice(0, 3);
   const startEpisode = latest[0];
   const episodeCount = Number.parseInt(startEpisode?.episodeNumber || "0", 10) || episodes.length;
+  const featuredEpisodes = FEATURED_EPISODE_NUMBERS
+    .map((episodeNumber) => transcripts.find((episode) => episode.episodeNumber === episodeNumber))
+    .filter((episode): episode is (typeof transcripts)[number] => Boolean(episode));
 
   return (
     <>
@@ -168,12 +174,14 @@ export default async function Home() {
                   href={startEpisode?.link || "https://packetpushers.net/podcast/life-in-uptime/"}
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-track-event="home_latest_hero"
                   className="w-full px-6 py-3 rounded-full bg-navy text-white text-center text-sm font-semibold hover:bg-navy/80 transition-colors shadow-lg shadow-navy/10 sm:w-auto"
                 >
                   Start with the Latest Episode
                 </a>
                 <Link
                   href="/episodes"
+                  data-track-event="home_browse_hero"
                   className="w-full px-6 py-3 rounded-full border-2 border-navy text-navy text-center text-sm font-semibold hover:bg-navy/5 transition-colors sm:w-auto"
                 >
                   Browse Episodes
@@ -188,6 +196,7 @@ export default async function Home() {
                     href={l.href}
                     target="_blank"
                     rel="noopener noreferrer"
+                    data-track-event={`home_listen_${l.label.toLowerCase().replaceAll(" ", "_")}`}
                     className="listen-badge bg-white text-navy"
                   >
                     {l.icon}
@@ -197,10 +206,10 @@ export default async function Home() {
               </div>
 
               <div className="flex flex-wrap gap-4 mt-5 text-sm font-semibold">
-                <Link href="/guest" className="text-[#3f7186] hover:text-navy transition-colors">
+                <Link href="/guest" data-track-event="home_guest_hero" className="text-[#3f7186] hover:text-navy transition-colors">
                   Apply to be a guest →
                 </Link>
-                <Link href="/advertise" className="text-navy/55 hover:text-navy transition-colors">
+                <Link href="/advertise" data-track-event="home_advertise_hero" className="text-navy/55 hover:text-navy transition-colors">
                   Advertise with us →
                 </Link>
               </div>
@@ -244,6 +253,7 @@ export default async function Home() {
                 href={startEpisode.link}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-event="home_start_latest"
                 className="inline-flex px-6 py-3 rounded-full bg-off-white text-navy text-sm font-semibold hover:bg-sky-blue-light transition-colors"
               >
                 Listen to {startEpisode.title.replace(/^LIU\d+:\s*/, "")}
@@ -261,6 +271,57 @@ export default async function Home() {
                 ))}
               </div>
             </div>
+          </div>
+        </section>
+      )}
+
+      {featuredEpisodes.length > 0 && (
+        <section className="max-w-5xl mx-auto px-6 py-16">
+          <div className="flex flex-col gap-3 mb-8 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-sm font-semibold uppercase text-[#3f7186] mb-2">
+                Best places to start
+              </p>
+              <h2 className="text-3xl font-bold text-navy">
+                Pick the story that fits what you are wrestling with.
+              </h2>
+            </div>
+            <Link
+              href="/episodes"
+              data-track-event="home_featured_all_episodes"
+              className="text-sm font-semibold text-[#3f7186] hover:text-navy transition-colors"
+            >
+              Browse all episodes →
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {featuredEpisodes.map((episode) => (
+              <Link
+                key={episode.slug}
+                href={`/episodes/${episode.slug}`}
+                data-track-event={`home_featured_${episode.episodeNumber}`}
+                className="episode-card bg-white rounded-2xl p-6 border border-sky-blue/30 flex flex-col gap-3"
+              >
+                <span className="text-xs font-semibold tracking-widest uppercase text-[#3f7186]">
+                  LIU{episode.episodeNumber}
+                </span>
+                <h3 className="text-base font-bold text-navy leading-snug">
+                  {episode.title.replace(/^LIU\d+:\s*/, "")}
+                </h3>
+                {episode.guest && (
+                  <p className="text-sm font-semibold text-navy/75">
+                    {episode.guest}
+                    {episode.guestCompany ? `, ${episode.guestCompany}` : ""}
+                  </p>
+                )}
+                <p className="text-sm text-navy/60 leading-relaxed flex-1">
+                  {episode.description.slice(0, 170)}
+                  {episode.description.length > 170 ? "..." : ""}
+                </p>
+                <span className="text-xs font-semibold text-[#3f7186]">Read transcript →</span>
+              </Link>
+            ))}
           </div>
         </section>
       )}
@@ -299,6 +360,7 @@ export default async function Home() {
           <h2 className="text-3xl font-bold text-navy">Latest Episodes</h2>
           <Link
             href="/episodes"
+            data-track-event="home_latest_view_all"
             className="text-sm font-semibold text-[#3f7186] hover:text-navy transition-colors"
           >
             View all &rarr;
@@ -312,6 +374,7 @@ export default async function Home() {
               href={ep.link}
               target="_blank"
               rel="noopener noreferrer"
+              data-track-event={`home_latest_episode_${ep.episodeNumber || "unknown"}`}
               className="episode-card bg-white rounded-2xl p-6 border border-sky-blue/30 flex flex-col gap-3"
             >
               <div className="flex items-center justify-between">
@@ -508,6 +571,7 @@ export default async function Home() {
           </p>
           <Link
             href="/guest"
+            data-track-event="home_guest_bottom"
             className="inline-block px-8 py-3 rounded-full bg-navy text-white font-semibold hover:bg-navy/80 transition-colors"
           >
             Apply to Be a Guest

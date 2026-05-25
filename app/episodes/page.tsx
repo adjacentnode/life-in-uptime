@@ -17,6 +17,22 @@ function getSlugForEpisode(episodeNumber: string): string | null {
   return match ? match.slug : null;
 }
 
+function getTranscriptForEpisode(episodeNumber: string) {
+  const padded = episodeNumber.padStart(3, "0");
+  return transcripts.find((t) => t.episodeNumber === padded) || null;
+}
+
+function getEpisodeTheme(description: string): string {
+  const text = description.toLowerCase();
+
+  if (text.includes("college") || text.includes("degree")) return "Career path";
+  if (text.includes("mentor")) return "Mentorship";
+  if (text.includes("security") || text.includes("ciso")) return "Security";
+  if (text.includes("msp") || text.includes("founder")) return "Builder story";
+  if (text.includes("cloud") || text.includes("aws")) return "Cloud career";
+  return "Tech career";
+}
+
 export default async function EpisodesPage() {
   const episodes = await getEpisodes();
 
@@ -38,7 +54,9 @@ export default async function EpisodesPage() {
         <div className="flex flex-col gap-4">
           {episodes.map((ep, i) => {
             const slug = getSlugForEpisode(ep.episodeNumber || String(i + 1));
+            const transcript = getTranscriptForEpisode(ep.episodeNumber || String(i + 1));
             const internalHref = slug ? `/episodes/${slug}` : null;
+            const theme = getEpisodeTheme(transcript?.description || ep.description);
 
             return (
               <div
@@ -58,6 +76,7 @@ export default async function EpisodesPage() {
                     {internalHref ? (
                       <Link
                         href={internalHref}
+                        data-track-event={`episodes_transcript_title_${ep.episodeNumber || "unknown"}`}
                         className="text-base font-bold text-navy hover:text-sky-blue-mid transition-colors"
                       >
                         {ep.title}
@@ -65,6 +84,17 @@ export default async function EpisodesPage() {
                     ) : (
                       <span className="text-base font-bold text-navy">
                         {ep.title}
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex flex-wrap items-center gap-2 mb-3">
+                    <span className="rounded-full bg-sky-blue/20 px-3 py-1 text-xs font-semibold text-[#3f7186]">
+                      {theme}
+                    </span>
+                    {transcript?.guest && (
+                      <span className="rounded-full bg-navy/5 px-3 py-1 text-xs font-semibold text-navy/60">
+                        {transcript.guest}
+                        {transcript.guestCompany ? `, ${transcript.guestCompany}` : ""}
                       </span>
                     )}
                   </div>
@@ -77,6 +107,7 @@ export default async function EpisodesPage() {
                     {internalHref && (
                       <Link
                         href={internalHref}
+                        data-track-event={`episodes_transcript_${ep.episodeNumber || "unknown"}`}
                         className="text-sky-blue-mid font-semibold hover:underline"
                       >
                         Read transcript →
@@ -87,6 +118,7 @@ export default async function EpisodesPage() {
                         href={ep.link}
                         target="_blank"
                         rel="noopener noreferrer"
+                        data-track-event={`episodes_packetpushers_${ep.episodeNumber || "unknown"}`}
                         className="text-navy/40 hover:text-sky-blue-mid font-semibold transition-colors"
                       >
                         Listen on Packet Pushers ↗

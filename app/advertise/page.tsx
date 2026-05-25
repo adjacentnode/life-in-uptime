@@ -74,6 +74,25 @@ export default function AdvertisePage() {
         </div>
       </div>
 
+      <div className="bg-navy text-off-white rounded-2xl p-8 mb-8">
+        <h2 className="text-xl font-bold mb-4">Why this show is different</h2>
+        <p className="text-off-white/70 text-sm leading-relaxed mb-6">
+          Life in Uptime is a career and people show inside a technical podcast network. That gives sponsors a cleaner lane than another product feature read: your message sits next to real conversations about work, risk, growth, and technical decision-making.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {[
+            ["Context", "Listeners are already thinking about the work behind the tools."],
+            ["Trust", "Host reads can stay conversational instead of sounding like vendor copy."],
+            ["Fit", "Best for infrastructure, networking, security, training, and career products."],
+          ].map(([title, body]) => (
+            <div key={title} className="rounded-xl bg-off-white/8 border border-off-white/15 p-4">
+              <p className="text-sm font-bold mb-2">{title}</p>
+              <p className="text-xs leading-relaxed text-off-white/65">{body}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Ad formats */}
       <div className="bg-white rounded-2xl border border-sky-blue/30 p-8 mb-10">
         <h2 className="text-xl font-bold text-navy mb-4">Formats available</h2>
@@ -119,6 +138,7 @@ export default function AdvertisePage() {
           href="https://packetpushers.net/sponsors/"
           target="_blank"
           rel="noopener noreferrer"
+          data-track-event="advertise_packetpushers_cta"
           className="inline-block px-8 py-3 rounded-full bg-navy text-white font-semibold hover:bg-navy/80 transition-colors"
         >
           Contact Packet Pushers &rarr;
