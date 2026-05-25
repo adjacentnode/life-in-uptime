@@ -3,10 +3,12 @@ import { useState } from "react";
 
 export default function GuestPage() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("sending");
+    setErrorMessage("");
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form));
 
@@ -20,9 +22,12 @@ export default function GuestPage() {
         setStatus("sent");
         form.reset();
       } else {
+        const json = await res.json().catch(() => ({}));
+        setErrorMessage(json.error || "Something went wrong. Try again later.");
         setStatus("error");
       }
     } catch {
+      setErrorMessage("Network error. Try again later.");
       setStatus("error");
     }
   }
@@ -61,13 +66,13 @@ export default function GuestPage() {
               <label className="block text-sm font-semibold text-navy mb-1.5">
                 First Name <span className="text-red-400">*</span>
               </label>
-              <input name="firstName" required className="form-input" placeholder="Alex" />
+            <input name="firstName" required className="form-input" placeholder="Alex" />
             </div>
             <div>
               <label className="block text-sm font-semibold text-navy mb-1.5">
                 Last Name <span className="text-red-400">*</span>
               </label>
-              <input name="lastName" required className="form-input" placeholder="Smith" />
+            <input name="lastName" required className="form-input" placeholder="Smith" />
             </div>
           </div>
 
@@ -99,6 +104,7 @@ export default function GuestPage() {
             <textarea
               name="topic"
               required
+              minLength={40}
               rows={4}
               className="form-input resize-none"
               placeholder="Tell us about your path, your work, or a story you'd want to share on the show."
@@ -112,9 +118,18 @@ export default function GuestPage() {
             <input name="referral" className="form-input" placeholder="Apple Podcasts, Packet Pushers, LinkedIn..." />
           </div>
 
+          <input
+            type="text"
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+            className="hidden"
+            aria-hidden="true"
+          />
+
           {status === "error" && (
             <p className="text-red-500 text-sm">
-              Something went wrong. Try again or email us directly via Packet Pushers.
+              {errorMessage}
             </p>
           )}
 
@@ -125,6 +140,19 @@ export default function GuestPage() {
           >
             {status === "sending" ? "Submitting..." : "Submit Application"}
           </button>
+
+          <p className="text-xs text-navy/40 text-center">
+            If the form is down, use the{" "}
+            <a
+              href="https://packetpushers.net/hello/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-[#3f7186] hover:text-navy transition-colors"
+            >
+              Packet Pushers contact page
+            </a>{" "}
+            and mention Life in Uptime.
+          </p>
         </form>
       )}
     </div>

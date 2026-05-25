@@ -116,7 +116,7 @@ export default function AdvertisePage() {
           reach their partnerships team and mention Life in Uptime.
         </p>
         <a
-          href="https://packetpushers.net/advertise/"
+          href="https://packetpushers.net/sponsors/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-8 py-3 rounded-full bg-navy text-white font-semibold hover:bg-navy/80 transition-colors"

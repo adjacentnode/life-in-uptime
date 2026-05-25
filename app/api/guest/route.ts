@@ -3,10 +3,22 @@ import { NextRequest, NextResponse } from "next/server";
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { firstName, lastName, email, title, linkedin, topic, referral } = body;
+    const { firstName, lastName, email, title, linkedin, topic, referral, website } = body;
+
+    if (website) {
+      return NextResponse.json({ success: true });
+    }
 
     if (!firstName || !lastName || !email || !title || !topic) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+    }
+
+    if (typeof email !== "string" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      return NextResponse.json({ error: "Invalid email address" }, { status: 400 });
+    }
+
+    if (typeof topic !== "string" || topic.trim().length < 40) {
+      return NextResponse.json({ error: "Tell us a little more about the story." }, { status: 400 });
     }
 
     // Format a clean email to send
