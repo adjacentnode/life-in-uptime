@@ -21,6 +21,7 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lifeinuptime.com"),
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
@@ -48,6 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Life in Uptime",
     description: "Real stories from the people who keep the internet running.",
+    images: ["/og-image.png"],
   },
 };
 

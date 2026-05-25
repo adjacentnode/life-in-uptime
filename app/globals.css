@@ -20,22 +20,30 @@
   --font-mono: var(--font-geist-mono);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   background-color: var(--off-white);
   color: var(--navy);
   color-scheme: light;
+  overflow-x: hidden;
 }
 
 body {
   background-color: var(--off-white);
   color: var(--navy);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
+  overflow-x: hidden;
 }
 
 h2 {
   font-family: var(--font-display), Georgia, serif;
-  letter-spacing: -0.035em;
+  letter-spacing: 0;
 }
 
 /* Watercolor background effect */
@@ -58,9 +66,9 @@ h2 {
 
 /* Uptime hero text - outlined style matching cover art */
 .uptime-text {
-  font-size: clamp(5rem, 18vw, 14rem);
+  font-size: 3.75rem;
   font-weight: 900;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   color: transparent;
   -webkit-text-stroke: 3px var(--sky-blue-mid);
   text-stroke: 3px var(--sky-blue-mid);
@@ -69,11 +77,31 @@ h2 {
 }
 
 .life-in-text {
-  font-size: clamp(1.1rem, 3vw, 2rem);
+  font-size: 1.1rem;
   font-weight: 600;
-  letter-spacing: 0.35em;
+  letter-spacing: 0;
   text-transform: uppercase;
   color: var(--navy);
+}
+
+@media (min-width: 640px) {
+  .uptime-text {
+    font-size: 7rem;
+  }
+
+  .life-in-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .uptime-text {
+    font-size: 10.5rem;
+  }
+
+  .life-in-text {
+    font-size: 1.7rem;
+  }
 }
 
 /* Episode card hover */

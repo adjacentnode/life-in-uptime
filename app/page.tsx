@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getEpisodes, formatDate } from "@/lib/episodes";
 
 const HOSTS = [
   {
@@ -26,7 +27,6 @@ const HOSTS = [
     ],
   },
 ];
-import { getEpisodes, formatDate } from "@/lib/episodes";
 
 const COVER_ART =
   "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f4/44/87/f44487a9-561e-3473-ba40-43ebaa2b975e/mza_11280545770999497642.jpg/600x600bb.jpg";
@@ -50,6 +50,21 @@ const REVIEW_QUOTES = [
   {
     quote: "Worth listening to if you work in the IT space.",
     author: "mikejbou",
+  },
+];
+
+const FORMAT_POINTS = [
+  {
+    title: "How they got in",
+    desc: "The first job, the lucky break, the bad decision, and the moment the career started to make sense.",
+  },
+  {
+    title: "What changed them",
+    desc: "The outages, mentors, layoffs, pivots, and weird assignments that shaped how they work now.",
+  },
+  {
+    title: "What listeners can use",
+    desc: "Specific lessons for people trying to build a career in tech without pretending there is one correct path.",
   },
 ];
 
@@ -114,7 +129,7 @@ export default async function Home() {
         <div className="relative z-10 max-w-5xl mx-auto px-6 py-20 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left: text */}
-            <div>
+            <div className="min-w-0">
               {/* Packet Pushers badge */}
               <a
                 href="https://packetpushers.net"
@@ -129,10 +144,10 @@ export default async function Home() {
               </a>
 
               {/* Title lockup matching cover art */}
-              <div className="mb-2">
-                <p className="life-in-text">LIFE IN</p>
-                <h1 className="uptime-text">UPTIME</h1>
-              </div>
+              <h1 className="mb-2 max-w-full overflow-hidden" aria-label="Life in Uptime">
+                <span aria-hidden="true" className="life-in-text block">LIFE IN</span>
+                <span aria-hidden="true" className="uptime-text block">UPTIME</span>
+              </h1>
 
               <p className="text-navy/70 text-lg leading-relaxed mt-6 max-w-lg">
                 Real stories from the engineers, IT leaders, and technologists
@@ -144,30 +159,29 @@ export default async function Home() {
                 Hosted by{" "}
                 <span className="font-semibold text-navy">Alexis Bertholf</span>{" "}
                 &amp;{" "}
-                <span className="font-semibold text-navy">Kevin Nanns</span>
-                {" "}, biweekly, every other Thursday.
+                <span className="font-semibold text-navy">Kevin Nanns</span>, biweekly, every other Thursday.
               </p>
 
               {/* Primary CTA */}
-              <div className="flex flex-wrap gap-3 mt-8">
+              <div className="flex w-full flex-wrap gap-3 mt-8">
                 <a
                   href={startEpisode?.link || "https://packetpushers.net/podcast/life-in-uptime/"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-6 py-3 rounded-full bg-navy text-white text-sm font-semibold hover:bg-navy/80 transition-colors shadow-lg shadow-navy/10"
+                  className="w-full px-6 py-3 rounded-full bg-navy text-white text-center text-sm font-semibold hover:bg-navy/80 transition-colors shadow-lg shadow-navy/10 sm:w-auto"
                 >
                   Start with the Latest Episode
                 </a>
                 <Link
                   href="/episodes"
-                  className="px-6 py-3 rounded-full border-2 border-navy text-navy text-sm font-semibold hover:bg-navy/5 transition-colors"
+                  className="w-full px-6 py-3 rounded-full border-2 border-navy text-navy text-center text-sm font-semibold hover:bg-navy/5 transition-colors sm:w-auto"
                 >
                   Browse Episodes
                 </Link>
               </div>
 
               {/* Listen links */}
-              <div className="flex flex-wrap gap-3 mt-5">
+              <div className="flex max-w-full flex-wrap gap-3 mt-5">
                 {LISTEN_LINKS.map((l) => (
                   <a
                     key={l.label}
@@ -193,8 +207,8 @@ export default async function Home() {
             </div>
 
             {/* Right: cover art */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="relative">
+            <div className="flex min-w-0 justify-center lg:justify-end">
+              <div className="relative w-full max-w-[380px]">
                 {/* Glow behind cover */}
                 <div className="absolute inset-0 rounded-2xl blur-3xl opacity-40 bg-sky-blue scale-105" />
                 <Image
@@ -202,7 +216,7 @@ export default async function Home() {
                   alt="Life in Uptime podcast cover art"
                   width={380}
                   height={380}
-                  className="relative rounded-2xl shadow-2xl"
+                  className="relative w-full max-w-[380px] rounded-2xl shadow-2xl"
                   priority
                 />
               </div>
@@ -250,6 +264,34 @@ export default async function Home() {
           </div>
         </section>
       )}
+
+      {/* FORMAT */}
+      <section className="max-w-5xl mx-auto px-6 py-16">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+          <div>
+            <p className="text-sm font-semibold uppercase text-[#3f7186] mb-2">
+              Why it works
+            </p>
+            <h2 className="text-3xl font-bold text-navy mb-4">
+              Career stories with the useful parts left in.
+            </h2>
+            <p className="text-navy/65 leading-relaxed">
+              Life in Uptime is not a product demo and it is not a cert lecture.
+              It is the part of tech careers people usually skip: the messy path
+              into the work, the tradeoffs, and the lessons that stick.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+            {FORMAT_POINTS.map((point) => (
+              <div key={point.title} className="bg-white rounded-2xl p-5 border border-sky-blue/30">
+                <h3 className="text-base font-bold text-navy mb-3">{point.title}</h3>
+                <p className="text-sm leading-relaxed text-navy/60">{point.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* LATEST EPISODES */}
       <section className="max-w-5xl mx-auto px-6 py-20">
