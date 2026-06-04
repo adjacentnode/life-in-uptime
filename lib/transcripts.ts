@@ -5697,4 +5697,862 @@ so I I'm uh Linda Viva on socials which is my last name backwards so on LinkedIn
 [Alexis]
 thanks for coming so that is it for this episode of Life in Uptime huge thank you to Linda for sharing her journey and thank you to you for listening if you enjoyed this conversation be sure to follow the show so you never miss an episode and if Linda's story today gave you something to think about share it with a friend or colleague who might need it and until next time keep learning keep building and keep your uptime high`,
   }
+,
+  {
+    episodeNumber: "015",
+    slug: "ep-015-eyvonne-sharp-from-farm-roots-to-the-cloud",
+    title: `Eyvonne Sharp: From Farm Roots to the Cloud`,
+    guest: `Eyvonne Sharp`,
+    guestTitle: `Google Cloud technical leader, Network Collective co-founder`,
+    guestCompany: `Google`,
+    guestLinkedIn: "https://www.linkedin.com/in/eyvonne-sharp",
+    description: `Today’s guest is Eyvonne Sharp, a Google Cloud technical leader, Network Collective co-founder, co-host of The Cloud Gambit podcast, and former network architect at a Fortune 100. Eyvonne shares stories from her impressive career, offers advice to her younger self, and how to appreciate those “magic” moments in your career when a project fires on all cylinders. She also shares her experience moving into a leadership role and how the need to become a force multiplier is more important than being an indispensable single point of failure.`,
+    airDate: "May 21, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu015-eyvonne-sharp-from-farm-roots-to-the-cloud/",
+    youtubeUrl: "https://youtu.be/GZEJuCPCygs",
+    transcript: `[Alexis]
+Every Uptime story has that moment when something breaks and everyone looks at you. StatSeeker helps you stay ahead of that moment with 60-second polling, automatic discovery, and deep historical visibility across your entire network. So when issues hit, you already have the answers.
+Start your free trial at statseeker.com slash uptimestories.
+[Kevin]
+Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected. I'm Kevin, joined by Alexis, and every week we sit down with engineers, leaders, and builders in tech to uncover the stories behind their careers, how they started, what they've learned, and where they're headed next. Our goal is simple, to help you see how far tech can take you no matter where you start from.
+[Alexis]
+All right, guys. So today's guest grew up on a farm, found her way into technology through a computer job, and became a Fortune 100 network architect, then helped co-found Network Collective, worked through VMware and Google Cloud, and now helps customers navigate infrastructure modernization. Yvonne, welcome to Life in Uptime.
+How are you doing today? I'm great.
+[Eyvonne]
+That sounds like a lot. Yeah, no, excited to be here with both of you today.
+[Kevin]
+I was going to ask, that sounds like a mouthful. People who are new into tech, or just getting started with tech, what does all that mean? That sounds like a lot of words.
+[Eyvonne]
+It is a lot of words. And what I would say is, first, it's three decades worth of time, right? So you could do a lot in that amount of time.
+And I could almost split it now into three different career sections. So yeah, it is a lot, but it's also a long time, right?
+[Alexis]
+I was going to say, it reminds me, I think there's an Alex Hermosi quote, and he's like, you can do anything given a long enough time horizon. You could literally achieve any goal if you just give yourself long enough to do it.
+[Eyvonne]
+Well, and it's the, I think, you can have it all, but you can't have it all at once, right? Because there's a personal component to all that too, right? I've been married that whole time, and I've got four kids.
+So it's a lot of just time management and doing the next thing and taking the next opportunity and learning along the way. Yeah, for sure.
+[Alexis]
+I have to ask, out of all those things I listed, do you have a favorite? Was there a favorite job or stage in your career?
+[Eyvonne]
+Well, I think, so the way I've always talked about this is there are moments and times in your career that are kind of just magic, right? You're on a team that feels like it's firing all cylinders. I feel like my first enterprise job three or four years into that was one of those times.
+I was paired with a technical lead who was fabulous, and he and I worked really well together. And I was learning a lot, and we were getting projects done. And we had this team of really eclectic people and a great leader.
+And that was one of those times for me that just felt like magic. I've had those times too in my current career, my current role at Google, where you're working with a customer on a project and with a team that's just really amazing. And I think the thing that I've learned throughout that 30-year career is that those times come, and you enjoy them while they last, and then they go.
+And it's like the wind, right? You enjoy it while it's there. You don't always know where it's come from, and you don't always know where it goes, but that there are these moments that are really incredible.
+And I think Network Collective, we went through a phase that was like that as well. And we didn't really, I personally, didn't quite realize the magic that was there in the midst of it. Because there's the recording, and there's the scheduling, and there's the time commitment.
+And sitting in my office when it's dark outside, and it's almost bedtime, and there's all that too. And so I think the thing that I've learned through all of that is you've got to just enjoy those moments while they're there, because there will be a next phase. And there will be good parts and hard parts in that next phase too, but to enjoy the good parts of the phase that you're in.
+[Kevin]
+Do you recognize when you're in a good phase? Because for me, my big thing is I only recognize it in the hindsight. I'll be like, oh man, my old job used to be awesome.
+My team was awesome. And I really miss that. But in the moment, I'm like, I have deadlines.
+I have this. I have this going on, this going on. And I don't actually sit down and go, wow, this is actually pretty cool.
+[Eyvonne]
+Yeah. So I think I'm better at it now because I've been through a few cycles of it and seen it. And I do think the current phase that I'm in is one that I'll look back on and go, man, can you really believe that I was there then, right?
+Because we've had the AI explosion. That brings with it all kinds of ambiguity and change and challenges that feel very, you know, well, they're challenges, right? They feel very difficult in the moment.
+But also I think I'm able to look at it and go, man, this is a moment in history that I will remember, you know, because I think probably my next big transition will be to my rocking chair with my lemonade and my tea. But yeah, I think I'm better at it now. But I think that happens with time and experience.
+And sometimes like you can be in a really good space and not realize it until you make a pivot. And then like, oh, like I did not realize all the great things that were happening in that moment. So the best antidote to that is gratitude and remembering the things that are going great and paying attention to the good things and not over indexing on the on the hard things.
+Yeah, for sure.
+[Alexis]
+Do you have any tips for recognizing when you're in one of those moments that you feel like you've gotten faster at recognizing it?
+[Eyvonne]
+Yeah, I think some of it is like you're energized by the work, you know, that you feel a sense of momentum, even if it's hard, that you enjoy the people that you work with. I think those are all good signals. And that, you know, even if it's hard, you can see progress.
+You have to have enough perspective to look at the hard things as just hard things. And there's always going to be hard things too. I think that's the other thing is to look at like, yeah, of course there are problems to solve.
+Like why would people pay us good money if we weren't solving problems?
+[Alexis]
+Something I keep telling myself lately is if it was easy, you'd be bored. If it was genuinely easy, you would just take on more work or find a different way to challenge yourself. So these are problems that you inadvertently chose because you were looking for things to do.
+[Eyvonne]
+And at the end of the day, we really all want to be challenged. I think there's something innate in us as humans that want to accomplish a thing. I think we're made for work.
+We're made for good, productive work and that we need it. And that it is when we feel like we're working at a thing that's never accomplishing anything, when we get burnout or when we get depressed or when we have challenges. But I think like we need work.
+And the people that I know that are the happiest in their careers and most fulfilled are not the people that have it the easiest, but the people that really are accomplishing amazing things.
+[Kevin]
+That's one of the things I love about networking is like there's at least from the beginning of your career outside of help desk, but once you start working with actual gear and equipment, you can actually see things that you're building and you can get that visceral actual build a thing. That building over there has the network that I installed. I was part of that.
+And that continues on through your career where now I'm an architect and I'm designing and I'm doing all this fun stuff, but I can actually see the product of what I'm doing. So it just makes that feeling of accomplishments so much higher than if my job was dealing with spreadsheets or accounting or my number, you know, something that's that's more less tangible.
+[Eyvonne]
+So and it's and it's interesting because maybe that's that's something to unpack a little bit more when we start talking about leadership, because when you move into a leadership role, like your work product becomes less tangible and your work product is really the work product of your team. And and so you're a degree removed from that. And so you you have to start thinking of different.
+Metrics, different the wins are different, right, and the wins become, oh, I saw this person go from being very nervous about doing this task to be to trying this task, to doing it, to saying, hey, I think I want to do more of that. Right. And that's the win or being able to say, hey, I was able to see this challenge coming, warn some folks about it.
+We built a structure and we got through it right as a group or seeing people start to collaborate together like those become the wins, not a hey, I did this thing. And so that can be a very hard transition for a lot of folks.
+[Kevin]
+Yeah, definitely. Especially coming from typically at least at least how it works that I've seen in technology is that we don't hire managers who are career managers. We don't hire leaders.
+They're usually engineers that are just they're good at their job. So we put them up and now you're a manager. Now, here, go to this 30 minute training on how to be a manager.
+And now this is it. So it's really hard.
+[Alexis]
+Yeah, it is. Yvonne, that was going to be my next question was, how did you decide to go from stepping from an individual contributor into a leadership role? Because I feel like especially in a technical sense, like Kevin mentioned, sometimes when you're looking at career wrongs or the next wrong on the ladder, it is management, right?
+There's not always a distinguished engineer position or like a more technical level that you can pursue in your organization outside of leadership. So what was that decision like for you?
+[Eyvonne]
+Yeah, I think I think for me, there were a couple of key moments that stand out. One actually involves Network Collective and the podcast. We were we were recording a show and I think it was on something like segment routing.
+And it was first of all, I was like in my car. I was on the roads doing, you know, like doing a sales engineering job. And we were recording with Nick Russo that day, for those who knew and loved and remember Nick Russo.
+And but it was just a really deep segment on segment routing. I was like, I don't know if this is for me anymore. Right.
+Like I wasn't energized by the conversation. I wasn't super curious about it. I was I was like, hmm.
+Right. And that that was kind of a moment that I remembered. And then as I started my role at Google Cloud as a as an individual contributor, as an infrastructure subject matter expert.
+But I noticed the projects that I really enjoyed the most were when I got involved in a big, complex project with a large customer. And I wasn't just doing the SME role. I was also like coordinating with lots of different people and communicating and being like, ah, here's the big picture of what we were trying to accomplish.
+And you can do this part. You can do this part. You can do that part.
+And then let's put it all together. And then being able to articulate all of that to a diverse group of people became really interesting to me. And so after all of that, I was like, you know, maybe maybe it is time to start thinking about stepping into that leadership role.
+And it and I became much more interested in the we than the me. Like, how can we accomplish this thing? Not what is my individual piece of it?
+Because you you get to a point where either you got to go deeper technically and you become the go to person on a topic or you go broad, but you almost always have to have to land in a leadership position if that's what you're going to do.
+[Alexis]
+And so generalist versus specialist.
+[Eyvonne]
+And so for me, that the sweet spot right now is I am a leader, but I'm also leading very deeply technical people. So I kind of understand the day in the life of that. But I'm also doing a lot more communicating, coordinating.
+[Eyvonne]
+And then there's there's the manager administrative. That's just part of the job. That's that stuff.
+[Eyvonne]
+You just this the stuff you have to do, the expense reports and the you know, one on ones are great. But the performance evals, all of that stuff, it's just part of the job and you have to be willing to do that.
+[Eyvonne]
+But to me, like some people think that is the job and I don't think that's the job. That's just the that's the stuff, that's the time sheets, you know, whatever, just the administrative stuff that you have to do.
+[Kevin]
+I'm I'm currently just got recently promoted and I am now taking over a supervisory jobs job. And so I'm now having to do all that stuff. So I'm like, this is like you're like talking directly to me at this point.
+[Eyvonne]
+Well, and all I can say is, like, you got to structure your role enough that like, OK, this is when I do like, you know, like this is when I triage incoming requests. I'm going to set aside some time to do X, Y and Z like that. That's just like you.
+Because if you don't do the those things, stuff starts to fall apart. But you can't get so wrapped up in that stuff that it becomes the job, because then you just become another like middle manager, you know, and that, you know, you've got to find a way that for you, you're making a contribution and that you can see it, but you don't get so wrapped up in the administrative stuff or or you just ignore it. Like you can't do either of those two things.
+[Kevin]
+Yeah, the two extremes. You got to find a nice balance. Yeah.
+[Alexis]
+I think that's a hard transition going from being an I.C. into leadership is that what I've noticed is for some managers, they'll really struggle with where is my value now that I cannot see my direct output? Where is my value to the organization? And they'll almost over rotate on harping on their team or, you know, the paperwork aspect.
+And it comes down to what you said, Yvonne, is like your output in the organization shifts. Yeah. Like it's no longer clear cut and it's no longer something that you directly own.
+[Eyvonne]
+Well, and the biggest challenge for and I'm still trying to navigate some of these things, but the biggest challenge, I think, for an I.C., a deeply technical I.C. that stepped into leadership is they think their job is to tell everybody how to do all the things. And that's not your job, especially it depends on the distribution of junior to senior people that you've got. My team is very, very senior people, like the best in the world at what they do.
+And so my job is to listen to them, to enable them and to get out of their way. Like I, you know, I would not endeavor to get in the weeds with my people and tell them how to do what they need to do. But sometimes you do have to coach technically.
+And that is a hard balance to figure out. But like I'm really there to be a force multiplier for my people and to enable them to be. As the best that they can be and to keep the organization from hindering them, because any time you're in a big organization.
+There's stuff that doesn't match every person and every team, and you've got to provide some, you know, buffer or some guidance or some clarity and be like, OK, these things, I know nobody wants to do them, but we really have to do these things because they're important. And then other times you've got to stand in the gap and go, hey, this person is doing something really important. And I know it doesn't they're not showing up on your dashboard the way that you want them to.
+But what they're doing is really strategic and really meaningful. And this is why. And that becomes a bigger part of the job.
+[Alexis]
+I was going to ask Yvonne. So we've talked a lot about going into leadership, the network collective. How did you actually get into networking?
+[Eyvonne]
+Yeah. So we we led off with the fact that I was I grew up on a farm. Right.
+I so when I was a teenager, I grew up in a family that really believed that we get up early so that we can get our work out of the way and then enjoy the rest of the day. And so I was it was like a Saturday. It was going to be 90 degrees that day.
+And my mom was like, come on, let's go to the garden and get things done before it gets hot. And so like the dew is heavy, like the green, the green bean leaves are sticking to your clothes like Velcro. And I'm just I'm sticky and gross.
+And I just had this moment where I'm like, when I grow up, I'm going to get it. I'm not going to marry a farmer and I'm going to get a job working with my head. Right.
+And it's just a very clear moment for me that I don't I may not know exactly what that is, but I'm absolutely not going to make this my life's work. And so after that, I started college on a chemistry scholarship, realized that I didn't want to spend my life working in a lab after my first like lab class, like gloves and the chemicals. And I love the science of it.
+Like if I ever went back and got a recreational degree, it would probably be chemistry related. And so I switched my major to computer science and it was it was a good fit for me. I took a couple of summer classes and was like, yeah, that's the way I want to go.
+And then I begged my way into a job at a mom and pop ISP. This is the mid 90s. We knew somebody who was starting an ISP just dial up modems and doing some basic web development.
+My mother-in-law had them build her a computer. This is back. We like the burgeoning days of gateway computers, if you remember those.
+And I don't know, she needed something. And I went in there one day and I'm like, please give me a job. Like I've worked faculty support at the University of Kentucky.
+Like I can answer phones. I could do some basic website stuff like please give me a job. And that's really how it started.
+And then I learned some networking and did some web development, got a job at a local engineering firm doing IT stuff. And it just just grew from there. Got experience and, you know, was really eager to learn.
+And, you know, that that began that first, you know, third of my career of that that first decade of just learning all the things and asking, how can I help? You know, like, what do we need and how do I how do I help?
+[Kevin]
+Do you think it was like a slow progression or is there like a moment that you had a job that's like propelled your career that was like, you know, now you're working at Google and you're a leader in Google. That's huge. That's not like, you know, like I work in the public sector.
+So when I hear someone say, like, I work at Google or one of the big, big companies, I'm like, oh, geez. Yeah, don't do that.
+[Eyvonne]
+Don't do that. So there were a couple of inflection points. One of those, my husband and I moved from a more rural area to Louisville, which is not like super thriving metropolis, but a bigger city.
+And I got an enterprise IT job. And that was that was a big transition for me because it was a larger environment. I learned a couple of things, like all this stuff that I learned in on small gear, like at the time it was like a PIX, like I'd started with a Cisco PIX, moved up to the ASA firewall, but like the small ones, like the 5505s.
+And then I started in this enterprise environment and they were bigger devices. But like the command set was exactly the same. And so I had this epiphany.
+It's like, oh, it's not any different. Like all that stuff I was doing on my home computers, on Linux and all that stuff, all those skills are transferable. It's just the structure and organization that makes it different.
+And so that was a big epiphanal moment. And I spent eight years there and just learned and grew and grew and grew and grew and grew. And that was one of those magic phases for me.
+Switched to another health care org that was culturally very different, learned some really hard lessons. But then the next big pivot was deciding to go from enterprise IT to vendor pre-sales. And so then that's when I made the jump to VMware.
+And so that was the next big pivot.
+[Alexis]
+What was that like? Because I, well, I think it's no secret. I've been trying to convince Kevin that he should consider moving from being a customer to coming to the dark side and being a solutions engineer, a systems engineer at, I don't know, Cisco, Palo Forte, anywhere.
+You've got the skill set, you've got the people skills to do it, Kevin. I really, really think you would be happy with the transition.
+[Eyvonne]
+But what was the deciding point? We're people too on the dark side, just so you know. A couple of things happened.
+So I remember when I said like, you can be in an environment and not know how good things are until you move to a different one. Well, that transition between these two enterprise orgs was very much like that. Like I started the job, the leader was like, oh, we want to do all these things.
+We want the network to be self-healing. We want, like, we have this bold vision of all the things that we want to do and accomplish. And he said, if you run into any trouble, let me know.
+And I got the job and started working. And I'm like, oh, wait, like these people, they say they want the network to be self-healing. You know, that was the phrase at the time.
+And they still want to use static routes because they feel like those are safer. And there were a couple of those things. And I just went to this guy who hired me and I'm like, hey, like you said, you know, if I ran into any problems, well, here's some things that I've observed.
+You've got a leader at this spot who like, you're not going to be able to get where you want to go with them making the decisions they're making. I kid you not, that leader never spoke to me again. Like I violated some kind of a cultural norm.
+[Alexis]
+Unspoken policies.
+[Eyvonne]
+That's right. And I did it pretty early. I did it like four or five months in.
+[Alexis]
+Right.
+[Eyvonne]
+So I didn't step back. I assumed that the open culture where I could challenge in my previous org existed there. And so it became really clear to me nine months in, like this particular role wasn't going to be a fit and I need to find something else.
+And I actually was looking at other roles in the org and had a couple offers at the same time. I had a former colleague who I'd worked with, who was part of that magic base, who had moved on to VMware, who was doing sales engineering, who was willing to refer me. And, you know, I got an interview and actually the initial job that I interviewed for, I made some blunders and did not get that role, but impressed them enough that they kept me in mind for a different role.
+And then eventually just made that move. And some of it was, I knew that I had sort of misstepped in that particular role and I needed to do something different and was fortunate enough to find a pre-sales role.
+[Kevin]
+Anyone who's worked in uptime knows outages aren't just technical events. They're human events. They're late nights, pressure calls, and leadership asking for answers now.
+[Alexis]
+StatSeeker was built to make those moments easier. It automatically discovers your environment and collects performance data across every device every 60 seconds.
+[Kevin]
+So when something breaks, you're not scrambling. You've already got the visibility to diagnose it fast.
+[Alexis]
+Teams use it to detect anomalies early, prove root cause, and prevent repeat failures. And because you can run it in your own environment, you stay in control of your data and infrastructure.
+[Kevin]
+If uptime is your responsibility, it's worth seeing how this works firsthand. Go to statseeker.com slash uptime stories to start your free trial.
+[Alexis]
+I think it's good on you for recognizing too, like, it takes a lot to come into an organization when you're new and rely on your past expertise. You spent four to five months. You weren't just sitting there.
+You were observing. You were watching how things were done. You were learning from your peers on how they set things up.
+And then it's like, okay, you brought me in with my experience to make recommendations. Here are my recommendations. And they're like, just kidding.
+We don't want them. To me, that would be such a big knock on my confidence of like, you brought me in to do this thing. I'm trying to do it.
+And now you're not listening to me.
+[Eyvonne]
+So during that time, that's when I discovered Westrom's typography, I think it's typography, which is the idea that organizations, basically, there are three cultural modes that they exist in. They can be generative, which is this culture that, you know, and there's a great table. I'll messengers are rewarded, right?
+And that we ask for feedback. And then there's a bureaucratic organization where we all just follow the rules, right? We have rules, we follow the rules.
+And then the third type is a pathological organization, which is like messengers are shot. And, you know, we don't seek information and things like that. And so, fortunately, I happened upon Westrom's typography in that role.
+And it gave me a framework to understand what was going on. And the way I would describe it is that I was in a bureaucratic organization in a pathological arm, right? So I was, you know, the leader to whom I was ultimately reporting was pretty pathological.
+And the org was bureaucratic, right? And I had been in an org that was more bureaucratic, that leaned generative. And so I just assumed, like, this is the way we did things.
+Of course, we want to fix the problems that we talk about. Some people don't really want to fix the problems.
+[Alexis]
+They just want to talk about it. They just want to talk about them.
+[Eyvonne]
+They want to come and they want to do their eight to five, and they want to get their salary. And then they're going to hire a vendor or a partner to come in to take all the blame.
+[Kevin]
+And, and so it was public sector before it sounds really familiar.
+[Eyvonne]
+You know, they have their own special characteristics and qualities. But it was a real learning experience for me about different orgs and different cultures and, and how important it is to understand that, which really served me well when I moved into a pre-sales role. And then when you're in a pre-sales role, you're like, oh, entire companies have personalities, right?
+And, and it's pretty important before you make any big moves to kind of understand the personality of the org that you're in. And, and I had a colleague who in that same company was way more effective than I was, because he took, took the time to understand that. And, and there was also some like, he was a he component, right, to it as well, I think.
+But ultimately, like it was a big lesson for me in organizational culture and how to, how to soft pedal your way in a little bit and not be so forward with your recommendations until you know what you're dealing with.
+[Alexis]
+So true. Working with multiple customers. And this is another point I've made whenever I talk about being an early in career SE is that you get a ton of experience just looking at different environments and different cultures and different ways of working and doing things the way that they've set up their networks or installed certain products or solutions.
+Like when you're working with 50 different customers, you almost get insight into 50 different networks, not just the one that you own. So I wouldn't say you get as deep, but you definitely get very wide.
+[Eyvonne]
+Well, and, and, and, and there's the technical component, but there's also the people component, how are decisions made? Who holds the power? Is there, there's formal power and there's informal power.
+There's like the people who actually sign the checks. And then the people that everybody looks to, to go, should we really do this or not? And that person may not show up as in any way that appears meaningful on an org chart.
+And yes, everybody listens to them. Right. And it's important to know about those formal structures and the informal structures, if you actually want to get things done.
+And I'm sure that's absolutely true in public sector environments as well.
+[Kevin]
+Oh yeah, for sure. That's what I was going to say is like, that's one of the bigger, when you're joining a company or an enterprise, I think as a younger person, you're not aware of the different layers, how each team has a culture and then the group has a culture. And then on top of that as a culture, and then there's layers and you have to learn to play the game.
+Like that's part of, part of assimilating is learning who's who and how you get things done by the back means necessary and all this other stuff. It's a whole game. So I always take like the first couple of months before I say anything, before I make any changes or big moves, I'm just learning, I'm watching people and I'm trying to learn the game so that when I do want to have my ideas shared, I can do them in a way that is acceptable in that culture.
+It's a whole thing in itself.
+[Eyvonne]
+It's a whole thing. That's absolutely right.
+[Alexis]
+Yvonne, would you rather be the person that has the title and the decision making power or the one who has the decision making power, but not the title?
+[Eyvonne]
+I don't, I don't know that I've ever felt like the person with the title. Yeah. I, you know, I think even now, if you, you see that I have a title that, that looks interesting, but I think like for me, it's always about influence.
+I think one of my Achilles heels, and I really learned this when I left that first enterprise job is that I had way as an IC, I had way more influence than I realized I had, like a project manager that I really thought a lot of. She reached out to me later and I was like, you know, why did you leave? And I was like, well, I just felt like I wasn't really moving things forward.
+What I didn't have a mental framework for is that I'd moved into more of the technical lead kind of a role. And so there was less tangible output. But one of the things she said to me is like, you weren't on the calls that you weren't on.
+Like you didn't see how people looked to you before they made a decision, right? And people wanted to know what you thought. And you don't really know what happens in the room when you're not there.
+Do you know what I mean? And so I realized like posthumously that I had more influence than I realized I did. And so for me, like I'm a big believer in, in leadership through influence and that that's what matters.
+And I naturally lead that way, right? I am not a leader by fiat and I'm actually having to learn to say, okay, we really have to do this as a, like, I sometimes try to go through it through the side door and like influence and, and get people on board. And that's great.
+But sometimes like sometimes stuff just needs to get done. And as the manager, you can say, hey, these things need to get done and we just need to do it. And, and I'm finding that I need to do a little more of that, not a lot, but a little more of that in, in like today, right now.
+[Eyvonne]
+So that's one of the things I'm, I'm leaning into.
+[Alexis]
+We've talked a lot about making yourself not a single point of failure, but becoming indispensable to an organization. Because once, like you said, once you're indispensable, once you're in that position, you have more leverage, you have more influence than you might realize. And that's, I think we talked about, was it last episode or the one before that Kev?
+The early years in your career, first, you're proving that you can do the job. The second, you're proving why you're indispensable. And once you have some leverage, you have some influence, then you can start making demands and saying, I'd like to work from home on Mondays and Fridays.
+I'm going to work from this country instead. How do I remote work? Well, you are the person in the organization that can do this thing and they can't do it without you.
+And once you become that, you can make demands. So how, I was going to say, how did you get to that point?
+[Kevin]
+I disagree with that. So it's hard to do that.
+[Eyvonne]
+So what I was going to say is the whole indispensable thing is a double-edged sword. Because the way I like to think of it is scale. In other words, once you determine how to do the job and do it well, what you really want to do is scale yourself.
+And that is actually a very rare quality. I've had the joy of leading a couple of phenomenal technical leaders that are individual contributors. But they are also able to form informal teams, to lead other people, to have people want to work with them and to take their expertise and scale it to a team of people.
+Because the last thing you want to be is the only person who can fix a thing. Because then your phone always rings. And at some point, if you're the only person who can fix a thing, you become a liability, not an asset.
+And so what you want to do is you want to be indispensable, not because of what you can do, but how you can scale what you can do. And you can do that as a formal leader or, frankly, the people that are the best at it are the people that I know that are informal, like tech lead kind of folks. Like I know a couple of folks who've built multi-billion dollar businesses as individual contributors by scaling what they do and being fabulous connectors.
+And so, you know, I think it's you get to a point where you've done all you can do as one person, one human, and either like you just become one of many folks who can do that or you learn to scale that. And that doesn't mean you don't, it doesn't mean you have to give up being deeply technical, but it does mean you have to grow enough leadership skills to bring other people along. And those people are the ones that are so deeply valuable that I would go out of my absolute way to keep on my team is because like they lower the burden on me as a manager because they are leading in their own right and they are actually building a business that drives real revenue.
+And that's, those people are hard to come by. And that's what really makes folks valuable.
+[Kevin]
+That I can agree with.
+[Alexis]
+What you said is they're a force multiplier of their skill set. Yes. So in and of itself, you are still making yourself indispensable because if you can scale your skills, Scott, you are still, I mean, I guess I'm contradicting myself a little bit in that you don't want to be the only person on the team that has those skills, but you are developing a more unique skill in being a multiplier.
+[Eyvonne]
+I think, I think you need to scale yourself and you also need to be able to take a week or two off and not have your phone ring. Like to me, like now that's the measure, right? Like if I, if you're on PTO and I feel like I have to call you, then the, then one or both of us are doing something wrong.
+[Kevin]
+Yep.
+[Eyvonne]
+Right.
+[Kevin]
+I think that, that, that shift happens when you start becoming a leader and start becoming managing where you look at the team as a whole and going, you know, a single point of failure, just like a network, even with people is a bad thing to have. And I'm failing as a leader if I'm not cross-training and if our group as a whole cannot, you know, account for one person going on vacation, that's a failure on, on my part.
+[Eyvonne]
+But, but I say this, it doesn't mean I don't like, like emotionally, I took a week off a while back and like did some family stuff and things went fine and nobody called me and I got back and I'm like, do they really need me?
+[Kevin]
+Do you feel a little bad about that? Yeah. You're like, oh.
+[Eyvonne]
+Yeah. So I still felt that, right? So like, you still got to manage that piece of it, but ultimately like, I know that this is the right course of action.
+[Kevin]
+I think you want to be wanted, but not needed, like that you're such a good leader and people depend on you because of your personality, because you're a great leader, but not that, you know, they need you to sign off on their time sheet or sign off on their thing that, you know what I mean? It's a, it's a want instead of a need.
+[Eyvonne]
+Well, and I think over time, like it's, it's more about the important than the urgent and there's very little that can't wait a week or two.
+[Kevin]
+Yeah.
+[Eyvonne]
+Right. Like you're, you're not there for six months, like stuff's going to fall apart. Right.
+But if you, if you can't take a week off, there's something.
+[Kevin]
+Yeah. You got big problems. So I have a question for you.
+It's going to shift gears a little bit, so you don't have to answer this question, but I always, I always find a weird question that popped into my head and I can't, I can't stop myself from asking it. You don't have to, you don't have to say anything. You don't want to have you ever seen the movie, the internship.
+[Eyvonne]
+I haven't. No.
+[Kevin]
+Oh man, that, that kills my entire question. It's a movie about these two guys who joined the internship program at Google and there's all kinds of like competitions and like, they have like field days where like they're playing quidditch and like they're competing for which team's going to win and all this stuff. And I was just curious to how accurate that is with Google culture of like what they do.
+[Eyvonne]
+Well, I haven't seen it and maybe I'm glad because I can't, I can't speak to that. Like, look, every organization has weird pockets. Right.
+Um, what, what I, what I can, and, and we are going through such an upheaval in, in technological change and organizational change. There are a lot of things that are just changing, right? Like, you know, I've told my team, like, you guys need to be prepared for rolling reorgs like the rest of the year because we are growing and changing so fast.
+Like, I don't know what's coming up. Um, but what I can say is that, um, there is still a, a, a group of folks who really deeply believe in the qualities of Googliness, right. Of thriving and ambiguity of being helpful to one another of, you know, and I think like part of why we're innovating the way we are is because we have, we, we, we still try to build a world in which people can challenge effectively and speak their mind and all that.
+And look, leaders come and leaders go, and there are pockets where it's not that way and pockets where it's more that way and all of those things. And like, there's, there's weird stuff that goes on in every organization. Um, but, but it's, it's, I think what I would say is that we still get a lot right.
+Even as we're in the middle of just unprecedented. I hate to use the word, but really, yeah.
+[Alexis]
+Looking back over the course of your career, I know we're almost up on time. Is there any advice you would give to your younger self when you were first starting out?
+[Eyvonne]
+For me personally, I would tell myself to chill out a little bit, like relax, it's going to be okay. You know what I mean? I, I think like if you'd have told, so.
+I remember the first time I ever saw the Google search engine, right. It was still on the stanford.edu sub domain, right. There was, you know, there, it wasn't even google.com yet. Um, I had a colleague call me over and say, Hey, there's this new search engine. You should check it out. I think if you would have told 20 year old me that I would eventually be working there, like I wouldn't, um, so I think I would tell myself to chill out.
+But the, but the other thing is that a lot of times folks get hung up in the particular technology that they work on. They identify with a very particular thing. Like I am a router guy and I configure routing and I do routers and I do BGP instead of my job is to help our organization communicate through technology.
+Right. Now that's probably a little too broad. Um, but I think what has worked for me is what's the business need right now.
+And how can I support that? Right. Like, what do we need to do right now?
+What problems do we need to solve? And how do I help solve them? And I've, and I've made a couple technology pivots because of that.
+Not so much because of, Oh, I find this thing interesting. Um, I know that's not the case for everybody, but it's like, you know, what problems do we have that we need to solve and how can I help solve them? And that has worked really well for me.
+[Alexis]
+Ooh, I love that. Especially because you're reframing your skillset in a business sense.
+[Eyvonne]
+Yeah. Yeah. And so, you know, it, it, what is, what does infrastructure mean in an age of AI?
+Right. What, what does that mean? And it's changing, right?
+Our jobs are changing. Our roles are changing. We're thinking about it very differently.
+We're dealing with, with new problems.
+[Eyvonne]
+Um, and, and that's okay because, you know, I don't see myself as a, Oh, I'm a person who makes sure we can deploy VMs or that we can run containers or that, you know, all those, it's, it's, how, how do we make sure that this works for the business and we're moving things forward?
+[Alexis]
+Well, Yvonne, thank you so much for coming on Life In Uptime. If someone wants to connect with you after the show, where can they find you?
+[Eyvonne]
+Um, I'm, I'm more of a lurker on Twitter X these days, but you can find me at Sharp Network. Um, I'm still watching and, uh, LinkedIn, of course. Um, also you can join me and William Collins on the Cloud Gambit, another, um, uh, podcast on the Packet Pushers Network where we talk about all things cloud and AI with a little bit of networking and automation.
+[Alexis]
+Amazing. Well, thank you so much. That is it for this episode of Life In Uptime.
+Huge thank you to Yvonne for sharing her journey and thanks to you for listening. If you enjoyed this conversation, be sure to follow the show so you never miss an episode. And if Yvonne's story today gave you something to think about, share it with a friend or colleague who might need to hear it.
+And until next time, keep learning, keep building, and keep your uptime high.`,
+  },
+  {
+    episodeNumber: "016",
+    slug: "ep-016-michael-keith-lewis-the-network-behind-the-show",
+    title: `Michael Keith Lewis: The Network Behind the Show`,
+    guest: `Michael Keith Lewis`,
+    guestTitle: `front-of-house engineer, tour manager, audio creator, and co-founder of Truck Packer`,
+    guestCompany: `Truck Packer`,
+    guestLinkedIn: "https://www.linkedin.com/in/michael-lewis-02728735a",
+    description: `Today's guest takes us behind the scenes of modern concert venues, which rely on wired and wireless IP networking. Michael Keith Lewis is a front-of-house engineer, tour manager, audio creator, and co-founder of Truck Packer. Michael shares his career path from starting in a church, quitting a salaried job to tour with his favorite band, and co-founding his startup. Michael also explains how networking supports live music production, and how he uses AI to manage administrative tasks to increase efficiency.
+AdSpot Sponsor: Meter
+Meter delivers full-stack networking—wired, wireless, and cellular—to leading enterprises. It’s a single integrated solution with everything included. Meter has designed the hardware, written the firmware, and built the software. Meter deploys and manages everything required at your site, or sites, so that you get performant, reliable, and secure connectivity. If you’re ready for fast, secure, and scalable connectivity without the complexity of managing multiple providers or tools, it’s time to check out Meter. Go to meter.com/liu to book a demo now!`,
+    airDate: "June 4, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu016-michael-keith-lewis-the-network-behind-the-show/",
+    youtubeUrl: "https://youtu.be/nSnAQAfSm9Y",
+    transcript: `[Kevin]
+This episode is sponsored by Meter. If you're tired of juggling five vendors and six dashboards just to keep the network up, Meter delivers the full networking stack, wired, wireless, and cellular, as one integrated system. Go to meter.com slash liu to book a demo. That's M-E-T-E-R dot com slash liu. Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected. I'm Kevin, joined by Alexis, and every week we sit down with engineers, leaders, and builders in tech to uncover the stories behind their careers, how they started, what they've learned, and where they're headed next.
+Our goal is simple, to help you see how far tech can take you no matter where you start from.
+[Alexis]
+All right, guys, today we have a very special guest for you. He works in the place where music meets technical operations. Mike Lewis is a front of house engineer, tour manager, audio creator, and co-founder of Truckpacker.
+His main job is making sure that what the audience hears when you're at a concert actually works, every night in a different room under real pressure. So Michael, welcome to Life in Uptime.
+[Michael]
+Hey, thank you so much. I feel like Kevin named off a bunch of really important figures and I was none of those. He's like, engineer, leaders, oh, and then sound engineer.
+[Alexis]
+It's amazing.
+[Kevin]
+Thank you, thanks for having me. I don't even know what you do. Like I haven't like, other than you're the guy who sits in the front of the thing, like you press the buttons, right?
+There's like cool colored rainbow buttons. You like press those things and then something, like, I don't mean, I can't tell what the button pressing actually does on the stage. So it just sounds like that person's, or it just looks like that person's back there, just like, bam, bam, bam, really important, but I have no idea what's actually going on.
+[Alexis]
+So I'm gonna let you in on a little secret.
+[Michael]
+I don't think anybody, I don't think anybody really knows what they're doing. I think we're all kind of just making it up as we go, but I am the person that's responsible for making sure you hear everything on stage. And, you know, the smallest part of that is the time that you actually see me out there, where I'm doing my job, which is mixing, but the real job is the setup that goes into that, the planning and the execution.
+In a nutshell, I'm a sound engineer, but on the road, I'm called a front of house engineer. So I'm the person that's mixing the audio out front. Fun fact, there's actually two audio engineers on most tours.
+There's a monitor person and a front of house person. The monitor person is taking care of what the musicians hear on stage in their headphones. And then I'm taking care of what the audience hears.
+Does that kind of make sense?
+[Alexis]
+Shouldn't they do the same thing?
+[Michael]
+It does, yeah. It's different because like, if you're on stage, what you hear, if you think about the speakers like here, and so you are behind the PA and, or behind the speakers. And so it's very difficult to like hear yourself or hear the things around you and it's disorienting.
+So the monitor engineer is there to serve them and make sure that whatever they're playing makes sense and they have context. There's also things that they hear that the audience doesn't hear. Like they'll have a click track, which is just a metronome that's going to keep them on beat.
+They'll have slates, which is essentially, it's a person that like whispers in their ear. It says that we're playing the chorus next or we're playing the verse next. And there's other things like talkbacks that are on stage, which is just a microphone that the band or people that are on stage hear that the audience does not.
+So there might, at any show, there might be like a whole conversation going between the musicians, the technicians, managers, whatever, and you don't even know that it's happening. It's all, and that's called talkbacks and comms. But front of house, I just worry about what you guys are hearing, and I make sure that the experience is a pleasant one.
+The odds are, if I'm not doing a good job, that's the only time you know my job exists. So, you know.
+[Kevin]
+This is very likely, like you're explaining networking. If you just changed front of the house to network engineer, it would sound the exact same. Like everything you're describing.
+[Michael]
+I love that. Because if your network goes down, it's like people definitely know that it's not working.
+[Kevin]
+So, question. The way I always envisioned all this going is like, the band has like a roadie that sets up the equipment and you turn it on, turn on amps. This one goes to 11.
+You plug your guitar in and then they just like play. That was the most amount of setup. All of this stuff that happened in the background, that's where I'm equating to like networking where like the internet's happening, right?
+And all these things are happening behind the scenes that the end user just turns on a laptop and goes to google.com. They have no idea what's happening on the backend. And now, so this is the first time I feel like an audience member.
+I feel like a normal IT user who's like, it's just magic to me. I don't know how it works. That's really cool.
+[Michael]
+Well, so every tour, it scales, right? Just like with networking and organizations, you have 10 people organizations and you have 10,000 people organizations. And as it grows bigger, you just have managers with people under them and people under them, you know?
+And so, most of the touring that I'm doing is in the one bus, one trailer tour. So typically, you'll find those kind of tours in the 1200 to maybe 2000 cap rooms, even below that. And so, typically on a tour like that, you'll have a tour manager who's kind of like the head dog and they're responsible for everything, logistics, booking the travel, hotels, and all that stuff like that.
+And then under that, they'll have a production manager who's responsible for all of the technical side of things. So tour manager is more accounting, like hospitality, big picture. Production manager is light, sound, audio, things that you see, scheduling and stuff.
+Under the production manager, you have a couple more crew, depending on what the tour needs. Pretty typically at minimum, you'll have me, a front of house engineer. And that person might be doing a dual role.
+So they might be doing mixing for the audience and mixing for the band. That's pretty typical in a smaller tour. I do a lot of that.
+And you might have a lighting person. So the person that's responsible for either programming the way that the lights look or making sure that the rig that was already programmed or the looks that were already programmed to work in that room. And then you might have like a stage manager or like a roadie is what you would think of.
+The person that's actually on stage handling what we call backline, which is all the instruments and things like that that you see on stage. There might be, if you're Justin Bieber or Sabrina Carpenter or something like that, you probably have a ton of playback, which is like playback tracks, the things that the band's playing to. You might have a dedicated engineer just for that, which is all their job is to execute that.
+Make sure that gets set up. And what's interesting about playback, this is out of my world, but as that scales up, it also gets more complex because what happens at like the Sabrina Carpenter level or even Colony House's level is playback is actually changing the sounds and the patches and everything that's happening on stage. So it's not just like playing the backing tracks.
+It's also, you know, the guitarist has different sounds that they had per song. It controls that. Keyboards has different songs, different patches per songs.
+It controls that. But yeah. And so my tour maybe five crew.
+Yeah, yeah. And so, and then there's like a merge person, typically a photo video person, all very important. And as you get bigger, you just might have more audio people.
+You might have a person that's responsible for flying PA or whatever. At my level, like every show that we do, there's a pretty decent amount of production in the room already. So there'll be most often there'll be speakers already there.
+There'll be a stage already there. There's power for musicians and things like that. But if you go into the arena level or you go into what we call sheds, which is like amphitheaters and stuff, they don't have that stuff in place.
+And so you're carrying all of that. So as you bring more and more gear, you need more and more people to manage all those things. Does that kind of give you the rundown?
+[Kevin]
+Yeah, that's complicated. Now, I feel like I'm the end user and I have someone just like explaining technology to me. I'm like, uh-huh, uh-huh, yeah, okay.
+Turn it off, turn it back on again. And I'm like, I can do everything. Yeah, yeah, yeah.
+[Alexis]
+So Mike, we met on one of your tours. We made a couple of pieces of content together talking about network engineering and how it relates to what you do over in front of house. And from what I remember about our conversation, the entire show operates on its own network and you are in control of that, right?
+[Michael]
+Totally. Yeah, so these days, most audio is IP based. It's just like when you go to a big corporation, they probably have phones that are voice over IP.
+It's the same concept, except it's just for our particular needs. And I, yeah, as the front of house engineer, I'm responsible for that. In our case, what we have is called a, it's a stage box.
+And what a stage box does, it takes like all of the individual inputs from the band on stage. So like, the drums, the vocals, all that is different inputs. And that actually comes over network to me where I'm at.
+But on top of that, you might have things like wireless devices or RF and stuff that you control over that same network. So that gets added in. All of that playback stuff that I mentioned in some tours, that's all a part of the same network.
+And so as it scales, it becomes more of a technical, like an IT role than the mixing side of things. If you can't, if you don't understand how to get that one input on that stage box all the way to front of house, you can't really do the job of mixing. But yeah, that's, and what's interesting, in our world, I said voice over IP, right?
+For like audio over Cat5 and stuff. There are a couple of different protocols that we're using. Like Dante is a really big one, but every manufacturer has their own protocol.
+But for the most part, it's not really universal. So what works with this one manufacturer on how they're getting audio from here to here is not the same process for every single one. And that's why I come in as a specialist is I understand those things.
+And I know how to make, I know how to execute whether the gear is different or something I've never worked with. I make sure I understand it to the fullest extent.
+[Kevin]
+You need some RFC standards is what I'm hearing. I don't even know what is RFC, is it? It's basically the standard.
+It's something for comment. What's it called?
+[Alexis]
+I have a concussion.
+[Kevin]
+So that's why I'm saying I don't remember it.
+[Alexis]
+If you guys aren't on, Kevin's got a giant bandaid on his forehead right now.
+[Kevin]
+Yeah, cause I passed out in the middle of the night last night, hit my head on a shelf in the bathroom. And my wife actually had to scrape the skin off of it today. That was super gross.
+But so I'm like, I'm kind of loopy today. And anytime I have any kind of brain fart, I'm gonna blame hitting my head from now on. I'm gonna milk this thing as long as possible.
+[Alexis]
+Mike, it's an RFC, it's just a standard.
+[Kevin]
+Request for comment.
+[Alexis]
+It's not a request for comment. An RFP is a... Yeah, it is.
+Is it?
+[Michael]
+RFC, request for comment. I just Googled it.
+[Alexis]
+Is it request for comment?
+[Michael]
+That's what it looks like. Yeah. So it's an internal design document used to propose your software future.
+Does that sound right?
+[Kevin]
+Yeah, basically it's a group that people put out there, like this is how a standard should work. This is how something should work. And then anyone can comment and they come together and they agree that this standard, this protocol will work a certain way.
+And now every vendor can accommodate to that standard and have that way everything works together.
+[Michael]
+It's kind of like getting better and that more and more people are adopting the same standards. But yes, every manufacturer, they wanna be... Dante is the big one because it's so easy to integrate to existing networks, which is why it's so good.
+But everybody wants to be the next Dante, so they can license their tech to whoever else. A lot more money. It's all about money.
+Exactly, exactly.
+[Alexis]
+So, Mike, how did you get started doing all of this?
+[Michael]
+It's kind of a crazy story. So I took piano lessons from age four all the way to 16 because my mom forced me and I'm so glad that she did because I became... In that time, I was a great musician and I practiced a lot.
+And that got me involved with the church. So I live in the South and that is like a huge part of life for people is going to church, being involved with church. I feel like all my friends are in that.
+And I went from playing and volunteering as a pianist to eventually doing more tech stuff. So I would go and help with the soundboard and that would turn into an actual job. So by the time I was 16, I was working like in a technical role for a church, went to another job before I graduated high school, doing the same thing.
+So by the time I went to college, I had professional experience mixing, doing sound stuff. So it was pretty easy for me to land another job at UNT. So I worked as a union technician, which is like I was the person responsible for setting up the little corporate events that they held at the student union.
+And then that got me into other things where I was like touring with the vocal jazz ensemble. And then I met another person that would like give me this. One point I was like working for CBS radio and all these things.
+And yeah, before you know it, you just start meeting the right people and you're doing everything.
+[Alexis]
+You have the skills, you're the guy.
+[Michael]
+I hope so. I'm certainly trying to be. It's like any other industry.
+It's very network-based and it's who you know. And the more you do it, the more you realize that it's a small community. If every tour only has one front of house person on the tour, then you can imagine that there's only like a couple of us in every city.
+So you start learning those people and you start, the way that you get into this industry, if you don't get really lucky by meeting someone is you become a stage hand and you go like push cases around or you'll meet some guy that's doing the job that you wanna do. And then you become friends with them and then they think of you for another gig. And that's just, that's how I did it.
+I kind of worked my way up. And the other crazy way that I got gigs and got started way back was Craigslist. This is crazy, but like Craigslist gigs, I probably could have gotten killed on this.
+[Kevin]
+That's the very first question, yeah.
+[Alexis]
+I feel like Craigslist was a lot safer back in the day. It's not what it is now.
+[Michael]
+Yeah, it was kind of, yeah, it was fine. It was like, it was normal. But I was, you know, at that point, minimum wage was like seven bucks an hour or something like that.
+And I remember finding some job posting that said, come be an audio technician, you know, entry level, fine, or some experience, whatever. And I went in and I was like, I don't even know what I should be asking for rate-wise. You know, like it's hourly, what do you need?
+And I was like, I'm gonna throw out just the highest number I can possibly think of. And I was like, will you guys do 19 an hour? And I was, you know, I was like, at this point, 20 or 19 or something like that.
+And they're like, yeah, that's totally fine. Didn't negotiate or anything. I was like, oh, I should have asked for more money.
+And I realized that, you know, you could do okay, you know, become a specialist in this stuff. And it's, yeah, make more money than 19 an hour now. Let me just put it out.
+[Kevin]
+So you mentioned that there's not a lot of you. Is it hard to break in then for the average person? If we have someone listening right now who loves music, loves tech, and they wanna get into this industry, like how difficult really is it to break in?
+[Michael]
+I would say, it depends on what you wanna do. In the industry, as a audio engineer, as a mixer, there are several different things that you can do with that career. You can be like me, you can tour on the road, and you can be a front of house mixer.
+But there's also the monitor person. You can do that. There's also, you know, in a bigger tour, you have someone that's designated to flying the PA and deploying the PA and designing all that stuff.
+Or you can do, you know, corporate audio is a whole other thing where you're doing hotel ballrooms and stuff like that. Sounds crazy, but you know, there's little conferences that you guys probably get to go. That's like a huge industry for the AV world.
+And I know a lot of people where all they do is they go mix those things and they make great money doing it. And they love it because it's their home, you know, most of the week. So I think, depending, if you wanna be an engineer, an audio engineer, you need to find your niche and figure out what it is that you enjoy and maybe focus in that.
+And also be okay with maybe not doing that if you, you know, figure out very quickly, like, oh, okay, corporate audio is not for me. Or being on the road, for some people, it's not the thing. So yeah, film audio, that's a whole other thing too.
+And I do studio mixing, which is where people send me like, you know, podcasts like this and I'll edit the audio down and mix it. Or people send me their songs. I'm doing the same things I do live where I take all those instruments and inputs and I try to make them sound good.
+And it's all the same thing. But just find your niche and pursue.
+[Alexis]
+Did you ever have a moment where you questioned what direction you were heading in or did you have a backup plan? I mean, it sounds like music was a pretty consistent thread.
+[Michael]
+It's funny because I feel like I'm still trying to figure it out. I don't, I wouldn't say, I feel like I'm at a point in my career now where I'm like, okay, I know I'll always have work. It's great.
+But I've been freelance for 10 years at this point and it hasn't always felt that way. There are moments where I'm like, I don't know what I'm doing next month and I don't know if I'm gonna be able to make money. So I've always kind of thought like what would be the next thing?
+And I don't know. I really, it's crazy because I've always had these opportunities since I was 16. And so I don't know what my life would look like if I went, you know, lost my hearing or something like that.
+But I assume what I'd probably do, you know, the backup to being the actual person that's mixing is maybe becoming more of like a manager for these type things, like the production manager role or the tour manager role, you know, maybe shifting into something like that and being okay with that. Before I was gonna be, before I decided to like fully go audio engineer mode, I was actually gonna be a choir teacher. So music education was another route for me that I was thinking about doing.
+[Alexis]
+But I- Is that what your degree was in? Was music?
+[Michael]
+Yeah, yeah. Music education. So I, and I haven't done anything with it, obviously.
+It's great because I went to a pretty decent music school. And so whenever I go get, meet these new musicians and stuff like that, it automatically gives me like a little bit of clout because they're like, oh, he's a mixer and he's a musician that went to a good school. So it helps in that way, I guess.
+But no one's ever asked me, I go get a job interview or something. It's so word of mouth based. No one's ever been like, what university did you, what technical school did you go to or anything like that?
+It's just like, it's like, what did you do last? That's really what they want to know.
+[Alexis]
+What was your favorite job? Yeah, like your experience, babe.
+[Michael]
+Yeah, yeah. That's what's crazy too in this industry is so much of touring is getting that first tour. But once you've done one at a professional level, which I would say is the one bus, one trailer tour level, then it kind of starts self-perpetuating and you very quickly meet other people that have other gigs that think of your name for other roles.
+The trick is getting that first one. And I got really, really lucky. I met, so I've been with Colony House since 2019.
+I actually, when I was at UNT, I met their lighting designer just totally by chance at a gig I was doing for UNT. And the way that we met is crazy. He was drumming for another band and he played the Colony House beat on the drums.
+I said, dude, this is so crazy. Colony House is this tiny obscure band no one's heard of. Is this, is that you and I by Colony House?
+It was like, dude, that's crazy. I love them. I'm actually their LD, you know?
+And so we, I became friends with him, kept him in my network and that would eventually kind of put me in front of them. And that's how I got that job.
+[Alexis]
+I think it's so, and Kevin, maybe you could chime in here. I'd love your take now that you're a manager, but I feel like once you get into specialist roles, even in technology, it's very similar because if you can define your skills and become the guy or the girl that everyone knows, covers, like you are so good at that one thing, it follows you around because when people need something and I guess I've kind of made my hill that I'll die on social media. I mean, I get asked 50 times a day from people all around the industry, hey, I'm a director at Fortune 50 company and I'm thinking about making videos.
+Could you help me? Right? But people will, it follows you around and then people know you for that.
+You become known and recognized for something. And I don't know that where you went to school or what certification you had, if you're known at that level necessarily matters anymore. Unless you're looking to get filtered through an AI resume sort of thing, Kevin.
+[Michael]
+Definitely. If you're trying to go, if you're wanting to get into the audio, the production world or whatever, I will say that having a degree matters if you're trying to do something like an acoustician or be a designer at a PA manufacturer where there's actual science and physics involved. That's such a very small niche of it.
+Most people that I know that didn't get incredibly lucky like me, they started as a stagehand, which is an entry level position and they met people and that turned into other things and next thing you know, they're on the road full time.
+[Kevin]
+Yeah, I think it's the same in networking where the more experience you have, the less degrees or qualifications are important because word of mouth will follow you and your past experiences and stuff will speak much more volumes than having a degree that you earned 10 years ago, 15 years ago. That's all out of date now anyway. So yeah, it's same thing with us.
+[Alexis]
+Mike, so you went to school to be a music teacher and then ended up working in production. I feel like they're similar, similar but different.
+[Michael]
+Yeah, yeah. It's like adjacent, it's adjacent. You know, one's music and the other's music and that's kind of like the Venn diagram of it.
+Yeah. You don't necessarily need to be a musician to be in the audio visual or like production world, but having the musical background definitely helps, especially with your training and stuff, which is just recognizing that something sounds bad and why it sounds bad and the hundred different variables that you could change to get it across the finish line from point A to B.
+[Kevin]
+Can you train that? Or is that something you're just, she's born with it, it's made believe, not sponsored.
+[Michael]
+I think it's totally a trained thing. I'm not a big believer in like born talent. I do think that these things are curated because I was on the piano every day for years and without thinking about it, I was training my ear of what like certain frequencies and certain notes sounded like.
+And I do think that that helped a lot. But if you didn't necessarily have that background, there are plenty of amazing engineers out there that have learned over time. Like this is trill, it hurts my ears.
+Okay. It hurts my ears because there's probably an inequality in like the 3K range. Let's take out 3000 Hertz out of the whole mix or something like that.
+And that's, that can be learned. You know, it's just, it's science. Exactly.
+[Alexis]
+And I think you had said that you were skipping classes to go work during school.
+[Michael]
+Yeah. Don't tell my mom this for sure, but so I was really, really fortunate and I actually had a pretty much totally taken care of ride to college. I was paying for housing and stuff like that, but my schooling was taken care of by my parents.
+And so at some point I realized my, basically my sophomore year, I would skip my classes to go take these random gigs where I was working the local, you know, music venues in town like Trees or Levitt Pavilion. And it became this obvious thing that I was like, my grades were slipping. I literally one time I lied on my like report card.
+I like photoshopped it and sent it to my mom. So it looked like I was making like A's and B's and stuff. And, but I had failed.
+I had failed one or two classes and I realized, man, I am going through so much effort to just basically please my parents and not disappoint them. And you know, and yeah, so I was like afraid to tell them, but I just sat them down. I was like, look, I'm doing this thing.
+I have history as a professional in this. I'm making money doing this. It's like, I would like to try this for a season.
+So surprisingly, my parents were really, really supportive of it. My dad works a very traditional nine to five corporate America job. Thought he would say, don't do that.
+And he was like, dude, if you want to do something and if you love something, you'll make a career out of it. If that makes sense. My mom said the same thing.
+It was actually my friends. And we talk about this a lot. My friends were like, dude, you're so stupid.
+Don't do this. You're going to regret this. This is crazy.
+And you know, now those same friends are hanging out with me side stage whenever I'm in their city. And it's so paid off. It's good.
+But it was a daunting conversation for sure. And I would say, if I were to redo it, I probably wish I would have tried earlier. Like recognize, man, I love mixing more than I love practicing piano for hours.
+I can sit down, I can go to a show, watch a show, be a part of that for 12 hours a day. I can't do that on piano. And I definitely don't think I could teach kids for eight hours a day or something like that.
+I wish I would have recognized that sooner and put more time into focusing on building a career. I've done really good and I had an early start. And so what would two extra years have done?
+Like, could I be mixing Sabrina Carpenter right now? Or something like that.
+[Alexis]
+I think about...
+[Michael]
+In gold, by the way.
+[Alexis]
+I think about that a lot. Because in hindsight, it's always easier to wish I started earlier or, man, during COVID, I really could have cranked out another certification. What was I doing with all my free time?
+Because in hindsight, I feel like I look back and I feel like I wasn't working as hard. I've had this conversation with my friends that are like, no, Alexis, you've been working yourself to the bone as long as I've known you. But then I look back and I'm like, I think I could have squeezed a little extra productivity out.
+Just a little bit more.
+[Michael]
+I think as... I would imagine that all three of us are probably... We would classify ourselves as creatives or entrepreneurial or something.
+And I think we have a tendency to feel bad if we're not working, which is crazy. And it's so okay to just turn your mind off for a little bit. And that's something that I've been working on in my own life is not feeling like I have to have a computer in front of me and I don't have to be answering emails.
+I can play Minecraft for five hours on a Thursday night and I've got a career now, it's fine. I don't need to be grinding as much. But yeah, we should not feel bad for not working our butts off 24 seven.
+[Kevin]
+For me, it's not even I feel bad. It's like, I feel like I genuinely love what I do. And so I want...
+And the more I work, the more money I make. There is a point where you could be spinning your wheels and not being productive.
+[Alexis]
+But for the most part... It is a really fun payoff to be like, yeah, a little bit more.
+[Kevin]
+I worked a certain amount of hours this week, I killed it and I have a very nice paycheck and I can decrypt... The amount of work equals a number. Whereas I've been salary for the majority of my life, working a job, no matter if I bust my ass or if I don't try at all, I get paid the same.
+And this is the first thing I've ever really done that I've like actually can change the outcome based on my effort. And so it's hard for me to just put down and be like, no, I'll make less money this month on purpose, by chilling out.
+[Alexis]
+Do you know what other career does that, Kevin? Do you know what other...
+[Kevin]
+Don't say it. Don't say the S word.
+[Alexis]
+Do you know what other jobs you could take? You could be a solutions engineer, working on wheels.
+[Kevin]
+I would turn into a monster. I would work constantly. My wife would kill me.
+She'd leave me.
+[Alexis]
+That is... I will say that is one of the things I have enjoyed most about... And for background, Mike, I studied aerospace engineering.
+I pivoted into solutions engineering or sales engineering at Cisco. I've been in the sales world. I basically grew up here, right?
+I consider myself like a baby. When I came out of college and entered corporate, I went straight to sales. And so I've always had an element of like an attainment-based goal, right?
+You hit your target, you make more money. You go over your target, you get a spiff. You sell the certain solution, you get paid for it.
+And it's just compounded with what we do here on social media now, when you're working extra, your video does well, you get a performance boost, you put out extra resources, you take an extra brand deal, you build an extra relationship. Like there is a direct correlation to how much you work and how much money you make. And I like that.
+I don't know. I'm not afraid to say I'm coin-operated and I think it makes me work harder. I do think, like you said, it could be detrimental to a point, but I think it's a good thing to experience at some point.
+[Michael]
+I think my wife would come in, if she came in here right now and she heard me saying, you need to like relax, she would laugh at me because my dad is a workaholic, my grandpa's a workaholic, my brother's a workaholic. And because we love what we do, I can sit at the computer and I can like do a hundred things and still feel like I have more in it because it's so fun. What's tricky for me in this world is there's not like a direct correlation with the work that we put in sometimes.
+I could be answering emails and it's like a long sales cycle. That's the best way to put it. I could be putting in extra work on a tour, doing the paperwork that makes the rig build better and I'm not getting paid for that.
+But what I am doing is I'm building great relationships out of it and building a rapport where people say, oh, that Michael Lewis guy, he did the extra thing, he went the extra mile and I'm the first person that comes to their mind for the next tour. And that payoff might be like two years from now. One of the artists I work for, Matt Carney, I did like a year of touring for him.
+But before I did that, I did two or three one-offs with him, which is where you fly in, do a festival, fly out. Your interaction with the artist is minimal at best. You get very little chance to get it right.
+And I did that and in 2022, I did one for him and I crushed it and I thought I did great. And then I never talked to him again. Well, in 2023 or four or whatever, he by name remembered me from that moment where I bust my ass for that show where I worked all day to make sure that it was executed at a high level.
+He remembered me and he by name asked that I be on that tour that I did in 2024. So it pays off. It just took like two years.
+And that's the hard thing that I juggle with is like, where's the direct payoff on this stuff sometimes?
+[Alexis]
+Can we dig into that just a little bit more? Because I think there's a direct correlation, especially, Kevin, I know we get DMs like this all the time. I took my certification and I haven't gotten a job yet.
+I did this. I checked the box. I did this thing.
+I've been applying and I still haven't seen the result. And sometimes, I mean, we just talked about seeing a direct correlation between work and winning, basically. But sometimes it is longer and sometimes you have to sit in the sock before your dream opportunity comes.
+I mean, when we both started on social media three years ago, we didn't know we'd be where we were. I remember sitting at dinner with my friends and I think I had like 2,500 followers, right? I had just started and I was like, I have to post three TikToks a day.
+It was back when that worked. I was like, I have to get my third one out. What am I gonna do?
+And everyone was like, Alexis, who cares? You have 2,500 followers. And I'm like, but if I don't take it seriously now, it'll never become anything.
+[Kevin]
+You never will.
+[Alexis]
+And Mike, I'm reading a quote from you from our precinct. You said that Colony House was your favorite band and you would take out their trash if it got you near to work. And taking opportunities, like you said, to put yourself in the realm with no certainty of payoff or of reward, could you speak to that a bit?
+[Michael]
+Yeah, I, man, so Colony House was my favorite band of all time. I only went to a few concerts whenever I was in high school and they were one of them. I saw them play for maybe 40 people in Houston.
+And yeah, and I loved them. And I always had told my friends circle if there was ever an opportunity to do anything for them, even like take the trash out, like be the trash guy or whatever, you know, trash tech, I'm told. I would drop everything to do it.
+And man, I got incredibly lucky and met some people and I had a full-time job as the production manager at Granada Theater where I was on a salary, making great money. I had a shared church gig, so like double income, you know, where I would go show up on Sunday, mix, make a check, and loved both of those places. And I was like, man, I'll be here for the next three to five years.
+But I got that call for the Colony House thing. I was like, I gotta do this. And so I pretty much an hour after getting that call, I didn't even question.
+I wasn't like, let me think about this. I called the owner of Granada and I said, hey, I've got this thing, I gotta do this. Like, I've gotta quit.
+And so I quit there and then same thing with the church gig. And I was making not enough money to be doing that. And it was a huge risk, but you know, it changed the rest of my life.
+Like it gave me a ton of extra opportunity that I would not have had if I would have kind of stayed in that Dallas hemisphere of doing those random one-offs and things like that.
+[Kevin]
+All right, quick pause because this episode is sponsored by Meter. If you've ever managed a network built from five vendors, six dashboards and a bunch of contracts that no one fully understands, you know how fast that turns into chaos.
+[Alexis]
+What usually gets overlooked is the pressure that puts on the people running it. IT leaders need predictability, engineers need control and visibility and most stacks just weren't designed for that.
+[Kevin]
+That's where Meter's model is different. They deliver the entire networking stack, wired, wireless and cellular as one integrated system. They design the hardware, write the firmware, build the software, manage deployment and run support.
+One platform, one partner.
+[Alexis]
+And that means fewer handoffs, fewer tools and clearer ownership. It scales from branch offices and warehouses all the way to large campuses and data centers without turning network operations into full-time vendor management.
+[Kevin]
+If you care about uptime, accountability and not being the middleman when things break, this is worth a look.
+[Alexis]
+Thanks to Meter for sponsoring this episode. You can go to meter.com slash LIU to book a demo now.
+[Kevin]
+That's M-E-T-E-R.com slash LIU to book a demo. Now back to the episode.
+[Alexis]
+I will say, I agree with you. Colony House concerts are life-changing. I went to one and I was like, I need to go again.
+And I think I've been to five more, which is where we met.
+[Michael]
+If you're not familiar and you want to check them out, the best way to explain it is it's two brothers and then two other guys that are in the band and everybody is a lead singer in the band, if that makes sense. And so it's just like amazing energy. I'm saying that figuratively, there is one lead singer, but figuratively there's four person energy.
+And man, I think when you see it on stage, it kind of clicks with people. Yeah, it's awesome. I'm so thankful I get to do it.
+They're the most amazing people. I've been around the world with them now at this point and they're just buddies and they're still my heroes, which is even as close as we are now, I'm like, man, those guys, they've got it figured out. They love what they do and they're just grinding away and hoping to keep doing it for another 15 years or whatever it is that they've been doing.
+Testament to loving what you do.
+[Kevin]
+Well, speaking of being on tour with them and traveling all around the world, how do you deal with being on the road more than not being on the road?
+[Michael]
+Yeah, that's a hard one. I am gone probably 50% of the year at this point. I haven't counted in a long time.
+The first two years I was married, I lived in Dallas, but I was mostly working for artists that were based out of Nashville. So I would fly here, do a week or two of rehearsals, stay here and then go on that tour. And then every time we did a home stop, we would go through Nashville, not Dallas, obviously.
+And so I would just be at a hotel. And that got really depressing because I felt like my wife's life and my own life are kind of developing on their own. And we'd have to come back home and it's almost like we're re-synced through several months.
+We get along really easily and she's an incredibly just, she's a powerful woman, let me just put it that way. And she's like so independent and so am I. And so it's not like, we don't need to like, I'm lucky is what I'm saying.
+I don't have to, we don't, I can not talk to her for like a month and we come back and it's strong as it ever was. But there was a couple of times where I felt like, man, she's got this whole life at home and I'm losing track of what's happening. And so we made a decision about a year ago or a year and a half ago to pick up our life and move here and be closer to it.
+So one way that I mitigate is just by putting work, you know, living where I work now. So I'm a lot closer when we do rehearsals and things like that in Nashville. They're in Nashville.
+So I'm just going home to my bed every night. So that's one way to do it. And second being that just marrying someone that understands what it is that you're doing, knowing what this, she always says, I know what I signed up for when I married Michael.
+I was always, I was touring well before I knew her. And so she understood the assignment, if you will. And then like third, we just, we had to develop a routine, you know, we don't, it's not like a pen and paper.
+This is what we do every day. But generally speaking, I try to call her like once in the morning and then once in the afternoon after work. She's nine to five.
+So I have to kind of make it work for me. My job, if you don't know, I basically, most of the time I'm working from 10 a.m. till like 2 a.m. But there's a lot of little, you know, spots in there where I'm not doing anything for four or five hours. So, you know, you find windows.
+But yeah, we just get in the routine of like calling each other. I love FaceTime because I can just, it's like you're right there kind of. I love flying her in to shows whenever I can.
+One of the best parts about being on the road is I get to see all these cities all the time and I get to experience it. And, you know, those mornings where we have a later load in, I'll go and get coffee, go to the library, go see something scenic. And I try to bring her in to be a part of that as much as I can.
+So we're also doing this thing right now. We're trying, she's an amazing, like she can do anything. And I've always thought it would be sick if she became a tour manager.
+And so she calls it the nepotism hire, but she keeps getting these like little one-off gigs where she'll come in, be the fly-in TM and she's crushing it. And so maybe there's a world where we're like a dual, you know, a team or something like that.
+[Alexis]
+Yeah, it would be crazy.
+[Michael]
+I hope so. I hope it works out. And she works also in industry too, which is awesome.
+So she's like, she gets, she's on the agency side, which is booking the people, like sending contracts out for shows. So she understands and everybody understands that it works.
+[Kevin]
+If you guys were to join up and give a tour together, do you think that would change your dynamic in your relationship? Where like you guys have built your relationship around you touring, right? Yeah.
+Always being gone. So you guys being together that much, both being independent people, do you think that might change your relationship?
+[Michael]
+It's interesting. That's a great question because when we're together, we call it both being baby, where we're both like, I don't wanna do anything. You got the control, right?
+And she's like, and then, so there's a lot of like, who's doing this? Cause we're both, we both could do this thing. I feel like with every family, there's like a bill paying person and an insurance person or whatever.
+And with us, it's like, it's really up in the air. I like know all the things and she knows all the things. So that being said, I feel like on the road, we would definitely catch a groove.
+And what's interesting about a tour manager is they're pretty not involved with like, what's happening with production world. That's why there's a PM, TM, two different roles. And so that, I don't know, it could be like a cool yin yang situation where we compliment each other's weaknesses.
+We did a one-off together for Matt Carney maybe two weeks ago and she crushed it. It was awesome. I was like, everything that I needed, I would be thinking about as a tour manager cause I also tour manage sometimes too.
+She was thinking about it as well. It's like having a little mini me out there.
+[Alexis]
+I think it's such a great discussion, especially when it comes to the work we do in technology because a lot of times, I mean, there are jobs in tech that are less demanding, but if you really wanna be successful and you wanna make it and you actually like what you do, you're gonna be involved all the time. You're gonna be studying all the time. You're going to be wanting to go to events and wanting to work and get hands on.
+There's a lot of, like if you're taking a new certification, that's outside of your nine to five. So now you're squeezing in extra hours. I can't tell you how many stories I've heard from people or colleagues that were going for their CCIE.
+And I was like, how did you put in the time to study? You have a family, you have children, and you're a leader in this organization. What did you do?
+And they were like, well, I got up at four o'clock in the morning and I studied from four to 6 a.m. And then I took my kids to school and then I went to work. And then I picked them up from school and then I put them to bed. And then I studied from eight to 11 p.m. And then I slept for four hours for seven months. And I'm like, are you okay? But what it takes to do that and have a partner who's supporting you alongside of you and being like, no, I understand that this is really important to you.
+[Michael]
+It's really- Have you seen those videos on TikTok where it's like the guy that asks millionaires what they do and all that stuff. He's like, oh, what do you do? How did you make the money?
+There was one where he summarized everything that he sees. And the thing that he, one of the standout things that he said that he saw a pattern was that the biggest decision that you make in your life, the biggest business decision, financial decision, everything is the person that you marry. And I see that like Malia, my wife and I, I feel like we're sometimes more business partners.
+Like it's a bigger business decision than being romantically involved. Now I love her on a romantic level and all those things like that. But if we're not aligned on what I'm wanting to do financially and vice versa, it's like that could have been a real drag.
+So, you know, yeah. So I'm so fortunate I found someone that understands what I do and yeah, she gets it now. That's great.
+[Kevin]
+All right, so speaking of what you do, this is not the only job you have, right? You have kind of a side piece. That sounds like, you have a side gig?
+[Alexis]
+No, not really. Kevin goes, I heard you have a side piece.
+[Kevin]
+That was poor timing and poor words. I'm sorry. That's the clip right there.
+[Alexis]
+Your side gig.
+[Kevin]
+Oh man.
+[Alexis]
+If you would like to talk about your side gig.
+[Kevin]
+Yes. Oh man, that transaction or that transition. I hit my head.
+I hit my head, guys.
+[Michael]
+The concussion's freaking me out.
+[Kevin]
+I don't know where I am or what I'm doing. Your name is Kevin.
+[Alexis]
+I hope you go straight to sleep after this, man.
+[Michael]
+Welcome to life. Oh my gosh. Well, so I've been freelance for 10 years now at this point and that means a lot of things.
+That means I'm always, you know, doing weird oddball things. And I love answering this question at the dinner table, like Thanksgiving, because it's like, well, okay, I do. So you're an audio engineer.
+What do you do? And I'm like, okay, well, hold on. How much time do you have?
+I'm not just touring all the time, you know. With touring, it's like you do two months on the road and then that might be in the spring and that might be in the fall. And it's great money while you're out and then that's that and that's it.
+And then you might have some one-offs here and there. So I do a lot of bouncing between different artists. Very often, the way that it works is like Calling House will do a record.
+They'll tour for maybe a year and on and off every couple months or so. And then they'll be done for two years and they'll be right in the next one. So during that off time, I'll go find another artist that's touring.
+Like I toured with Jeremy Zucker for a season whenever Calling House was between records. But I also do a lot of other oddball things. I really, really love studio mixing, which is where people send me their songs before they go to Spotify.
+I take all the individual tracks. It's like being a baker, kind of. I like mix all the ingredients, make it sound good, make it taste good or whatever.
+And yeah, so that's cool because it's the first time in my life where I could do something that I love, that I'm very involved with and do it remote and make money. So I'm never with these people. These clients find me through Instagram or word of mouth and they'll reach out and they'll say, here, here's the tracks.
+And we discuss rates and we just bounce back and forth. So I love that. Other things that I do is maybe borderline consulting as well is maybe the best way to put it.
+Church world, I have a big church background. And if you're not aware, Colony House is very tied into the church world because their dad is Stephen Curtis Chapman. And Stephen Curtis Chapman is the goat of Christian music.
+[Alexis]
+He's like Beyonce of- I remember back from like 2007, 2008.
+[Michael]
+Yes.
+[Alexis]
+Frank Hale's all the time.
+[Michael]
+I think he has more gospel grannies than maybe any other Christian artist, minus a few others. So like very, very out there. So there's this big tie to that world and all that.
+And so because of that, you get this community of people that want to do what I do, but they're volunteering at their church. And so they come to the show, they're like, oh, that's so sick. It sounded good.
+I wanna ask questions to Michael. So they'll come talk to me after. So I've built this like following of people through that and built relationships with people through that.
+And these people will reach out years later and they'll say, hey, I thought it sounded great at this show. I know what you do. I know you can mix to me at least.
+Can you come to our church and do a training or something like that? So I do a lot of that as well. And then the other thing that I do is I have a startup called Truckpacker.
+So I'm like in corporate America now.
+[Alexis]
+And what Truckpacker is- I don't know if I would call that corporate America.
+[Michael]
+Yeah. I'm learning like what standards and procedures are and all these like acronyms. I didn't know what STAS was two years ago.
+[Alexis]
+Can you tell us the story from the very beginning of when you were tracking to fit things on tour?
+[Michael]
+So as I mentioned earlier, I'm with Colony House. I'm also tour managing and I'm production managing. I have a lot of different hats on.
+So I'm thinking about a lot of things. So I'm not just thinking about the audio perspective. It's like, how do we, what gear are we getting?
+How much gear is there? And there was quite literally a tour that we did where we had all of the cases for all the lighting and backline and audio gear in the room. And I remember looking, I was like, oh my gosh, this is not gonna fit in this trailer.
+And it became this whole thing. And it's actually, what's crazy is it was documented because it was day one of a tour. So there was like a tour photographer there taking video.
+If you go to truckpacker.com, you can actually like scroll down and watch this video. So you can see in real time me like, oh my gosh, we gotta figure this out. And it turns out that this is like a very real problem that people are experiencing where they're like, man, I need to figure out how to actually do this pack before all the gear is there.
+Because if you can have those conversations ahead of time, you can make cuts on production and save money and things. Or you can go from a 52 foot semi that's $10,000 a week to maybe a 26 footer that's like maybe $5,000 a week. So good money and all that.
+And I, after that tour and that disaster, we had to cut a good bit of gear to make it work. We had to like do all these crazy things. We had merch in the back lounge on the bus.
+Like it was kind of a disaster. And it was just, you know, partially my fault for not thinking about it. No one, everyone just thought we could do it like we'd done the couple other tours.
+And I went and I learned a program called SketchUp, which was free software that lets you like draw little rectangles and extrude them and stuff. And I started building our truck packs out in SketchUp. And that took me, it probably took me about eight to 10 hours to really feel comfortable in SketchUp.
+And I'm a technical person. And then doing the actual packs would take me another three to four hours. So like a very involved thing, but it was so worth it.
+Because it would save me.
+[Alexis]
+You're basically like 3D modeling the way all of the boxes and things are going to fit inside the semi truck.
+[Michael]
+Yeah, I would go and I would go to our vendors. I would go to the lighting vendor. I would look at our cases that we own, all these things.
+I'd go to the bus vendor and say, okay, what are the dimensions? Put the measurements in. And I would, if it's like adult Legos, I would just move cases around and all this stuff like that.
+And I realized that this is like a really big problem that's shared with other people because people would hire me to do these drawings for them. You know, they're like, oh, Michael knows how to do this. And so I, you know, at some point I tell my buddy, David Woodward, who I went to college with that I'm doing this.
+David's in the music world, but he's also a software developer. He worked for like a bunch of really cool companies. He was a part of like the Pokemon Go world, stuff like that.
+I'm like, dude, I'm doing this thing. And I was like, I feel like this could be software. I mean, this is crazy that I have to manually do this.
+And to my surprise, he was like so stoked about the idea. He started doing market research, found out in the logistics world, this is very normal. It's just not in our niche.
+And so he like worked on it for a couple months. We put out an MVP, got some feedback and yeah, Truckpacker was launched in May of 25. And all it is, is just a, it's basically a online web-based truck packing planning software for people to go and plan out their truck packs.
+But without the barrier of entry of SketchUp, like it is so easy. My mom, who's not technically inclined at all, I could go on there and probably have a full semi truck pack with minimal instruction. And that's our goal.
+We also have an auto pack and tools to distribute what the pack looks like out to your crew and things like that. So we basically took the bin packing container problem that is already been solved in the logistics world and we solved it for our niche. So I've, and now we've been out for a year, almost a year and some change.
+And that is what I do. I'm like, when I'm home, I'm the email guy, the email help at backlinelogic.com, which is like the parent company of it. They'll get me on the other end.
+I'll help you through your stuff. I'll do little onboarding demos. And I just talk to customers, just try to figure out how they're using our software and how we can make it better.
+So that's like been the last two years of my life. And I honestly, you were asking about like what the backup plan would be. That's my backup plan right there.
+Cause I've, I love, I like love talking to people. It's so fun. That's pretty much all it is.
+It's like sort of sales and marketing all put in one. And I just go and talk to people and figure out how to make our product better. So that is truckbacker, truckbacker.com.
+If you want to find that, here's our hat. No repacks club. Just got this today.
+[Kevin]
+Do you, do you think that it would ever become, I know you said it's your backup plan, but like if you ever get tired of touring or get tired of that kind of stuff, like do you see it as like your possibly like your long-term future?
+[Michael]
+To be, without going too much into the numbers on the reality is it will become, it will become what I do at some point. It is been nights and weekends for a year and a half, two years. It's now starting to get to the point where it's growing.
+It's growing steadily, but that growth is hard to, it's hard to sustain that growth without giving it my all. I feel it kind of not, kind of taper off and I'm not giving it my all. So there's within the next couple of months, there's definitely going to be a decision made about, it's like, okay, do I want to be a touring guy or do I want to focus on this and take less work and maybe be okay with a little bit of a pay cut for now to sustain this and help grow this.
+[Kevin]
+So, but I love it.
+[Michael]
+I've learned, like I've never had a real job where I've worked in an office or like been in a big organization. And it's been a really interesting thing for me to try to learn how to build a company. Like I, you know, I'm like talking to my wife, like, what do you guys do?
+Like, how do you manage information? You know, or like, what do you do for email? Very basic things.
+Or how do you run a meeting? That's another one too, man. I'm never, I was never in meetings until now.
+And I'm having to like learn how to talk to people or like having an agenda and all those things like that. So, but I love it. It's like scratching a new itch for me.
+[Kevin]
+You and Malina need to get together and it's good because she's learning the same stuff about how to be corporate and how to like talk to people and in the tech space. So you guys would pair up.
+[Alexis]
+It's a different skill. It really is like speaking a different language and you code switch so fast. Even with co-workers that I'm also friends with, like I'll notice we code switch back and forth between like gossip and corporate.
+And there's just some phrases and there's norms and things that are like customary that you start to do that you don't even recognize anymore because it's just part of like corporate culture. Like saying like an email sign off or I'm gonna blame Malina for a second. I know she's listening in.
+I had her send some attachments to a brand I was working with. I said, hey, can you send these analytics over? And she went in as me and she's my EA and attached the screenshots to the email and hit send.
+No, hi, here's the analytics you requested. Please let me know if you have any questions. Like there was nothing in the body of the email, just the attached files, send.
+[Alexis]
+Oh no.
+[Alexis]
+And I was like, how would she know? How would she know? She's never worked in an office before.
+[Michael]
+And there's so many things that we do every day that like you just- In theory, you know, just hypothetically what would be the correct way to do this? I'm just like, I'm like, what is this?
+[Alexis]
+You're asking for a friend.
+[Michael]
+Is this? I think you're right. Yeah, I'm like, should I not be sending screenshots?
+No, I assumed there probably should have been a body and explanation, maybe like a Dropbox link or something like that.
+[Alexis]
+Just regurgitate, here's what you requested. Please be attached.
+[Michael]
+Yeah.
+[Kevin]
+Yes, yes. All my best. Love you lots.
+And give us a hug.
+[Alexis]
+XOXO, gossip girl.
+[Kevin]
+Something like that.
+[Alexis]
+But Mike, how's it feel to be a startup founder?
+[Michael]
+It's crazy. I love it, man. I'm so happy that I've, I feel like I've learned more in the last two years about just what it means to be a business and grow a business than I have in my entire life because I've never cared about it.
+But if you think about it, you know, being a freelance audio engineer, I sort of already had a business. You know, I had a startup, which is just, I'm the only employee. So I kind of knew some of the mechanics of the financials and, you know, getting started as an LLC and getting, you know, like the really basic things.
+But I just love that I'm getting to, I'm a very curious person and I love learning new things. And it feels like there's just so much more conversation to bring to the table now. You know, it's like, I talked to this guy the other day that was telling me about his B2B sauce, you know?
+And I don't know, but my wife really hates all that. I have all these acronyms now. And she's like, what are you talking about?
+But I'm just, got to do a dictionary, I feel like.
+[Alexis]
+I love it.
+[Michael]
+I'm thankful.
+[Alexis]
+Can you talk a little bit about, because I'm thinking about our audience listening to this, a lot of times in technology, maybe you take a job and you're assigned a task and you get into it and you're like, I think there's a better way to do this. And you could just do it the way that you're supposed to that might take longer, or you could do something new and innovative and maybe solve a bigger problem for the whole organization, but it might not work out. It's kind of risky, right?
+Could you talk about, when you were developing Truckpacker, like you went and solved your own problem, which ideally is the best way to start a business, but we come up with problems all the time in technology, and especially with AI right now. And I think about automation and the changes that our infrastructure is going to have to go through in order to support new technologies, to support AI. I feel like there's going to be a lot of opportunity for people to do basically what you did, right?
+Find a problem and go, hmm, I'm taking this on, this one's mine.
+[Michael]
+Yeah, this feels sort of relevant to this quote or about Steve Jobs and hiring and how he preferred to hire lazy people because lazy people would find the most efficient way to do a job so they didn't have to work as much. And that is maybe the story of my life, not just with Truckpacker, but with mixing in general. If I just showed up and did the mixing thing and all those things, I would get so bored as an ADHD, ADD, whatever kind of guy.
+I have to like have a new thing. And so, I don't know, I feel like if that is the way that I keep in it, I just want to keep innovating because it keeps me interested in the job and it gives it a new angle of like, okay, I'm thinking about this because it's going to make my life easier for the next tour, you know? And yeah, I don't know, maybe that's how I've done well in my career is because I've always thought about those things and maybe it sets me apart a little bit, I don't know.
+But I hope people are curious, and I hope that people would love their job, whatever it is. And if you feel like you could spend eight hours learning some tool to make your job 50% more efficient or some little task 50% more efficient or 75% more efficient, it's always worth the eight hours, you know? Because then you're going to, by the time you get into that flow of things, you're like, wow, I am now saving myself all the time.
+I love claw, I know that there's some implications to the environment and all that stuff of using AI and I hate that and I, yeah. I don't condone that, okay? And I don't like- Alexis, look at your shirt.
+[Alexis]
+We got to show her what this is for. These guys were talking about wearing funny t-shirts or something this episode. And so I went out, I got this for Cisco Live.
+It says, I love using all of our natural resources to build massive AI data centers. I found it on TikTok shop and I thought it was hilarious. And I actually ordered Kevin a matching one for Cisco Live and it didn't come in.
+And fun fact, I put this on today with the intention of wearing it for this episode and then I had a dentist appointment and then I went grocery shopping and I came home and my sister looked at me and said, please tell me you did not wear that outside of the house. You're going to get yourself shot. You're dancing.
+[Michael]
+Here we are.
+[Alexis]
+It's a joke, it's a joke.
+[Michael]
+Yeah, no, I want to tread lightly because I know these things are always developing and I'm not saying I really, this is a really big conversation in the music world right now is, Suno, generative AI is taking jobs from people and that sucks. I have so many amazing producer friends that have completely lost all their sync licensing money. Sync licensing is commercial music for videos and things like that.
+Because these directors can just go to a prompt now and say, give me upbeat, chill corporate music or whatever and they don't have to pay some guy $10,000 to do that track. So I hate that. I will say though, AI is awesome for me and I love that, I love that it's just- Sucks for you guys, but it's awesome for me.
+I don't want my friends to not have jobs, but I do love that it is making, it feels like it's making my life so much more efficient and there's things that I've always wished I could do if I knew a little bit of software. I'm like, man, I could automate this one process. I know that this is a thing that I'm repeating over and over again.
+A computer should do this. I don't know how to do that. And I love now that I can go to Claude or I can go to chat and I can say, I need this thing.
+I know it's possible, build it for me and do it. And that's huge for me because now, I mean, tour managing, for instance, is a ton of emails and a ton of data management and a ton of data distribution. And to do all that, it takes a lot of time.
+And that takes away time from me doing the things I love, like mixing and focusing on Trekpacker. Now with Claude, I can say, take all this information and put it here. And that just runs in the background.
+And I don't think about that anymore. Or auto-responding to emails or just summarizing emails. I don't have to go pick through a hundred million different inboxes to find that one enterprise lead or something like that.
+It is making me more efficient and it's making it to where I can jump between the different hats of being a tour manager, being a mixer, being a husband, being a content creator and Trekpacker guy, pretty fast.
+[Alexis]
+To do all the things you love.
+[Michael]
+I know, yeah. I also didn't mention too, I feel like I talked about all the things I do. I also do content too.
+And I don't think that people, probably none of your people follow me, but basically I just make videos on just educational stuff on mixing and how to take your mix to the next level and the systems that go into play.
+[Alexis]
+We have more overlap than you think. Because after I tagged you in that one video, I had so many people that were like, wait, I followed both of you. I know Mike.
+Apparently, there's a lot of crossover between FOH engineers and network engineers.
+[Michael]
+Network, they keep saying that our job, that the old, what is it? The old guard is frustrated right now. They're like, our jobs are turning into networking engineers and IT specialists and they hate it.
+And I'm like, dog, that's the world that we live in. If you don't know how to build up an IP table for your devices, then you probably are gonna be left behind in the next like, I mean, you're left behind at this point. So, that's just the nature of the gig, man.
+It's like, it's data and it's just, it's flowing and you gotta understand how all that works to build your systems.
+[Kevin]
+Can I ask you a question while we're talking about networking in your job? You said that you use wireless where wireless connection between devices. Are you, is that for management or are there actual like production, like sound going through a wireless connection?
+[Michael]
+Both aspects. So, we have, pretty often, there'll be a couple access points on a job site for managing all of the control infrastructure, which might be the PA settings or actually controlling the mixer or the other thing I was gonna mention, which is RF. So, RF is anything like a wireless microphone to all of the musicians on stage.
+[Kevin]
+That's where I was going with this because of interference. You've got, you know, everyone's got a cell phone in the audience, holding it up and now actually watching the show, they're watching the cell phone. Yes.
+And so, and plus you have all that stuff. So, like I can imagine the RF interference would be too bad in that area to have quality Wi-Fi going through.
+[Michael]
+So, it's what most people do is we've are, so RF stuff is in a very different band than Wi-Fi as of now. There are a lot of like prosumer devices that utilize the 2.5 or 5G bands. But as you mentioned, they're not reliable because once you have 15,000 people in a room, it's like, it's done for.
+So, luckily there's not a lot of overlap, but what's crazy is there is so much of RF on a tour. You know, you can imagine if you have five band members and then you have five crew and then they're all on wireless mics, that's like, you know, that's 15 channels of wireless. Now, you gotta figure out where all this, how all that works together and how it plays nicely together and how it doesn't, isn't affected by the environment variables and things like that.
+That's a whole job on a tour. So, it's like at the arena level, you have an RF tech that's handling those things. But that's also because at that level, they have like literally hundreds of channels of wireless.
+[Kevin]
+So, you know, it's just more stuff. It'd be a nightmare to manage all that. Yeah.
+I know that was a callback from earlier conversation, but that's been in my head and I couldn't think of anything else until I had that answer. So, thank you.
+[Alexis]
+Yeah, yeah.
+[Kevin]
+All right, Mike.
+[Alexis]
+So, we're almost at the top of the hour. If you were to go back and give yourself advice, say when you were at the jumping off point, when you were first entering college and you were starting to skip classes and you were a bit uncertain on where all of this could go, what advice would you give yourself?
+[Michael]
+Man, read more. That was just so basic. I wish I would have started reading so much earlier in life.
+The other thing is, I think this is true in my industry and I think it's true in all industries, but fake it till you make it is so real. And there are so many things that I didn't feel equipped for in the moment that turns out I was totally fine at doing or I learned on the job how to accomplish whatever it is that they do. So, if someone says, can you do this?
+I think to a certain degree, like being truthful is important, but if you can get yourself through the gig and get yourself to the other end of it and stretch yourself a little bit, that is so much more interesting than being comfortable over and over again. So, fake it until you make it. I wish I would have said yes to more things.
+That's, in my world, that is very much how you get better in bigger gigs is you say yes to as much as possible starting off. And I can see the branches of my career, how if I would have said yes to this, it would have done this, this, and that. And I feel like in some aspects, I'm a little behind in certain ways because I said yes, no to certain things.
+But also at the same time, I'm very happy with the career that I have. I love the bands I tour with. Just because I'm not in stadiums and arenas doesn't mean that I'm not vibing.
+So, yeah, fake it until you make it. Read more books.
+[Alexis]
+It'll all work out and you never know what doors are gonna open from the connections that you make.
+[Michael]
+Definitely.
+[Alexis]
+Awesome. Well, Mike, if someone wants to get connected with you after the show, where can they find you?
+[Michael]
+You can usually find me at the sound booth, which is front of the house, which is the center of the room. But if you're not at the show, you can go to michaelkeithlewis.com. That's M-I-C-H-A-E-L-K-E-I-T-H-L-E-W-I-S.
+And I've got socials on there. You can book a demo call with me or call with me right on the website. You can see all the work that I've done.
+And then if you wanna find out about Truckpacker and see what we're doing, follow along. We have a free seven-day trial, truckpacker.com. I think we also have freerangedrummers.com.
+We have a couple of URLs that we've bought for just random gags and things like that. Thank you. Thank you for having me.
+This has been a blast talking about all this stuff.
+[Kevin]
+No, I learned a lot, dude. Thank you for coming on and I appreciate it.
+[Alexis]
+Amazing. Well, that is it for this episode of Life in Uptime. Huge thanks to Mike for sharing his journey and thanks to you for listening.
+If you enjoyed this conversation, be sure to follow the show so you never miss an episode. And if Mike's story today gave you something to think about, make sure you share it with a friend or colleague who might need it. And until next time, keep learning, keep building and keep your uptime high.`,
+  }
 ];
