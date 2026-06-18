@@ -6555,4 +6555,522 @@ No, I learned a lot, dude. Thank you for coming on and I appreciate it.
 Amazing. Well, that is it for this episode of Life in Uptime. Huge thanks to Mike for sharing his journey and thanks to you for listening.
 If you enjoyed this conversation, be sure to follow the show so you never miss an episode. And if Mike's story today gave you something to think about, make sure you share it with a friend or colleague who might need it. And until next time, keep learning, keep building and keep your uptime high.`,
   }
+,
+  {
+    episodeNumber: "017",
+    slug: "ep-017-chris-lapp-becoming-the-guy-or-girl",
+    title: `Chris Lapp: Becoming “THE GUY” (or GIRL)`,
+    guest: `Chris Lapp`,
+    guestTitle: `Emmy Award-winning network engineer, Senior Specialist Solutions Engineer, Cisco Cloud and AI Infrastructure, Media and Entertainment`,
+    guestCompany: `Cisco`,
+    guestLinkedIn: "https://www.linkedin.com/in/chrisjlapp/",
+    description: `Chris Lapp is an Emmy award-winning network engineer, focused on AI, media, and entertainment. Chris is also known as “The Guy”, the one you call when the problem is sitting between broadcast networking and media and the stakes are high. Join us as Kevin and Alexis sit down with Chris to find out how he became “The Guy”, how he built that trust, and how other engineers can learn from his career.
+AdSpot Sponsor: Statseeker
+Statseeker gives engineers near real-time performance insights, fast zero-touch deployment, and historical data going back as far as you need; so you can troubleshoot faster and prove what actually happened. Statseeker auto-discovers devices and starts polling every 60 seconds right out of the gate, building a full-fidelity, granular history of your network from the moment it’s deployed. Try it free at statseeker.com/uptimestories.`,
+    airDate: "June 18, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu017-chris-lapp-becoming-the-guy-or-girl/",
+    youtubeUrl: "https://youtu.be/DqdKDUYT2Ak",
+    transcript: `[Alexis]
+Every Uptime story has that moment when something breaks and everyone looks at you. StatSeeker helps you stay ahead of that moment with 60-second polling, automatic discovery, and deep historical visibility across your entire network. So when issues hit, you already have the answers.
+Start your free trial at statseeker.com slash uptimestories.
+[Kevin]
+Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected. I'm Kevin, joined by Alexis, and every week we sit down with engineers, leaders, and builders in tech to uncover the stories behind their careers, how they started, what they've learned, and where they're headed next. Our goal is simple, to help you see how far tech can take you no matter where you start from.
+[Alexis]
+Alexis All right, guys, today we're here with Chris. Chris Every time Kevin does it, it gets better. Chris If you guys don't listen with video, every single time he does that, I have to like, look away because I can't watch him do the voice.
+Oh my god.
+[Kevin]
+Chris I'm gonna just audition for some game shows over here.
+[Alexis]
+Alexis We've got a really great episode for y'all today. So Chris Lapp describes himself as an Emmy award-winning network engineer, focused on AI and media and entertainment. But the part that I want to get into today is that in his field, everyone knows Chris as the guy.
+And you might not have ever heard of him before. He's not the loudest person online. He's not posting every single day, but he is the person that people call when the problem is weird, when it's high stakes, when it's real time, and it's sitting between broadcast networking and media.
+So this episode is about how that happens, how Chris became the guy, what it costs, how he built that trust and how other engineers can learn from his career that was built on being useful when the room gets complicated. So Chris, welcome to Life In Uptime.
+[Chris]
+Chris Great to be here. Thanks, Alexis. Thanks, Kevin.
+[Kevin]
+Kevin What I think is so cool is that I didn't even know you had a freaking Emmy until like 10 minutes ago, dude. That's how prolific you are, though, that the Emmy is not even the thing you're known for, you know?
+[Alexis]
+Alexis You might be the only network engineer that has an Emmy.
+[Chris]
+Chris Well, I do know a couple others, but there certainly isn't many. And the only other ones I know work at broadcast stations, you know, responsible for like the actual television section of broadcast. So I'm kind of probably the only one that doesn't work at one of those stations currently.
+But there are a few of us, I would say.
+[Alexis]
+Alexis I feel like you guys got to get together and have dinner. So how did you win that? Or not win, you earned it.
+[Chris]
+Chris Yeah, so this one in particular is for the Paris Olympics. So for the Paris Olympics, there's a few, you know, there's a few Emmy categories. There's Emmys for acting and all that stuff, which I'm not ever going to get one of those.
+There's group Emmys and technical Emmys and then there's group technical Emmys. There's also subcategories for like sports and things like that. So this one specifically is under the subcategory of sports for large group events.
+And my Emmy particularly is for designing the network for the Paris Olympics for NBC Universal. So all the stuff that happened for NBC, bringing all the video content across the ocean, all the real time stuff on the other side. And on this side, I was one of the people that designed that with NBC and actually supported it during the Olympics as well.
+[Alexis]
+Alexis That's amazing. Chris That's so cool. Alexis So can you take us back?
+[Alexis]
+I mean, I don't even know where I want to start. We want to start in the beginning. Do we want to start in the middle?
+How? How did you get into all of this?
+[Chris]
+Chris Yeah, so the very, very beginning is when I was like 13 or 14, like this is what I decided I wanted to do. I wanted to be an engineer, specifically in broadcast. I got started out.
+Yeah. So I got started out much like I was listening to your episode with Michael. He's a live sound engineer, you know, doing touring and stuff like that.
+That's exactly how I started my career on like the engineering side of broadcast was I was doing audio for concerts at schools, lighting, stuff like that. I had worked at a like a live theater for a long time. And then I turned 18, I got my pyrotechnics license.
+So I'm also a very, you know, high level pyrotechnician as well, blowing stuff up on stage. All of that all of that was essentially to pay for my actual schooling. And I ended up going to two different programs.
+The second one was the more important of them, where I graduated with a degree in broadcast systems technology or broadcast engineering from a school in Calgary called South Alberta Institute of Technology. After that, I went to work at CTV, TSN, more known as like Bell Media in Canada, one of the largest television networks. There was 86 television stations that left our building.
+And I was in charge of, well, not in charge, but I was one of the engineers in charge of the master control systems, the news gathering systems, the graphics systems, all that server based technology that made the broadcast run.
+[Alexis]
+So I'm curious, and I'm always so honestly, a little bit confused and scared by people who knew what they wanted to do when they were 13. There's only a handful of people that Kevin and I have had on where they're like, this is exactly what I want to do. I knew what my path was.
+And what? What? When I was 13, I still, I think I still wanted to be a dolphin trainer.
+I might have given up on that a little bit at that point. But like I had, I had no inkling that I was going to end up working in it. So to have a passion that early on and then have the steps and the vision to execute on it is crazy.
+Two, it destroys a little bit of my, my second question, which was going to be specialist versus generalist. A lot of times in technology, you're, you start out as a generalist and you become a specialist later on. But it sounds like you decided to specialize very early on.
+So what was that like?
+[Chris]
+So I wouldn't quite categorize it as that, maybe about 50% that. So basically like I knew I wanted to be a broadcast engineer, but that didn't necessarily at the time mean IP technology to me. Because when I first started doing this, like there was no such thing as broadcast over IT.
+Actually my very first manager that I ever had at the TV station when I was still an intern at the time, he told me that broadcast would never be in software. We would never do that. And then like two years later, everything's in software on our server side of things.
+And then, you know, then it was like, well, we would never use programming automation and then we're automating deployments with programming. So like that guy, thankfully retired and we had better managers. We kind of took over, but yeah, the transition to IP, like what I'm more known for now was a little bit later on as broadcast technology started to move more into the IT, IP space.
+There wasn't a lot of people who were really good at it. And like the standards for it weren't even necessarily ratified at the time. And then I was like, you know, I'm kind of bored at the TV station.
+I'm also doing shift work because the TV is 24 seven. I don't really want to be on shift work anymore. I was like, I'm just going to quit and I'm going to go work somewhere else where they're starting to do all this cool stuff.
+And I'm going to start to learn that. Like that is the point where I was like, okay, I'm a good generalist in broadcast engineering, but now I'm going to go become a specialist in broadcast when it relates to IP and IT stuff. That was probably 2016, I think.
+[Kevin]
+And you weren't like intimidated by this whole new IP thing. Like, cause you're kind of like, you're not changing industries, but you're kind of changing industries. And that can be overwhelming and scary to do that.
+Like, what was your, were there any reservations in that?
+[Chris]
+Oh, so many. And like my daughter, like my youngest or oldest daughter had just been born like right before that. So I was like, I'm about to make this big change.
+Like, I didn't even know much about the company I was going to, other than they were like one of the most well-known broadcast companies out there for manufacturing perspective. And like the, there was a lot of, a lot of fear. I didn't know what I was getting into.
+I went from this very stable unionized job where like, you know, I have a job for life into the ether of like, who the heck knows what's going to happen. Like, and thankfully it mostly worked out okay. There were parts of it that didn't work out okay.
+But you know, I've fixed that since then. As other people do, when you don't like something about a you fix it. My general rule is I always give a job three years.
+And if I'm not a hundred percent happy after three years, I quit.
+[Alexis]
+Three years is a long time to be unhappy in a job. So to dig into that a bit more, what were the things that you didn't like? You said that you fixed it.
+[Chris]
+Yeah. So corporate culture, I mean, like we all know that IT and like networking is small, right? Like it's a small industry.
+Like most people know most people broadcast, especially like the, like the technology IP side of it is like the same 35 people in the same rooms, just for different organizations. Like it's the smallest. And like the companies that work in this world are like even smaller.
+They're still family owned for the most part. A lot of them corporate culture is much different at that level to the point where it's like, it's hard on you, like treating people terribly just because they need to get the work done. My job, when I left the TV station, I was traveling like 250 days a year.
+Like it was absolutely brutal on my body. It was not great on that side of things.
+[Alexis]
+But would I be where I am today without the knowledge I gained at that company? Absolutely not.
+[Alexis]
+So it's kind of like you're in a niche that small, not that the organization was small, but you said you're running in the same 35 people. Your reputation follows you around.
+[Chris]
+Yeah. And you, you only have one chance to make it a good reputation. Like if you burn a single bridge, like it's, it could be detrimental depending on what bridge that is.
+[Alexis]
+You got into that early in your career. Did you realize that at the time or were there some hard lessons you learned along the way?
+[Chris]
+So luckily I had some really good mentors, um, growing up. Like I, my first mentor I had in high school. And then I had two other mentors throughout my first few years of college that were very well known in the industry and like told me like, you know, how it works.
+Um, I will say that I've probably purposefully only burned one bridge in my entire career. And I burned that bridge well knowing I was burning a bridge, but it was one I didn't want to have anymore. It was totally worth it.
+[Alexis]
+Totally worth it.
+[Chris]
+Um, like everything else, like knowledgeally, like do I do not try to make that happen? Like it's, it's not good when that happens and it's not good when it happens in regular it either, but at least sometimes you can recover. Um, the broadcast world is small.
+[Alexis]
+I think, I don't know, back to my first few years in my career, I think looking back, I was a little hot headed. Right. And your reputation follows you around for better or for worse.
+[Chris]
+So, yeah, I mean, I'm not going to say that I never had an ego, right? Like I think anyone who truly loves technology, once they get good at a piece of technology, it doesn't matter how small it is. Like we all tend to like have a little bit of an ego about it.
+Like I know this thing really well, but like when it comes to learning new stuff, we're never egotistical about that. Like we, we embrace our knowledge and like pull it in and like just kind of self-absorb ourselves in that technology, which I think to people who are not technology focused, like it looks like we're being egotistical, but no, it's just like the love of the technology kind of coming forward. The passion.
+[Alexis]
+Yeah. The way for anyone listening, the way that Chris and I met, I was a solutions engineer at Cisco. I was covering a few sports teams.
+And every time something would come up, Chris would end up on the call. A couple of years went by, I was covering a media company and they had this big multicast issue. Chris gets on the call.
+And a few other engineers on my team ended up working with him. And I was like, man, like Chris is, Chris is kind of the guy. I started doing social media.
+I think we took a selfie at like a Cisco live and all these people pop in my DMs. They were like, Oh my God, I know Chris. And I'm like, shit, man, how many, how many people know Chris? Right?
+Like you said, even though it's small, you're well known. And do you think that the way that you describe broadcast is, you know, 35 people sitting around a room having dinner together. Do you think that's contributed to becoming the guy?
+Because I feel like every time I have an issue in that world, your name comes up somehow.
+[Chris]
+Yeah, it's, it's definitely contributed, I think. And I mean, obviously it's more than 35 people, but we could probably narrow it down to like 35 vendors, like that actually manufacture broadcast technology at the professional level. There's obviously much more prosumer stuff, but at the professional level, probably around 35 vendors.
+And like, I have relationships with people at each of those vendors in various departments, whether it's R and D or technical support, et cetera. And so because they've come to know me as the guy that like helps them solve their most complicated networking problems. Usually what happens is somebody at Cisco finds out about me from their customer who found out about me from that vendor saying, Hey, you, Oh, you're a Cisco network.
+You need to reach out and you know, get Chris from Cisco to come in here. And they're like, well, who's Chris from Cisco? They're like, just trust us like Chris from Cisco.
+And I'm like, that's, that's how it kind of proliferated on the Cisco side of things. I'm also highly involved in like the standard side of, you know, the media industry with the society of motion picture and television engineers, I'm vice president of membership right now, but I've been on the board of directors for a long time. So I'm going to call them the older generation of engineers, like the guys who've been around for a long time.
+They also know me through that. And so they kind of proliferate that knowledge out of, you know, Chris is the guy you need to solve this very convoluted problem, whether it's multicast or something with Kubernetes or whatever, when it comes to real time media, they come to me for those things. So I think that the industry being so small definitely has helped because people just tend to share that knowledge of who knows what out.
+[Kevin]
+So was the process of becoming the guy, a slow process of building that network and making those connections, or did you just like wake up one day and realize like you're getting calls from everyone and like, you are now the guy, like, how did that process actually happen for you?
+[Chris]
+So I never actually intended on being the guy, like to be perfectly straight, like I just loved fixing things like that. And I still love fixing things. It just got to the point where like I was getting so many emails from people, like asking for help, so many messages on Discord, so many messages on LinkedIn, Facebook, people would just get a hold of me any way they knew how, like, Chris, I have this problem, like, how can I ask you, how can you help me?
+Like, do I have to pay you? Can I just, you know, shoot you an email? Like, what do you, what I almost need like a whole, like, administrative assistant to handle these emails coming in, because like, I don't even know who this customer is, but they're reaching out to me.
+So it was kind of like this, like, just slowly materialized into, I just now have more emails coming in than I can handle, a lot of which like technically have nothing to do with my official job. It's just people need help.
+[Alexis]
+Need help.
+[Alexis]
+How, how would you recommend, oh man, I have two questions. One, I know what it's like to be in that situation where you're getting pulled in different directions outside of what you're technically being paid for. So one, how did you balance that when it's not technically what's on your job description, but it's still a customer or another engineer or someone who needs help, you feel obligated to help them?
+[Chris]
+Yeah, so for me, like, I mean, I'm paid well, like, I'm not worried about, you know, making money, you know, because I took a couple hours to help somebody, et cetera. Like fundamentally, like if somebody comes to me for help, I just made the conscious decision. Like if I have time and if I'm awake and my kids don't need me, I'm going to help you.
+Right. So like, that's my general stance. Like there are times like when I'm on the road traveling or something, like people are trying to get ahold of me.
+It's like, sorry, I'm on a 12 hour flight to Europe. I can't really help you right now because the Wi-Fi sucks. But like if I can, I always will help.
+And that always has paid off in the long run.
+[Kevin]
+Yeah, I would say that's that's I mean, it sounds like that's partly how you got to be so well known and a person being called all the time is that you are available and helping. And that says a lot about you as a person who you actually care about these people and want to be helpful, not only because you like the technology and the challenges and all that stuff, which I'm sure is true, but that you actually care about these people and you want to be that that person that can come in and help them and save the day. That's awesome.
+Yeah.
+[Alexis]
+But that was going to be my second question is for someone who's new to the industry, who's listening to this and they want to become a girl or the guy or well known in their niche. What would you recommend for them to start doing? Is there I know, AI is like a hot topic when you were talking about IP coming out and video coming out in media.
+You decided to double down in it. I've talked to some other engineers who they made their thing cloud networking when cloud first came out. They were like, you need networking there.
+I'm that's going to be my thing. Now we've got AI. You could be the guy or the girl for AI and networking.
+Is there a way you'd recommend someone to think about that? Or is it still more along the lines of pursuing your interest?
+[Chris]
+So definitely, I mean, always pursue something that makes you not feel like you're working. Like the only reason the only way you can be like a true specialist of specialists is like the guy or the girl is you have to feel like when you're doing this, like you're not working. Sure.
+It might stress you out a little bit because the problem is complex, but like it can't feel like you're doing a nine to five job. It just has to feel like it's part of you. Um, being a part of you, like, although I'm really good at the networking side of all this stuff, the reason why I'm really good at the networking side of all this media stuff is like, if you give me any media application, I can tell you how that application does exactly what it's supposed to do and what buttons you have to hit, like the actual application stack of broadcast, knowing all the control protocols, like what all that should look like. That's why I'm good at this job is because not only do I know the networking side pretty well, I can touch any of those applications and know them really well as well from my time working as a broadcast engineer. When new applications come out that I never touched when I was an engineer at the station, like I will get them from the manufacturer and I will learn that application so that I'm still good at this job.
+Like it takes constant learning.
+[Alexis]
+It's a big investment.
+[Chris]
+Yeah. There's a whole rack room beside me here. Like you can't see it.
+It's a soundproof room, but it has a bunch of racks and they're just full of Nexus switches, catalyst switches, and like two racks full of broadcast equipment. Like I have a whole TV station in my basement.
+[Kevin]
+Yeah. I find that really interesting because from an operational standpoint, I hear a lot and I I'm guilty of this too, is that I focus on the network and the applications, the server guys, or the programming guys, and they, they got to deal with their own stuff. And I just care about the network.
+And once it hits the line, if everything's working on the line, then I don't care. It's, it's not my problem. It's their problem now.
+And so I find it really refreshing or interesting that you are kind of the full stack engineer almost where you're, you're taking not only ownership of the network, but also of the software and the products. So you can get a full picture and you're almost an expert on the entire end to end, you know, connection, not just the network. And I think that that sounds like that's, that's a huge benefit for these vendors that are calling you because you know how their stuff works just as much as they do, or maybe even better.
+[Alexis]
+Well, I think Kevin, that's something you can't really get away from anymore. You have all these companies that want to hire a full stack engineer, someone who knows a little bit of applications, a little bit of programming, a little bit of the network, a little bit of security, especially if you're running a smaller team. And now I mean, leadership is assuming that AI can just help you fill in the gaps that you don't know.
+Like, I think being cross-functional is unavoidable.
+[Kevin]
+Well, it is.
+[Alexis]
+Maybe you're lucky that it hasn't touched, it hasn't touched your job yet.
+[Kevin]
+It has, but what I'm saying is like, there's a bunch of services like CCTV, right? Like on my network at CCTV is a big thing because of security and I work in the government and security and DMV and all that kind of stuff is important. But I don't know the intricacies of how their system works.
+I know how it connects to my network and the rules I need for the firewall and protocols and that kind of stuff. But I don't know how the actual CCTV software and the servers work. I just go, okay, once that, tell me what you need to fund the network and I'll give it to you.
+And that's what I'm talking about is there's a bunch of like peripheral stuff that connects the network that we don't necessarily have access to or vision or like have a lab that has all this stuff in it. So that's what, that's what kind of what I mean. I don't mean necessarily mean that I don't need to know programming or I don't even know AI or I don't even know this kind of stuff.
+It's more of the connectors coming in. And I think that's unique. I think that not a lot of network engineers, maybe I'm just like assuming that everyone else is like me right here, but I assume a lot of network engineers are like, I hear the mean, like, you know, if it's not layers one, two or three, it's not my problem.
+You know that that's kind of the stereotype. And I think it's just proof that you need to be more involved. You need to know your products that you're supporting very, very in depth.
+If you want to be that guy, if you want to be the expert, you need to put the extra work in and know everything about that product.
+[Chris]
+Yeah. And I think it becomes even more pertinent, like in my world of like real time stuff, right? Like everything I do is basically UDP based except, you know, some ancillary control stuff.
+Like sure, the packets might get there, but if the packet accidentally takes a couple extra microseconds to get there, the packet still isn't going to work because it's outside the frame window or the video feed, et cetera. So like, we have to know not just the networking stack in the network hardware, but like what's the networking stack in the host, what buffers and what sockets is it going through, et cetera. Like, is there some kind of kernel bypass it has to use?
+Like we have to know that stuff too. And so I think that like being in real time networking just kind of forces that like you, in order to actually know what's going on, you must know all those other intricate little pieces. Will it come to all the other networking?
+Probably eventually. But I think with like, you know, more traditional IT stuff, like it's not as important, but it certainly does help. Like if there's some kind of file sharing service goes down, like who do you call to figure out if like what's going on with the file sharing service, right?
+Like probably somebody who knows file sharing, not necessarily the network engineer first, right?
+[Kevin]
+Yeah, for sure. But I mean, if you are the network engineer and you know, the file sharing server and protocols and everything, that's how like, I feel like that's how you become the guy, you know, like that's called this person because they freaking know everything, you know, not just the network, they know how to troubleshoot anything. And so I think that's just a testament to what you've done in your career and what you've built.
+[Alexis]
+Question. Well, I was just thinking, I just got back from the Network Automation Forum and from Cisco Live. I gave two talks on basically advocating for yourself using LinkedIn communication.
+Hard work needs advocacy to go with it. If you're not advocating for yourself, no one knows what you do. You have to assume.
+And I think it's a big misconception that we all come out of school thinking that if we do really good work, we're going to get rewarded for it and people will notice. And you've done a lot of really cool shit. Was there a component where you were also putting yourself out there and telling people about what you did, or do you feel like your work spoke for itself?
+[Chris]
+So when I mean, until recently, I really didn't care about presence at all. I didn't really care about like outward industry facing recognition. I do care about internal recognition, like internal recognition is important because obviously I want to move through the ranks, etc.
+I think that in the last few years, there's been like this equivalency to internal recognition and external recognition. And that has kind of driven me more to like become more publicly well known for what I do. But I think that for me personally, like in the early part of becoming the guy, recognition wasn't really important to me because like people never stopped calling.
+Like I never had to, you know, do anything about that. But now I think as I'm trying to move through the ranks, that's where it's becoming more important. Hopefully that makes sense.
+[Alexis]
+I would think even more just being able to communicate what you're talking about. I mean, you deal with some pretty, pretty complex things. And I would assume that some of the people you're working with and broadcast either don't know networking, don't care about networking.
+And when you're talking about protocols and ports and why this wouldn't work and the way the packet moves along the line for that specific application and you're, you know, it's a real time critical situation. They don't care. They just want it to work.
+So being able to translate that technical decision even.
+[Chris]
+So I think that the most important skill, any good engineer that wants to be like well-known on all levels is to be able to do what I mean to probably has some official name, but I call it technical distillation. Like, I don't know if it has some other name, but being able to distill extraordinarily complex topics into very easy to understand things. The best way that I can describe me practicing that is teaching my at the time, five-year-old daughter, four-year-old daughter, my oldest one, who's now 13, how to solder circuit boards.
+[Alexis]
+So teaching her at that young age, how to great, great daddy-daughter activity. I love it.
+[Chris]
+So teaching her, you know, what's it, what's a cold solder joint, you know, how much solder to use, what the temperature has to be, what you do with this pad versus this component, et cetera. Like teaching her those technically complicated things into somebody who doesn't know anything, except I'm going to put hot here and I'm going to melt by something, right. Like being able to explain that to her and then move through that and go into like some programming and stuff as she got older.
+Like, I think that that's definitely helped me, but you could do it to your parents. You could do it to your grandparents. You could do it to your friend who, you know, doesn't know any more technology.
+If you can explain convoluted things and practice explaining convoluted things to somebody that also is very important. If you want to do this job correctly, I think.
+[Kevin]
+Do you have a strategy to do that or is it just like, you just try to break it down as simplistic, simplistically as you can. Like, I do that daily. Like that's, that's what I do.
+That's what Alexis and I do in our videos, right? We have complex technical things. We try to break it down so that anyone can understand it.
+And it's not that it's not easy at all. It is a very difficult thing to do and it's difficult to figure out at what level you break it down to, you know, is it something that like a five-year-old can understand or is it something that like a high school kid can understand? You know, there's different levels.
+So how do you determine which level you should do when you're talking to leadership or your boss, someone like that verse, you know, uh, your daughter or relative?
+[Alexis]
+So that part gets a little bit more complicated.
+[Chris]
+Like I usually have some kind of, if it's something crazy, crazy important, like I have some like level of prep, like a day or so before I have to do a presentation or whatever. But if it's on the fly, like I kind of, I've been talking to this person for a couple of minutes and I've just figured out their level of technology understanding. And I can on the fly at this point in my life now on the fly to sell it down to that level in the early days.
+I mean, I would practice for weeks. Like I would make this presentation. I would present it to my friends and they would tell me that sucked or that was great.
+Or like, I didn't understand the thing. I literally practiced this for years to get to a good level of this. So, um, it's, I agree with you.
+It's not easy, but if you practice it really well, you can do it on the fly eventually for most things.
+[Alexis]
+I would think, I would think like going out for beers with your friends after work who all have different careers and being like, Hey man, I just got a new SD-WAN project at work. Can I tell you about it? It's really cool.
+And can you make that story exciting at the bar?
+[Kevin]
+That is the fastest way to no longer be invited to get beers at a bar.
+[Alexis]
+If your friends care about you and they understand that you're practicing, they'll sit through it.
+[Kevin]
+Don't invite Alexa. She'll start talking about technology and some weird stuff. Just stop.
+[Chris]
+So one of my best friends, one of my best friends, and probably the person I go out with for beers with the most external to like my, my immediate town. Um, his name is Siti or Sitesh Venkeku. He is one of the most brilliant engineers I know.
+And what he is well known for is designing, um, optics and Silicon. And he also owns a patent for how to put an FPGA inside of an SFP. So like this guy is like at the wafer level designing optics.
+So me and him go and we drink and we exchange stories about technology and like we distill it to each other. So he's distilling optic design. I'm distilling, you know, um, inter-host RDMA transfers and stuff like that.
+And he's like, this is great. We can like kind of go back and forth about these convoluted things. So I'm not talking about SD-WAN, but I might be talking about like Silicon wafers.
+[Alexis]
+Well, and then you also get to learn from someone else. I think that's the other cool thing about having peers or friends in, in industry that work adjacent to what you do, but maybe they also have different focuses. You can learn about a different facet that you might not have been exposed to.
+[Chris]
+Yeah. And again, like becoming the specialist of specialists, like having friends who are also specialists of specialists becomes a very important thing because when I run out of things to try, like it's like, okay, we need to pull in like my friend who does this thing because something's happening at this layer. We need somebody else who is like the me of this company.
+So like, yeah, we, we probably are all friends and it might not be quite Avengers-esque, but like it's close, I would think.
+[Alexis]
+It feels kind of Avengers-esque.
+[Kevin]
+Anyone who's worked in uptime knows outages aren't just technical events. They're human events. They're late nights, pressure calls, and leadership asking for answers now.
+[Alexis]
+StatSeeker was built to make those moments easier. It automatically discovers your environment and collects performance data across every device every 60 seconds.
+[Kevin]
+So when something breaks, you're not scrambling. You've already got the visibility to diagnose it fast.
+[Alexis]
+Teams use it to detect anomalies early, prove root cause, and prevent repeat failures. And because you can run it in your own environment, you stay in control of your data and infrastructure.
+[Kevin]
+If uptime is your responsibility, it's worth seeing how this works firsthand. Go to statseeker.com slash uptime stories to start your free trial.
+[Alexis]
+Speaking of the most interesting story you've told at a bar, do you have any favorite war stories from working in media? I feel like media stories are fun because they're all like, you guys throw out names and they're all really well known. It's like, oh, the Olympics.
+[Chris]
+So do you want to know about like a problem or just like the coolest thing I've worked on?
+[Alexis]
+Can we do one of each? I mean, I know you've worked on the sphere.
+[Chris]
+Yes. Yes. I've worked on the giant spherical object in Las Vegas.
+So I did a lot of little, did a lot of stuff for them. And like, again, like another like specialist of specialist things. One of the guys there, his name is Tom, very good friend of mine.
+Like we, I just had dinner with him two weeks ago. Me and him can talk about like designing buildings all day because like that is just so cool how much technical know-how goes into designing a building properly. When a building needs to serve a specific function, like you need to design the technology as you design the building.
+Like you can't just suddenly go in and say, I'm gonna put a switch here. I'm gonna put a switch there. Like, no, you need to like, as you're putting girders in AutoCAD to like design this building, like technology needs to be implemented at that point.
+Otherwise you're just brownfielding something. So like that stuff's really cool. So yeah.
+[Alexis]
+You wish you could put that on a t-shirt. There's so many businesses that do it the other way around.
+[Chris]
+I know it's, it's terrible. One of the most like common things is like people are always, oh, build the network and you know what, things will come. We'll just connect things to it.
+It's like, no, you need to design your thing and then build a network around the thing. Because if you don't, you're going to be doing the thing wrong. So please.
+[Alexis]
+Well, and I think it goes back to what do you want? What do you want? What are you trying to do?
+What are your requirements? What function does this serve?
+[Alexis]
+Why?
+[Alexis]
+Sometimes it's, it's not always a technical why.
+[Chris]
+It's that, well, speaking of not always a technical why the most convoluted problem I've ever fixed in media and entertainment, which technically isn't a convoluted problem, but it's like this problem, like bubbled up to a level of leadership at a broadcaster in Europe, where like leadership was like, your switch does not work with this box. Like it just doesn't work. And I'm like, okay, I'm going to fix this problem for you.
+I'm going to figure out what's not working. So I contact the manufacturer who happened to have some people that are friends of mine there. They ended up shipping me one of these devices from Europe.
+So it had to come into Canada, get imported to customs, all this good stuff, you know, eventually find its way to my house. And I have the exact switch the customer has sitting right up here in this rack. You can see to my left.
+And I plugged it in and it worked. What's going on here?
+[Kevin]
+The worst kind of problems.
+[Chris]
+So then I'm like, okay, like, what could possibly make this not work? And so I got my oldest daughter again, I told her, I'm like, hey, here's a screen. And this screen has a red light when it's working and a green light when it's a red light when it's not working a green light when it's working, I want you to just constantly plug this thing and unplug it until that light stays red when it's plugged in.
+And eventually, one time, she plugged it in and the light stayed red and she got me and I came over and I picked the box up and suddenly the light went green. So, so cool. Oh, wow.
+I just kind of wiggled the cable, I wiggled the cable and it went red. Wiggled the cable again, it went green, wiggled the cable again, it went red. I'm like, Jesus Christ, they're not plugging the cables in all the way.
+And so I emailed the customer and I'm like, hey, I've tested this box for a few days now. Just push the cables a little harder. And they thought I was kidding.
+I said, please just push the cables a little harder. I went to Cisco Live Amsterdam and I was telling this to the network team and like the network team went and told this to the broadcast team. And so the network team there were at Cisco Live in Amsterdam and the one dude came up to me, he's like, Chris, I want you to autograph my badge.
+Because that was the problem. I'm like, sounds good, man. I couldn't believe like this, like I've solved so many like crazy technical problems.
+But at the end of the day, the thing I deal with the most is layer one issues. And this was like the most ridiculous layer one issue I've ever seen. It was like some piece of metal in the in the jack was causing it to not plug in correctly, like all the time.
+So it was like just happenstance, just crazy weird. But that hopefully that was a good story.
+[Kevin]
+It's insane how like layer one is like the common trope for all networking, right? Like most issues that we deal with are layer one. And I just think it's so hilarious that you deal with such advanced technical things.
+And at the end of the day, you have the same story that every single network engineer who's listening right now can relate to this exact same story of happening in their career, in their life. That's hilarious.
+[Alexis]
+It just goes to show when you're troubleshooting, you go up the stack.
+[Kevin]
+Well, it depends. It depends. But yes, typically.
+[Chris]
+I mean, we tell ourselves that every time next time I'm just I'm going to start at the basics next time. And we never do. We never do, because we assume that the person that troubleshot it before us had already started to the basics.
+Like that's that's a help desk thing, you know, right. And in most people's minds, like that's like level one troubleshooting is plugged in. Did you unplug it?
+Did you plug it back in again? Don't trust them. Do it yourself.
+[Kevin]
+It's like Dr. House where like, have you seen House where like he thinks everyone lies? That's how I approach things. It's like everyone's lies.
+No one's telling the truth. No one did what they said they did. You got to start all the way over and diagnose it from the very beginning, because these years and even even some of my co-workers are trash.
+Not my current present co-workers, if you're listening. Sorry about that. We've all had bad co-workers in the past.
+[Alexis]
+So, Chris, what about the most interesting project or your favorite project?
+[Alexis]
+So I'm working on with another vendor.
+[Chris]
+It's kind of like it's not really necessarily networking more on the application side. It's actually AI related of how to make AI more real time. So being able to do inferencing on a video feed that has, you know, 4K video plus, you know, audio channels and to be able to augment the video and the audio in real time where there's like microseconds of delay on one side versus the other.
+[Alexis]
+I don't know if I like the implication.
+[Chris]
+But the implication for television is being able to do translation of not only the big text on the video screen, but also the like the people's lip movements. So being able to get multiple languages. So you go English in, but you can get German and Spanish and French out on the other side.
+[Alexis]
+That's a great application. It's a very innocent application.
+[Chris]
+I mean, that's that's what it is to me. I'm sure that people will do terrible things with that kind of technology. But that's what like we need that because it makes television and entertainment and news more accessible to people that speak different languages.
+Right.
+[Alexis]
+I think back to 10th grade, I was in a class called World Cultures. I think they called it in high school. And they were talking about China's version of the Internet and how in some countries, when you hit the Internet, you're not hitting the real Internet.
+You're hitting a censored version that only has approved media that you're allowed to look at. And. I love the accessibility implications that real time translation can have and making someone's facial movements match the words coming out of their mouth.
+That's a fantastic use case. I also think about altering real time events and no one knowing what the real thing is, what's really going on. I think even today we see people relying on TikTok or Instagram more and more for news because they don't trust the mainstream media or you don't know what to believe.
+And then you have all these people on the Internet putting out other fake news. And then it's like, damn, now I really don't know what to believe. And I think if we start applying tools like that to actual media, it's a slippery slope.
+[Chris]
+Yeah. So I will say that there are people working on things for content authenticity, like being able to tell in real time if video is AI generated, AI augmented, etc. So those specifications are being worked on by the media industry world.
+[Alexis]
+I think Kevin sent me a video myself the other day. It was like two of us having a conversation. He pulled from like a picture I posted in Hawaii and I was like, what the?
+[Chris]
+Yeah. So eventually, I mean, maybe not anytime immediately soon, but eventually there'll be some kind of like content watermarking that starts at the beginning, makes it all the way to the end to your consumer device that tells you, yes, this is an authentic piece of content from this person. Right.
+That will that will happen. But until that happens, which could be a year from now, two years from now, hopefully not 10 years from now. Yeah.
+You know, people should be very careful because I mean, this is already possible in non real time, like in non real time. You can adjust absolutely anything. It's the real time facet that is, in fact, hard because you have to do it so quickly.
+[Alexis]
+Yeah.
+[Kevin]
+I've seen the videos of like people asking them to put their hand in front of their face and stuff like that. And if they won't do it, they're like, oh, how can you? It's offensive.
+Why would you ask me to do that? It's because they're AI and they're not really the real person. It's crazy.
+It's absolutely insane. So I have a question for you, Chris. Does now that you're like now you've been doing this broadcast stuff for a long time.
+Does it change the way you watch TV? Like as a network person, I go into a place and the first thing I look for is the Wi-Fi. I look for their IDFs and I like I check out their network.
+But as a broadcast person, I can only imagine like every time you watch TV, you're looking for things or you're trying to decide how they're doing something. Does that does that happen to you?
+[Chris]
+No, I don't watch TV for that reason, because the moment the moment that there's a flicker, I'm like, oh, well, something's broken. I'm going to get a phone call. So and this this is 100% true.
+That's 100% true story. When I was still at the TV station, I had literally only been full time after like I graduated because I was an intern before that. But like my full time job, I'd only been full time for like a month.
+And again, my daughter was basically just born. I'm sitting on the couch, baby in hand, watching television at 6 a.m. in the morning. And all of a sudden the screen goes black.
+And I'm like, oh, cable's out. Flick to the next channel and it's working. I'm like, oh, no, like I'm stations out.
+All the stations that come out of my building are in black. Oh, God, this is good. So I hand the baby to my ex ex wife.
+I have a second wife now, but hand it to her. I'm like, I got to get in the shower. She's like, why?
+I'm like, I know I'm going to get called. I need to go to work. OK, so I I start walking to the shower.
+All of a sudden my phone starts ringing like, Chris, you need to come in. I'm like, I know I'm coming. I'm just getting in the shower.
+They're like, OK, so I get in the shower. I go to work. We had some power work done in the building that night.
+And so we were on generator all night. Everything was fine. When we went back away from generator, somebody didn't test the power lines coming into the building after the city did their maintenance on the outside.
+And they accidentally put like way too much current on one leg of the three phase and blew up every UPS in the building.
+[Kevin]
+Oh, my God.
+[Chris]
+Like literally fire. They were all exploded. Well, now we can't even go to generator because at the time there was no generator bypass.
+So like we're just dead. The whole building's off. And I mean, this building's been running since the 60s.
+So we finally get power back online. And like stuff just won't turn on. Like there was some guys might not know what time code is, but like time code is an audio signal that keeps everyone in time with each other.
+Telling them the day those days wouldn't turn on because all their capacitors were like 100 freaking years old. Like there's dry not turning on. So my first job was to go around, find all these time code days and solder new capacitors into them to get them to plug back in.
+And then servers wouldn't turn on because again, power supplies, having dry capacitors, getting those online. Like we were all figuring out stuff that had been there since long before any of us had started, like just trying to find where these things were located. And like eventually we got a single video channel out of the building in a couple hours.
+And then by the next day we were like mostly recovered, but we had lost an entire sand system. So a lot of our content was, you know, missing from the playout system. We had to transfer it back from archive, which is tape storage.
+And that took forever.
+[Alexis]
+So like, yeah, those are situations that you, um, that's the reason you run fire drills. You don't want to find out how long it takes to recover when you need to recover.
+[Chris]
+Yeah. But how do you, how do you do a fire drill for a building that's 24, 7, 365?
+[Kevin]
+Yeah, that's one of the most difficult things. DR testing is very difficult.
+[Alexis]
+That's a great question, Chris. That's why they pay you the big bucks. Well, now digital twin.
+[Kevin]
+Yeah. Digital twin.
+[Chris]
+Yeah. Yeah. But yeah, so that's, that is actually the whole reason why I don't watch like television anymore.
+I'll still watch like cartoons on Netflix with my kids and, you know, you know, Disney movies with my kids and stuff like that. But like, I don't watch sports. I follow sports if I need to like know what goes on, but I won't watch it.
+I'll do it live, but not on television. I don't watch anything that can give me PTSD for that event.
+[Alexis]
+I'm dead. So what is, what's next? You're diving more into AI, it sounds like.
+Is that the next frontier for you as well?
+[Chris]
+Yeah. So I've been doing it for a little while now. So I started in like the AI, CAI, cloud and AI infrastructure group at Cisco a year and a half ago-ish maybe.
+So I started working a lot more on AI then. I had been teaching myself AI before that. I bought myself like a bunch of TPUs and NPUs and some small GPUs to start testing with and like figuring stuff out.
+But I think that we're at this cusp where now media, and again, real-time media, is finally starting to benefit from some of this AI stuff because we finally have the technology to do it. So definitely a lot more on that coming soon for me. Heavily involved in a lot of those standards and specification groups.
+[Alexis]
+How do you get, I think I've only met two or three people that are involved in the actual standards organizations. There's a lot, Kevin and I talked a lot about community groups like NANOG, Cisco Champions. I just went to Network Automation Forum.
+There's all sorts of different network operator groups you could join. But getting involved in a standards group is like, I feel like that's like next level. Could you speak to that a bit?
+[Chris]
+Yeah, so I think at least most of like the standards, and I mean like standards is in like engineering societies like the IEEE, SMPTE, the IETF, stuff like that. Like a lot of them are just like organizations of people. So you join them as a member of the organization and then there's like a separate track of joining that organization for standards participation.
+So for SMPTE, it's you join SMPTE and please join SMPTE if you like television. You know, that's going to be my ask to people out there. If you like television, you like the technology behind television, you should join SMPTE.
+But then there's like a $200 or $300 extra fee to do standards work. And what standards work does is you come in initially and you can just be an observer. You can make comments.
+Once you participate enough, you become like a authored participant kind of deal where your name actually gets put into the standards document if you're doing enough. If you want, you can also chair standards committees. Like if you think something needs to be created, you can put a proposal out to have that new standard created and you could be the chair of it.
+You can be the author of it and you can get people to work under you on that. Like, but most of the ones I've been involved in have been like just a group of really cool people to get to know. I call us propeller heads.
+Like we literally just sit in a room and propeller about how to do something. The, the, the one thing that I find is different between standards and just like specifications and like the stuff that goes on in the open world is like, if you just want something created, like you should make it a specification that you create. And like the specification just kind of lives by itself, whether it's open source or whatever standards, even once you get it working, it's like two years before you can get it published officially as a standard.
+Like it takes a long time. And we're in this cusp right now of the industry where standards really can't keep up with the way that we're inventing stuff on the, on the technology side. So I think like the next two years are going to be heavily like specification based for the underlying technology, but maybe standards based for like the frameworks and stuff that go on top of it.
+So that's probably where we are right now. Um, just because like, we can't keep up from standards. Like it takes too many votes, too many meetings.
+Like it just, it would be much better if people were just working in a GitHub, but standards can't work like that because they're like not-for-profit societies and stuff like that. There's like organizational structure. There has to be things going on, but yeah, you, anyone can do it.
+Even if you just want to listen, I highly encourage anyone to join and be part of something with standards. That's how I got started was just listening and speaking up when I thought something was wrong.
+[Alexis]
+Learn by association. Yep.
+[Kevin]
+So I want to talk a little bit about something called Open Fabric Studio. This is the first I'm hearing about this and you said it's something you've created. So I kind of want to know what, what is this?
+[Chris]
+Yeah. So one of the biggest barriers to entry in show business, whether it be in, you know, broadcasts or ProAV or live audio networking for lighting or whatever else is like, usually there's people that just, they haven't like a little bit of networking knowledge, but they're not like to the level where they could build a big network. Like they've done one or two switches and it's all plug and play.
+Or, you know, there's obviously some people that fall outside that like myself and many others that I know, but like, there's not enough of us to go around. So Open Fabric Studio is me trying to create like a network configuration tool specifically targeted to people who need to build networks for specific ProAV functions, like air gap networks, like think of a touring rig. You don't want to, you know, you have no internet when you show up at a stadium, right?
+You can't use Meraki to configure the network. You need something that's very local and is very easy. So it's like a very micro network orchestrator.
+It's three Docker containers that spin up from a Docker compose file, and it can configure the network with like my best practice template for everything from IGMP to PTP to all the different things that go into making sure that a AV or broadcast network work correctly. Now, not to be confused, it's not for gigantic broadcast networks. It's meant explicitly for small stuff that is very niche.
+[Kevin]
+And that was just you saw this problem and you're like, I can fix that.
+[Chris]
+Actually, I had a customer with a problem, and so I can't mention who the customer is, but they had this various particular network that it has like the emergency lighting on it, but also the theatrical lighting and some audio and some time code. With emergency services, they can't depend on the internet. So the Meraki type workflow wouldn't work for this because what if the internet goes down?
+That emergency workflow still has to work, right? So I was like, would you be okay if I created this for you? And they're like, yeah, please do.
+So I literally took two weeks. I had already like all the API calls and stuff that I used. I had been using these for a long time.
+I had all that side of it already done. Really what I did was just create like an open API kind of backend and then create a front end for it. That's really what went down and then QAing it to make sure that it did what I wanted it to do when I hit certain buttons.
+So it took me overall like two weeks to make it. And then there's been a couple of extra releases since then with some new features and stuff like that. But.
+[Alexis]
+That's really cool. Jinx.
+[Kevin]
+You did all that without vibe coding, right? Without AI. That's amazing.
+[Chris]
+So I set myself out to only use AI to do the debugging. So like I had done a lot of React UI work in the past. And I wanted to learn how to like, it was my first time creating an open API.
+So I wanted to make sure I did that myself. So I understood it. But I was running into bugs with like Netconf and with, you know, GMI and stuff like that.
+I'm like, this is just like, why am I running into this? And I would set AI against that. And at the time, I would say that like some of the network models or some of the models were not that good with network debugging.
+Things that were very specific to very specific platforms. Like that was a pain. But it helped me get through it.
+But I did set out like my goal was I want to make the front end myself. I want to make that back in myself and I'll use AI to debug. I will tell you my greatest use of AI is creating PRDs.
+I think that AI creates a much better PRD or a product requirement document than I ever could in my entire life. I simply tell it I want to do something. And I tell it to ask me questions about how I want it to work.
+And then it will create the PRD for me. And that is like my most favorite use of AI coding tools ever.
+[Kevin]
+Yeah, I have found that AI is very good at asking questions and learning more. Like I have to figure out my voice because I have an AI assistant. And I basically said like, ask me questions, as many questions as you want that to learn more about me, my personality, my likes, my dislikes, all that kind of stuff.
+And it came up with a list of like 300 questions. Like it was deep. And it just kept going.
+Like I would ask it, I would answer the question, like a personal question. And it would be like my therapist. Like, how did that make you feel?
+Like what it was getting like super emotional and deep and stuff. But I was like, OK, that's that's probably far enough. You're just you're responding to emails and checking my calendar here.
+[Alexis]
+I don't need to come out of my network engineering content. Yeah.
+[Kevin]
+Like this is like take a backseat there. Hermes, like chill out, man, chill out.
+[Alexis]
+But yeah, Hermes, I thought its name was Neo.
+[Kevin]
+Well, so I have Neo in Trinity, but Hermes is like the framework for it.
+[Alexis]
+Sometimes because Kevin's AI bot is better than my AI bot. I'll text Kevin and be like, can you have Neo do this for me?
+[Chris]
+So before the whole agentic, you know, open claw and Hermes existed, I created an AI for my house to like watch the cameras and like listen to microphones outside the house to be like a door person that would prevent people from stealing stuff because I remember you telling me about this. Yeah. So I'm sure, Kevin, that you've played Portal.
+So Gladys, Gladys from Portal is that I trained my own whisper model to use Gladys's voice.
+[Kevin]
+So actually, how do you do that? Because I want to know because I wanted to make Neo actually talk like Keanu Reeves, which is a copyright thing. You can't just download Keanu Reeves voice.
+So how did you actually train the voice?
+[Chris]
+Yeah. So all you need is 1500 sentences that Keanu says, and you need the voice saying it and you need a script. And then you just run a training circuit with Whisper.
+But 1500, like if you're going to start from something that already exists, so like do a fine tune from an already existing male voice. 1500 words or scripts, and that will get you like 99.9% of the way.
+[Kevin]
+Awesome. So what I did was I just... Keanu Reeves is coming in, baby.
+[Chris]
+I just went into the game files for Portal and I just downloaded, like literally you have a file of all the voices, like individual files, and then there's literally a script file that you can scrape for all the text. So that's what I did.
+[Kevin]
+That's amazing. Yeah, I'm doing that probably this weekend. So thank you.
+[Chris]
+But I will tell you, that thing was mean. Like it was... I purposely made it be exactly like Gladys.
+[Kevin]
+Yeah, Gladys is like, yeah.
+[Chris]
+Like that was the intent. So like I got the idea from some like TikTok video. So I was like, I want to do that, but I want to take it to the next level.
+Like I want this to be...
+[Kevin]
+The actual personality. Yeah.
+[Chris]
+Yeah. And oh man, did it, like I was told it's not allowed to ever be in the kitchen anymore because it was insulting my wife and like the disarray of the kitchen. Like it was just ripping her up.
+I was like, okay. That's amazing. Stop this project right now.
+[Alexis]
+It's like a more advanced version. Have you seen the video? There's a video on YouTube of a guy that programmed his Roomba.
+And he put a speaker on top of it. And when it crashes into things, it's like... But much, much more explicit.
+[Kevin]
+Yeah.
+[Alexis]
+Much more explicit sentences that are not...
+[Kevin]
+Well, don't repeat them because our editor already hates us for...
+[Alexis]
+Yeah, yeah, yeah, yeah. Yeah, it's hilarious. If I find it, I'll link it in the show notes.
+Maybe we can put it in the episode.
+[Kevin]
+This is all the good stuff to use AI for. I know like we're doing like cancer research and these mega data centers, but this is the stuff that's fun. I want more memes.
+[Chris]
+I mean, that's like people like us. We're the people that like invent new stuff, right? Like we help them benefit from all the innovations that we're making just because we want to do something stupid.
+Yeah, that's exactly what it is.
+[Alexis]
+It's another tool that you can use to be creative. You could also use it to be really lazy. But if you're using it correctly, it's another tool that you can use to be even more creative.
+I mean, think about some of... I've seen some really, really amazing content creators that have come up with pieces of content that they've used AI to help them make because they didn't have tools to do it or help them to augment a video or, you know, design characters. Like there's all sorts of creative applications you can use it for if you're doing it correctly.
+[Kevin]
+Yeah, I think it reduces the friction of the... If you're, like you said, like being creative, you want to do something, you have an idea in your head, but you don't have the ability or the software or the programming or whatever to get it done, it kind of levels that up for you. So you don't have to have the technical ability as hard to...
+I'm saying words that don't really make sense. But you know what I mean? Like it gives you the ability to be able to bridge that gap between the idea and the technology between it.
+Like, I don't know, designing a program or a website or whatever. If you don't have the idea of how to actually program something, you can have it do the legwork for you. And you still get that idea out of your head and make it come alive.
+[Alexis]
+Or I think from a technical perspective, help me do this, but teach me while you're doing it.
+[Chris]
+Don't just do it for me. I think it definitely reduces the barrier to entry for a lot of people, right? That's what I meant right there, that word.
+Not even on the technology side. Think about students making a film, right? They now have access to very intense special effects just because of AI.
+Whereas that would not happen when I was in school. We were still helping people make special effects with After Effects and hand drawing in lightsabers and stuff like that. You don't have to do that anymore.
+You can get the barrier to entry to many creative careers is greatly reduced as well. Not just technology careers.
+[Alexis]
+A hundred percent.
+[Alexis]
+Um, so Chris, I've got one more question. If you were talking to a young engineer who's listening to this episode today and you had to give them one piece of advice, maybe young Chris Lapp from 2015, what would that be?
+[Alexis]
+So the one thing I guess we didn't talk about is the imposter syndrome stuff, right?
+[Chris]
+Um, I have always been my biggest critic and I think that it's important for us to be our own biggest critic. Not to the point where like we're diminishing who we are, but to like say that, yeah, I can always do better or I can always do this next thing. Like don't kind of put yourself into this like pigeonhole of a career.
+Like always, you know, look for things. There was a time when I like, I was really hard on myself because like at the time, like I may not have been the smartest person or like I didn't think my idea was valid. And lo and behold, two years later, somebody else is getting credit for the thing I came up with, et cetera.
+Like always push your ideas forward. Don't care what people think. Be your biggest critic.
+And my best piece of advice that I follow myself personally, this is extraordinarily important is you should never have to look for a job, but you should always look for opportunities. Love that.
+[Alexis]
+Well, Chris, if people want to follow up with you after the show, where is the best place to find you?
+[Chris]
+So number one, you can find me on LinkedIn, Chris J. Lapp. And I also have a website that I occasionally, it's a pretty new website, so it hasn't been around that long, but I will be doing about one blog post a month.
+The website is chrisl.app. So you can find me there as well. Otherwise, Facebook, Discord, Instagram sometimes. Yeah.
+Just because that's more for closing. I said LinkedIn first. LinkedIn was the first one.
+Yeah. Facebook would be more of like close friends and family. But, you know, if you really need to get ahold of me and you don't have the others, you can reach me there as well.
+[Kevin]
+If your channel goes dark and you're like, ah, what's going on? Hop onto Facebook. Yeah, exactly.
+[Alexis]
+Unless Matt is down, but we won't talk about that.
+[Kevin]
+Yeah, we won't.
+[Alexis]
+All right, guys. Well, that is it for this episode of Life in Uptime. Huge thank you to Chris for sharing his journey with us.
+And thanks to you for listening. If you enjoyed this conversation, be sure to follow the show so you never miss an episode. And if Chris's story today gave you something to think about, share it with a friend or a colleague who might need it.
+And until next time, keep learning, keep building, and keep your uptime high.`,
+  }
 ];
