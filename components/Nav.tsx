@@ -15,18 +15,20 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-sky-blue/30">
-      <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+    <header className="sticky top-0 z-50 border-b border-paper/10 bg-ink/92 backdrop-blur-md">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10">
         {/* Logo */}
         <Link href="/" className="flex flex-col leading-none">
-          <span className="text-xs font-semibold tracking-[0.3em] uppercase text-navy/50">
+          <span className="text-xs font-semibold uppercase tracking-[0.3em] text-paper/45">
             LIFE IN
           </span>
           <span
-            className="font-black text-xl tracking-tight"
+            className="text-xl font-black tracking-tight"
             style={{
               color: "transparent",
-              WebkitTextStroke: "1.5px var(--sky-blue-mid)",
+              fontFamily: '"Arial Black", Impact, system-ui, sans-serif',
+              WebkitTextFillColor: "transparent",
+              WebkitTextStroke: "1.5px var(--signal)",
             }}
           >
             UPTIME
@@ -50,7 +52,7 @@ export default function Nav() {
             href="https://packetpushers.net/podcast/life-in-uptime/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-semibold px-4 py-2 rounded-full bg-navy text-white hover:bg-navy/80 transition-colors"
+            className="rounded-full bg-signal px-4 py-2 text-sm font-bold text-ink transition-transform hover:-translate-y-0.5"
           >
             Listen Now
           </a>
@@ -58,7 +60,7 @@ export default function Nav() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden p-2 text-navy"
+          className="p-2 text-paper md:hidden"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -81,12 +83,12 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-white border-t border-sky-blue/30 px-6 py-4 flex flex-col gap-4">
+        <div className="flex flex-col gap-4 border-t border-paper/10 bg-ink px-6 py-4 md:hidden">
           {links.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className="text-navy font-medium text-base"
+              className="text-base font-medium text-paper"
               onClick={() => setOpen(false)}
             >
               {l.label}
@@ -96,7 +98,7 @@ export default function Nav() {
             href="https://packetpushers.net/podcast/life-in-uptime/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-semibold px-4 py-2 rounded-full bg-navy text-white text-center"
+            className="rounded-full bg-signal px-4 py-2 text-center text-sm font-bold text-ink"
           >
             Listen Now
           </a>

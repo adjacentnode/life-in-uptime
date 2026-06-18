@@ -2,33 +2,35 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-navy text-white mt-20">
-      <div className="max-w-5xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <footer className="bg-ink text-paper">
+      <div className="mx-auto max-w-7xl px-6 py-14 lg:px-10">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-[1.2fr_0.7fr_0.7fr]">
           {/* Brand */}
           <div>
-            <div className="flex flex-col leading-none mb-3">
-              <span className="text-xs font-semibold tracking-[0.3em] uppercase text-white/40">
+            <div className="mb-4 flex flex-col leading-none">
+              <span className="text-xs font-semibold uppercase tracking-[0.3em] text-paper/40">
                 LIFE IN
               </span>
               <span
-                className="font-black text-2xl tracking-tight"
+                className="text-2xl font-black tracking-tight"
                 style={{
                   color: "transparent",
-                  WebkitTextStroke: "2px #7ec8e3",
+                  fontFamily: '"Arial Black", Impact, system-ui, sans-serif',
+                  WebkitTextFillColor: "transparent",
+                  WebkitTextStroke: "2px var(--signal)",
                 }}
               >
                 UPTIME
               </span>
             </div>
-            <p className="text-white/60 text-sm leading-relaxed">
+            <p className="max-w-sm text-sm leading-relaxed text-paper/58">
               Real stories from the people who build and run the backbone of the
               internet. Part of the{" "}
               <a
                 href="https://packetpushers.net"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sky-blue-mid hover:text-white transition-colors"
+                className="text-signal transition-colors hover:text-paper"
               >
                 Packet Pushers
               </a>{" "}
@@ -38,7 +40,7 @@ export default function Footer() {
 
           {/* Links */}
           <div>
-            <h3 className="text-xs font-semibold tracking-widest uppercase text-white/40 mb-4">
+            <h3 className="mb-4 text-xs font-semibold uppercase tracking-widest text-paper/40">
               Show
             </h3>
             <ul className="space-y-2 text-sm">
@@ -57,7 +59,7 @@ export default function Footer() {
                     href={l.href}
                     target={l.external ? "_blank" : undefined}
                     rel={l.external ? "noopener noreferrer" : undefined}
-                    className="text-white/60 hover:text-white transition-colors"
+                    className="text-paper/58 transition-colors hover:text-paper"
                   >
                     {l.label}
                   </Link>
@@ -68,7 +70,7 @@ export default function Footer() {
 
           {/* Listen */}
           <div>
-            <h3 className="text-xs font-semibold tracking-widest uppercase text-white/40 mb-4">
+            <h3 className="mb-4 text-xs font-semibold uppercase tracking-widest text-paper/40">
               Listen On
             </h3>
             <ul className="space-y-2 text-sm">
@@ -99,7 +101,7 @@ export default function Footer() {
                     href={l.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white/60 hover:text-white transition-colors"
+                    className="text-paper/58 transition-colors hover:text-paper"
                   >
                     {l.label}
                   </a>
@@ -109,11 +111,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/30">
+        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-paper/10 pt-6 text-xs text-paper/35 sm:flex-row">
           <span>
             © {new Date().getFullYear()} Life in Uptime. Part of Packet Pushers.
           </span>
-          <span>Biweekly — every other Thursday</span>
+          <span>Biweekly, every other Thursday</span>
         </div>
       </div>
     </footer>
