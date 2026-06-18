@@ -18,9 +18,9 @@ const HOSTS = [
   {
     name: "Kevin Nanns",
     photo: "/kevin-nanns.jpg",
-    role: "Co-host, network engineer, and career-path translator",
+    role: "Co-host, network architect, and career-path translator",
     quote: "Kevin connects the story back to the real work behind the network.",
-    bio: "Network engineer with 15+ years of enterprise experience. CCNA, Cisco Champion, Juniper AI Innovator, and the voice behind Adjacentnode.",
+    bio: "Network architect with 15+ years of enterprise experience. CCNA, Cisco Champion, Juniper AI Innovator, and the voice behind Adjacentnode.",
     links: [
       { label: "Instagram", href: "https://www.instagram.com/adjacentnode" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/kevinnanns" },
