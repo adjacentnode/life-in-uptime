@@ -7073,4 +7073,1096 @@ All right, guys. Well, that is it for this episode of Life in Uptime. Huge thank
 And thanks to you for listening. If you enjoyed this conversation, be sure to follow the show so you never miss an episode. And if Chris's story today gave you something to think about, share it with a friend or a colleague who might need it.
 And until next time, keep learning, keep building, and keep your uptime high.`,
   }
+,
+  {
+    episodeNumber: "018",
+    slug: "ep-018-why-you-should-attend-tech-conferences",
+    title: `Why You Should Attend Tech Conferences`,
+    guest: `TITLE:`,
+    guestTitle: `COMPANY:`,
+    guestCompany: `EMAIL:`,
+    guestLinkedIn: "OTHER LINKS (blog, books, other social, etc):",
+    description: `Alexis and Kevin talk about their experiences attending Cisco Live alongside return guest Melina Bertholf. They offer different perspectives about the event while highlighting the importance of building professional relationships and community through in-person gatherings. They also share personal anecdotes and advice for those looking to maximize their social and professional networking efforts at tech events.
+AdSpot Sponsor: Meter
+Most IT teams are managing networks stitched together from years of acquisitions and vendor contracts and nobody's accountable when something breaks. Meter delivers the complete network: hardware, software, and services delivered as a predictable subscription. Upgrade credits, a fully managed install and deployment, and 24/7 support make the transition easy. Companies like Lyft, Mr. Beast, and Bridgewater have already made the switch. Go to meter.com/liu to book a demo.`,
+    airDate: "July 16, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu018-why-you-should-attend-tech-conferences/",
+    youtubeUrl: "https://youtu.be/bInYWxQlcsk",
+    transcript: `[Kevin]
+Most IT teams are managing networks stitched together from years of acquisitions and vendor contracts, and nobody's accountable when something breaks. Meter delivers the complete network. Hardware, software, and services delivered as a predictable subscription.
+Upgrade credits, a fully managed install and deployment, and 24-7 support make the transition easy. Companies like Lyft, Mr. Beast, and Bridgewater have already made the switch. Go to meter.com slash liu to book a demo now. That's m-e-t-e-r dot com slash liu to book a demo. Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected. I'm Kevin, joined by Alexis and Malina this episode because this a little different.
+We are talking Cisco Live this episode. Cisco Live was a couple weeks ago, and really, we have a different perspective of maybe a typical network engineer who's going to it because we have a wide variety of people in this group who attended. We have me, the engineer who has been to, what, eight or nine Cisco Lives.
+We have Malina, who this was her very first Cisco Live, so I'm really curious to see her expectations, her experience here. And then we have our beautiful, wonderful Alexis, who this was her, what, fourth or so Cisco Live, but she had a unique experience in that she presented in the leadership track. And she also was on a panel, I believe, right?
+The panel?
+[Alexis]
+Yep. Yeah.
+[Kevin]
+Yeah. So she was on a panel and presented, and I'm really curious about her experience here and how she got into presenting and how that actually transposed, transfolded, transpired. Transpired is the word I'm looking for.
+I love it. It wouldn't be an episode if I didn't screw up a word.
+[Alexis]
+Yeah, we thought it'd be cool to come on and just talk a little off the cuff about how the conference went for each of us. We get a lot of questions. Obviously, Kevin and I, me in particular, I've been on a trade show circuit this year.
+I think I've been to eight or nine in the past 12 months. And we just, we get a lot of questions about it. Is it worth going?
+What did you think? Do you actually learn things? It looks like so much fun.
+Is it really? And we thought it'd be cool to just dive into that. So Melina, it was your first big tech conference.
+It's also Melina's first time working in technology. She doesn't have a very technical background. So what was your initial impression from what you expected versus what you experienced?
+[Melina]
+I don't know what I expected. Physically, just from watching you guys' TikToks about Cisco Live Amsterdam, that is what I kind of, just watching your memes you make. And that's all I really had to go off of.
+So fun wise, I'm like, oh yeah, that looks like a great time. Actually being there is like a circus. First of all, I was not prepared for what it actually is.
+Second of all, I know absolutely nothing about the tech world. So to just like look around and see all these words that I've never seen or heard before was terrifying. Times the thousands of people that are there.
+Times when I'm with you guys and people are like, oh my god, digital fight, adjacent notice that you. It was so overwhelming. Plus having to walk across like a state basically is what it felt like.
+I don't know how many steps I got a day. I didn't even want to look. My feet hurt.
+My back hurt. I just wanted to go to bed. And I'm 22.
+I don't know how these people do it. But did you learn anything? I don't think so.
+I would have liked, so I mean, you were trying to push me to go to the keynotes. And looking back, I kind of wish I did. But I didn't have time for that.
+[Alexis]
+To caveat this, if you are a normal, not normal, but if you're an engineer and your work is paying for you to go to a conference like this, typically the expectation is that you attend sessions. Melina was attending this as my EA and I did not force her to attend sessions. So just a caveat there.
+[Kevin]
+I feel like you should have, though, like at least I'm like intro networking some of the 100 level classes, like maybe the intro to CCNA or something like that, where she tried to make me go once.
+[Melina]
+And I was like, I think it was the day where we were absolutely dead and I could not get out of bed. And I looked at Chloe and I'm like, screw that keynote.
+[Kevin]
+So I'm curious, how would you describe Cisco Live? Like you said that you didn't really have an expectation, but that like when you were there, it was crazy. Nerdfest.
+Nerdfest. Okay. Nerdfest.
+Superbowl.
+[Alexis]
+That was, yes. That was for caption on Instagram. It was Nerdfest.
+Shabang.
+[Melina]
+Shabang. It was, I don't know how else to explain it. Like, how else do you explain like a room full of, I'm using the word nerd lightly, okay?
+Like.
+[Kevin]
+Oh, I don't. I say nerds all the time. I love it.
+It's a term of affection. Like, we're all nerds. We all know we're nerds.
+We nerd out.
+[Melina]
+As not a nerd, feeling like I'm using the word nerd feels disrespectful. So.
+[Kevin]
+We've taken it back. We've earned it now. It's cool.
+[Melina]
+Right. Okay. So a world full of nerds, literally, what do you guys call it?
+The WOS? The world of slurs and nerds?
+[Kevin]
+The WOS.
+[Melina]
+It's literally.
+[Kevin]
+I've never heard anyone call it the WOS. Is that a thing?
+[Melina]
+So I'm not a fan of the WOS. And I was like, we've reached that point where you're pronouncing the acronym.
+[Alexis]
+Oh, God.
+[Melina]
+So yeah, that's what I see it as. A world full of nerds.
+[Alexis]
+I will say going to Cisco Live, some people, my first time, someone referred to it as a summer camp for nerds. And I was like, ah. And after being there, I think this is my fourth or fifth.
+I lose track because I was a Cisco employee for a while. And so we also did our internal sales kickoff in Vegas, which is very similar to Cisco Live. And going back to Mandalay Bay, and you're at all the same bars, and people hold the same party every year in the same place.
+And then you're like, ooh, what does the forward network booth look like? They always do a good job. What kind of candy are they handing out?
+There's some things that you just start to expect from the different organizations or vendors or the ecosystem that's there. And so I walk back into Mandalay Bay, and I'm like, yeah, we're back, baby. Who are we going to see this week?
+What's going to happen? Because it does kind of feel like summer camp.
+[Kevin]
+It does. And I think the part that feels like summer camp the most to me is that I see this group of people one time a year, and it's only for a week. So I've never been to summer camp.
+I never had that experience as a little kid, but that's how I picture it. Yeah. No, my parents were teachers and we couldn't afford stay-away camps.
+So this is my reliving my childhood where I have a bunch of friends, like I would say maybe a dozen people that I see every single year, like clockwork there. And I literally get so excited just to see these people because this is the one time a year a week to hang out, have a beer, catch up, talk about our kids, talk about the things that we missed. And it has nothing to do with networking, nothing to do with tech at all.
+It's just reconnecting with these people. And that's the part that feels like summer camp to me. We happen to be at a conference, we happen to be there for work or whatever, but it's really the people that I get super excited about.
+So that's the part that like, that's summer camp to me. And also this hat is.
+[Alexis]
+I was going to say, you can take that off if you'd like. You want to keep it on? No, but to me, that's the most valuable part.
+When people talk about going to conferences, I always encourage them, don't just go to one, go to multiple or go every year, because it is part of maintaining that connection and maintaining those relationships and being involved and being a active, participating part of a community, whether it's the Cisco community, whether it's a different community. There's all sorts of other groups that meet at Cisco Live as well. It's not just Cisco people.
+But you only build those relationships over time. And that means you have to continuously invest in them. I think at this point, like I'm so deep, even if I wasn't going to Cisco Live for work, I think I would still go just to hang out and see people.
+Like you said, it's my chance to catch up with them.
+[Kevin]
+Yeah. Even if I wasn't going for classes and for my day job and all that stuff, I would get an Explorer Pass just to hang out with people and, you know, do the world of solutions and just socialize. Because that's the best part of it for me.
+[Alexis]
+Kevin, I'm curious. I developed, or at least I feel like I developed a lot of my relationships within the Cisco ecosystem because I was an employee. Like I'm not just meeting.
+Well, now when I go back, I see my old customers that I used to support. Like we run into each other and we're like, oh my God, how are you? But also old co-workers, my old sales specialists or product specialists.
+I see people from my old team there that I'm catching up with. It's not just Cisco champions or Cisco customers or people in the community. It's actual employees themselves that I work with.
+So if you are going to a Cisco Live and maybe you don't have that, you're coming in brand new, what do you think the best way to make some of those connections are? And how did that start for you?
+[Kevin]
+So my first probably two years of Cisco Live were terrible. Like I'm an introvert. I'm not very social.
+I won't go to someone and just start talking to them and be like, hey, what do you do? This is what I do. I'm the guy that sits in the corner alone at a party, like a vendor party and just goes there for the food and the drink.
+Then I leave. That was me the first two years. And I would say like Cisco Live was like, okay, I learned some stuff, took some good classes, got some CE credits, took a certification test.
+That was the main thing that I was going for. And I really didn't feel like I wanted to go back because it was just like, okay, this is pure work. There's no fun in this whatsoever.
+And I've done it a couple of times and that's enough. I'm good enough now. And it wasn't until I started getting involved with more of the social aspects, like Twitter.
+At the time, it was Twitter, the Twitter gang, where people would tweet about what they're doing, where they're at, and hashtag at the time, Klus, C-U-L-U-S. And now I think it's just Cisco Live. And they had a whole social media lounge where you could just literally just go and people would just hang out who were mostly in the social media realm, like the Twitter and the people who were just very vocal blogging and that kind of stuff.
+And just hanging out there, you start seeing people who are there over and over again. Tom Hollingsworth was a big one where people recognize his voice. He's just very bolsterous when he talks.
+And he's a big name in that social sphere. And I just started hanging around those people and being in their vicinity until I got the courage to introduce myself. And it wasn't until I joined that group of people that I really started getting the benefit of Cisco Live.
+[Alexis]
+Cisco Live.
+[Kevin]
+Because they give you access to things that you would not normally have access to as just someone who's observing. What people don't realize with Cisco Live and Cisco is it's kind of a small world where everyone kind of knows everyone. And the customers and the people who are very involved with going to Cisco Live every year, we know everything that goes on in the vault.
+We know what's up. We know what's up. But we know the employees behind the scenes too.
+The social media person, she's gone now. But Kristin Mudge, I think was her name? Kathleen Mudge, thank you.
+Where she ran the social media side of the Cisco Champions and all that stuff.
+[Alexis]
+When you say social media, Kevin and I are talking about what we do in terms of information on social media. Back when X was Twitter and it was a very active technology community, they used to have a live stream of the tweets that people would tweet during Cisco Live. And they had like a little contest for who could get the most points.
+I don't really remember.
+[Kevin]
+It was just this nice quantity of points of posts. And every post you would do would give you a point. And there's like a leaderboard.
+And everyone who was kind of like on that leaderboard or trying, kind of knew each other because they were competing. Like, oh, who's that adjacent node guy? I don't know that guy.
+But like, I can see his face up there. And then they see you in the social media lounge. Like, oh man, you're really catching up to me on points or whatever.
+It was a way of social lubricant, basically. An easy way of getting involved with people. But once you get involved in one of those groups, it's amazing because that person will connect you to another person, will get you to another person.
+And your social circle just grows organically just from being around those people.
+[Alexis]
+I even remember one of my old customers from Cisco. The first time he went to Cisco Live, he said that he didn't know anyone. The second time he went to Cisco Live, I was there.
+And I was like, oh my God, well, we're going here. We're going there. I want to introduce these people.
+And like, I just kind of brought him around on the third week. And at the end of the week, he was like, this was so much fun. 10 times better than the first year when I came by myself.
+He was like, thank you so much. And I was like, what do you mean? Number one, I'm your solutions engineer.
+It's my job. Number two, he's like, yeah, but you know, you know where all the parties are. You know where all the people are hanging out.
+I was never alone because you would just sit at a table and just start talking to people at lunch. And he's like, I don't know if you knew them or if they were strangers that you just started talking to. That's how I felt with you.
+Yeah, he was like, right. I'm like, he's like, I couldn't tell if these were friends of yours or people that you literally just picked up up off the street. And I'm like, I mean, it was crazy.
+But having someone like that, that you can piggyback off of, Kevin, maybe you and I, maybe we need to start like, I know AWS when reInvent goes on, someone had started like a master list of all the events and like side parties and things going on, like a master calendar. Maybe you and I could start one of those for next year. People would text me or DM me on Instagram, be like, how did you know all of these existed?
+And I'm like, I don't know. It's just kind of word of mouth. Like people just DM them to me or text me or I know that it happens because it happens every year.
+[Kevin]
+Yeah, well, I know Cisco Live has like an app, like their Cisco Live events app has like a way to connect with people. I know, I know. Well, I'm still getting there.
+So they have all the people. But Tom Hollinsworth, when he was big into the social scene, I think he's like super involved in tech field day now. And I don't think he's as involved with the social media stuff anymore.
+But he used to have a list of, you can sign up with your Twitter handle. And anyone who's going to Cisco Live had a list of all the Twitter handles of people who are going. And so you can connect via Twitter through this giant list of people.
+And I think we can like, I don't think he's still doing it anymore, but we can take that back off again, where people can sign up with their social handles, maybe like what they do and like have a list of all the parties that we're going to that are available, the invite links, all that kind of stuff. So that you can kind of like have our own little crew of however many people going to each party. So you have like a built-in friend, a built-in someone to start that lubricant, that social media or that social lubricant.
+But...
+[Alexis]
+That's such a weird, I don't like that.
+[Kevin]
+You don't like the social lubricant name?
+[Alexis]
+You say like find a buddy.
+[Kevin]
+I don't know, like look...
+[Alexis]
+You need someone to be social lubricant for you.
+[Kevin]
+Yeah, be my lubricant. What's wrong with that? I'll be your lube.
+It's fine. For like car engines and like, you know, things, gears that work together better. I gotta go.
+That's what I'm talking about. What are you guys talking about? That's what I...
+Lubricants are... Anyway, because we're all part of one engine and we're all gears on an engine. We gotta need that lube so that we can all work together.
+We're too deep into this now. We got a bad trip.
+[Melina]
+He's digging himself in a hole. And he just keeps going.
+[Kevin]
+I stand by it. I like the word lube when it comes to social lube. Because it is a lot of friction when it comes to being social.
+And lube is a valid way to describe it. Anyway.
+[Melina]
+Great. Anyways.
+[Kevin]
+Yeah, so what I find... So a little story here. And I don't know, I didn't get permission to tell this story.
+But I don't think he'll mind. Is I made friends with a guy who follows me on social media. And his name is Brody.
+And this was his first Cisco Live. He had never been to one before. And I invited him out to the AWS party.
+Or was it AWS? No, it was the NVIDIA party. And I invited him out to like, Hey, come on, I'm going to this party.
+You should come too. That way we can meet in person and say hi together or whatever. So I get there.
+And Melita, you know, the way Alexis and I... If we're in a gathering of people, we get pulled a million places. It's like we're, you know, I don't know, Stretch Armstrong, where I'm like talking to these people.
+And this guy comes up to me, I gotta go over here.
+[Melina]
+That's exactly how I saw it.
+[Kevin]
+Yeah, it's insane. So you don't really get a chance to really talk to someone because you're being pulled. Well, I brought him over.
+We said hi together. And I was like, Hey, you know, I had to go talk to this other person because my agent was there. Anish was there.
+And I gotta talk to this person. And then I'll come back and talk to you later. And I look over and he's sitting at a table eating by himself.
+And he's just like, you know, eating the buffet, having a drink, sitting by himself, looking all sad. He probably was not sad. That's probably me projecting my own insecurities.
+My first two years of doing Cisco Live, where I was like, this sucks. I'm just eating by myself. But I looked over.
+So I saw that. So I go and grab him. And I'm like, you know, it's actually illegal for you to be sitting by yourself at a social event.
+It's part of the rules. You're gonna get kicked out if you don't come over here and socialize. So I brought him over.
+It's a joke. He knows I was joking. That's my awkward, my social awkward like thing.
+Like, you know, you gotta do this. So I brought him over and introduced him to some customers from Alexis from when she was an SE. And I was like, hey, this guy's cool.
+You guys are cool. You guys should talk to each other. And so I was kind of like playing matchmaker.
+And then they ended up spending the entire week together. They hit it off. They love each other.
+Like they were friends. And Brody now has instant friends at Cisco Live whenever he goes. And I feel like that's all you need is one person to go, hey, you come over in this group and be part of it.
+And from there, you guys can take it over. And you need that social transition.
+[Alexis]
+You need a friend, an extrovert.
+[Kevin]
+I said transition. You should be proud of me.
+[Alexis]
+Yeah, great. No, I think like you said, sometimes that's all it takes is one plus one equals. A group of friends and not just three.
+I mean, that's also something I'm something I'm. I wouldn't say struggling with, but when I'm looking to make friends, when I travel, walking up to a group of people is intimidating. It's so intimidating.
+If you just if you just tell people like. I am I am on a hiking trip right now. And there was a group of hikers sitting at this table.
+They all clearly knew each other. They're not even speaking English. They're speaking German.
+And I was like, I have the option to sit alone or I can just walk over to them with my food and be like, hey, do you guys mind if I hang out with you for a minute? Nine times out of 10. They're like, oh, what are you doing?
+You're clearly not from here because you don't speak German. What are you doing here? Are you hiking alone?
+I'm like, yeah, I just, you know, creepy. Well, no, but you're by yourself.
+[Kevin]
+Excellent.
+[Alexis]
+Especially if it's in a more casual setting, having the courage to go up and introduce yourself to a group of people. Most of the time, even if I'm in a situation where I'm with a group of friends at a bar and someone comes over and they're like, hey, we're not alone. Do you mind if I hang out with you guys?
+Yes. The answer is almost always yes. And especially at a conference where a lot of people are traveling alone or traveling with maybe one other coworker, they're going to say yes.
+[Kevin]
+Nine times out of 10, people are not jerks. You know, the vast majority of people are nice people and they will welcome, even if they don't really want you there, they'll still say yes and they'll still try a little bit. And you can tell pretty quickly if that person's actually like a social person or just like saying yes to be polite.
+But nine times out of 10, you still won't get rejected. So that's always a benefit.
+[Alexis]
+Here's something most IT leaders know but rarely say out loud. The legacy network model is showing cracks. You've got five vendors with none of them accountable to each other.
+Renewal cycles tracked on spreadsheets and an IT team spending cycles managing infrastructure instead of moving the business forward. The problem isn't that no one wants to fix it. It's that switching can feel risky and overwhelming.
+[Kevin]
+Meter was built to solve exactly that. It's a full stack network with hardware they designed themselves. Firmware, software, support, all in one.
+They support the migration, offer upgrade credits for existing gear, and the financing is flexible. Companies like Lyft, Mr. Beast, and Bridgewater have already made the switch. If your team is ready to stop managing a patchwork network and start enabling the business, go to meter.com slash liu.
+[Alexis]
+That's m-e-t-e-r dot com slash l-i-u to book a demo.
+[Kevin]
+Okay, so I also want to talk to Alexis about you presented. That must have been number one freaking terrifying because not only are you presenting, but you're presenting the leadership, like the leadership track. So these are all like big wig executive people who know their stuff pretty darn well.
+And now you have to present to them. And you were on a panel. Yeah, they were both scary.
+Both terrifying, right? And so I want to know your experience there, how that all happened, how you became a speaker. And then I also want to know, if someone else in the audience is listening and they think they have something they want to talk about at Cisco Live, how does someone get started in doing that?
+How does that process work?
+[Alexis]
+Yeah, I also want to caveat this with, again, my experience was a little bit unique because I am deeply plugged into the Cisco ecosystem because I worked there for almost five years. This was actually my second time presenting at Cisco Live. So my first time was two years ago.
+I did a breakout session. I think it was called Standing Out in a Virtual World. And it was basically a 45-minute workshop on personal branding for engineers, how to tell your story, how to build up a digital portfolio, how to talk about your career, your achievements to help promote yourself internally within your organization.
+And it was a really valuable session. I got a distinguished speaker, my first time ever speaking, which was crazy.
+[Kevin]
+You're welcome. They used one of my reviews. So you're welcome.
+[Alexis]
+I think I gave it to like 100. I think it was like 120 people. That's that first session.
+And the thing with public speaking, one of, it's so funny. I remember the second time I spoke, I was giving a keynote. It was about making network engineering cool again and talking about IT careers.
+And I was flown out to Malaysia to deliver this keynote at a conference called Apricot. And I was freaking out. I think that one was to 1,000, 1,200 people, something like that.
+And the founder of the conference came over, or the chairman of the board. And he was like, you know, Alexis, just think about it this way. Everyone watching is an engineer and they would be freaked out to be on that stage too.
+So anything that you can do to get up there and share knowledge with them, they'll be appreciative of. And I think about that to this day. Most people working in technology are afraid of presenting, are afraid of being up on that stage.
+[Kevin]
+It's the number one fear. Like people would rather die than publicly speak. They would rather jump out of an airplane without a parachute and hope for the best than publicly speak.
+It is the number one fear in America.
+[Alexis]
+Right. So getting that in your head that you have something valuable to share, you are doing the best that you can with the tools you have available. And the audience is just going to be appreciative that you are trying to share that knowledge with them.
+That's the frame of mind that I take whenever I present now. We all want to do good, right? You want to get up and you want to crush it.
+You don't just want to do good. You want to crush it. But even if you get up there and you just do your best, as long as it's coming from a really authentic place of trying to share knowledge and help the people you're talking to do better, they will appreciate the effort that you took.
+Even if there was some parts that could have been polished a little bit more. So that's kind of how I went into this. As far as how I got selected, if you are presenting within Cisco, I think that there is a form you can look for internally.
+If you're presenting outside of Cisco as a customer speaker, you need to work with your Cisco rep and they can help you apply. I'm not sure if there's just like a gated form on the website. I haven't seen one of those.
+But typically it goes through like a couple of rounds of review of committees as they're selecting and building out these agendas. And that's exactly what I did is I emailed one of the people I knew at Cisco and I said, hey, I would love to present again this year. I know the cutoff date is next month.
+If I submit a couple of abstracts of things I'd be willing to talk about, is there any way that you could help put me in touch with the committee? I'm just not really sure what the process is since I'm external now. And they cc'd me on an email with someone that cc'd me on an email with someone else and then it just kind of got carried.
+And then I found out a month later, they were like, yeah, we're going to give you 10 minutes on stage in the leadership track. And I was like, I thought I was going to do a breakout. Again, here we are.
+[Kevin]
+So was that scarier, like being in the leadership track? It's only 10 minutes. Because before you had a breakout, that was what, 45 minutes or something?
+[Alexis]
+I'm so much more comfortable in a classroom setting. So much more comfortable because in a classroom setting, think about it. I mean, even if it's the breakouts at Cisco Live that have like 80 to 100 people in it, it's still a classroom setting.
+You're not on a stage. You're up in front of a room. Everyone's seated at desks.
+And you run a workshop. I've run several workshops like that now. I'm so much more comfortable because it feels like it's peer to peer.
+When you're on a stage with lights and a microphone, that and the 10 minute talk track is almost scarier than the 30 minute. The 30 minute you can like add some personality in and, you know, make some jokes and kind of not be you.
+[Kevin]
+It's almost the difference between like a YouTube video and like a TikTok, you know?
+[Alexis]
+Yeah, the 10 minute video, you're in, point, point, point, message out. Like there's no...
+[Melina]
+You still added your humor in there, though. You had the crowd laugh like three different times. You have an entire thing that says Cringe Mountain.
+Like you added your humor into it. I practiced like 15 times. I know, I was like there half the time.
+[Alexis]
+And I had very detailed speaker notes on a confidence monitor in front of me.
+[Melina]
+Yeah, but you can't say that you couldn't add humor into that because you didn't.
+[Alexis]
+You definitely can, but it has to be much more buttoned up. There's less room for error because especially when you're presenting, I mean, the IT leadership track at Cisco Live, I think they had like 2,500 people registered and things are down to the minute. It's down to the minute.
+You get your time slot when it's over, you get the hook. And so you're really under pressure to get in, make your points, get out and make sure it's super short, executional, tactical, clear.
+[Alexis]
+That's it. It was fun. I would do it again.
+[Kevin]
+After all that, it was horrible. I was scared. It was terrible.
+But I'd do it again. That's public speaking in a nutshell.
+[Alexis]
+100% I'd do it again.
+[Alexis]
+I think it's a good way to especially, we talked in the last episode about advocating for your career and becoming the guy or the girl that everyone's known or being known for something. And I think that public speaking or volunteering to present, what was that?
+[Kevin]
+My badge is getting stuck on my desk.
+[Alexis]
+Just take it off.
+[Kevin]
+But then the... Yeah, through Medicare. Now I'm stuck.
+And that's a whole thing. All right.
+[Alexis]
+So we talked last episode about becoming the guy or the girl or being known for something. And I think that public speaking is such an effective way to do that because it's refining for a group of people, more skillset, and teaching others about something that you care about. So when you're talking about building your brand or building your reputation, Kevin and I obviously talk a lot about social media.
+And I think social media is a really, really valuable tool. But giving in-person presentations, putting your hand up. I mean, there's all sorts.
+When I worked at Cisco, there was all sorts of workshops that we were constantly looking for speakers for. Not just the giant Cisco Live kind, but the local beers with engineers or the customer field day. There's all sorts of NOGs, NUGs, community groups you can get involved with across the industry who are always looking to prop up new up-and-coming engineers, looking for people to present on interesting technology or use cases.
+If you're doing something unique in your organization and you want to share it. We just opened... We're running an event for Megaport again called Connect.
+And we opened a call for papers about engineers who are working with cloud networking. Are you doing something interesting in your organization that you can bring to our event and share? Because we want to help elevate voices with how customers are actually using technology in the industry.
+Same thing, I was just at Network Automation Forum. It was a three-day event all about network automation. Talk about being lost at an event.
+I can make my way around Cisco Live. And again, I am not the most technical engineer. But I can make my way through a conversation about enterprise networking.
+Okay, start talking about Yang and Netconf and YAML and API calling and automation frameworks for infrastructure. Yo, I mean, that was... It was a rough week for me.
+I tried my best. I went and talked about LinkedIn, which was great. But especially programmability stuff, you want to talk about needing a quiet place to sit down and really put your head in a book.
+That's kind of what I need there. It's a different world. But same thing, they were looking for presentations for how people were using automation in their network.
+How have things changed? How are you using AI? How did you implement this?
+And at the end of every session, they had open questions for customers to go. And it's very peer-to-peer. But there's those types of opportunities all over the industry.
+If you're looking to get into speaking or just flex your skills and help someone new.
+[Kevin]
+And I would say there are opportunities usually inside of organization to start small. Like you don't have to start on a stage at an event. That seems going from zero to 100 very fast.
+But there are usually inside internal trainings that you can hold or something internally that you can just say, hey, two weeks from now, I'm going to be in a conference room and I'm going to go over, you know, how I set up ICE in this environment or how I set up the wireless LAN controllers. And you just present that to your peers or your boss or whomever. And that gives you kind of an intro into talking in front of people in a way that doesn't feel overwhelming that you're talking to a thousand people or a hundred people even at first.
+And I would start there personally. I guess that's the entry level.
+[Alexis]
+You can also tell your boss this is something that you're looking at getting better at. That was a big conversation that I had with my boss at the beginning of last year. My goal was to get on stage five times this year.
+I would like to deliver five public facing presentations by the end of the year. I am at four. I need one more.
+[Kevin]
+Why? What is your end game there? What is your end goal?
+[Alexis]
+I think that. Yeah, I mean, put yourself in uncomfortable situations, learn, grow. I think that from a career perspective, being or having the confidence to get on stage in front of a group of people and effectively communicate and deliver a message is a skill that you'll be able to use throughout the course of your career.
+Being able to stand up ad hoc in front of a boardroom and convey your ideas and not be afraid of standing up and speaking to a group of 30 people because you've already spoken to a group of 800 people. It's more of a. What's the word?
+[Alexis]
+I don't know, like. Oh, what's the word for, like, doing something really scary?
+[Alexis]
+Exposure therapy. It's like exposure therapy. But it's just something.
+It's a skill that I would personally like to get better at. And I think that. If you have knowledge that's valuable sharing, you are obligated to share it.
+And that might mean putting yourself. It might be. What else is it for?
+You're learning all of these things for what? For you to keep in your head?
+[Alexis]
+What's the point?
+[Kevin]
+Some people would consider that, yeah.
+[Kevin]
+Like for your own personal use, your own personal gain. I'm not advocating for that. I'm just, I'm just saying.
+[Alexis]
+Great, you learned this thing that sits in your head. How is that going to help you unless you share it with the world? I don't know.
+[Kevin]
+Valid point. I was just. That was a strong word of like.
+That is your responsibility to share.
+[Alexis]
+Yeah, it's like Spider-Man. With great power comes great responsibility. If you learned and understood how to do something really cool.
+You need to share it with people.
+[Alexis]
+Because it's cool. You spent time learning it. I'll get off my soapbox.
+[Alexis]
+But that was one of. That was one of my big goals this year was to give five public facing presentations.
+[Kevin]
+Yes. Are you going to make your five this year?
+[Alexis]
+I don't know.
+[Kevin]
+Need one more, right?
+[Alexis]
+I mean, it's June. I have six months to find one more. And every day I open my inbox and there's something interesting there.
+So who knows? I did want to close out this episode. I thought it would be really fun if we could all do our favorite memory or standout moment from Cisco Live.
+We can take.
+[Kevin]
+That's hard.
+[Alexis]
+10 seconds to think about it. Mostly because if we wait longer than 10 seconds, we're going to be bored.
+[Kevin]
+Well, we always have this.
+[Melina]
+Would be you calling me out on stage. Yeah, that would be mine.
+[Kevin]
+Well, so if you didn't, if we did, if there were people who did not watch Alexis. I don't even call it a performance. It was a performance.
+I have kids and I'm used to my daughter being up there at her dance recital. Like it's a performance. I don't know what you'd call it.
+You're like my little sister to me. So like, it's hard to.
+[Alexis]
+It was a panel discussion.
+[Kevin]
+Okay.
+[Alexis]
+And Melina sat right in the front row.
+[Melina]
+And she called me out and I went like this and everyone's like, there she is. That one right there. And I was like, stop.
+Never again. I'll be in the back next time.
+[Alexis]
+I side a little aside there. Melina was at the Megaport happy hour. It was like the first or second day of Cisco Live.
+It was her first ever vendor happy hour. She's like wading through the crowd with her one martini. And she comes over and I'm like, what do you think?
+And she goes, I don't know what to do. I'm walking around and I can hear people behind me going. I think that's Alexis's little sister.
+[Melina]
+I wish I had like a really like deep hat where you just couldn't even see me. I just wanted to hide in a corner.
+[Kevin]
+Like, okay, so this is an aside. I know we were talking about our favorite moments, but I have to ask. So you're being pushed into the limelight now of social media and this group of nerds, right?
+Were you ready for that? Did you expect this when you become the EA, when you became involved in all this?
+[Melina]
+No, not at all. I didn't even like expect to go to Las Vegas or Cisco Live with Alexis. I was just like, okay, I get to work from home with my cats.
+And I'm like in the middle of Las Vegas, dehydrated, surrounded by thousands of nerds. And I'm like, where am I? What am I doing?
+[Kevin]
+Does it feel good to be recognized or is it something that you're shying away from?
+[Melina]
+I don't want to be recognized. I want to be like the person that's in the back where they're like, I recognize her name. Don't know what she looks like.
+I know she does this. That's it. I don't want people to be like, I think that's Alexis's little sister.
+That was weird for me. Okay, that was really weird. It was weird enough watching her get recognized for four days straight.
+Like we talked about it every day. We're like, it just gets weirder and weirder. I was with you guys and someone was like, oh, I need you in the picture too.
+You're Alexis's little sister. I'm like, I don't want to be in the picture.
+[Alexis]
+I think what people don't understand or maybe don't realize is that in my family, it is a running joke. Like when my siblings want to make fun of me, they call me digital bite as a joke at the grocery store. As a joke, there's a running album.
+It's been like this running joke. And so for Melina to come out to live and people come over and be like, are you digital bite? And out of the corner of my eye, I see her like bent over holding back laughter because she's like, no way this is actually real.
+And I'm like, I tried to tell you.
+[Kevin]
+Yeah, no one understands it until you actually see it in person. My wife was the same way. It wasn't until I got recognized at breakfast one day.
+I was sitting with my kids and my wife and we're just eating breakfast. And this guy comes over and like, says like, you know, I know you, are you a Jason Node? And my wife was like freaking out.
+She's like, people actually do that? People actually know you? I'm like, I'm telling you, yeah.
+[Melina]
+What do your kids think of that?
+[Kevin]
+Oh, they think it's the coolest thing ever.
+[Melina]
+Like, literally, I have a... Do you like a superhero? They have to.
+[Kevin]
+So I have a quite a large following of 16 year old girls on my socials now because my daughter sent out my username to all her friends and like, you gotta follow my dad. You gotta follow my dad.
+[Melina]
+So she has to be the most popular girl in school.
+[Kevin]
+But yeah, it's cool. It's really cool for her to be like, you know, my dad's an influencer online. I love that.
+Yeah, I'm not a hero in their lives because like, I'm a great dad or I spend a lot of time with them.
+[Alexis]
+I talk at your house. We make sure Minecraft works.
+[Kevin]
+Yeah, none of that matters. I'm an influencer and that's cool to them. So that's why.
+[Alexis]
+That's so funny. So funny. I do want to say, I think, I mean, anyone who's listening to this that ever came up to the wheat, which also, hang on, side note, Malina and I were sitting eating.
+I think we were like hunkered in a corner. I was trying to send something to one of the brands I'm working with. And her and I were talking and the guy next to us looked over and said, I hope this isn't weird.
+Are you on packet pushers? I recognize your voice.
+[Alexis]
+And we were like, that's hard again.
+[Melina]
+That was a first. Oh, weird. I was like, what?
+Just off my voice.
+[Alexis]
+I have a shitty microphone too. Holy shit. That was great.
+That was crazy.
+[Kevin]
+That was, you know, we're working so hard on this podcast thing. This is taking a lot of time. Like, literally, I spend more time on this podcast now, I think, than I do in my social media stuff, just because it's huge blocks of time.
+And so to hear that people are listening and actually like, you know, enjoying this thing is people and like getting value out of it is huge for me. Like the social media stuff I'm used to, but this podcast, yes, people are listening.
+[Alexis]
+It's a new frontier. But what I was going to say is, I mean, huge kudos, anyone who's come over to Kevin and I and said hello at a conference. I know how intimidating it is to walk up to someone.
+I've been at other influencer events. I've been at, I remember one time I saw one of my favorite fashion influencers in Dallas. I like passed her on the street and I was like, I didn't have the audacity to walk over and be like, hi, are you?
+No, I was scared. I looked from a distance and I was like, there she goes. That was definitely her.
+But I love when people come over and say hi. When we're talking about this, like please don't let that stop you. It's so lovely to get to meet and shake hands and have a conversation with people that follow us and support us.
+And it just makes it all real. I mean, after a while, it's really easy to look at the likes and the comments and the numbers on engagement. It's really, really freaking weird to think about every single one of those being an individual human.
+And it really helps me put that in perspective when I'm able to go to events and shake hands and get to chat with all of you guys in person.
+[Melina]
+It's just weird on my end to actually see it knowing it's Alexis and Kevin.
+[Kevin]
+It is weird because you don't, you know, it's like personally to me, to us, you're just like, you know, whatever, but it was a little weird.
+[Melina]
+When I was like before Alexis went to college and I could see her sitting on the couch, reading a book and I'm like making fun of her all the time. Like if someone told me this was going to be Alexis, what, 10 years ago, I would have been like, you're so funny. Like that's hilarious.
+[Alexis]
+If someone said I move fast to Scranton in with Malina and we talk on a daily basis, I don't think anyone understands. My siblings, I would say I use the term light bullying. It was like heavy on the light.
+Yeah. Anyways, we're doing great now.
+[Kevin]
+All right. So it's kind of boring now that you said it, but like memory. Yeah.
+My favorite memory was like talking to all those people. And, you know, I actually have, I have a story I want to talk about real quick because they reminded me of something you said. And this is actually not about me or my favorite moment at all, but it's actually about David Bombal.
+All right. So I met David Bombal for the first time that this is go live. We've been in the same sphere for a long time and I've seen him at conferences, but he's always been busy, like in his little cube, like his little David Bombal jail.
+And I like kind of wave at him, but he's like super busy. Doesn't see me at all. So I've kind of made fun of it.
+I've kind of made fun of it on social media. Like, oh, him and I are best friends. And like, but he has no idea who I am, that kind of stuff.
+But so I met David Bombal the first time. Great guy, super down to earth, just talked. But I want to tell a story real quick that we were walking together and at the world of solutions.
+And there was a guy staring at him from like a couple of feet away, maybe like 10 feet away or so, just like staring, like he stopped and was just like staring at David Bombal. And David Bombal was, we were in a conversation together and he stopped the conversation with me, looked over, it was like, hey, do you want a picture with me? And the guy was like, yeah, please, please.
+And he took time to stop, take a picture with this guy, talk to this guy for a couple of minutes and then continue on. And I was like, you know, that, that is a real person like that. I never want to lose that part of what I am doing, all this stuff where I noticed someone who may be too scared or doesn't want to interrupt or is being kind and doesn't want to take that moment.
+But I want to be that person to always be like, hey, I see you're looking at me. Do you want to talk? Do you want to have a picture?
+Like, do you go out and reach that? And I thought that was freaking amazing of him that he's got millions and millions of followers. He's been involved with Cisco.
+He's a CCIE. He's this big wig guy, but he still takes that five minutes to talk to someone who's just like in awe of him. And I think that was amazing.
+And that was one of my favorite parts of Cisco Live that does not involve me, but I thought it was really cool.
+[Alexis]
+It was such a wholesome story.
+[Kevin]
+Yeah.
+[Alexis]
+Man, I want to rethink my memory now. I was gonna say something stupid and maybe kind of funny.
+[Alexis]
+Man, favorite moment.
+[Alexis]
+So there, I guess this is also a little bit wholesome. The one that comes to mind, there was a number of people that we brought to the conference this year that had never been to Cisco Live before. Anish, our talent manager, Melina, my EA, Chloe Platt, my social media manager at Megaport, and then Megaport also let us bring two of our videographer friends to help us create some content.
+And for Chloe, Melina, Chris and Cody and Anish, it was their first proper tech conference, their first Cisco Live. They had no idea. And watching all of them walk in and be like, I literally have a video of Chris looking at the Cisco sign mouth open with his video camera in hand.
+And he goes, the hyperlapse is gonna be so good. Kid in a candy shop. And so I think being able to share something that I love and get to almost like re-experience it through other people's eyes that I care about was really special.
+[Alexis]
+Amazing.
+[Alexis]
+Wholesome. Cute.
+[Alexis]
+Let's come up with a funny moment.
+[Alexis]
+Just kidding.
+[Alexis]
+Um, okay, again, having Melina and Chloe and I all shared a hotel room and having a little debrief at the end of the conference, like the end of every day before dinner in like that 10 minutes that you get to sit down and go, in between like the conference and the dinner parties at night, being able to sit there and recap with them. I think I laughed until my stomach hurt. I think we like cried like several times.
+I haven't done that in a while. So...
+[Kevin]
+I think girl time.
+[Melina]
+So much. So much girl time.
+[Kevin]
+Well, you're solo traveling a lot, right?
+[Melina]
+Yeah. We were just making fun of Alexis for most of it, but it was just so fun.
+[Kevin]
+So she thought at home with her family, like the light ribbing.
+[Alexis]
+I'm easy to make fun of, I guess. I don't know.
+[Kevin]
+I mean, I can attest to that.
+[Alexis]
+Well, any final thoughts before we wrap up the episode?
+[Kevin]
+My biggest thing is if you're on a Cisco Live, go more than once. Go a couple of different times. It doesn't have to be back to back.
+I know like travel and getting funding for Cisco Live might not always be possible or available, but to really get the best benefit out of Cisco Live, go multiple times, try to get in with people as much as possible and just try to have some fun. Don't worry about just all the classes and all the learning and all the C credits and all the certifications. Try to have a little bit of fun because that is where the magic of Cisco Live really is.
+[Alexis]
+It's about... Oh my God, it got so loud. Can you hear that?
+[Alexis]
+Yeah.
+[Alexis]
+I'm so sorry. It's all about the people. Melina, final thoughts?
+I don't really have any. Okay. Okay, awesome.
+Well, I have a back-to-back meeting.
+[Alexis]
+That is it for this episode of Life in Uptime. Thank you guys for hanging out with us today and we will see you next time.
+[Kevin]
+Keep your uptime high.
+[Alexis]
+Yeah, yeah, yeah.`,
+  },
+  {
+    episodeNumber: "019",
+    slug: "ep-019-jason-gooley-the-godfather-of-programmability",
+    title: `Jason Gooley: The Godfather of Programmability`,
+    guest: `Jason Gooley`,
+    guestTitle: `Technical Evangelist`,
+    guestCompany: `Cisco`,
+    guestLinkedIn: "https://www.linkedin.com/in/jgooley/",
+    description: `Jason Gooley is a longtime member of the Cisco community and author of the latest edition of the CCNA book. Jason joins the show to share his unconventional path from a challenging childhood to technical evangelist and author at Cisco. Together they discuss the importance of community, mental health, and resilience in navigating technical career growth. They also discuss the necessity of continuous learning and of retooling skills to stay relevant as AI and new technologies reshape the industry.
+AdSpot Sponsor: Statseeker
+Statseeker gives engineers near real-time performance insights, fast zero-touch deployment, and historical data going back as far as you need; so you can troubleshoot faster and prove what actually happened. Statseeker auto-discovers devices and starts polling every 60 seconds right out of the gate, building a full-fidelity, granular history of your network from the moment it’s deployed. Try it free at statseeker.com/uptimestories.`,
+    airDate: "July 16, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu019-jason-gooley-the-godfather-of-programmability/",
+    youtubeUrl: "https://youtu.be/9B54Oz0j2J0",
+    transcript: `[Alexis]
+Every Uptime story has that moment when something breaks and everyone looks at you. StatSeeker helps you stay ahead of that moment with 60-second polling, automatic discovery, and deep historical visibility across your entire network. So when issues hit, you already have the answers.
+Start your free trial at statseeker.com slash uptimestories.
+[Kevin]
+Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected. I'm Kevin, joined by Alexis, and every week we sit down with engineers, leaders, and builders in tech to uncover the stories behind their careers, how they started, what they've learned, and where they're headed next. Our goal is simple, to help you see how far tech can take you, no matter where you start from.
+[Alexis]
+All right, guys. Sounds like Kevin's practicing a new style of intro. Today, we are joined by our good friend, Jason Gooley.
+Now, if you are involved in the Cisco community or Cisco ecosystem whatsoever, Jason is probably someone you're very familiar with. He is the new father of the CCNA, and we have a laundry list of things to talk about today. So Jason, welcome to the show.
+Thank you. This is long overdue. Long overdue.
+[Jason]
+This is. I'm so glad we're doing this.
+[Alexis]
+I think, for reference, guys, Jason and I have been talking about having him come on the show since, Fed, Fed, you wary?
+[Jason]
+I think so. It was a while ago.
+[Alexis]
+I think it's been almost six months.
+[Kevin]
+When we first talked about making this podcast, you were one of the first names that were like, we need to have him on. And that's been now like eight months. That's how long it's taken.
+[Jason]
+I've had issues. I've been traveling. We've had technical things.
+[Kevin]
+We're all super busy. But yeah, we made it happen. You're here.
+Finally, this happened.
+[Alexis]
+So Jason, to kick us off, the CCNA is usually your first certification that you take when you're getting into IT. You have made it not just your first certification, but a defining portion of your career. What was the reason that you decided to invest so heavily into the CCNA that you literally wrote the next edition of the book?
+[Jason]
+Yeah. Wow. I mean, I think for that, we're going to have to go back into the Wayback Machine.
+[Alexis]
+Do you have a DeLorean back there, too?
+[Jason]
+I do. I have a DeLorean that's kind of hiding back here, but there's a picture for me way back in the day. So I started doing IT stuff when I was like 13 and my best friend was 12.
+He was teaching himself DOS and Windows and all this stuff back in the day, like Windows 3.1, 3.1.1 for work groups, DOS 6.2.2, right?
+[Jason]
+Jumpers and dip switches, you know?
+[Jason]
+IRQs. So he started teaching himself all this, and he told me about the Cisco thing and that you could basically go out and get this job as a CCNA. This is literally what he said.
+He goes, dude, you got to check out this Cisco thing. There's a certification called the Cisco Certified Network Associates. The first thing he ever said to me about Cisco was the CCNA.
+And he said, if you get the certification, you'll make over a quarter of a million dollars a year. And you're talking 96?
+[Jason]
+That's a buttload of money. Right? And I'm like, I'll take it.
+You know, like, no, you don't even understand.
+[Jason]
+There's a professional, there's a Cisco Certified Network professional that makes over $375,000 a year.
+[Alexis]
+And I'm like, I want that one.
+[Jason]
+And he goes, no, no, no, dude. There's like this thing. It's called the Cisco Certified Internetworking Expert.
+There's less than 500 of them in the entire world. They basically all work for Cisco. And if you get that, dude, you make more than the president.
+[Jason]
+I want to make more than the president.
+[Alexis]
+And there's a little financial incentive.
+[Jason]
+And why that made such a big difference to me. So I fell in love with tech with my friend showing me computers and DOS and building computers and all this stuff. And then his mom started teaching me, believe it or not, Novell 3 and networking with coaxial BNC connectors and twist connectors and all this stuff.
+And I fell in love with it. And then he told me about Cisco. So I was like, well, I got to look into this.
+But I came from zero. And I mean, negative zero, like negative financial freedom. Let's just say I grew up outside of Chicago.
+We were poor. And I mean, poor, broken and broke, living on food stamps, living on government assistance, not being able to afford the rent. Evicted many, many, many times moved around my entire life.
+Didn't stay at one school, had friends. Now you don't have those friends anymore because you have a new school. They have new friends.
+And there was never anything consistent in my life period. I'll leave it there. I've realized that I found something that I liked, that I fell in love with, that I found something I was capable of, that I enjoyed.
+And when you're living like that and you're growing up like that, and you start telling folks at 13, because I've been doing it since 13, at 14, I'm like, I'm going to go get my A plus certification. I'm going to go get my certification. At 15, they talk to you like you have a third eye and that you're, because at that time, let me see, don't mind my shorts.
+[Jason]
+I love the show and tell. Yeah. Oh my gosh.
+[Jason]
+I mean, pull on with the wingtips, dog. Yeah, that is style right there. Pull on, rings and all, out in front of the Springfield First Institute, which is where I went to go get my A plus, my CNA and Novel, and my Microsoft office user certification.
+Because at the time, I already did all this, but I needed to prove it because I was 15, 16. They're like, we're never going to give you a shot. So when I first said, I'm going to go get my CCNA, that was my first networking certification, because I needed to prove it not only to myself, I needed to prove it to myself, because I decided to go do computer repair and all this other stuff.
+That I could make that pivot. And then, but there was another huge piece of that was that I had to make everybody else know that too.
+[Alexis]
+Part of that, Jason, is what I'm hearing is you grew up in a very unstable environment. And through obtaining these certifications, not only through the dedication that it takes to study and learn the material, that gave you a sense of routine and familiarity, but you were also making yourself an expert in this subject, in this new world that you found. And it was also giving you financial stability and a career path to combat what you grew up with.
+[Jason]
+Yeah. Yeah. And what was interesting is, so my dad was a landscaper.
+This little thing sits in the front of this frame all the time. So I remember working for my dad when I was growing up. And he was born and raised in Chicago, worked for Illinois Bell, which is my Bell telephone company that turned into so many different other companies over the years.
+But one of the things I realized is I always had a knack for tinkering on things. And when I was like five or six years old, I'm not even kidding, I was really young, I figured out, they couldn't figure out how to, nevermind, I'm a little bit older, program the VCR, you know?
+[Kevin]
+Oh, I mean, that was the thing, yeah.
+[Jason]
+Which was an acronym that used to stand for video cassette recorder. So I figured out how to time their shows, messing around with the remote control and pressing buttons on the front of this. And this thing was so old that it was a top load.
+[Kevin]
+Oh, yeah.
+[Jason]
+So I was doing this to get it to work. And what I noticed was I had a knack for technology. And my dad realized that when I was like, I was probably eight, eight, 10 years old, because he used to work for a phone company.
+He showed me how to make something called a butt set, where you would have a phone and you have the two connections. So you can connect into your hotlines and make phone calls, test phone lines, steal people's long distance service, whatever you decided to use that for. I was the latter, unfortunately, because I figured out that after he showed me how to do butt sets and get into the side of these network interface on the side of the houses to connect in, I figured out that it was right at the time that cordless phones were starting, right?
+It was a big thing. It was cordless phones. You can get them for like 20 bucks.
+So I got this cheap RadioShack blue cordless phone and I ran this really long cable out of our shed across to the neighbor's house. It just clipped into their, their lid on the side of the box there.
+[Jason]
+And just started calling long distance to call my old friend from Belgium and Chicago, because I didn't have that ability because we moved out in the middle of nowhere.
+[Jason]
+And I realized there at that point that I really, I really enjoyed this. And about two years went by right when I was roughly 14, 15 years old. And I was telling my dad that I'm doing all this stuff with my best friend Luke here and learning all of these things.
+And I want you to see if you would buy me. This sounds horrible. $5,500 router kit off of eBay.
+eBay was just starting to get big and it was a $5,500 router kit. And it was three 2501 routers, one 29, 1924 switch and some ad trans CSU, DSU stuff and a little mux and stuff like that. And it was 5,500 bucks.
+And I told him, this is what I want to do. And that the next generation of this is voiceover IP is this thing where you can do how to do phones like you did, but over the network. And I, I was so excited about it.
+And I guess he caught that because usually me and him, we, we weren't good at the time. And he heard it and he said, look at me.
+[Jason]
+And he really looked at me and he goes, okay. And he bought it. And that was it.
+[Jason]
+I never stopped. CCNAN, PIE, double IEDs kept going, teaching all from my dad, giving me a shot who has no money.
+[Jason]
+Yeah.
+[Jason]
+That I had to invest $100 out of my dad who were broke. And it worked by the grace of God, man.
+[Kevin]
+Insane. So you went from, you know, that, that progress getting your CCNA, what was the point where you like decided that, you know, Cisco ecosystem in the career is going to be like your, your thing? Cause you've been working now for Cisco for a while.
+You had a little break there, but you're back. Why, why Cisco? Why, why are you working for Cisco?
+So you're going to laugh.
+[Jason]
+Uh, started off when my friend called me and said that I can make more than a quarter of a million dollars in this thing. That's what it started with.
+[Jason]
+Back in the day, back way back, back, back yonder, there was an ESIP that was created by Boson.
+[Jason]
+And with some of these different books and stuff, you could go under. So I had one book and then I found this ESIM software because nobody had money for routers. So before I got the 2,500, I was already down the path of beating this ESIM to death.
+And. When he said, you can go do this. And that the CCIE is only 500 of them in the world.
+And they all work at Cisco. I literally said to him, I'm going to get my CCIE and go work directly for Cisco. And I said that, whatever it was, 14, 15, whatever, whatever the age was 14, 15.
+And.
+[Jason]
+In my mind, it sounds so crazy, but if you repeat something in your mind, you'll get there.
+[Jason]
+It's just, it was, I just, there was no option for me outside of, I found something I was good at. I found something I absolutely adored and loved. And I had no, no fallback plan.
+And I think the stress and the pressure of not having a fallback plan was the same stress and pressure. I'm not, not the same stress and pressure, but stress and pressure similar to like what an Olympian would go through. Right.
+If you're an Olympian, that is your only North star. There is no other option. If you're Serena Williams, there is no other option because you're doing it period.
+Right. That's why you're all successful because you knew that you wanted to do something and you ran towards it. And because of that, I've noticed over time that like, I realized that it started helping a lot of other folks, right.
+When I started getting into education and stuff, and I didn't really think I was going to ever be in education at all from the guy who didn't, I got my good enough diploma and I told everybody this, this is not me hiding anything. I, I kicked out of high school, got my good enough diploma. Didn't go to college.
+Doesn't necessarily mean it needs to be the same path for you, but I think at the same time, like finding that balance is, is, is important, you know?
+[Kevin]
+Well, yeah, for sure.
+[Alexis]
+I think Jason, I'm not, not advocating going to college. I'm not advocating, I'm not necessarily advocating for not going to college, but I think it worked out for you because you had such a clear direction, you knew you wanted to head in and you equally put in the work. You didn't just get lucky and fall into a job at Cisco.
+You learned about the different certifications you put in the effort. I'm sure you did a hell of a lot of networking, but the people kind building relationships, making sure that you were in the right place at the right time. Um, and I think a lot of college isn't the only path anymore, especially when we're looking into technology and a lot of times in technical roles, what I find is people are just looking for who has the skills.
+Yes, maybe some companies are very particular if you have a degree, but especially we were talking about AI earlier, there's so many paths to alternative learning. And if you are smart and you are self-sufficient and you can teach yourself and you are capable of holding yourself accountable to learning material, applying it and getting out there. We've talked to a couple of people on this show that they went to school and they ended up dropping out because they figured out they could follow their passions and make more of an impact by not showing up to classes.
+So I'm not saying that's what I'm advocating for, but if you believe in yourself and trust in yourself and know that you have that follow through, I do think it could be an option for you.
+[Jason]
+A hundred percent. I mean, because I think the traditional way, I mean, okay, I'm not going to speak out about, you know, against colleges. I think that there's a tremendous value there.
+And I think some of, some of the things I'll be honest, like I missed out on school and I think it was just situational based on what happened in my life where I got out of school. Then, you know, so for example, all of the papers and the writing that you would do throughout high school and college, it would prepare you for life and potentially being, I don't know, an author. I didn't do.
+Yeah. Like, so I think there is, I think there's a portion of the organizational piece that I think structurally I missed out on because like organization to get stuff done and deliver in a specific time or fashion, I kind of just learned by necessity of, if you don't get this done, well, you're not going to have any food.
+[Jason]
+You know, that's a big motivation.
+[Jason]
+And it was just all this weird stuff. So like I, over a long course of time, I think I took the long way around to get some of those skills, you know, to be able to accomplish some of these things. So I think there's some value to it.
+But I also think to your point, right? I mean, AI is just like everybody in the world has to retool themselves. Everybody, everybody, even if you're in AI, you have to retool yourself.
+AI wasn't what AI was six months ago. Yeah, constantly. You know, it's a never ending change.
+I do not believe that that is going to slow down. I think in my opinion, it feels like we've been moving faster and moving faster and moving faster exponentially over the years. And finally, that thing that, that, that, that momentum finally caught up to says, all right, this is how fast we have to move now.
+That's it. There's no, it all finally converged and caught up and said, this is how fast we have to move to innovate, to block threats, to be secure, to hopefully box out our competition, to be relevant, et cetera, et cetera. And it's just, see, it's crazy exciting.
+[Kevin]
+What is insane to me is that it's still pretty new. Like we've only been talking AI in its current form for what, a year or so of like as agentic AI and all this stuff they can do. And so we're in its infancy.
+It's still crawling. It's still figuring itself out. I can't imagine two, three years from now, what, what it's going to look like.
+It's insane to me still. I can't, it's kind of scares me. Like it's, it's so quick and so fast that it's scary, but not scary enough where I'm like, you know, it's not something that we need to learn to get involved with and to touch.
+I think that's where the, you, you get into trouble where people are too afraid of it to like, oh, it's going to take my job. It's going to do all this stuff. So I'm going to ignore it.
+I'm going to pretend like it's, it's in the corner and I'm not going to do anything with it. It doesn't exist. Yeah.
+[Alexis]
+So Jason, I'm curious, how did you become an author? And also, I think I understand now why you chose the CCNA as your first book or maybe not first book. You've written multiple.
+[Jason]
+Yeah, it was, it wasn't my, for my first book, as much as it was my first technical certification from Cisco, because that was a defining moment of kit. I've already proven that I could do computer repair because I've been doing that since I was 13. And then Novell networking and some of these other things, but it's like, can I really make that transition and that change into full networking career?
+And that certification was the proof to myself, like I said, but it was, I put so much on that. And then I think you all get this. I'm sure everybody's going to listen to this and get this too, is we, we tend to put so much emphasis on something that not only because we try to make it reality, but at the same time, we may put so much emphasis on it that it actually makes it more difficult.
+It's almost like pushes the goalposts a little bit, because what I've realized in the study habits and all this stuff, going through all these different things and helping so many other learn was that you, you, you prepare yourself mentally for a plan, like whether it's studying, whether it's making this podcast, whether it's travel, whatever it is, you're preparing yourself mentally for a plan and you try to get some backup plans. But for the most part, if this is your set direction and this is where you're going, that doesn't really sometimes have a backup plan.
+So the stress of all this, not spending time with my friends and family, not spending time doing stuff because I have to study is the words that you, I hate those words. I, I hate those words because of that, right? It's, it's traumatic.
+Like you're like, I have to study. And then I go down to the dungeon and I, I made studying and preparing myself that way. I, I shouldn't have, it was just, it just came out by all of the things I went through and how much emphasis I put on all these things, but I put that much onto myself.
+And I think that makes it difficult sometimes for, for candidates, because you want to get this because you want to start your career and do all this. You said my whole life is wrapped around. If I don't pass this thing, things happen.
+You know, you've heard the expression, the Lord works in mysterious ways. Things happen. And it just, as long as you're going in the direction you want and you're making course correction and you took you, you took you sometimes, sometimes you're like off the
+[Jason]
+screen, you know, you're like right now it feels like this, you know, like Wayne's world,
+[Jason]
+but you go through these things and you realize that maybe you made it more stressful than it had to be because you'll talk to, I get this all the time and it breaks my heart sometimes, but I'm happy for folks.
+You'll talk to folks like, yeah, dude, I've studied for this thing for like three months. Nailed it the first try pop pop doing book, got a job. Good.
+[Alexis]
+I'm like, huh, that'd be nice.
+[Jason]
+Good on you. Good on you. Can you just put that into a book and share that with everybody else in the world is trying to do that.
+Cause that way all the time. And for the folks that doesn't work that way, you know, you get stressed and you just have to know that you're doing this for a better you and a better future and a better, whatever it is that you want to envision. So whatever's going to get you to that point, you're going to go down that path and you're going to do it.
+But it's also good to say, you know what? I'm also going to go look at the sun, actually go to the bathroom every hour instead of once every six hours or, you know, whatever it is. There's all these things that you put yourself through that it might be unnecessary to get yourself to that next level that I think with the community encouragement and podcasts like this and YouTube and not YouTube, you too.
+And not the band, right? The constant flow of advice and how to just course correct a little bit, I think it's going to save. And I'm not even saying the next generation, all the folks who are doing this, who are in my generation, older generations, younger generations who are going down this path.
+It'll make it that much easier.
+[Kevin]
+Do you think so? I have a personal question where it's related to me. So my original goal getting into networking was a CCIE when I was first learning kind of the same thing as you.
+I learned about the CCNA, NP and CCIE and how there's not many of them in the world. I'm like, that's what I want. That's the thing.
+But as I've gotten older and, you know, life has gotten in the way, I've seen how hard it is to actually devote that much time to studying for the CCIE. It is a huge mountain of an exam. And so you have two CCIEs and you have said that you would not, if you had to do it over again, I'm guessing you would not have that mentality of, I have to study and put yourself in the basement.
+Yeah. Is that, do you think that's kind of what's required though for such a CCIE is such a large, hard exam or do you think it's possible to kind of have more of a fun kind of a do it because you're having fun with it, studying, not because you have to pass it and you have to like devote 90% of your life to it?
+[Jason]
+A hundred percent. I think, I think there's, I've, I speak to so many folks who pass it and they seem so much chipper, more chipper than I am, you know, like, you know, have more, more hair and stuff than I do. Well, I think for me, my struggle was I didn't have a barometer to gauge against because not a single person I knew was going through what I was going through because, and that's why you get laughed out of job interviews and stuff.
+Cause at the time that picture, I had a hair down to here. Yeah.
+[Kevin]
+You don't know, Jason's a big metal head. So I can only imagine.
+[Jason]
+Because of that though, right. You, you realize that like you question yourself, you question yourself, you question, do I Because I love this stuff. I enjoy it.
+I'm studying on my free time, not spending on my friend's family. I'm doing labs, like 10,000 hours, labs and all this stuff. Cause I enjoy it.
+But then you go in to try to capitalize on that to get it even an entry level job. And that was the catch 22.
+[Jason]
+You go out and you can't say it anymore. You're too young. Yeah.
+What did you, your hair's too long.
+[Jason]
+You need to cut your hair. You want me to cut my hair to do an IT? No.
+And so many jobs I did not get because I didn't cut my hair and I have quote, unquote, no experience, but I out certify everybody in your entire stack.
+[Jason]
+And although they might've been doing it for two or three years, I've been doing it for about eight or nine now.
+[Kevin]
+Yeah.
+[Jason]
+And the difference is they look at you as your age and they try to figure out that that's when you start your career. Technically, I've already got my 30 plus years in. I, I should be retired.
+Right. I've already been to go, right. I've got 33 in this bug, dude.
+Like, what are you talking about? But they treat you like that. So, well, because, because whatever, insert, insert, whatever the excuses for, for employer or, or, or somebody who may be jealous of you because you decided to go get it.
+And they're over there like, man, I never did do that. And there's so much that you think goes into this career that you've got to have enough of the thick skin to know, like, look, you're going to make it no matter what. And here's the thing I got, like, I'm doing this stuff.
+Working on writing and authoring and things like that. I'm working on a new book right now for any, and I realized, like, I don't, I don't want to say it's a difficult, it is a very difficult thing. It's not easy.
+Right. Because on top of everything else, you have to try to put a certain, you know, into terms that will help the next reader or watcher of the video drop, like drop into that mindset and be able to see what you're doing and what you're thinking. So hopefully in the way I try to teach and educate is I'm just going to go ahead and bypass all the crap that you went through or that I went through.
+Right. And just see if I can, and we talked about this in Vegas, right? I can just, and just that little GPS, you know, I can't say the name, but you get the commercial, the little GPS puts you on the path you need to go and bypass all that crap.
+Right. Like, why, why do you got to suffer in order to learn it? And that was one of these podcasts and the mental health and, and studying habits and stuff like that, because no one ever thinks about it.
+And it, it, it isolates yourself. And honestly, what I've learned over all the years, Alexis, you know this about me. Like it's community, dude.
+It's been community the whole time. That's why I built ShineOg, right? You inspect, oh, it's on the other side.
+ShineOg, that's why I do all these things, right? Build community to have folks be able to not feel alone when they're going through these things. And now with the education and certification community, that's, that's, that's the folks that I love and interact with the most.
+Right. I mean, because they're all going through what we went through and if we can, as soon as possible, prevent them from going through an off-road extravaganza and just, you know, maybe maintain on the highway, maybe it'll make their lives a little easier. So I mean, that's my, that's my driving factor for the education.
+And you, going back to the original question, how I got into writing, I think I told the story before, but not, not with you both, but I had no intention of doing it. Like no intention of writing. And there was a gentleman named Ryan Tischer who worked at Cisco and he was a data center TSA and he did ACI and all this stuff back in the day.
+You're talking 2015. And I, and, and he might, he might find surprise on this but I doubt it, you know, cause it's been said before, I didn't, I didn't, I didn't care for the general.
+[Jason]
+Right.
+[Jason]
+Um, he was just, at the time was very condescending and rude and arrogant. And there was all of that. And that's literally completely 180 from me.
+That's not me. Right. That's just not my jam.
+Like you're cool. You're awesome. You're quadruple, you're eight time.
+You have all of them, man. The only one that I'm like, that's, that's awesome. That's good for you.
+But at the same time, I'm not gonna, I can't, I can't go through that kind of a thing. Right. And one of the things I realized was that, uh, you know, he'd come up to me and asked me if I would write this programmability book with him.
+[Jason]
+And we were at that event where I can't tell.
+[Kevin]
+Yeah. For the listeners, for the podcast listeners who can't see you have, you have the Chuck behind you were cut out of Chuck Robbins, CEO of Cisco behind me, uh, throwing the metal head horns.
+[Jason]
+Um, I've met him multiple, many, many times and, and, and have pictures with him and stuff, but it was necessary, uh, that they needed a picture to do a habitat for humanity, uh, project in the Cisco office in Chicago. And my former manager, who's my manager again, who I adore, uh, he asked me, he called me, Hey, I know you have all these different pictures with Chuck. And I was like, okay.
+Yeah. And he goes, do you have any full length pictures that show his feet? And I was like, which is a dangerous question to ask nowadays.
+Like, and, and, and no, but it was basically what it was is they wanted to see if they can make a cardboard cutout. Cause during COVID we do the habit or even without COVID, we do habitat for humanity and all of these different things to, to give back at Cisco. And so we did this whole huge habitat for humanity bill.
+We had all these folks come in Chicago office, it was still COVID, but you were allowed to go out to the sites to do the work because you're masked up and you're separate from everybody in different rooms. Like I did a lot of flooring and, you know, and so there was all these things and they said, well, we wanted a cardboard cutout to put with all of the habitat site teams to take a picture because Chuck can't come on site and travel all these sites. It was like, I got, and now they all have the horns, they're all throwing the horns, but I can't.
+And that's what that came up with. So, and my boss gave it to me after, after it was done, which is hilarious.
+[Kevin]
+So the next logical place is to put it in your office. So he's always staring at you.
+[Jason]
+Here's the funny thing, right? Normally nobody would see that. And I had some staffers trying to get into this, this, this, this, this podcast because my, my, my desktop wasn't working.
+So normally you're seeing straight back at these two things and he's just kind of popping out of the corner, hanging out. But it was just one of those things. I was at this event and it was, it was at Cisco and shortly, shortly after I had just met Chuck and John Chambers before, before he had left.
+And I hear the screaming at this party, at the same party, I hear my name, you know? And I'm like, oh, okay. All right.
+And it's this guy who comes up to me, he goes, I want to see if you want to write this book with me. And it, you know, it was a little bit interesting, but I was like, look who you're working with over there. And he told me, and I had been friends with this gentleman for a long time.
+So I was like, let me reach out and ask, you know, and I call, I called my buddy from Cisco press and I said, you know, what, what's the story with this? You know, he asked me if I would write this book with him. You know, I know you've been trying to get me to write for a long time.
+I've never written anything. What is, what is your thought on this? And he's like, Jason, I'm going to be completely honest with you.
+[Jason]
+I'm like, okay. He goes, it's the first programmability book and automation book for Cisco. Do you want to be on it?
+Jason Tucker. Yeah. I mean, it's a huge feather in your cap.
+Yeah.
+[Jason]
+And I'm like, I don't, you know, I don't know, maybe writing a book, but I don't want, I want to be doing it, you know, and, and he said, well, if you, if you change your mind, you let me know ASAP.
+[Jason]
+So I called my wife. I was like, yeah, this is, this is what's up. She's like, let's think about it.
+And then I came home that night and I was like, and I told her, she's like, you know what? F it. I was like, what?
+So he goes, the best things I've ever done are to say, you say F it. Don't do it. And I go, why?
+What? I go, I go, dude, I don't. And this is not, this is recorded from DevNet podcast from 20, whatever.
+I don't know network programmability and automation.
+[Kevin]
+How to have a godfather of programmability now, right?
+[Jason]
+I became that to learn that. And this is public. I've said that like, you want me to write this book?
+I was like, look, I've done coding. I've done some stuff like that before, but I've never, I've never done the automation stuff. You know, he goes, well, dude, you know, you've got service provider and, and enterprise networking or in a routing and swishing.
+He goes, you know, the enterprise networking side and the service provider side, he goes, I know the data center side and all this Linux side. Be like, maybe we can just come together and we can just do this, you know? And I was like, I got called back Cisco press.
+I talked to the dude, I go do like, here's the deal. I have to learn this to do it. He goes, do you think you could do it?
+And I go, yeah.
+[Jason]
+He goes, nobody knows this stuff.
+[Kevin]
+Yeah.
+[Jason]
+Right.
+[Jason]
+And that's the problem. So if somebody like you can learn it and show other people that it's not that hard to learn, that can be very beneficial. And that was my approach to it.
+It was like, I learned it. I scrambled it out and I learned NSO. I learned all the, at the time APPM and all this programmatic stuff.
+And I've learned, I learned all these things, rest APIs. And, you know, I already knew HTTP response goes and all this stuff from before, from other things that we're working from, from firewall and security and all this other stuff, right? Over the years.
+And I was like, all right, I'll do it, you know? And I spent this time and I went through the effort and I, and I did it. It wasn't the best experience.
+For this, this, this other reason we were talking about, but that, that basically led me to say it became the, the unofficial certification guide for the network and network programmability engineer specialist exam that has eventually revolved into, which is now the CCNA automation, formerly known as DevNet Associate, formerly known as Prince, right?
+[Alexis]
+What I think Jason, just to reframe or going back to, I have to do this, or I have to study. Um, and this is something I'm working on with myself. If I set a goal and I'm working towards it, it's because I want to do it, right?
+I'm going to the gym because I want to do it. I am eating healthy because I want to do it. Does it mean that there are other compromises you have to make, like getting up early or getting in extra steps or doing your cardio or not getting dessert?
+Yes. There are other compromises you have to make, but you are doing it because ultimately you want to hit your goal. No one's forcing you to do this thing.
+And that's, I mean, I'm not currently studying for a certification, but there are things that I'm working towards. And sometimes the things that you have to do to hit your goal, aren't the most fun, but it's a goal that you set for yourself that you want to hold yourself accountable to achieving. Therefore, you want to do the thing that is going to make you successful.
+[Jason]
+Even if it's painful.
+[Alexis]
+It's like a reframe.
+[Jason]
+It is, and I love the way you just said that, because that actually brings me up to, it brings me some top of mind for me, right? I've talked about this quite a few times with candidates, folks studying. I was going for my CCDE, okay?
+Um, the only reason I was going for my CCDE, I passed my route switch, got my job at Cisco. It's all I ever wanted to do. Boom.
+I've accomplished that. I didn't know where I was going to go past that, but I got in, uh, I got my CCI work at Cisco. I was like, boom.
+My work wanted me to go for the CCDE because it would benefit as an SE to have that skillset. And it is a very good conversational thing with customers, right? And I agreed that I thought it was a worthwhile certification.
+I still do. I think it's one of the most amazing and fair certifications out there. However, comma, I didn't have a desire to go for the certification.
+I had a desire to get this and work at Cisco. And when you come out of all of that lab mode and all of the stuff that you have to do to get a CCIE and you're finally broke free of it and you go like, I'm not even kidding you, I mean, when you, when you pass, you don't realize that there's a pressure in the, it feels like in your heart, kind of like this area that you haven't felt like you've been breathing properly the entire time you've been studying.
+And then the second it goes over and you see that it's like, it takes, you know, in a way that you feel like you're just going to melt into the ground. Like, you know, like, you know, and that was, what was so crazy. It was like, when that happened, I passed and it didn't sink in.
+Like, because you're, you're waiting to wake up. You're waiting for the pitch. You're waiting for the shoe to fall.
+You're waiting for this goal that I put my entire life into. Is this really here? Did this really happen?
+And the problem with that is there's a depression that comes after that, just like getting married. Like you get married and you build all this time up for your wedding and you go through all this stuff. I'm not saying you get your depression to get married.
+Well, I understand my words here. You look at the plan of you plan a wedding for year one, two, three, however many years it's your wedding and you get it to wake up the next day. And all of that is just gone.
+Like all of what you have been doing. And this is Alexis, you mentioned this, the routine that you have been following to do this, whether it's studying, whether it's planning for a wedding, whether whatever it is, it's just gone. And I find that I have got to have structure.
+If I don't have structure, I'm lost. Like if I don't write two to four hours every day, it ain't getting done. Like the last time when I had to do all those four books and all the stuff kind of converged and I had to bring it all in because Sirpocalypse was happening or the certification change.
+[Kevin]
+Sirpocalypse is crazy.
+[Kevin]
+Oh no, that was the thing, yeah.
+[Jason]
+I had to bring in all those books to get them done to get them out. And that was the worst. It was the worst.
+It was the most stressful, worst possible time of my life, dude. And coupling with that, my dad was falling ill and not doing good. And all of that stuff together was really tough.
+And then the CCDE point I would make is that I love it. I learned so much. It's what got me my service provider service because I was studying for that.
+And Brian McGann's like, hey, dude, if you're starting already for that, you might as well just take the all access thing and see if you can knock out service provider. And I passed. But I realized that I was going for something that I did not have a desire for.
+I learned an absolute unparalleled amount of stuff, you bet. I just didn't pass the exam, but I studied with the smartest people in the world. Daniel Dibb, Nick Russo, rest in peace, all these other folks.
+But at the same time, I didn't want it. So when you say that you go and you have to sit down and you have to do the hard things that you want to do to get to that goal, when that goal isn't of your own volition and you sit down at that seat, you feel like you are literally strapped to the seat, chained to the seat, and you're being tortured.
+[Kevin]
+You didn't want it.
+[Jason]
+Sounds great. You didn't want it, but you're literally going down a path that you didn't want.
+[Alexis]
+It's an interesting point.
+[Jason]
+It's important to think through.
+[Alexis]
+Well, because there's... Man, it's actually a really interesting point, because when you think about like your job, I am very fortunate. I literally wrote my job description.
+There are still things that I have to do for my job that aren't my favorite thing. Sure. Documenting things in Jura tickets or building PowerPoints.
+I love the fun, creative aspect and the writing and the filming videos, but then there's a lot of other corporate processes that get tacked on that have to be done organizationally. And sometimes there's some things that you have to do just because it's... I wouldn't say part of the job, but even if you have a job that you love, there's still parts of it that you might not love as much.
+And when we look at taking a certification or upskilling in a certain area, maybe you love 75% of your job, but now boom, AI. You're required to go and get an AI certification or you're required to learn this new thing because it is now part of your job and it was not of your choosing. Can you still embrace that challenge and learn to love it?
+Or is that a time to pump the brakes, hit pause and say, maybe this is a sign I should pivot. Maybe this is a sign I should pursue interests in a different direction. Knowing that maybe you will not always love 100%.
+[Kevin]
+Anyone who's worked in uptime knows outages aren't just technical events. They're human events. They're late nights, pressure calls, and leadership asking for answers now.
+[Alexis]
+StatSeeker was built to make those moments easier. It automatically discovers your environment and collects performance data across every device every 60 seconds.
+[Kevin]
+So when something breaks, you're not scrambling. You've already got the visibility to diagnose it fast.
+[Alexis]
+Teams use it to detect anomalies early, prove root cause and prevent repeat failures. And because you can run it in your own environment, you stay in control of your data and infrastructure.
+[Kevin]
+If uptime is your responsibility, it's worth seeing how this works firsthand. Go to statseeker.com slash uptime stories to start your free trial.
+[Jason]
+No, I think you're 100% accurate. I think both. I think both.
+Because I think, I think if you've been having that feeling, and you know, we all know what that feeling is, right? If you've had that feeling where you're just like, and I was like, here you go. Here's a bunch of more stuff that you have to do and responsibilities and all that.
+I 100%, 2,000% think that that is an amazing time to reevaluate and potentially pivot into something else you want to do. If it's not going in a direction you want to do it. I 100% because here's the thing.
+And the other point I would make is a lot of us have our own companies, right? Pretty much all of us, you know, like you kind of have to, in order to be legal and taxes and all this other stuff, right? Do you love everything you do when you work for yourself?
+Nope.
+[Kevin]
+No, there's some stuff. Taxes.
+[Jason]
+Well, how about taxes? You know, like, I mean, that's the other thing is like.
+[Kevin]
+Oh my God. The bane of the bane of my existence. The bane of my existence.
+[Jason]
+But, but that's the thing is like, even if you're the boss and you wanted to do this because you love doing these things. Now you have to be a manager or elite people leader or a supervisor or an executive or something. And now you have to carry about the two of you can't go out on vacation at the same time because then we won't have coverage.
+That's adult babysitting. I hate it. That's why I left management and came back, came here.
+I was a manager before I left. I was technical, obviously, but I didn't really. That's why I didn't go back to the management, right?
+It was like, I don't want to do that because you find these different aspects of your job or the job that you business, you create, they're just not fun. Like, I don't know, editing all these videos is not easy or fun at all, but it's important because it's got to come across proper. But that's the thing is like, you know, maybe a good example is maybe, you know, maybe you learn how to use whatever the tool is, Camtasia or whatever your editing tool may be.
+Maybe there's classes for that. That would benefit you to make this a little bit easier, but it's not exactly what you wanted to do. But if it'll make your overall life easier, sometimes those are the things that you have to kind of forecast out and just kind of live or deal with.
+I hate saying that, but it's the truth.
+[Kevin]
+Yeah, it's, it's one of the problems with, you know, having a career is you keep getting promoted. If you're, if you really enjoy what you're doing, you love what you're doing, you're good at it. You keep getting more stuff piled on top.
+And eventually you get to a point where you're no longer doing what you love anymore because you kept, kept succeeding. So now you're kind of stuck with like supervisor details or, or, you know, being in charge of technologies that you don't really love, but were given to you because you're really good at your job. Yeah.
+And so it's kind of a catch 22 there. Yeah.
+[Jason]
+It's a lateral promotion thing, right? I mean, you, your responsibilities keep going up and they keep piling on top, but I don't see the money piling on top. Yeah.
+The money always lags behind somehow.
+[Alexis]
+Why is it always like this? It's like when you wake up one day and you're like, oh, I accidentally became important. And then you're like, why are people asking me all these questions?
+Oh no, I am in charge. Oh no, what have I done? What have I done?
+[Jason]
+It's how I put myself in that chain and I don't want to be in that. Oh man.
+[Kevin]
+It's true. That's so true. All right.
+So before we're already like almost halfway or we are halfway through, I do want to talk about some things. Personally, I want to talk about the CCST exam. You just recently came out with a video series on it.
+And it is the, you hear a lot about CCNA. CCNA is like, I don't know, at least in my world, if someone's trying to get into networking, they say get CCNA, get CCNA. Where does the CCST actually fit into someone's networking journey?
+Is it for like the old ICND1 exam from, you know, ages ago? Or like, what is it actually for?
+[Jason]
+Yeah. So let me actually expound on that a little bit. So for example, the reason CCNA, everybody says CCNA is because it's been around a lot.
+That's why routing and switching CCIE was the most prevalent CCIE. I think that same thing is going to be the approach for wide adoption. But what we've realized in working with learning at Cisco or learning with Cisco, I should say now, learn with Cisco.
+It's that there's a gap, right? And the gap was, if you want to learn networking, you might not need to know all the nitty gritty about OSI models and MAC addresses and VLANs and all of this stuff, because there's a level that could potentially come before that at home. If you're at home and you're working on home, so whole small office kind of things and stuff like that, you may not necessarily need to be at that level yet.
+You could still be so functional and make so much money. And if you think about it, right, desktop support or IT support, help desk, this is basically what the certification is revolving around. So I did the IT support one, but there's also networking and security.
+And what that is, is like, if you think about how do you, if you look at the pyramid, we call it the certification pyramid for so many years, right? CCIE was on the top. CCNA was on the bottom.
+CCIP was in the middle, because you get more specialized, more expertise as you move up in that period or in that pyramid. But then it kind of, it kind of drops it a little bit. And then it put in the, it was like 14 people in the world or something like that.
+And, and then we had all of the different tracks for these certifications. And then we consolidated them, formerly known as CertPocalypse, but February 24th, 2020 to make it easier to consume. And what you'll notice is that sometimes you've got to do this.
+And every five, 10 years, it centralized cloud distributed, on-prem hybrid, you know, whatever. It's this whole thing every, every five, 10 years, right? And the same thing applies to some of these certification concepts, because as things change, we need more folks who can learn these things.
+So for example, what I really like about the IT support video course, when I created it, I tried to make it in a way that was very much like, if I just picked Kevin up and I took Kevin to a business and I stood him right in the IT department, and just set him there by himself.
+[Jason]
+And we said, here's all these different travel tickets, go.
+[Jason]
+It's a very broad spectrum of what you might run into. Some, believe it or not, in corporate environments, a lot of it is my HDMI won't connect to the screen that I'm trying to present on, right? I can't print is the, what?
+I can't print.
+[Kevin]
+Oh, don't, don't, don't get, don't get started on printers. That's a whole thing. It's, it's, I have traumas.
+Okay.
+[Jason]
+Whatever, like, you know, I'm telling you, office space should, should have a reoccurring video stream where you just watch people beat that printer to death.
+[Kevin]
+Yes, it would be satisfying.
+[Jason]
+But the thing is like, because of that, I wanted to make it as broad as possible. So you would know how to onboard these using the wifi and how to connect with Bluetooth. How do you connect to an AP?
+How do I, you know, how do I use tablets? How do I use Android devices and all of these things? How do I download something from the app store on both?
+Because these are all things that a help desk person is going to have to be able to do. We also got into the, here's a brand new computer. I ordered, you kind of think it's kind of funny because I ordered it thinking I was going to build it on camera and it showed up all put together.
+[Jason]
+You got to take it apart then?
+[Jason]
+Instead of just ripping it apart. I'll start with, here's how you put the, like, here's, here's, here's the components. These are all the components.
+Then we'll show the operating system, all this other stuff. Cause it's already built. It's already preloaded.
+How this all works, dah, dah, dah, dah, dah. Then we'll rip it apart. And then we just ripped out all these different things.
+And I started bringing in all these different pieces of components of different things over the years. Right. And that gives that broad, diverse grouping of things that you're going to run into in a customer environment.
+Right. And in my mind, it kind of tees you up really well for the CCNA. But also it tees you up for just in general, even if you wanted to stay in that realm for however many years and you can excel in that realm too.
+Right. Like you might enjoy, I started off with desk side support and help desk. And I did because believe it or not, I was already certified CCNP.
+I got, I took this role at a, at a very large nationwide carpet company. And what was funny is all of a sudden my role ended up becoming a liaison between help desk and that ops. And I'm like, wait, I'll certify both of these teams.
+I've got both, what are you talking about? And that's what happened. I'm not kidding.
+And it was, my mom had just passed away. I moved back from Arkansas, back to Illinois, because I moved to Arkansas for a couple of years to attend to her. And I moved back and I needed a role like stat, you know?
+And so I, this came up, and when I went in, I didn't realize it was this place, you know, I don't want to, I don't want to call it names, but I didn't realize that it was at the time. The biggest carpet company. I didn't realize until I went in and I saw like the bobble heads and stuff.
+I'm like, Oh no, I recognize that. I don't even care.
+[Jason]
+I want the job. I guess exactly what it was. I don't even care.
+[Kevin]
+I want the job. I see money. I need the money.
+[Jason]
+Let's watch these commercials on, you know, like TV. I'm like, absolutely need absolutely done.
+[Jason]
+Right. And it took a while for me to prove again, younger, right. Large company, huge enterprise network.
+It took a while for me to say, look, no, I can do all of this.
+[Jason]
+And then what it actually took was the dude who was in charge quit. It wouldn't give anybody the passwords, you know, that I've seen that before.
+[Jason]
+It was almost a legal thing to finally get this dude to relinquish these passwords. So I can go in and basically take them out of everything. And then here comes my manager at the time around the corner, holding the guy who just puts badge in his phone.
+[Jason]
+Yeah. I'm like, I got this.
+[Jason]
+It's not good, man. I've been doing this for like, what are you doing? All good.
+All good. And then became the senior network engineer, took his role, brought in a gentleman from help desk who I absolutely adore Vince Muldock. He's my homie.
+Brought him in help desk, completely trained to work with him. He took off, like going for a CCIE now or sort of very large credit union, a healthcare company organization and super proud of him. Right.
+And he took over when I left to come to Cisco. And now he's, he left there. So like when you think about these things and the process you go through, you get put in to things sometimes by necessity.
+[Kevin]
+Yeah.
+[Jason]
+Right. I had to learn all these weird things to prove to this guy that I knew what I was already talking about, but not going to say I didn't learn a absolute metric. I mean, ridiculous amount of stuff while I worked there.
+I learned a bulk of all of it when I worked there. So starting for the CCIE, like I learned all of the super deep, crazy stuff on the job and they benefited from it because these are all the things that can help you because nobody understood it. And I did.
+So for a call center, one of the biggest call centers in the world, you know, to do that and have quality of service working and all of these things that you didn't expect that you needed, it makes a huge difference, you know?
+[Kevin]
+So the way you describe CCST, so Cisco is a vendor, right? And a lot of their certifications are vendor heavy towards Cisco, obviously. Is the CCST less vendor specific then because of that, because it is more general help desk kind of thing, or is it still very vendor Cisco heavy?
+I'm so glad you said that.
+[Jason]
+Believe it or not, it is very vendor agnostic. There, because I mean, you got Windows, Mac, Apple, Android, intro to networking, fundamentals, stuff like that. We show, I don't even, there might be a couple of things as far as like how to configure something basic, but for the most part, that's not even CCNA or that's CCNA, not CCST. So in my mind, this course is well-defined in my opinion, and I'm not downing because I have my A-plus, I got CompTIA A-plus certified in 98 or 97 or something like that, you know?
+The old mauve and white colored card that you have to carry around. But I think it's more robust because, and the reason I say that is you're not just, I'm not just, here's how, here's the megahertz bus on a motherboard that take, you know, to connect RAM into the CPU, and you're not going into that. Some of it, but not to the level of depth you would on an A-plus certification, right?
+Because it's not just computer repair. It's how do I be a good IT support technician, help desk technician, intro network engineer, you know, intro security engineer, all of these things leading you to that path. So I think agnostic is probably, in my opinion, where I see it as, even though Cisco delivers it.
+[Kevin]
+Well, it's because I get that question a lot. I have a lot of early career people that follow me, and their number one question is, what certifications should I start with? And they're usually, a lot of people will ask, should I have the A-plus?
+And I've been saying, don't get your A-plus because there's not a ton of jobs that are still looking for that. And the question's either start with NetworkPlus or CCNN. And, you know, it always comes down to, is it Cisco or agnostic?
+And I think this fits a good spot where it's not as detailed as the A-plus where, you know, again, it's a little more than most help desk now does not deal with replacing hard drives. A-plus does not actually prepare you for your entry level into IT anymore. So I think this fills a really good niche where, you know, there is a demand for it.
+And NetworkPlus or CCNN is kind of overkill for a lot of these people who are new to technology. It's intimidating. It is.
+And so this is a great entry. So I'm very, I'm very glad that it's becoming more of a thing. And I know it's newer.
+It's only been out, what, three or four years now?
+[Jason]
+Well, CCSC in general has, but it's only been out for about a year and a half, two years. But the thing is, like to your point, when you're, it is delivered by Cisco. And I think that gives credibility, right?
+I think it gives you credibility. But then if you go and look at the blueprint, I mean, there was a lot of effort put into this specifically IT support because network academies are going to start looking at starting to take these things over, providing like IT essential type courses and all these different things that are more to your point than just what the, the A-plus certification covered in the past. So I think, I think you're going to start seeing a really good pathway there because you can get an amazing job and never type config T.
+Yeah. Yeah. And still be happy.
+[Alexis]
+So Jason, one thing you mentioned earlier to me that stuck out as community, and we talk a lot, I mean, Kevin and I have, I feel very blessed. I feel like I've developed a wonderful professional community in and around the Cisco community and also through meeting people through social media and producing content. I feel like I've got so many industry contacts.
+And when I was first taking my certifications, I was in a training program with Cisco where I was taking them in a group of other, I think it was 15, maybe other kids that were kids, young professionals pursuing their certifications at the same time. And it was so helpful to be in a class with someone or having someone else that was holding you accountable. If you're going for your CCNA on your own, how do you find a community like that online?
+I know there's several of them out there. Is there one that you recommend?
+[Jason]
+Yeah. I mean, that's an amazing question. I think the first one would be that community, you just got to put yourself in a position to know that even your job that you're going to get after this is going to be a community sport.
+Peter Jones is a good friend of mine. He says all the time, it's a people sport. You got to become the people switch to connect folks.
+And it's that same concept, right? Because if you don't have a community, you get that overwhelming feeling of you're alone. And that goes back to mental health.
+I know we're going to talk on a different episode about it. But when you're in that basement, you're just sitting there alone, you're not going through it and you don't have anybody else to talk to. You feel alone and kind of relegated down into the dungeon, so to speak.
+And what I've noticed is that if you just involve other folks, two things happen. One is, well, when I was going for the CCDE, I started off doing it myself. It's not an impossible task.
+It is a very difficult task to do alone. It's just because you get perspective by how would you handle this in this situation? Or I didn't think of it that way.
+And that for a design is very important. And I think that what I did was I joined this studying community. I mentioned Daniel Dibb and Nick Russo and Parith Kapoor and all these other friends of mine.
+[Alexis]
+Is that how you originally met all of them?
+[Jason]
+Yeah, yeah, yeah. I started studying with them. And I was part of the original cohort with those guys.
+They all passed. You know, but the thing is, you know, but that's the thing. It's like that.
+I'm glad they passed and not to take anything away from the CCDE. I love that certification. I think it's incredible.
+I just think that for where I was going and what was happening with my career and my role and the fact that I wasn't the one who was sought out after it, that made it more difficult because you lose passion, you know? So, for example, Shinog, Chicago Network Operators Group. I've been with and co-founded and been doing since the beginning.
+And I just resigned from it after Shinog 13 in Chicago just a couple of weeks ago. And the reason I did, I love them. I love these are all great friends of mine, you know, but I realized something along the way.
+And this kind of goes back to the oxygen mask thing where it's like, dude, you can't get pulled in that many different directions and expect them all to go as good as they would be if you went into one direction and put your effort there, right? And one of the things I realized is like there was some things with Shinog. I absolutely adore it.
+I absolutely love it. I love all our sponsors. I love everybody who's helped us with that thing.
+But I was conflicted a little bit, right? You know, I helped create this thing. We co-found this thing.
+We go out, we do all these different events to get folks in. Alexis, you came and spoke for us. I'm grateful for that.
+But somewhere along the lines, also, I had trouble getting Cisco to sponsor anymore. And the reason that that had come up is it became a policy that they can't sponsor things that aren't internal events.
+[Jason]
+So that happened a few years ago.
+[Jason]
+And when that happened, something inside me became conflicted. It's a vendor-neutral conference, and it's how it should be, you know? But nobody's hearing from us.
+[Jason]
+And now I'm there thanking all of our sponsors who are not us.
+[Jason]
+How do I then go out and be the guy or this spokesperson? It's difficult, right? I think that the thing is, that started with three people sitting around a laptop at R-Louis.
+[Alexis]
+Sometimes, through my own journey leaving Cisco, right? Sometimes you can be a better advocate from the outside. I have been able to have much more of an impact on the industry and on Cisco, even internally.
+From leaving. And sometimes that's the truth, too.
+[Jason]
+Hey, you know, every time I try to leave, they bring me right back in. The funny thing is, and to that point, right? I know there was a period of time that I was gone for about six months.
+And I was working on volume two, second edition, and the CCSD official video course, and the CCNA official video course, right? And it gave me a lot of opportunity to put things into perspective. And this is just me being transparent.
+And there's no negatives here, is that I needed to see, can I stand on my own?
+[Kevin]
+Yeah.
+[Jason]
+I can't. I love that. I appreciate that.
+And that's because of everybody watching this thing, right? But even at the same time, the calling for what we're doing with some of the new technologies and AI and this, oh my gosh, dude, and leadership, right? My manager who got me this and all of these things was my original leader when I got hired at Cisco in 2013.
+He called me and there's like, look, I got this new role. Want to basically model it after you? You want to work at Cisco again?
+And I'm like, you know, you asked me that once before and I said, yes. So what do you have in mind? And you know, my role is like, sometimes you, a really good friend of mine, she had cancer and a former job that I worked with and I adore her.
+She's hopefully doing well. But one of the things that she had said to me is sometimes you need to learn, you need to leave. Sometimes you need to leave to make a triumphant return.
+[Kevin]
+I love that.
+[Jason]
+And then she said, you know, when you, and then she wrote on this piece of paper, I still have it somewhere laminated into one of my keepsake boxes that said, it's a T-R-Y dash oomph. Let's try with a little bit more oomph. She was fighting cancer and she's giving me this advice, right?
+So I think that's kind of like the thing, right? That puts your brain is sometimes you have to leave to make a triumphant return. And there's no, there's no hard feelings.
+There's no, there's no negative things. You know, everything obviously happens for a reason. And I think it gave me the time to do all those things with Cecinae, with Wendell and all of that.
+And you're working on taking over the helm from him and building these certifications and stuff out. But also it allowed me to spend my entire summer with my kids for the first time ever. It was the first time in my entire life since I was a teenager that I've ever had time off like that.
+So thankful.
+[Alexis]
+It's all part of the journey.
+[Jason]
+It is.
+[Alexis]
+It's all part of the journey. Yeah.
+[Jason]
+Awesome.
+[Alexis]
+Well, Jason, if someone wants to connect with you after the show, I'm sure we're going to have you back. There's so much more we still need to talk about.
+[Jason]
+Yes, we'd love to.
+[Alexis]
+But if someone wants to connect with you after the show, what's the best place to find you?
+[Jason]
+Everywhere. What I did is...
+[Alexis]
+Everywhere?
+[Jason]
+Everywhere.
+[Jason]
+Just Google his name.
+[Jason]
+But when I switched, I had to switch my handle to Jason underscore Uli because I think I was telling... I might have told you this in person once. I had put out...
+I passed my CCIE. I was super excited. And I'm 38,759.
+That's my number. And I was so excited about that. And growing up with watching Twitter and all these folks who were CCIEs on social media, it was always there at CCIE number.
+And that was it. So I did that. And I loved it.
+And I was writing version 5 CCIE with the exam team, even before I started working at Cisco. So I'm working on all these things, right? And I come in, I'm doing all this stuff, and I'm getting...
+Metal DevOps is starting to go. And I'm just getting out there, writing books. And all these things are happening.
+And then all of a sudden, I wrote a blog about my journey to SP, service provider, right? Because I'm writing around Twitch V5. I cannot write about round switch, but I could write about service provider.
+And wouldn't you know that most of those technologies are identical, right? So here's my journey to service provider blog. And here's the cease and desist legal letter that I got.
+[Jason]
+Oh, my gosh. Oh, by the way, my blog was Cisco CCIE.expert. Can't own a domain name that says Cisco in it. Can't own a domain name that says CCIE in it, because it's a...
+[Jason]
+Trademark. Trademark. Can't have a Twitter handle that says CCIE in it.
+Had to just completely decommission my blog. This is why everybody's asking me why I don't have a blog, right? Where's my YouTube channel?
+Had to decommission everything, do that. And then basically, you know, go through the process and process. Procedure to do this stuff.
+And that's why I didn't have a lot of these things. And so I just created my own YouTube channel. Jason underscore Ghoulie.
+There's two videos, or maybe, yeah, two, I think. One is a Golden Tee golf thing that I hit like six, eight months ago. I hit this thing at the little arcade that came here.
+I took the kids. Then I'm like, wow, out of a sand trap. Dude, it just goes click right in the hole.
+And it said it was one of the best shots. They recorded it. It said, type in your email address.
+We'll email it to you. And you can post it on YouTube or whatever. So I did.
+And I got this email saying this thing's available. And then I did that mental health podcast at Cisco Live last year. And I wanted a place for it to live.
+And I'm getting ready to drop this new one that I did at this Cisco Live. And I'm like, I'm just going to create. I'm going to see if it's available.
+And it was. My name was available. OK, now everything's consistent.
+And I'm just going to have a place for these videos to live. So I did that. I dropped them on there.
+And then the second I created that account, the YouTube video of the golf shot showed up in my channel automatically. Dude, I have no idea, dude.
+[Jason]
+Like, I don't know why.
+[Jason]
+What's wrong with it? Who cares? Jason underscore Ghoulie everywhere, I guess.
+And I don't live on Facebook with that. So it's everywhere but there, basically.
+[Alexis]
+And I will tell you, Jason, you are a Googleable name. I just Googled you and you do come up on all of your channels.
+[Jason]
+Oh, yeah. This could be this could be bad. It's not true.
+It was A.I. All right, guys.
+[Alexis]
+Well, that is it for this episode of Life in Uptime. Huge thank you to our guest, Jason, for sharing his journey. And thanks to you for listening.
+If you enjoyed this conversation, be sure to follow the show. So you never miss an episode. And if Jason's story today gave you something to think about, please share it with a friend or colleague who might need it.
+And until next time, keep learning, keep building and keep your uptime high.`,
+  }
 ];
