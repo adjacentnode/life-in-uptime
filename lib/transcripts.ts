@@ -8165,4 +8165,846 @@ Well, that is it for this episode of Life in Uptime. Huge thank you to our guest
 If you enjoyed this conversation, be sure to follow the show. So you never miss an episode. And if Jason's story today gave you something to think about, please share it with a friend or colleague who might need it.
 And until next time, keep learning, keep building and keep your uptime high.`,
   }
+,
+  {
+    episodeNumber: "020",
+    slug: "ep-020-ricki-cook-reaching-the-top-and-walking-away",
+    title: `Ricki Cook: Reaching the Top and Walking Away`,
+    guest: `Ricki Cook`,
+    guestTitle: `FOH, systems & network engineer. Broadcast and touring systems specialist.`,
+    guestCompany: `Clair Global`,
+    guestLinkedIn: "https://www.linkedin.com/in/ricki-cook-99792029/",
+    description: `What do you do when you get your dream job and it’s not as fulfilling as you thought it would be? Ricki Cook speaks with Alexis and Kevin about navigating between career achievement and personal satisfaction. Ricki discusses his transition from traditional network architecture to touring systems engineering, the realities of maintaining real-time networks under pressure, and why prioritizing mental health is essential for long-term sustainability.
+Ricki was also a long-time audio editor for multiple Packet Pushers podcasts; his audio fingerprints can be found throughout the catalog.
+AdSpot Sponsor: Meter
+Most IT teams are managing networks stitched together from years of acquisitions and vendor contracts and nobody's accountable when something breaks. Meter delivers the complete network: hardware, software, and services delivered as a predictable subscription. Upgrade credits, a fully managed install and deployment, and 24/7 support make the transition easy. Companies like Lyft, Mr. Beast, and Bridgewater have already made the switch. Go to meter.com/liu to book a demo.`,
+    airDate: "August 12, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu020-ricki-cook-reaching-the-top-and-walking-away/",
+    youtubeUrl: "https://youtu.be/oO_QCZeNYiA",
+    transcript: `[Kevin]
+Most IT teams are managing networks stitched together from years of acquisitions and vendor contracts and nobody's accountable when something breaks. Meter delivers the complete network. Hardware, software, and services delivered as a predictable subscription.
+Upgrade credits, a fully managed install and deployment, and 24-7 support make the transition easy. Companies like Lyft, MrBeast, and Bridgewater have already made the switch. Go to meter.com slash liu to book a demo now. That's M-E-T-E-R dot com slash liu to book a demo. Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected. I'm Kevin, joined by Alexis, and every week, we sit down with engineers, leaders, and builders in tech to uncover the stories behind their careers, how they started, what they've learned, and where they're headed next.
+Our goal is simple, to help you see how far tech can take you, no matter where you start from. Every week, it gets better. I'm telling you, every week.
+[Alexis]
+It gets more theatric every time. All right, you guys, this week, we have a very special guest. We're joined by Ricky Cook, who is a network architect at some of your favorite bands, Linkin Park.
+This episode is about career fit after achievement. Ricky has the kind of resume that a lot of engineers recognize. He's worked with data centers, AV integration, broadcast networks.
+He was editing audio for packet pushers for a while. He's had network architecture roles, and now he's doing high-stakes touring systems work. But his story isn't just about his jobs.
+It's about what happens when you finally get the role that you thought you wanted on paper, and it doesn't really match the work that gives you energy. So Ricky, I'm excited to chat today. Welcome to the show.
+[Ricki]
+Thank you. It's great to be here.
+[Kevin]
+I want to start. So I just got recently promoted to a network architect position, and you were a network architect and absolutely hated it. Is that right?
+[Ricki]
+I mean, I wouldn't say I hate it.
+[Kevin]
+That might have been strong.
+[Ricki]
+I ran parallel careers, if you want to. I kind of deviated between like live production, AV integration, broadcast, and networking, and I kind of jumped between them. The skills I would learn in one role benefit another role.
+So I learned a lot in broadcast. So the networking skills I had, I applied to broadcast. That then pushed me forward in my career in broadcast, and then got me to a point where I was recruited as a network architect for a broadcaster, but that also included looking after all the enterprise side, data center, and broadcast as well.
+So yeah, one kind of pushed the other one forward, and I was kind of lucky in that place. It's kind of funny because being in Australia at that point, there wasn't like Australia only has a population of 28 million people for the physical size of the country. So there's less people with those kind of skill sets available.
+So there's probably a little bit more opportunity maybe for those kind of promotions to take place. And I'm not saying that I didn't work for those roles or I didn't study hard. I feel lucky because I feel like I was in the right place at the right time for those roles to come about and for those promotions to happen and for those recruitments to happen.
+So for a lot of the roles I've had in the past, I've been headhunted. I don't think I've applied for anything, but again, that's just the right time. It's pure luck, honestly.
+[Kevin]
+But like to say like you never even have to apply for a job that you just like always fell forward into a job or been headhunted, that's insane to me. Because when you think of finding your dream job or finding your career, you're thinking like, okay, I got to get technical, I have to do interviews, I have to do this whole rigamarole process. And for someone to be like, I've never had to even apply for a job is insane.
+I don't even know. I can't wrap my head around that.
+[Ricki]
+It kind of goes a little bit. I felt very fortunate to get that job because one of the prerequisites was you had to be a CCIE and I wasn't. I had always intended on being a CCIE and studying, but my schedule just didn't allow for it.
+It was really difficult to try and maintain.
+[Ricki]
+Most people's schedules don't allow for it. Exactly.
+[Ricki]
+And I really gave it my best shot. And that's one of the reasons why I got involved with Packet Pushers because I reached out to Ethan and Greg back in 2014 and said, hey, I'll help you with your audio if you can help me with my CCIE studies and go from there. Exactly.
+And it was at Sounding Root and Theory, but I just never ventured it. However, I guess the work that I had done and my resume spoke enough for my skill set. So I was hired and out of all the applicants for that job, A, I didn't apply.
+And so I was recruited, but B, I didn't have a CCIE and that didn't tick HR's boxes, but they sort of waived that, which again, I felt very fortunate. And that's when imposter syndrome kicked in hard. I always thought to myself, every day I went to work, I was like, I shouldn't be here.
+I'm not the guy.
+[Kevin]
+Now, did you find that you actually would have benefited from a CCIE in that position, or was that more of like an HR checkbox, like you said? Because a lot of these certifications and a lot of these requirements from HR are wishlists. They're not things that are actively being required or needed for that position.
+[Ricki]
+I think if it wasn't for the fact that you're able to prove what your skill set your previous work. And the fact that all my previous work is you could turn the TV on and you can watch my previous work. The fact that that football game is still on air, that's my work.
+If you go within Australia, if you went to the satellite or the cable company and you're receiving a picture via satellite, that's my work. So that's what everybody uses my resume. This thing has been at 100% uptime.
+It's never had an issue. It was built three or four years ago. And I can still recite exactly how I built it.
+The topology I used, some protocols I used, almost recite the configuration in some aspects. And there's a lot of those, especially in that level of broadcast. There's a lot of really unique challenges between a lot of like, because there's a lot of encryption in the actual transport medium that goes over satellite.
+So a lot of that is third parties and you've got to integrate these third parties. So you're doing one-to-one Nats everywhere and having to keep track of that and all sorts of stuff. So you're coming up with these really creative solutions and then you've got overlays and overlays and overlays just to abstract and meet security criteria and things like that.
+So all of that stuff is what spoke volumes moving forward. And in that role, there was no architects, there was no engineers. It was just me.
+So I did everything. So I designed it, built it, carried on. And then that's what got me to the position where another broadcaster came along and said, hey, we need a network architect.
+You've designed all of this stuff in the past. Can you come and do that for us?
+[Alexis]
+So Ricky, how far in were you before you felt like the network architect role wasn't aligned with what you wanted to pursue? And what did that feel like?
+[Ricki]
+I mean, I started to get that feeling within... I guess for the first three months, I was really excited about it. Then probably the next three months, I was like, it was cool.
+But then after about six months, I was starting to question whether I actually really liked it or not. And I said, I told myself, I'd give it another six months and I'll do 12 months. And if I still feel this way in 12 months, I'll definitely reevaluate things.
+And sure enough, 12 months rolled around and I'm like, yeah, look, this is cool and all. And I feel like I've kind of hit what a lot of networking engineers, what they ultimately dream of as the dream job. But me, I like being on the tools.
+I like being on the CLI. I like automation. I like doing things.
+I like designing as well. But when you do a design and it grows through layers of bureaucracy, and then it comes back and it's like the security guys have X'd everything because they still don't understand how a network works. It's just draining and exhausting.
+And some people thrive on that. But not me, because I'm kind of like, I wouldn't say I'm impatient, but I'm a doer. I just want to get things done.
+So I kind of like, there's got to be something else out there where I can feel like I'm achieving things and just getting things done. And I can get that hit of dopamine more consistently than waiting six months for a project to evolve and then finally start bringing things online and then finally start. So because that role, it was a big media company.
+So it was not only TV, it was radio, it was print, streaming, web, everything like that. So there's lots of projects going on. There's tons of opportunities.
+But it just didn't align with me personally. So yeah, I just didn't feel fulfilled by it.
+[Kevin]
+Did you feel like you should like it at all? As a network engineer, you kind of look at your career and you go, okay, network architect is the dream job. That's the pinnacle of my career.
+Did you ever feel like you should like it? Is there something wrong with me where I've made it and I've done this thing and I don't enjoy it and I want to go almost backwards in my career? Not laterally, but it's how you kind of think.
+You're like, okay, I want to be more hands-on, more operational.
+[Ricki]
+Yeah, absolutely. Don't get me wrong. Once I got over the imposter syndrome, then guilt kicked in because I felt like I'd been given this opportunity and everything within me is just like, I just felt guilty because I'm about to throw it away.
+I was like, if I walk away from this, will I ever be able to return? If I hit this level, and again, that's the imposter syndrome again, kicking. I was like, okay, will I actually ever be able to get back to this stage?
+And I was like, you know what? So far, I can't live my life like that. I have to feel like I'm moving forward.
+And yeah, sure. You move forward in your career and I'm sure there's plenty of engineers out there that have thought that the grass was always greener on the other side, so they've jumped from one company to another and then they've regretted the decision and gone, I wish I could have my old job back. So I would always consider what if the grass isn't greener?
+Will I regret this? Should I make a mistake? But then some people, they spend their entire lives playing it safe.
+And then by the halfway through their career, they regret, no, if only I had made that change a few years ago, then I would be, or they watched one of their colleagues take on a different role. And then the look of them now, they've moved up the ladder or things like that. The other thing too, is that I hate the fact that salaries are tied to positions.
+I think that salary should be entirely skills-based. So yeah, I can be offered the role as network architect and I could take that. I get a big bump in my salary, but at the end of the day, if I have that skillset and I'm putting that skillset to use and the company's benefiting from that, why shouldn't I get that same salary anyway?
+And I've been in roles, I have had jobs where I'm being paid more than my manager. But I'm okay with that because, and they're okay with that because I'm not very good at administration work. I hate paperwork, which also led to the fact that that didn't really work well with being a network architect.
+Yeah, it makes sense. Exactly. So that was one side of it I really hated.
+So yeah, my views on things are pretty abstract. I think about things very differently and things like that. So yeah, I've definitely been in positions where I've been paid more than my manager, but I didn't want to be promoted because I don't want to do what they have to do.
+I'm comfortable tapping away at the keyboard, not having to manage people and things.
+[Kevin]
+Knowing yourself, knowing your skills, and a lot of people don't know that. They're chasing the salary and they don't stop to think, hey, do I actually want that job? Would that job actually make me happier?
+Or if I'm just chasing the title, I just want the title just to have it.
+[Alexis]
+I think that's a hard trap too, because as a young person, you want to feel like you're progressing in your career, whether it's salary-wise, whether it's title-wise, whether it's being given more responsibility. And maybe that's the fault of a lot of corporations in that sometimes getting promoted or moving into management, it seems like the only way that you can progress. And that's a fault of management in that you should be giving your engineers ways to continue to grow in other career paths.
+It's just sometimes that organizationally, it's hard. Sometimes you have to look outside of your current job to find that.
+[Ricki]
+Yeah. And I think a lot of managers, if they recognize real talent, then they should do what they can to hold on to that talent. Don't be afraid to stand up for your people and go to your manager and go to HR and say, hey, this person's awesome.
+We need to keep them and we need to pay them more money. And the thing is, then you won't have... So you say you've got a team of 10, and you won't have all 10 people vying for the next available opportunity to...
+And sure, that encourages everybody to work harder and show their skills and things like that. But sometimes you just need people to be in those roles and not always progressing through. Sometimes you need somebody with that knowledge or that experience to just say, hey, I understand you want to progress in your career, but it would benefit the company if you just stayed right there.
+So yes, we can maybe adjust your title, but also here's the compensation in order for you to stay right there and keep doing what you're doing because you're awesome at that.
+[Ricki]
+Yeah.
+[Kevin]
+Yeah. I think it's a hard thing for a lot of tech people, I think in particular, because we keep wanting to learn more. We want to do more stuff.
+It's hard to stay in the same role, doing the same job and the same job duties for multiple years because I want to change it up. I want to learn new things. There's a protocol over there I want to try out or a technology over there I want to be in charge of.
+So it's, I don't know, at least it's hard for me. And I think it's hard for a lot of tech people to stay stagnant doing one technology for too long.
+[Ricki]
+Yeah. It's the same as working for a small organization. It's like the whole, do you want to be a small fish in a big pond or do you want to be a big fish in a small pond?
+And do you want to go and work for a school district where you get to dabble in a bunch of technologies? Or do you want to go and work for a fortune 500 where you basically, you'd have that one job and that's what you do every day. If you're the VMware networking guy and all you do is deal with VMware administrators, then that's all you're going to do.
+Yeah.
+[Kevin]
+I've always been a generalist. So it's something I like exploring and doing a little bit of everything.
+[Ricki]
+Yeah. And that's where I was coming back to because I was doing the same thing. I am very much a journalist and I like, I enjoy virtualization.
+I enjoy compute and storage and a few other things. Obviously networking is definitely my passion, but yeah, I just didn't want to get stuck doing the same old. And it wasn't so bad being an architect and getting designed that, but that again, I was just designing, I wasn't building.
+So I kind of would do these designs and be like, I wish I could be on the team that built that, or at least commission that and see it through to the end.
+[Alexis]
+So Ricky, when you were looking at pivoting, once you identified that, okay, this isn't where I want to be, it's okay, but it's not my ideal position. Was there a process that you followed to look at what your next steps could be or what you wanted them to be?
+[Ricki]
+I kind of started exploring a lot of my past roles again, because I had pivoted so many times in the past, I kind of started looking at what else is out there and doing what I do, start talking to a few friends about, well, you can basically, once I sort of put the word out, hey, I'm looking for something else, usually that's when I sort of expressed that interest and then other people then express their interests. So yeah, I put that out and that's when my next or current opportunity came along, which is kind of going way back to what I used to do.
+And that's basically being a touring roadie. And as much as that was like, a lot of people were like, well, the people at the time I was working with, they were like, you're going to go and do one. And I was like, yeah, don't worry about it.
+You won't get it.
+[Alexis]
+A roadie network engineer.
+[Ricki]
+Yeah, exactly. Well, I mean, the networking side is a by-product. It just so happens that I had the skill set there to support that.
+Now, the same audio technician that would do my role, if it wasn't me, would still have to do a degree in networking. Their network just wouldn't. It would be super basic.
+Whereas, I have that skill set. So I introduced that skill set and I put that to work and I build more extravagant networks and that can obviously support more applications and try and make everyone else's lives easier.
+[Kevin]
+What does the difference look like actively? Like the basic network, it makes the show go like what you need versus something that you would come in and design and change. Like what enhancements does that actually look like?
+[Ricki]
+So I guess the biggest thing is that you'd have lots and lots of just basic layer two networks that are all probably unmanaged, to be honest. Or there's very little management by somebody that doesn't quite understand what they're looking at, but they know if they click this, this and this, it should work. They may understand what a BLAN is, but beyond that, there's no real knowledge of layer three.
+There's no knowledge of routing protocols, that's for sure. There's no knowledge of spanning tree. So what I do is I come along and I'm like, hey, so instead of you guys who don't understand networking, going and building these somewhat unmanaged networks and causing yourself grief because somebody's introduced a loop and you have no idea where it is.
+And you know, spend hours trying to like unplug things individually to try and find where this comes from, which has happened many times. I'm like, why didn't you just let me build one converged platform and everybody rides on top of it and I'll look after it. And that's what happened on Linkin Park.
+And after that, all the problems went away and everybody eventually got the network even existed.
+[Kevin]
+That's how you can tell you were successful is if no one even thinks about it, it's not a thing at all. Yeah.
+[Alexis]
+It's magic.
+[Ricki]
+Turing can be pretty brutal because, you know, in enterprise, you know, you turn the switch on once and you might reboot it in a couple of years time, but, you know, 10 years later, nothing's full of dust and still kicking along. Whereas like we're powering down every day, literally relocating and then powering back up and, you know, fibres being plugged and unplugged. Now that's not just somebody there with an LC connector popping it in and out.
+This is like, you know, mil-spec tactical optical connectors and things like that. And I even showed like ether content, things like that. Yeah, exactly.
+Things like that. So like more industrialized or building, you know, like RJ45s and things like that. So yeah, it's definitely built for that level, but, you know, you're still going to build reliable, you're still going to build it once every day.
+And obviously a lot of the protocols running on these networks are real time. Like what you hear, like when you go to these concerts, what you hear coming out of the speakers is running over an Ethernet network.
+[Kevin]
+That was my next question is like, what do you actually use the network for? If someone who's a traditional network engineer who I go to a concert and I just see the guys playing, I hear the music and I don't actually know there's a network going on behind the scenes. What is that network actually doing for the show?
+[Ricki]
+I mean, depending on what protocols are being used, there will be. So for example, on my most recent tour, there was basically audio being transported from stage two front of house to the mixing console was over layer three. It would come out of the mixing console, hit a drive rack, be processed, and then it would be sent back to the PA as pure layer two.
+So it's basically the audio is encapsulated in Ethernet. It's just skipped layer three altogether because it's unnecessary. And yeah, and all of the timing, which timing is super critical.
+So like the like precision timing protocol or IEEE 1588 is needed for everything in order to maintain consistency and maintain coherency throughout the system. Because things like in enterprise, you add an additional switch. So you've got an additional switch hop and you don't think anything of it.
+Whereas in real time audio, you add an additional switch hop and all of a sudden, you've introduced latency. And if you've got two sources coming at you, then as soon as you introduce latency, those sources are now out of alignment and you need to use a protocol like P2P to keep them realigned. So keep them in line.
+So there's a whole sort of layer of complexity and a lot of the equipment, the local endpoints, the endpoint manufacturers will abstract that and take it away. But at the end of the day, it's really handy to have that underlying or that knowledge of how the underlying protocols work, because then you can optimize the network to best suit those and actually be able to tune it to be as efficient and reliable and as low latency as possible.
+[Kevin]
+And yeah, that's insane. Like crazy.
+[Alexis]
+I think Ricky, we talked about last time that you and I met that there's a big need for network engineers in this field now for that reason, because a lot of audio systems are starting to adopt more of these technologies.
+[Ricki]
+It's not even just audio, video and lighting. So that show you came to all the lighting is all over Ethernet. So it literally uses a latency protocol called streaming ACN or SACN.
+And these days, more and more video transports moving into that. So video is huge bandwidth. So you need to have much bigger pipes.
+So whereas I would have like a 10 gig backbone and lighting might have a 10 gig backbone, when you move up to video, you're sort of looking more like 100 gig plus backbones. Because when video comes out, you're uncompressed, like a 3G signal is literally three gigabits per second. And an ultra HD signal or like a 4K signal is going to be uncompressed is in the order of like 10 to 12 gigabits per second for just one multicast flow.
+So you're talking huge bandwidth for these multicast flows. And for me, that was normal because I came from broadcast. So dealing with those high bandwidth flows and those high bandwidth links was kind of just second nature.
+So moving into this world, everything's a lot lower bandwidth, but the reliability needs to be back up there. Because again, you're literally just powering down every day. Here's to a new city, power it back up and just hope everything works.
+[Kevin]
+Like when I do an upgrade now, I'm praying that it comes back up every time. I can't imagine having to do that consistently and constantly having to redo it. I would be sweating bullets every day I turn it on.
+[Ricki]
+Yeah, it's a lot. So the industry kind of like, so when I started, you know, probably a decade ago, I am a self-proclaimed Arista fanboy. I used Arista extensively and as exclusively as possible.
+And then sort of Cisco came along and sort of caught up and the Nexus platforms could, as far as real-time, the management and handling of real-time protocols and B2B, they kind of very quickly caught up. But like Arista was already ahead because they had all this experience from high-frequency trading and precision time protocol is critical to real-time trades. So they already had a huge leap forward supporting that.
+But yeah, a lot of this like Cisco Nexus 9Ks, that whole platform kind of caught up to Arista's you know, 7200 series. And so then I started using a lot more Cisco. But the thing is, you wouldn't beat on these switches like you do the ones we use.
+And a lot of enterprise guys are going to laugh, but the big name in Turing Networking at the moment is actually NETGEAR because they actually build super reliable, easy to use. Well, it's kind of funny because they saw this hole in the market and they went, you know what, we can fill that. And they've done a good job.
+Their switches are actually really reliable. You can really beat on them, treat them like absolute garbage. And they just keep on kicking.
+[Kevin]
+They just keep asking for more.
+[Ricki]
+Yeah. If I took a NETGEAR, you know, like an M4350 and I abused, or if I took an Arista 7200 or 7500, or I took a Nexus 9K and I abused it like I do a NETGEAR M4350, it would not survive. It would die.
+In a week. Yeah, it would not survive.
+[Alexis]
+They were wrapped in trash bags underneath the stage.
+[Ricki]
+Yeah, because these things literally sit outside in the weather. They're in, you know, they got to run in super cold conditions. They got to run in like hot, you know, insanely hot conditions.
+So, and again, like the different levels of, you know, you're talking like a Nexus 9K or Arista, like, yeah, anything in the 7000 line, like those are super expensive data center grade switches. And then these don't have the same price tag, but it's kind of funny because they've filled that niche in the market. And it's kind of, when I first started using them, I felt funny and weird that I'm like actually taking a NETGEAR product seriously and using it for this level of, you know, all of these use cases.
+And I'm like, I'm really, you know, my career is dependent on this thing. But they've done a good job. There's, you know, there's a couple of other like more sort of niche vendors that exist in this world.
+But the company I worked for, Clay Global, when they do larger, so they, so I don't actually work for the data services division. So again, so the company I work for is Clay Global. They're based out of Winits, Pennsylvania, and they've got offices all around the world.
+There's like 80 something offices. And they have a department called Clay Data Systems who actually do, so if you go to Coachella, for example, and you jump on the Wi-Fi, that's CDS's Wi-Fi network. Those guys are big time Cisco users.
+They've got, I can't even remember the model, but you know, all the latest Cisco APs are all deployed, especially the larger, you know, stadium size ones that they use for fan engagement, things like that. Those guys are currently flat out, they're doing FIFA World Cup at the moment, and they're sort of bolstering up Wi-Fi and all of these FIFA venues. And so that's what they do full time.
+I like, I enjoy that kind of stuff, that side of it, but I kind of at the same time, I like doing concerts. So, because I'm still an audio guy at heart. I still want to, you know, I still want to be involved in that side of it as well.
+So this is like this perfect balance of, you know, audio engineering, still doing these live events and touring, but also with just enough networking to keep me satisfied. And because it is just me looking after it, a lot of the time it is just like scaling it, like not scaling back from a size perspective, but from a management perspective, scaling back to the point where the neck ears are super easy to use. I can easily, you know, nobody has to learn a VLI.
+They do have a point-and-click GUI if you want to use that. So I can teach, you know, the guys that look after the comm systems and things like that, I can teach them how, hey, this is how you change, you know, what VLAN that access port's on. And so they can facilitate that themselves.
+Yeah. So, and then the other side of it is inevitably, we end up using a lot of Unified just because it's the right price point and it's again, super easy to use. And that was something else I had to get used to as well.
+It's like coming from this enterprise world, you're like, you know, how on earth does a router cost 150 bucks? And you can take it seriously, but yeah, it costs a hundred bucks and I can take it seriously. It's hard.
+[Kevin]
+It's hard to like, cause I mean, especially with how much data you're, you're doing and how, like you were talking in the, our pre-recording, we haven't touched on it here yet, but how like your network has to stay up and you have to have a hundred percent uptime during these concerts. Otherwise shit like breaks and the concert stops. So like to, to rely on this like prosumer, you know, like stuff for a network that needs a hundred percent uptime is scary.
+Like I wouldn't, I wouldn't personally trust it.
+[Ricki]
+Yeah, that's it. That's why it's kind of got to prove itself to you. But at the same time, so two is one and one is none.
+So we run two networks that don't touch each other, but they're in parallel the whole time. So every, every endpoint that is, that is, that, you know, that has to have a hundred percent uptime. So for example on the, like the show that Alexis went to, every one of those speakers that was basically an ethernet endpoint that was flown up in the air, they've got, they have two connections back to two discrete networks and the protocols are built to sort of handle that.
+So, you know, as a sender will basically take the serialized audio data stream, like the PCM data stream and encapsulate that in, in either ethernet or IP, depending on the protocol. And it will send it out to discrete interfaces that go to two discrete networks. And then when it gets back to the, to the other endpoint that receives, it just basically looks at the RTP header and it's first come first serve.
+So if that packet arrives before that one, I'll use that one at the end of the day, as long as, as long as those sequence numbers on those, in those RTP headers are in order, it doesn't care where it came from. Interesting. That's really cool.
+I can literally walk up and just basically unplug the trunk on, on network A and network B will carry it on.
+[Kevin]
+So you mentioned teaching people like how to point and click in the GUI and stuff. If I was a enterprise network engineer, like I am, where I don't have any experience in the broadcast world, how, and this is something that interests me, how would you recommend me getting involved or starting to learn to do what you do?
+[Ricki]
+That's a tough one because it is such a small sort of market, I guess. But the first thing I would do is, is if you, if you're, if you at least have a CCNA or you're close to, to getting it, I would go and get that because that teaches you everything you need to know fundamentally. And then you can apply, or basically just send your resume to Play Data Systems.
+And those, again, they're the, when I, well, like when I mentioned earlier, like previously that, you know, there is a big demand. It's basically the company I work for is constantly looking for network engineers. And they're looking for network engineers that are wanting to do things outside of the box.
+So, because the, the things that we do and the deployments that we do, they're, you know, you're not going to an office at all. You're outside, you're in harsh environments. It's sort of like, it's probably similar to military or mining.
+You're constantly in harsh environments.
+[Alexis]
+I was going to say, not only out of the box from like a network design perspective, but also from like a lifestyle perspective. I mean, Ricky, you've been on tour for what, nine months now?
+[Ricki]
+With, well, we just finished Linkin Park and that was two, two years and three months.
+[Alexis]
+Okay. So I'm on the road. I'm on the road full time.
+Ricky is on the road even more full time than I'm on the road.
+[Ricki]
+Yeah. I mean, you do get breaks in the schedule. There are large breaks when you do go home for, you know, a few weeks, maybe a couple of months.
+Like, so, you know, and usually like over Christmas, nobody's touring. There are winter tours if you're in the Northern Hemisphere. But I don't do those.
+I take December, January off. And, you know, because that's summer in Australia. So it's perfect for me.
+[Alexis]
+Here's something most IT leaders know, but rarely say out loud. The legacy network model is showing cracks. You've got five vendors with none of them accountable to each other.
+Renewal cycles tracked on spreadsheets and an IT team spending cycles managing infrastructure instead of moving the business forward. The problem isn't that no one wants to fix it. It's that switching can feel risky and overwhelming.
+[Kevin]
+Meter was built to solve exactly that. It's a full stack network with hardware they designed themselves. Firmware, software, support, all in one.
+They support the migration, offer upgrade credits for existing gear, and the financing is flexible. Companies like Lyft, Mr. Beast, and Bridgewater have already made the switch. If your team is ready to stop managing a patchwork network and start enabling the business, go to meter.com slash liu.
+[Alexis]
+That's m-e-t-e-r dot com slash l-i-u to book a demo.
+[Kevin]
+So, if you say a network engineer gets a CCNA, is there like, I don't know, in the typical enterprise network environment you have like, you know, you start out network admin, you maybe go to a junior engineer, engineer, architect, like that typical path. Is that the same with your career or is there like there's no progression or they just throw you in or is there like a progression?
+[Ricki]
+There is a progression, so it depends on what you want to do.
+[Ricki]
+If you want to do more of the, like if you're looking at this and you're like, okay, I'm a network engineer, I have at least my CCNA, and I want to tour with bands, I want to go and do rock shows, that's kind of, you're going to be doing that for a while and there's not going to be a whole lot of progression. But that's, the satisfactory needs to come from the fact that that's what you're doing. Yeah, you're touring with bands, you're doing rock shows, like that's, you know, you got to be your passion anyway, you know, exactly.
+So, and that's my passion, like, that's what I love doing. Now, if you were to go on the, for example, like the CDS side, there is room because they have, they have engineers, they have developers, they have your traditional corporate sort of structure. However, it's again, some days you're in an office, some days you're out in the field.
+Any kind of, and like I said, like for example, if like for Coachella, they literally set up a remote, like a mini data center, they set up a remote, and these are all just in like portable side sheds, so it's the air conditioning and everything just kind of bolted on. They set up like this remote offsite office. But as soon as they get there, you know, they, they get the, the fiber for the provider, they're bringing up the BGP sessions, they're pulling in a full, you know, full routing table.
+They're doing all of that actively as they're setting it up. So, you know, you go and work for an enterprise, you might peer with a provider or an IXP once or twice, and then that's it, you're done. You know, I should change providers.
+These guys, they're kind of doing it a couple of times a month, you know, from an event to again, to events.
+[Alexis]
+So, you know, you get to, it sounds like a good way to get a lot of experience really fast.
+[Ricki]
+You definitely get a lot of experience really fast, because like, you know, you're like a lot of the endpoints with the CDS team, like not only is it like, you know, fan or engagement Wi-Fi or just general Wi-Fi for the public to use, you're also relying like this, all the point of sales terminals. A lot of the time, there's like a house video delivery and things like that. So there are services that are critical to the network, you know, being up.
+So you still need to have that same mentality of like downtime is not an option. Because if a segment of the network goes down, and all of a sudden, you know, the point of sale terminals go down and, you know, they can't sell much, for example, that's a serious problem. So yeah, that's still that same sort of methodology of that, you know, this network needs to be super reliable.
+But they definitely don't like, for example, like me on my side, I've done a ton of stuff with BGP in the past, I've done tunnel peering with IXPs. And but what I do now, I will never use BGP again. So I would have to like venture over to their side, just to like, you know, bring up a peering session, because I have no need for BGP.
+I use RSPF. But yeah, whereas those guys, they'll be using BGP daily. So yeah, they're still doing those events.
+You know, and then they're probably they're probably going to be doing, you know, more changes and more, you know, more just configuration work and more automation than your typical enterprise would. And if you're like me, and you hate change control, this is for you.
+[Kevin]
+Well, yeah, you're changing every show, right? Like you're, you're literally just doing it all.
+[Ricki]
+Yeah, but like, somebody comes to you like, I need this. And you're like, okay, done. You know, it's not like you're not submitting a ticket, you're not, you know, waiting for approvals, you know, you're not pre typing out all the commands, and then having a second engineer verify them and come back.
+And obviously, you can't make mistakes. So you can't go and take something down accidentally. You know, if you forget the add command, you're you know, that's potentially originally generating event.
+But yeah.
+[Kevin]
+Interesting. Speaking of like, successful shows and stuff, like, is it like, I get a lot of satisfaction when I have a project, I go through the process, and then I like, it's finally done. And I'm like, I get a lot of self worth of having a successful thing accomplished, I can check off.
+Do you get that same feeling for every single show? Like, I would imagine you get that constantly.
+[Ricki]
+That's my, that's my addiction. That's, that's the thing that keeps me going. Because it's again, it's not an easy lifestyle.
+It's pretty brutal. You can go for, you know, there can be days before you get any decent sleep. So you might, there's some tours where it's like, you know, it's a week between shows, and you have like days off in the middle.
+And then there's some where it's just like, you just load in one day, show day the next day, load in the next day, it's just brutal. So it's not for everybody. And you got to be able to sort of keep up.
+But that's my, yeah, I guess that's my addiction is that, that satisfaction night after night seeing, you know, and just hearing the whole crowd like sing those songs. And just, you know, knowing that they're like, they're leaving having experienced like one of the greatest nights they've had that year or that month or whatever. And, and, you know, I, I see their faces as I'm like starting to pack up at the end of the night.
+And yeah, it's just, that's like, I don't know, that's just part of it for me. Like, that's what I love. So.
+[Kevin]
+Yeah, it's kind of like your why, your reason to do it, you know, it's, it's bringing joy and memories. And like, like literally you were had a hand in making someone's like probably top 10, top five moments of their life possibly, you know, and you have a direct responsibility for that.
+[Alexis]
+There's nothing quite like live music.
+[Kevin]
+Yeah, for sure. It's like, it's not like a small band. It's not like something like, you know, it's, it's a huge thing that people are passionate about music and their favorite band.
+And so like, it's something that you can be a part of. It's like, I get satisfaction when I have a project done and I can point at that building and be like the network in that building is something I did. I, I, every day I pass it with my kids in the car.
+I'm like, Hey kids, look at that building. I did that, you know? And they're at the point where like, I do that.
+And they're like, yeah, we know dad shut up. But so I can only imagine like that the high you get like the, the it's a visceral, like accomplishment every single show. And that, that could definitely be addicting.
+[Ricki]
+Yeah. That's it. And when people don't talk about the, like the networking already and people don't even realize that it's a, it's a thing on tour or like a lot of times just think of like set and forget, or they don't really look into it like that much detail.
+Like that for me is also like, uh, if it's like, if no news is good news, then that's kind of, I got to kick out of that as well. I'm like, the network works and no one even thinks about it. That's great.
+[Alexis]
+So Ricky, I'm curious. I've been on the road for a year and a half. I'm not going to lie.
+I'm, I'm tired. I'm getting tired. I haven't been anywhere.
+Yeah. Sorry. I've been kind of quiet.
+He's up this episode, guys. I haven't been anywhere for more than three weeks and over a year and a half, like three, three and a half weeks is the longest I've been in one singular location. And I can't even imagine the, the set up, tear down, move, set up, tear down, move for over two years.
+And I know you said you have breaks in between, but, um, what is it about being on the road that makes it still worth it? Because it's, it is a hard lifestyle to keep up.
+[Ricki]
+It is a hard lifestyle. And you are, I guess when you've got, when you've had enough time on the road and you get to the sort of level, I'm at your, you know, I want to say you're like, you're well compensated. Um, so it's, uh, yeah, it pays well.
+Um, but I don't know for, I guess, I guess the repetitive nature of it satisfies my, you know, ADHD and, you know, my level of autism that kind of just gets a kick out of like, rinse and repeat and copy paste.
+[Alexis]
+You did it again.
+[Ricki]
+Scratches that in. So that's it. Yeah, exactly.
+So, you know, it's kind of like, you know, somebody that whenever they go to order a takeout, they always order the exact same thing. Um, because let's say this is my, you know, that's like me, but I'm happy to do the exact same show over and over and over again, because the thing is it yields, like, while it's the same, like everybody coming to that, to that show is, is they're new. Like, um, you know what I mean?
+Like they've never seen it before. Yeah. Like I've seen it 60 something times or in the case of LP, it was like literally a hundred times we did a hundred shows.
+So, um, but you know, everybody else showing up who's paid to be there, they're seeing it for the first time and sort of get to see the expressions on their faces and get to see that. So it's, um, you know, it's like when you, you know, when you have something new to show somebody and you showed that person, but now we're going to show that person and get their reaction and things like that. So not an answer.
+Doesn't seem like a good way to describe it, but for lack of a better way to describe it, that's kind of like, that's still, that still does it for me. I'm still excited for everybody who's coming to see that show that night and, and just know that I hadn't, you know, I play a small part in that.
+[Kevin]
+Yeah. I equate it to like kind of watching your favorite movie. Like you've seen the favorite movie a million times, but when you show one of your friends that movie for the first time, you get to re-experience it through their eyes and it brings it a whole different level and stuff.
+I can see, definitely see that.
+[Ricki]
+Yeah. And there's like, there's other things too, like there's, there's opportunities that come along that very few get to experience. And there's definitely satisfaction there as well.
+Like, you know, so like, uh, so during one of the breaks at the start of this year, I now kept talking about controller earlier with what the cloud data systems guy was doing, but I was at Coachella because I was there with Justin Bieber. So I was on his crew and, um, I got to do what I do for Link Park, but instead I got to do with Justin Bieber, even though it was only like a two week block. Um, it was, there was experiences in that thing, like in that whole process and that, um, you know, the things that no one else is going to see because they're behind the scenes that I got to experience, um, that they will, you know, those memories will be with me forever.
+So it's been able to like, you know, so a lot of people will travel, um, because they want to have those experiences and they want to have those memories and things like that. I do what I do because it also comes along with having experiences like that. And, you know, seeing, not that you see much of the cities when you get there, like you, you travel the world, but you really, you arrive, you see the hotel room, exactly.
+You see the venue and you're like, cool. I think I remember that stadium from last time and then where's Cameron? Um, yeah.
+So, but, uh, like, you know, like when I, um, when I worked on Bieber's performance, like that was, say what you will about the show itself, that was an iconic performance that people are going to be talking about for years. And, uh, I can say I was there. So it's just one of those things where it's like, I remember when Linkin Park had the massive comeback tour, you know, I was there.
+It's like, it's just, I don't know.
+[Alexis]
+Not just you were there, you helped it manifest into reality. Like it wouldn't happen without the people you were doing.
+[Ricki]
+Yeah. I mean, and I, again, I don't sort of let, you know, that stuff go to your head because if it wasn't me, it'd be somebody else. And, and if it was somebody else, like the network might be a little bit more basic or it might not be as, as, as, uh, robust or it might not have, you know, you don't have the redundancy, maybe something goes wrong and the show like has an issue possibly, but at the end of the way, like, you know, there's always somebody else that's going to come along and fulfill that role.
+So I don't ever take that for granted or, um, every guy, well, you know, I'm, I'm the guy, I'm the only guy that can do that because I'm not, I'm easily replaceable. And, and that was the other thing too, is like on the education side, I want to teach people because I want them to be able to replace me because I'm a big believer in like, I want to teach everybody else how to do my job. So I don't, I don't ever get stuck in doing this job and I can happily leave and go and do something else knowing that that is backfilled and being taken care of.
+[Kevin]
+Um, not a lot of people have that mentality. They, a lot of people want to hold onto that so that they're, they, they have their little niche and they're like, no one can take this away from me.
+[Ricki]
+It's like that meme where you're like, um, you know, like, you know, I spoke up in a, in a meeting today at work and became important. And that's like the worst thing that's ever happened, you know, like exactly like, Oh no, I just became important to this project. Like, you know, you can do that.
+The thing is like, uh, yeah, unless somebody's like actually out there to try and get your job, there's not, I haven't experienced a whole lot of that. Um, and I don't think like, I don't think hoarding knowledge does anything for anybody, you know, cause you'll, if you're like the only guy that can do that and you're the only guy with the knowledge of that, that's great, but you're going to be stuck in that role forever. And if you don't have one of these, like I had a, a boss that recognizes that or a forgiving, you know, is forgiving that guy.
+Yeah. Look, I understand that like this person's going to be promoted over you, but like, you're super critical in that role. Um, so, you know, instead of promoting you, we're just going to compensate you with additional salary.
+Um, you know, is that okay? Like, you know, if you, if you're that guy, you're you or that, but I said, like that guy, I used that in a generalist sort of term, but, um, if you're that person and you, uh, and you want to hold that knowledge because you think it's jump security, like that's just the wrong mentality. You're going to be stuck in that role forever.
+And you're going to end up resenting it and everybody else. And, you know, and wonder why the kid you watched get hired, um, straight out of college is now your boss. Yeah.
+So yeah, it's not a good thing. I, I will gladly teach anybody, uh, how to do my job just so I know that if I ever wanted to move on, there's somebody that can replace me and I don't feel guilty about leaving, you know, everybody else who was dependent on me, uh, behind or, you know, that means you're a good person.
+[Kevin]
+I think, I think that's a Testament to how you, how you like consider yourself and that you actually care if, you know, you leave a place and they're in the lurch. Cause a lot of people are like, you know, screw you. I don't care.
+I'm moving on and it's your problem now.
+[Ricki]
+Yeah, I can't do that. That's not, yeah, that's not in me. Um, yeah, no, but at the same time, like, like I deal with like a lot of like, you know, you know, young audio technicians and they're like, Oh, what should I focus on learning?
+And I'm like RF and networking. Like those are the two big key. Like if you've got, if you've got good skills in RF, because like, if you go to see any show and every performer is on a wireless device, so whether it's wireless microphone, wireless, any monitoring, um, you know, you see the guitarist walking down the thrust, he's actually playing a guitar, but that's being wirelessly transmitted back.
+Like all that stuff still works in the UHF spectrum. And, you know, you've got to from city to city, all that gear is still working. And you're basically, you're battling having to deal with free to air TV stations that are also occupying that spectrum.
+Um, and every time you move from city to city, those TV stations are taking a different seven, eight megahertz chunk of the spectrum. So you've got to adapt as well. Um, so like, I really enjoy, I know that on RF as well.
+Um, so they like the two key things that I'm like, if you, if you want to never be out of work, networking and RF are the two things you need to like really learn. Um, and if they express interest in networking, I will gladly teach them, um, you know, or point them to like self-study material, one of those like CBT nuggets, or even just showing them network chuck on YouTube. Like, it's just, yeah, just that sort of basic stuff on YouTube.
+So, well, you know, like anything, like I kind of, I, I, like, uh, I grew up on like Jeremy Charles. So that's like, that's who I, uh, learned from, um, cause I, I became a, you know, I was a CBT nuggets subscriber, like way, way, way back when. Um, and that's what enabled me to get my CCNA like, um, like mid two thousands, you know?
+Um, so yeah, that was, uh, yeah, that's kind of like what I grew up on. And, and, and, um, it's great. And I've had the opportunity to meet him and stuff like that.
+And now it's been great. I even invited him to, uh, his wife to like one of the shows I was working on, but I just happened to be in, in Phoenix. So, um, so they came along and had a great time.
+So yeah, exactly. And, um, and the thing was, uh, so, uh, and keeping in contact with them, you know, it's kind of like, I learned from their course material and then went and got my CCNA and went on to build, to be sort of promoted or get new roles and, you know, literally build, um, networks that span the globe. And, um, you know, I was like, I like to work for Megaport and that's an Australian company.
+And I was, I was the first customer used to LA to Sydney. But, um, so, and I transmitted, uh, real-time audio and video over that link. I was literally, literally tested the latency.
+So I had Sydney send audio and video uncompressed to LA. I was in LA. I literally looped it back and sent it back to Sydney and we timed it to see what the, you know, what the round trip time was and not just like round trip time doing a ping, but actual round trip time of like, can we have a two-way conversation over this circuit without, you know, the delay tripping everybody else?
+You know, is this, is this actually practical? So, um, you know, I've had, uh, all of these kinds of, um, opportunities and experiences and stuff, but, um, and that's led to meeting a bunch of people and obviously getting to, to go, you know, the Packet Pushers guys over the years has, has been awesome too. And, um, that's kind of, you know, led me to like meet cool people in the networking industry and stuff like that.
+So I, yeah, kind of just rambling at the moment, but it's like, um, it's just those experiences that you wouldn't otherwise get. Um, if you don't put yourself out there and kind of just seize those opportunities when they come along and, and feel free to like pivot and, and jump at any of those chances. Uh, if you kind of just, I feel, I felt like if I played it safe and didn't do what I've done thus far, I would still just be, um, you know, sitting in that same office doing the same stuff.
+[Kevin]
+Got a job you hate that you're not getting any satisfaction from. Yeah.
+[Ricki]
+Yeah. That's it. And I mean, the thing is like, you might, if you're like, if you're a young engineer and you love your job and you love the company you work because some people just, they love their employer.
+Like they, they love who they get to work for and that's great. Um, and, uh, so, and that that's enough for them and they would rather spend their life. Uh, so, you know, like work is work.
+And then they basically, they take their income and they go and buy, you know, cars and boats and things and go on trips and travel and do whatever else. And that's their lifestyle. And that's great.
+Whereas like, I feel like, like my lifestyle and my employment is like integrated, you know? So it's like, yeah.
+[Alexis]
+Um, and that's where I'm at. There's no work life integration. And do you, do you feel fortunate?
+100%. 100%.
+[Ricki]
+So, you know, I don't, um, I mean, I don't exactly get to do what I want because I still have to, like, I have to be here to be doing what I'm doing now, but it gives me the opportunity.
+[Alexis]
+Yeah, totally.
+[Ricki]
+But it scratches that itch and I'm, I, you know, uh, I get to travel the world and I get to, um, you know, live these or have these cool experiences. And I get to do these and go and work on these amazing events. And, um, yeah, I don't know.
+There's just, it's, it's really hard to describe, but it's going back to like getting, you know, effectively getting recruited as a network architect. You meet finally thinking I'm like, oh my God, I made it. Like I'm officially a network architect and I did it without having to get a CCIE.
+Like, this is unbelievable. Like, and then 12 months later going, oh yeah, maybe that wasn't the right move. Like it was, and then coming out and, but the thing is, and then, and then experiencing like with my previous colleagues that I used to work with, they're like, so wait, what do you do now?
+And I'm like, yeah, it's hard to describe, but I love it.
+[Alexis]
+And at some point you look back and go, huh, maybe all of that did happen for a reason.
+[Ricki]
+Um, so I am a huge believer in like that's happening for a reason. Like the, when I look back and I think about like who I've met, where I've met them, when I've met them, the timing couldn't have been any more perfect. So I'm like, okay, all of these things have happened for a reason.
+I'm just going to follow this path.
+[Alexis]
+Yeah. And as we, as we wrap up the show, if you are looking back, is there any advice you would have for your younger self?
+[Ricki]
+Um, well, my younger self, I would probably, so I, and this is going to sound funny to say that I feel like this held me back. I didn't realize that I suffered from depression, anxiety. I didn't know, but I did.
+I was so used to the, the weird compression feeling in my chest from a very young age. I thought that it was just, it just became normal to me.
+[Kevin]
+Yeah.
+[Ricki]
+I didn't realize it was a thing until it was actually like social media. And that actually educated me on the fact that like I started like, um, somebody sent me like a, like years ago, somebody sent me a post and they're like, ha ha, this is you. And I was like this guy that was like talking about having ADHD, but he was all the characteristics he was talking about what describes me.
+And I was like, yeah, okay, cool. Uh, so I started looking at more of that content. And as I looked at more of that content, more of it showed up in like your feed.
+And I was just like, and this is like, I'm 43 now. And this was like, am I always say this? I'm like, wow, I think I've got this.
+And then I started looking into more anxiety issues because I suffer, um, getting really bad anxiety. So looking back at that, not understanding what that was, I think really held me back. Um, from sort of reaching that potential earlier.
+And again, it sounds funny because like I got there anyway. Um, and I, and I feel fine. Like I don't take any medication for any of it or whatever.
+I've, I've, I've learned to deal with it. I'd like to cook and I'd like to recognize it especially. Um, but yeah, looking back at my younger self, I would, I wish I had like being able to, um, being able to recognize that a lot earlier because then I would have to do something about it a lot earlier, um, and learn more about it.
+And then, um, yeah.
+[Ricki]
+And I think that would have, uh, that would have just helped me out in general.
+[Ricki]
+Um, so yeah, I don't, yeah, it's kind of funny. It's really hard to sort of talk about and describe, but I always, from a very young age, I was always, I was anxious going to school. Uh, I was anxious.
+I was just anxious about anything and everything. Um, and it really, it really held me back from, you know, people used to like, people would comment on the fact that I'm quiet or I'm a shy or I'm, you know, uh, but it wasn't, I was just riddled with anxiety, but I had no idea. Um, so if that's you, uh, and you feel like that, so, you know, um, definitely go and talk to a professional about it and, um, yeah, look at the best path to not so much for, for treatment.
+Like that's, that's up to you, whether you want to be medicated for it or not, but it's, uh, cause I'm, I'm not, but my brother is, for example. And, um, my brother's like, it's like, everything becomes clear as day when he takes the medication. I'm like, but I, I've learned to compensate and I've learned to deal with it.
+So, um, and definitely learned to recognize it. So, um, yeah, I, I feel like going back and, and if I were to go back and tell myself that that's the, the one thing I would fix.
+[Kevin]
+I'm in the same boat as you. Um, I've, I've had anxiety and, uh, ADHD and all that stuff since a very young age. And I did not know about it until I was already an adult.
+And it wasn't until I hit like rock bottom that I started like actually being like, okay, something's wrong with me. I got to get help. I got to get talked to a therapist.
+Um, and I'm on antidepressants now for my anxiety. And it's literally like, once you start getting help and start recognizing what you actually have so that you can come up with coping skills or medicine or whatever, it changes your life completely. Like it's, I'm a whole different person.
+[Alexis]
+Don't tell me that I'm in the brute force denial stage.
+[Ricki]
+Um, well, I was, the thing, the thing is that a lot of us, a lot of us suffer because we all, we all work, you know, so you can kind of go, ha ha, you, you work a behind the scenes job.
+[Ricki]
+But the thing is, even if you're a network engineer, you're still the behind the scenes person, right? You're not, you're not an application developer. You're not like, and even those guys are behind the scenes because they're not the end user.
+Um, so it's way more common than you realize. And the thing is, it's, it's so much more like the ability to recognize it is so much more common these days. So, um, yeah, I, I hit rock bottom.
+I was burnt out. I literally didn't get out of bed for three days. Um, I just, honestly, I, I was right at that stage.
+I was willing to like, couldn't care less about anything. I was like, you know, I just wanted to quit my job and just basically just like, I'm like, how, what's the bare minimum I can live on? So I don't have to deal with this shit.
+Um, and then by that shit, I just made life like, um, lessons like, yeah, I feel that right now.
+[Ricki]
+And then like sometime, like, like, you know, and then like, yeah, they like land, like, what does unemployment pay you? Is that enough to get by?
+[Alexis]
+I have done the, I'm just going to sleep for three days, but I justified it by, I had a really big month and I've been traveling a ton and I'm working really hard and we're burning the candle at both ends. And I don't know how much longer I can do. Um, Ricky, if someone wants to find you and ask you questions on social media, where should they go?
+[Ricki]
+Uh, honestly, Instagram is probably, well, so I'm on LinkedIn and I really don't do Facebook or anything anymore. Um, I don't know anything. So, um, yeah, exactly.
+So basically Instagram is the platform. Um, yeah, sort of, that's the social media platform of choice for me. And then, um, and LinkedIn as well.
+[Alexis]
+Okay. Awesome. Well, I appreciate the time today, and for everyone listening, that is it for this episode of Life in Uptime.
+Huge thanks to our guest for sharing his journey. And thank you to you for listening. If you enjoyed today's conversation, be sure to follow our show.
+So you never miss an episode. And if Ricky's story today gave you something to think about, please share it with a friend or colleague who might need it. And until next time, keep learning, keep building and keep your uptime high.`,
+  },
+  {
+    episodeNumber: "021",
+    slug: "ep-021-justin-ryburn-the-road-more-traveled-with-a-field-cto",
+    title: `Justin Ryburn - The Road More Traveled with a Field CTO`,
+    guest: `Justin Ryburn`,
+    guestTitle: `VP, Global Solution Engineering & Field CTO`,
+    guestCompany: `Kentik`,
+    guestLinkedIn: "https://www.linkedin.com/in/justinryburn/",
+    description: `Kevin and Alexis are joined by Justin Ryburn, VP of Global Solution Engineering and Field CTO at Kentik, to discuss the realities of traveling for technical work. Justin explains the nuances of his role, which balances executive engagement, public speaking, and team leadership with the challenge of a heavy travel schedule. They also touch on the importance of finding the right work-life balance within a demanding tech career.`,
+    airDate: "August 27, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu021-justin-ryburn-the-road-more-traveled-with-a-field-cto/",
+    youtubeUrl: "https://youtu.be/aU3VzmnbwY8",
+    transcript: `[Kevin]
+Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected. I'm Kevin, joined by Alexis, and every week we sit down with engineers, leaders, and builders in tech to uncover the stories behind their careers, how they started, what they learned, and where they're headed next. Our goal is simple, to help you see how far tech can take you, no matter where you start from.
+[Alexis]
+All right, guys, welcome back to Life in Uptime. Man, every week it gets better and better. I swear, if y'all haven't seen Kevin's performance on video, please head over to the YouTube channel that I learned we had five minutes ago.
+[Kevin]
+Nice, shameless plug. Yeah, good job.
+[Alexis]
+And watch it with video, because man, it just gets better and better. This week we've got a super special guest for you, one who I only actually see outside of the country. Justin, we're joined by Justin, and him and I joke all the time.
+I mean, literally, we've never met in the same place twice, have we?
+[Justin]
+Nope, not once.
+[Alexis]
+And his job can look like a dream from the outside. He does a ton of travel, conferences in Hawaii, Malaysia, Singapore, Australia, Prague, Munich. He does a lot of public speaking, meets interesting people, and his employer pays for all of his flights.
+But what I want to talk about today is how he got here and what some of these jobs that seem like a highlight reel can leave out. So we're going to talk a bit about how he got into the role he's in now, which is a field CTO, and the dark side that you might not see when you're in a role where you're traveling all the time, or there's, you know, ups and downs to everything. So Justin, welcome to the show.
+[Justin]
+Thanks. Glad to be here. Looking forward to unpacking this with you guys.
+[Alexis]
+So where was the last place? I think I saw you in, what, Munich last?
+[Justin]
+Yeah. Yep. Autocon in Munich.
+Yep. For sure.
+[Alexis]
+Crazy. I can't believe how fast the summer's gone by. Could you tell us a little bit about if someone's unfamiliar with what a field CTO does?
+Maybe that's a good place to start.
+[Justin]
+Sure. Yeah, we can start there. And I, you know, I find that that's actually a frequent question I get from people when I introduce myself, because I think it's a title that's not super well known.
+And different companies also define it slightly different, too, which doesn't help with some of the confusion. But I'll just kind of describe how I do it at my day job at Kintik and how I've seen it done at other companies. But I'd say the basic summary is I travel around the globe, as you already highlighted, meet with our top customers, usually like executive level conversations, sometimes at the individual contributor level.
+Do some public speaking engagements. I do podcasts like this one on some other podcast. Obviously, I write blogs from time to time.
+So I do some content creation. And then I spend quite a bit of time with our our product team taking like tidbits that I've learned. I've been out in the field at these industry events and meeting with customers and their executives and feed that back into our product team so that it can help inform our roadmap, make sure that our product is going in the direction that the industry is going.
+[Kevin]
+It's that sounds almost like a tech evangelist.
+[Justin]
+Yeah, I'm going to say there's a lot of overlap one day. Yeah. Tech evangelist.
+Yeah, we actually have that role at Kintik, too. And that officially reports into marketing. And as I would say, a little closer to what Alexis does, at least the way we have it defined here at Kintik, where it's a lot more of the content, 100 percent focused on content creation, basically, whereas mine kind of dabbles in that, but then also has I report into sales.
+So I run the the SE team, the pre-sales engineering team at Kintik as well.
+[Alexis]
+I do.
+[Justin]
+Yeah, I have a 20 person team that I run as well. So how do you balance that with your traveling all the time? That is a good question.
+Yes. A lot of well, thankfully, I have really good leaders under me. So I have a couple of SE directors that run their teams and I just, you know, checking them with them from time to time, obviously, see what they need to be successful.
+I just kind of let them run their team. I think that's kind of the key to the success of scaling a company is you got to have good good people.
+[Kevin]
+Right. Are you so I'm just recently started traveling because of this whole content creation thing. I I've always worked very local at a network engineering job, never traveled anywhere other than down the block kind of thing.
+And what I've what I've had to do is go to airports and work for hours waiting for my plane. I'm writing emails and I'm working. And even on the plane, I am now buying Wi-Fi just so I can work on the plane.
+Do you have that same experience or are you able to like just travel and have your teams kind of take care of themselves?
+[Justin]
+No, I have that experience for sure. That's I would say part of one of the downsides of this job, like Alexis alluded to in the intro. Right.
+Like three hour delay in a flight. It's like, OK, how am I going to take that three hours and turn it into productive time? So I'm not just sitting here, you know, in a seat in the airport waiting for my plane to take off.
+Right. I I actually pay out of my own pocket for an airline club membership because I just find I travel enough and it's worth it to be able to go and have a quiet place where I have access to Wi-Fi and get some drinks. I can get some food, whatever makes the the the waiting a little bit more enjoyable.
+Yeah. I've taken calls from airport lounges. I've done podcast recording in airport lounges before, you know, like calls, all kinds of stuff.
+So you have to part of it.
+[Alexis]
+You have to fit it in when you can. Like, yeah, I think that's the other thing that people don't realize. I mean, if you're in a role where you travel once or twice a year with your company, sure, you can make sure that you nickel and dime every single expense and everything that you incur when you're traveling is put in your your company Expensify account or you're only traveling during company time.
+And, you know, you can kind of keep track of your time better when you're traveling four or five, six times a month, constantly. Like the travel is almost a part of the experience. We are taking calls in different time zones.
+There's no such thing as a nine to five. There's no such thing as an eight hour day. I'll take off on a Friday.
+And if I'm flying to the other side of the planet, sometimes it takes thirty five hours to get there. Your weekend's gone. And when you get there, the pre conference event starts on a Sunday.
+Like there is no. Oh, well, I think they technically call it time in lieu where if you end up working extra, you can like take a couple extra days. But when you're on the road full time, like there's there's no way to keep track of that.
+There's no way. And it kind of just becomes like the show has to go on. You have to find a way to get your work done no matter where you are, no matter what time you're working in.
+The travel is just part of the experience.
+[Justin]
+Yeah. And like, you know, a lot of my friends that don't do it will be like, oh, it must be great to get to go to some of the places you rattled off. Right.
+The classic example that I like to tell is a story is like I I spoke at a conference in Auckland, New Zealand. Right. And everybody, all my friends were like, oh, my gosh, I've heard New Zealand so beautiful.
+It must have been amazing. I'm like, yeah, but OK, hang on. Let's let's talk about how this went down.
+[Justin]
+Right.
+[Justin]
+I left on a Friday. I land there on a Tuesday. All right.
+Because that's just how long it takes by the time you do all the connections, like 38 hours door to door to get there. Right. My talk was on.
+I don't lose track of the days. The example will be the same like Wednesday. And I had to be back home by the weekend because I had personal obligations on Saturday with my kids.
+Right. So I thankfully had one day after I finished speaking that I skipped out on a conference and when did just a little sightseeing because I did want to at least see something while I was there so that it wasn't a complete waste. But I was literally only in New Zealand for like 48 hours.
+So, you know, it's 38 hours of flying each way. All right. So it's not not exactly glamorous someplace.
+I want to go back for for personal and take a vacation there because, you know, you don't really a lot of times you travel for these conferences. You don't really get to see the place per se. I don't know much sightseeing you got to do while you're in Munich, Alexis, but I hardly saw anything.
+[Alexis]
+Well, and it also depends on, like you said, if you have somewhere else, you need to be back to back to back. And Justin, I think it's a lot different when you're in your situation and you're traveling and you have a family that you want to go home to. I've got the liberty of being I call it being sticky on location.
+So if work sends me somewhere, I try to get seven nights in the same bed where if the conference is four days long, I'll take an extra three and actually explore the city on the weekend. But if you have, you know, your daughter's soccer practice or band recital or, you know, you don't want to miss that time with your kids. And so the trip becomes very different.
+[Justin]
+Oh, yeah, for sure. And I've done both. You know, I've done the balance where I've been able to stay a couple extra days over a weekend or something and fly homes like whether flights going to be the same price, whether I leave and come home on Friday or I leave and come home on Sunday.
+And so I might as well stay for a couple of days and check it out. So I have I have had the opportunity to be able to stay and do a little sightseeing in some of these places. But, you know, I guess the point is it can be balanced so that you can get home and spend the time with the family and be there, at least for the important events.
+I won't say I don't ever miss any events, but if I try to be home for the big ones. Right.
+[Justin]
+Yeah.
+[Kevin]
+Yeah. So you have a wife and two kids, right? Yep.
+Wife and two kids. And you travel a lot. What is what has to happen at home before you can say yes to leaving for, you know, three or four or five days to go on one of these trips?
+Do you have to like, you know, take the wife to go out one night?
+[Alexis]
+Kevin, who are you asking for?
+[Kevin]
+No, I was just like, so I'm asking personally for myself because like I'm traveling now a lot and I have a wife and three kids. And so I have to like pace it out a little bit and check in with my wife and be like, hey, I have this trip to go to San Francisco for a few days. You know, it's going to be good money.
+I think we can spare it. And then like I have to like, you know, kind of butter up a little bit before I leave and make sure that she's taken care of, that the laundry is in a good place, that the house is in a good place before I leave. So I was just curious if you had the same experience or because as someone who does this a lot and I'm still trying to learn that process of how to balance it correctly.
+So I was just kind of curious, you know, what does it actually look like for you preparing for one of these trips, having so much at home and having responsibilities?
+[Justin]
+Yeah, when I work travel first started ramping up, you know, my wife still worked full time. And so then it was a lot of what you're talking about is like a lot of balance, like, okay, well, I'm going to be gone these days. You know, our son's got this, my daughter's got that.
+I was like, how am I going to balance all this? Um, her parents are close. So that helps us a little bit of a support system besides just me when I travel.
+But I would say maybe a little over two years ago, my wife finally was like, you know what? I can't, if you're going to, if you're going to keep doing this travel and I support that, then I'm going to have to stop working. Right.
+And be able to run kids to activities and do laundry and you know, the chores around the house that also have to get done while you're on the road.
+[Kevin]
+So this is, you know, that makes that she's already like, if you're leaving, man, I don't, I don't need to work anymore. Yeah. She's already starting to done that path.
+Yup.
+[Justin]
+Yup. That's, uh, that's, that's the path that I went down. Yeah, for sure.
+It is different though. Like I, I work with some people that are, you know, in different stages in their life, either, uh, empty nesters where their kids are growing out of the house or they just, they, you know, single or married and don't have any kids. And it's interesting just that we, we trade stories about like what the logistics is like, like, well, I just went, like, I didn't have to tell anybody I was going.
+I just like booked a trip and off I went. It's like, yeah, that's not the reality of life.
+[Kevin]
+That must be nice. Yeah.
+[Justin]
+I have a shared calendar with my wife and I put stuff on there and then we talk about it. Cause you know, even, even with her being home, it's like, well, we were going to go to dinner with some friends that Friday night, but if you don't fly in till seven o'clock, guess we're not doing that. Right.
+[Kevin]
+Yeah. It's, it's, it's a lot of the stuff you don't think about when you, you know, when you sign up to go traveling, you're signed up for these kinds of jobs. You don't think about the, the, I don't know the details of the small little things that happen that get in the way of life.
+[Alexis]
+I was going to say, Justin, that's why everyone, at least the reaction that I've had when I meet all of y'all at conferences is do it while, do it while you're young, take advantage of it while you're young, travel while you can travel when you have no responsibilities. And I mean, don't get me wrong. I'm, I am experience maxing.
+[Justin]
+There you go.
+[Alexis]
+Might as well. I'm trying to fit it all in while I have the flexibility while I have the, um, the job I do and just the ability, like, I think one of my favorite books is, uh, die with zero. And it talks a lot about spending all of your money strategically at certain points in your life on certain experiences before you die, because like the whole point of life is to optimize your life.
+And there's certain experiences that you'll enjoy when you're 25, that you won't enjoy when you're 55 or 75. And so trying to figure out, you know, if you are scratching off a bingo card, what are the spaces you want to do first? And even if it's a little more expensive or if you have to save up for the trip, like that's something that you'll enjoy at this stage in your life that you wouldn't enjoy later.
+Um, anyways, all of that to say, I think that it's kind of like a catch 22 because later in life, you might have a job that pays you to travel or more money or ability, financial ability to go certain places, but then you have more responsibilities or you don't have the time, or maybe you don't have the interest to do those same activities. So could you tell us a bit about your path into the role that you are now? Like, did you know that a role like this is something that you wanted to seek out?
+And also for someone who is earlier in career and is looking to do something similar, um, where maybe they get to travel a few times a year to interesting places, um, just how to get themselves into different opportunities like that.
+[Justin]
+Yeah, I'll talk a little about my path and we can chat through what some other, you know, other alternative paths could look like. But, um, so if I take a step back before I was in this role, um, most of my roles in the last, I don't know, 10 years, 15 years have been in pre-sales engineering, right? And so, um, for those who may not know what that is, I'll describe it briefly, but basically most modern hardware and software companies, most tech vendors, um, now have something they call an SE.
+It's either solutions engineer, sales engineer, uh, systems engineer. Each company kind of has a different term for it, but it's basically someone who's technical, understands how the product works at a pretty deep level and can work with the sales person to help the customers understand the solution, how it provides value and help them get, get a demonstration of it. And even potentially an evaluation of it before they purchase.
+And so I, I, uh, felt kind of fell into that by interacting with people like that and really learned to love that because I've always really enjoyed not just tech for the sake of tech, but being able to figure out how to use technology to solve business problems. So I actually have two master's degrees to, to that kind of that point, one in business and one in IT, right? Cause I liked tech and I liked business, whatever, I got two degrees.
+Uh, so, you know, I, I really enjoy the, the SE side of things as far as like, uh, you know, traveling all over the world and doing the public speaking. I just, uh, I just found, I really liked being out in front of customers and part of the way we meet with our customers is at events. So I kind of got into it through that, through going and meeting with customers at events.
+And then, you know, I was there, they're like, Hey, would you mind talking about what you're working on? So then I got invited to do some, some talks and kind of moved into, you know, into the field CTO role. I didn't really, didn't really plan it out that way.
+It wasn't like I went and got this job as a stepping stone. Yeah, exactly. There's actually a really interesting book, uh, called the, I think it's called the social sales engineer.
+I can grab the link to it and put it in the show notes if you want. But, uh, it's, it's interesting cause it talks about this dynamic where a lot of people that are, that are SEs for a lot of these vendors, uh, while they like interacting with customers one-on-one, they don't think of themselves as like a, an influencer, right. Or doing content creation.
+They're not interacting on social media with other people and like, you know, making that mind shift set that mind set shift to doing that is difficult for a lot of people, but that's sort of the, the modern way that people are buying solutions these days is they're checking things out on Reddit or they're going and asking an AI, like what they should buy. And it's heavily influenced by, you know, the content that's out there on the internet. Yeah.
+So yeah, that's how, that's how I got into it. But I think there are a lot of other ways. I mean, now that, you know, it's 2026 and the younger generation is coming up and they're like, you know, more proficient with social media and influencers and content.
+I think there's other ways, other paths that could get you into a field CTO or tech evangelist or, um, a lot of software companies have a dev rel person that interacts with the developers and tries to build a community around their developers, which is a pretty similar role to what we're talking about here.
+[Alexis]
+I think, um, technical evangelist field CTO, maybe, maybe sales engineer is a stretch. Um, there's no like forward deployed engineers. I keep seeing that term kicked around on social media too, which I think all of it, all it boils down to is that if you are an engineer who understands how to talk, understands how to present and you like people, like the options for you are endless.
+[Justin]
+Yeah. Yep. For sure.
+You know, and I've always really enjoyed not only, um, like I said, applying the tech to the business, but also helping other people understand it. Right. Which is a lot of the value of all of those types of positions, right.
+Is being able to understand the tech and being able to simplify it and make it approachable to people who don't yet understand it. Right. Um, absolutely.
+[Kevin]
+That's what we do in content every day. Exactly. Yeah.
+[Alexis]
+So Justin, how did you become a sales engineer? Because I feel like every SE I talked to, um, the conversation's a little bit different. Right.
+And almost like we said, no SE job at two different companies is the same. Like they're all going to be right. But how did, how did you originally get into it?
+[Justin]
+Um, so I was a customer of a, um, a vendor, I was working for a service provider and was interacting with like with Cisco and Juniper and some of the other vendors that we bought equipment from and started interacting with their SEs and just saw what seemed like they were doing on a day-to-day job. At least when my interaction with them, I was like, this seems really interesting. Uh, and so when an opening came up, uh, at Juniper for a job, um, I applied for it long story, but I didn't get, um, that position.
+So I wound up as what they call a resident engineer, which is post-sales onsite. Um, but did get on with Juniper and then moved from there into, uh, into pre-sales engineering. So that's kind of how I found out about it and decided that was the path that I wanted to work towards was by, uh, interacting with the, the SEs at vendors that I was working with on when I was a customer.
+What about the job was attractive to you? I think again, just being able to not only, um, well, I guess working for a vendor, what did, let's start there. What attracted me to working for a vendor was when I worked for a service writer and I had worked for a couple of them at that point, you get to know that network, that one network.
+Right. And it's like, okay, we, this particular service writer, we chose OSPF as our IGP. So I'd never worked on ISIS before, like just had never worked for a company that had that protocol in their network.
+And so didn't get exposure to it. I could read about it, could laugh about it, but like to actually like work for a company or work with a company that did it, I wouldn't be able to do that unless I switched jobs. Right.
+And so we're being on the vendor side. What attracted me to that was, you know, if I have, I'm a, an SE and I have five accounts and they have five different network designs, five different network architectures, they run different protocols. Like I get exposure to a lot more like, uh, different types of networks and different type of designs and so forth.
+And that was what I think really attracted me to the vendor. The SE role specifically was again, going back to what I said earlier about combining the business and the tech, right. Being able to like say, okay, I know how, you know, a Juniper MX router works.
+And I know how these different line cards work. I know what the speeds and feeds are. Let me help my customers figure out whether that's the right solution, you know, for what they're trying to accomplish within their network or capacity, or they're trying to do this new design for their new data center or whatever it may be.
+Right.
+[Alexis]
+So we talked a lot about, we talked a lot about being an SE and, um, kind of stepping into that role as a field CTO and traveling, um, obviously is super exciting, but can you talk a bit about building community on the road? I think that a lot, a lot of technical roles now, whether it's in IT or computer science or any sort of like development role, we're working remote, whether it's days a week, whether it's full-time remote and I think having a technical community around you of professional acquaintances outside of your immediate team that you can rely on is super important. How have you built that up throughout your career?
+[Justin]
+Yeah, I mean, I, I agree. I think it's super important. I'm actually a co-organizer for the local, uh, Missouri network user group Mono is put on by, uh, USNUA is a, the nationwide organization that has local hosts that host these like meetups for lack of a better way to describe it in their local area.
+And I got involved with that because I think community is super important to your point. Um, it's been super influential in my career. Uh, I would say, I think pretty much every job since maybe like my first full-time job out of college, I have gotten because I knew somebody, right?
+Like conversation led to another conversation and a person's like, Hey, would you be interested? We've got this role. And I interview and that's how I land the job.
+Right. It's been again, since my very first one, I don't think I've landed a job where I like applied through their website and, you know, got an interview that way. It's all been through, um, you know, connections that I've made through, through my career and through the industry.
+Um, you know, some of those come from, from getting out and going to conferences. Um, so even if you're not an influencer, even if you're not doing a lot of online content, if you're once in a while, you know, maybe, maybe it's even just a couple of times a year going on, going to one of your local area or like NANOG was big and influential for me earlier in my career. Cause I was working for telecommunications companies and NANOG was like the big three time a year conference that they, they always did.
+So I met a ton of people through that, but, um, you know, Cisco lives, a good one's big. So there's lots of people there, but even just these like smaller regional, um, nugs that are put on can, can be a good way to meet a few people in your industry. The other value beyond just building that network and that community of people that could get you a job or could introduce you to your next career is just being able to talk shop with somebody who does something similar to you.
+I think to your point, Alexis, a lot of us wind up behind a screen, you know, 40, 40 plus hours a week doing our jobs remotely. And we start to get in this little bubble where like, man, nobody understands the challenges I'm going through or like, you know, nobody knows how to like solve these problems that I'm dealing with. And going to these conferences, you start talking to people like, wait, you're dealing with that same too.
+You're trying to figure out how to like, you know, scale your data center in this way. Like I'm dealing with that same problem. Like, let's talk about that.
+Right. Just being able to collaborate with people who do the same type of job that you do is super valuable too.
+[Alexis]
+Yeah, no, 100%. Cause I think a big thing for me, you start to see the same faces over and over. And you don't, I mean, sure you can meet someone once at a conference and have a good conversation, but even just like you and I, I mean, we've seen each other five, six, seven times and it's not just you.
+I mean, there's other people that we're like road warriors together and you're always working the booth and you become familiar with their companies or what they do. And I don't know, it makes traveling feel at least for me, like a lot less lonely.
+[Justin]
+Yeah. Well, again, it's, it's back to that, like understanding that there are a community of other people out there who do are doing the same thing that you're doing. Right.
+And so when it gets, the travel gets tough cause you're away from home or you're feeling like, you know, you're dealing a lot of stress from delayed flights or whatever it may be. It's like, it's, it's good to know there are other people that are in the same boat. Right.
+You can commiserate with, I guess, if you will. Right.
+[Alexis]
+100%.
+[Justin]
+Trauma bonded.
+[Justin]
+Yeah.
+[Alexis]
+That's half a, half a work, man. I was talking to one of my coworkers and I was like, at least we're doing this together. It's like, you know, as, as much as we may not enjoy this specific task, I get to work on it with you.
+[Justin]
+Yeah.
+[Alexis]
+It gives us an excuse to make jokes about it and have fun together, you know?
+[Justin]
+Yeah. And there's definitely something to that. Like some of my, you know, people that I still keep in contact with that I worked with, you know, 10, 15 years ago, a lot of it comes down to that.
+Like we had a lot of stressful situations, whether it was like middle of the night maintenance windows or how to do code upgrades, it didn't go well. And so we're trying to figure it out and send somebody out to get some pizza and some more Red Bull or whatever it may be. Right.
+Like, I'm still close to those people because like we went, we went through something together. Right. And it like bonded us together closer because we have a shared experience.
+Right. So it doesn't, that happens inside of companies and inside of teams, but it can also, you know, if you work in a small company or we have a team that does something similar to you, that's where the community can help expand that circle a little bit. Right.
+If, you know, it can be that, that team, if you will.
+[Alexis]
+Yeah. So we, we talked a little bit about sales engineering, right? You lead a team of SEs.
+I think Kevin, we've talked about this on the show before, but a lot of engineers think about sales as going to the dark side. Do you still feel like you're an engineer, Justin?
+[Justin]
+I do. You know, and I, I've had that conversation with a lot of people who were considering, you know, should I become an SE? Is that selling my soul to the devil or am I moving to the dark side or whatever, if I'm getting paid to sell something?
+I mean, I think, you know, unfortunately there are people who have done unethical things in our industry as salespeople and probably even as SEs. And so they've left the bad taste in some engineers, you know, mouth. They've had bad experiences.
+It doesn't mean they're all bad. You can still be a good engineer, still be good at understanding the tech, be good at explaining the tech to other people and be successful as an SE or in sales for that matter. It doesn't have to be one or the other.
+I'd still like to believe that I'm a good engineer. I don't, I don't, I don't get to do as much hands-on technical anymore. And it's less because I'm an SE and more just because I've moved up the ranks a little bit.
+So the value that I bring to the organization now is more coaching and mentoring engineers and it is being an engineer myself. My team actually makes fun of me when I try to do hands-on work. Now I usually mess it up and they have to come behind me and fix it.
+So they'd rather me just let them do it right from the very beginning.
+[Alexis]
+Was that hard to recognize that your value add was different? Because I feel like for a lot of engineers, like when they've been hands-on keyboard their whole career, stepping into leadership and realizing that, you know, not being the point guy that's going to get on and code the thing or fix the thing. Was that hard for you?
+[Justin]
+Yeah, it's, it's still kind of is some days. I mean, part of it is just because I really like the tech too. Right.
+So, you know, I, I still play around with stuff in the lab, even if it's just for my own learning, even if it's not really for, you know, any quote unquote project I'm working on for work just because I, I learn best by doing, which I think a lot of people do. And so I, you know, I lab stuff up just because I'm like, okay, I read about this, you know, new thing. I want to lab it up and actually learn it.
+So I feel like I understand it better. Even if the only reason I need to know that is so I understand what's going on in a meeting when people in the real engineers are, are talking about things. Right.
+But yeah, it is tough to, to, to make that transition and realize that if I'm actually really doing my job well, I'm letting my team do the, the, the technical work themselves and not stepping in and stepping on their toes and doing it for them. Right. That is a, that is a tough transition, I think for, for most engineers to make.
+[Kevin]
+Do you lose part of your identity? Cause I don't know. I, I view myself like I was recently promoted and I'm now into like a supervisory position and I have to offload a lot of my, my work to people underneath me now.
+And part of my identity has always been someone who's on, I'm the tech person, you know, I'm like, I like hands-on, I like to do stuff. And now that the majority of my day is not that it is meetings and decisions and budgeting and projects. Like I, it's like, cause I'm almost losing a part of my identity.
+Like I'm no longer the computer guy. I'm now I'm the meeting guy. Have you had that same experience?
+[Justin]
+Yeah. And I think it's not so much your identity is changing. I wouldn't say necessarily losing it.
+It's just, it's changing from, you know, being the guy or the gal who knows the answer to the thing to being the one who can orchestrate that. Right. Being able to get the right person to get the right answer and, and enable those people to be successful and to shine.
+Right. So it's not so much, I mean, the identity is changing. Yeah.
+If that was what your identity was wrapped up in is being the hero, being the person who knows the answer. Then it is going to be a hard transition. That's what I tell people who approach me.
+Like, I don't know what I like being in leadership. I'm like, it depends. And sometimes you're never going to know until you try it.
+Right. But if doing that and becoming the person who you're not always the go-to person anymore is going to cause you to have an identity crisis, then maybe it's not for you. Right.
+Is what I tell, what I tell people when they, when they ask me, you know, if, uh, you know, leadership would be right for them.
+[Kevin]
+Where were you a couple of weeks ago?
+[Justin]
+No, I'm just kidding. Yeah. Sorry.
+Sorry.
+[Justin]
+We should have this should have recorded this podcast a few weeks ago, apparently. The other thing that, you know, I think, uh, I always tell people is you also got to remember that like you, you're not going to lose your technical edge overnight. So you can try, you know, moving into leadership, give it a try.
+If you find you really like the mentoring and the coaching and some of the things that come along with the leadership and you're okay, letting some of the technical go and you want to stick with it, that's fine. If you get there and you're like, you know what? Interesting experiment.
+Not for me. I want to go back to being an individual contributor engineer. It's not like the day you signed the check, you know, sign the offer letter to become a manager.
+You lost all your technical skills. It's like, it doesn't work that quite that way. Right now there is a period of time where you're spending so much time in these meetings and doing budgets and some of these other things that you just can't keep up with all the latest tech that's coming out.
+Right. I mean, at some point it's kind of kind of like Alexa saying earlier, there's only so many hours in the day. Right.
+And so you have to figure out like, how are you going to spend those hours and which one is going to benefit you most and what the organization needs out of you going forward.
+[Alexis]
+For real. So I think we talked about being a forward deployed engineer a little bit. In the age of AI, what is the difference?
+And I'm curious on this because I want to do a deep dive on this myself, but what is the difference between a forward deployed engineer and a pre-sales solutions engineer or systems engineer?
+[Justin]
+So we just, we don't have forward deployed engineers at Kentik today. We've talked a little bit about it. The way I describe, the way I understand the difference and the way I describe the differences for a long time, there were companies that had what they call product led growth, basically meaning that the product was pretty obvious to use.
+And like you'd go out to I think it was like AWS, right? An individual can go out to AWS's console. You can sign up, get an account, start playing around with AWS.
+You can start learning it. You can scale it. So you don't really need to test it out before you buy it.
+Right. And so the SE team at AWS, they don't really help you deploy your production environment necessarily. They're helping you understand the product, right?
+Now in the world of AI, we're starting to see, we're starting as vendors, we're starting to see a lot more buying behavior where customers are like, no, no, no. I want to basically deploy your software in my production environment, prove that it works with my data. This is especially the case with AI, as you were saying, Alexis, before I buy your product, right?
+Which means the SE mandate has expanded. Now I don't know, I no longer can just go in and answer a few questions and do a demo of the product. And then the customer buys, I literally have to basically do a full onboarding and almost what we used to have professional services to do to actually enable and the product and the customer's environment.
+And so that's where a lot of the companies are now starting to change the title and the mandate to forward deployed engineer. Basically, it's this concept of, we're going to put on paper, like what success looks like, but you don't actually have to buy until we deploy this in your production environment.
+[Kevin]
+Isn't that how things used to be though? Like, is it just going back in time? Like it's, it's now we've kind of a full circle.
+[Justin]
+I definitely feel that way for sure. Yeah. Yeah.
+[Kevin]
+Yeah. Yeah.
+[Justin]
+Yeah.
+[Kevin]
+Like proof of concept, like typically when you have a new vendor come in, they want to try it out. You do a proof of concept, you set it up for a few weeks, you let it run in your environment, you see how it goes and then you decide to buy or not. That seems typical to me.
+So it's just going all the way back now into the, to the environment, the software side and doing, okay, it's the same thing now.
+[Justin]
+So I feel the same way, you know, and that's part of, like I said, we've been having this debate internally at Kintik, whether we do FTE because our SEs have pretty much been doing that since the very beginning, because, well, a couple of things. One, we're a very complex software solution, right? So it's not, we don't have PLG.
+Customers don't just automatically understand and know how to use our product. And, you know, we have to, we're a startup, right? So we're, you know, not a well-known household brand where customers are like, oh yeah, I've used AWS in my previous two companies.
+I know how to use it. Like, you know, we have to, we have to do a lot of proof, like you were saying, like all of our sales motions, pretty much with a few exceptions require us to do proof of value and basically get it all but production in the customer's environment so that they can see the value, they can build the business case and they could justify the purchase. So we've kind of been doing that model since the very beginning.
+That's why I talked to SE leaders that are starting this whole FTE motion, like, we're having to actually proof the value of our product before the customers buy it. I'm like, welcome to my world. I've been doing that for nine years.
+Like, I don't know. It's weird to me that that's news to you. But I guess if you're Salesforce or you're a ServiceNow or some of these other products, maybe you didn't need to previously.
+I don't, that's what I hear.
+[Kevin]
+Their name just carries enough weight where they go, okay, everyone else uses you, might as well too.
+[Alexis]
+I guess it depends on the thing. I don't know. I mean, even when I worked for a very large company that started with a C, I still found them.
+We're still doing POCs and POVs.
+[Justin]
+Yeah. Yeah. No, I totally like, same thing.
+When I worked at Juniper, we did, I mean, we had a whole lab and we had an entire building in Sunnyvale, California. It was basically just a lab to do exactly that. Like customers give you test plans.
+They're like, here's my network design. It has to have all these protocols running. We'd have to spin up the hardware and have our lab team wire it up and configure it and give them the exact configs and everything.
+We had to prove it before they'd buy it. So yeah, I don't know. It's interesting.
+You know, I, the, the snarky engineer in me is like, isn't this just changing the titles again to try and like keep it fresh or something? You know, there's already so many titles for what a pre-sales engineer is, whether it's SE or some call SA like solutions architect. That's what AWS calls it.
+Now we've got FTE. It's like, do we need to get another title for this?
+[Alexis]
+Right.
+[Kevin]
+That's the one truth in tech. There's, there's a million terms for, you know, 10 different things.
+[Alexis]
+Like we're all competing for the same pool of peoply engineers.
+[Justin]
+Yeah, for sure.
+[Alexis]
+So Justin, what is, what is next for you? When is the next time I'll see you or you'll be on an airplane?
+[Justin]
+I think the next one I'm going to travel to is the AI infrastructure summit that is coming up in Santa Clara in September. I'm going to be participating on a panel at that. I don't actually remember off the top of my head what the topic of the panel is, something around network observability.
+I'm sure since that's sort of my area of expertise, which is obviously super critical in AI fabrics. So that's the next one I have coming up. And then going back over to Europe in October, I'm going to be speaking at Capacity Europe.
+So week in London. Yeah. How about you?
+What's your travel schedule look like?
+[Alexis]
+I'm trying to pause. Well, I mean, there's always some caveats there. I'll be out at Megaports SKO in Nashville, and then I'm going to stop through Charlotte, spend some time with my social media manager down there.
+And then I have some business travel out to Austin for two days. And then I got a short-term lease in New York city and I'm going to try really, really hard on social media. I'm going to try hard not to leave straight weeks.
+So the infrastructure, it's funny, the Santa Clara conference was on my radar, but I said, no, I was like, unless it's a career defining opportunity, I think I'd really like to spend eight weeks in one location. I don't know how confident I am that I'm going to not make it on an airplane.
+[Kevin]
+I have zero confidence.
+[Justin]
+I was going to say, are we taking bets on this, Kevin? I've got thoughts.
+[Alexis]
+No international, no international travel.
+[Kevin]
+I think she lasts two weeks. I think two weeks is the max before she's that's the over under on the bedding pool here.
+[Justin]
+All right. Cool. Yeah.
+This should be a cool experience though. I saw you post something about on social media to live in New York. I always thought that'd be really cool to live in Manhattan or whatever for some period of time.
+I've never been able to do that.
+[Alexis]
+Two months, just to say, I did it. Scratch the edge. Why not?
+[Justin]
+Most people has their favorite restaurant.
+[Alexis]
+Yeah. I just feel like from a business perspective, New York is one of those places that's useful to know.
+[Justin]
+Sure. Yeah.
+[Alexis]
+There's a lot of business that gets done there. There's a lot of conferences there. There's a lot of random meetings there.
+A lot of people have their headquarters there. To have some experience with the city, that's not just looking at Google map and trying to figure out which restaurant has the best, the most stars. To take a client somewhere that you've been in the past and can recommend something off the menu.
+Especially from a sales or a business perspective, I feel like it's advantageous. I'm excited for that. There's a lot of good networking.
+I'm going to be down in West Village. I've never been there before. Probably do some shopping.
+[Kevin]
+There you go. When someone wants to be an actor, they move to LA just to be in the scene. Is this like that?
+[Alexis]
+You know, I didn't think about it like that, but I feel like if I was going to do that, it would have been more San Francisco from a technology standpoint. Maybe I'll be in San Francisco in the spring.
+[Justin]
+I was going to say, maybe that's your next one. Do eight weeks in the Silicon Valley.
+[Alexis]
+I'm already on my radar. I have traveled in March, but maybe in March, who knows?
+[Kevin]
+It's always fun trying to figure out where you're going, where you've been. I can't keep track of you.
+[Alexis]
+I can't keep track of me either. Well, Justin, I always ask this question towards the end of the episode. If you had one piece of advice for yourself when you were younger, what would that be?
+[Justin]
+I think getting out and making community a priority. I was probably, I don't know, maybe 10 or 15 years into my career before one of my coworkers pretty much drugged me kicking and screaming to a NANOG event. I was like, you got to get out and meet people.
+You got to go to these conferences. You got to make connections in the industry outside of our company. It's going to be good for your career.
+I'm like, really? I don't know. Now I wish I had done it sooner.
+I think it's really important. Like we were saying earlier, I think we kind of covered this, but just that community, that support system for career development, for being able to bounce ideas off of, feeling like you're not alone. It's just super important.
+I wish I had done that earlier.
+[Alexis]
+You can't make old friends.
+[Justin]
+There you go.
+[Alexis]
+You can always make new friends, but you can't make old friends. I feel like, especially coming up through the industry, I mean, I've been working in IT. I started in 20, we'll call it 2020.
+It's been six years, almost, well, six and a half. I feel like I've hit the point where I can no longer say I'm early in career. I was using that hashtag on Instagram the other day, and I was like, am I early in career?
+I'm turning 30. I'm not really ready.
+[Kevin]
+If you are, I am. I mean, come on.
+[Alexis]
+But even over the past six years, there's people that I've met at Cisco Lives, or I'm at the point where I've moved roles a couple of times, or people I've worked with have moved roles, and they'll text me and be like, hey, remember when we worked together at Cisco? I'm looking and applying for a job. Can you give me a referral for a recommendation?
+It'd be great to work with you again. And I'm like, damn, that went by fast. And you just never know.
+You just never know what's going to come down the line in the future.
+[Justin]
+We think that goes by fast. Yeah. I just had to update my bio again and add more years to it, because I say something about how many years I've been in the industry.
+But yeah, 25 years, quickly approaching 30, and it went by like nothing. Yeah, it goes quick. That's how we all feel, Alexis.
+Welcome to the club.
+[Alexis]
+Heaven's lapping me with those 15 years of experience.
+[Kevin]
+Well, what's funny is that sometimes I forget how long I've been in it, and I'll estimate, like, oh, I've been in IT for 10 years. And then I go, wait, no, crap. It's been almost 20 now.
+It goes by really fast.
+[Alexis]
+I'm afraid to hit 10.
+[Kevin]
+Oh, it'll be here before you know it.
+[Alexis]
+So wait, I'm curious now. What actually classifies as mid-career? Like, when do you transition from early in career to mid-career?
+[Justin]
+Oh, man, that's a good question.
+[Alexis]
+And, like, what's considered, like, gray beard status? Is, like, gray beard, like, 10 plus years, or is it, like, 15 years? I feel like early in career should be, like, zero to five.
+[Kevin]
+But it could even be your position, though, not necessarily, like, your years. You know, there's multiple ways of classifying it. Yeah.
+You could be in a leadership position and only have two or three years of experience.
+[Alexis]
+Yeah, but I feel like early, you wouldn't use early in career to describe someone who's been in industry for 10 years but only been in leadership for two.
+[Kevin]
+No, what I mean is they, you know, they work their way up in two or three years into a C-level, but at least, like, management or something like that.
+[Justin]
+I think that's the other, yeah, the other thing we haven't really talked about that I think is important is there are people who are perfectly happy, you know, having, say, an entry-level job, and they're not super curious, they're not super ambitious or motivated to try and move up. And if they're happy with that, then, hey, more power to them. I've always been wanted, I always had a thirst for knowledge and always wanted to learn new things.
+And in order to learn new things, felt like I needed to move to new roles. And so, you know, I've bounced around a little bit or tried to push to move up the, you know, up the ladder a little bit. And a lot of that was just based on wanting to learn, you know, new things and more things, but not everybody's wired the same way, right?
+[Kevin]
+Yeah, I have friends that I worked, my entry-level job basically was a NOC, and I still have co-workers that are still there, you know, 15 years later.
+[Justin]
+Yeah, me too.
+[Kevin]
+And they're very, very happy. And, you know, they've made a career out of it. So, no shame there.
+They can turn off their work and go home and not deal with it, not check their email, not to worry about work at all.
+[Alexis]
+And that makes them happy.
+[Kevin]
+Yeah, exactly.
+[Alexis]
+I would, okay, so I would say then like what early career is zero to five years, mid-career would be like five to 15, and then gray beard is like 15 plus.
+[Kevin]
+I object to that just because I'd be with the gray beard section. Yeah, I was thinking that too.
+[Justin]
+I was like, so what do you call like past 25?
+[Kevin]
+Like time to call it quits? Or is it corpses or zombies?
+[Alexis]
+Artifact. Artifact level.
+[Kevin]
+Artifact, so great. That's worse. Much worse.
+Dusty old artifacts. Is it?
+[Alexis]
+No, I would say like, like, gray beard, like wizard, like, like god tier.
+[Justin]
+There you go.
+[Alexis]
+Take it as a compliment.
+[Justin]
+No, no, just wait until you're there.
+[Kevin]
+I'm going to call you a gray beard and you won't be happy about it.
+[Alexis]
+I'm a girl. Can you, can a girl be a gray beard?
+[Kevin]
+Yeah, by your definition, we're gender neutral here, aren't we? In these careers.
+[Alexis]
+I'm going to have Melina edit some like after effects.
+[Justin]
+Yeah, we'll put a little, little wizard hat on you and a beard.
+[Alexis]
+Yeah.
+[Justin]
+Look like Gandalf by the time she's done.
+[Alexis]
+Anyways. All right, Justin, well, before we wrap up, is there anywhere that people can find you on the Internet if they want to keep up with you after the show?
+[Justin]
+Yeah, I'm mostly active on LinkedIn, so you can just look me up, Justin Ryburn, R-Y-B-U-R-N on LinkedIn and follow me there. That's probably easiest. I ever, every once in a while, tweet, I guess is still what we call it, even though it's X these days, LinkedIn I'm more active on.
+[Alexis]
+Perfect. Well, you heard him. That is it for this episode of Life in Uptime.
+Huge thanks to our guests for sharing their journey and thanks to you for listening. If you enjoyed this conversation with Justin, be sure to follow the show so you never miss an episode. And if today's story gave you something to think about, share it with a friend or colleague who might need it.
+And until next time, keep learning, keep building and keep your uptime high.`,
+  }
 ];
