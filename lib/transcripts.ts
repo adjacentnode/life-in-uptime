@@ -9007,4 +9007,420 @@ Perfect. Well, you heard him. That is it for this episode of Life in Uptime.
 Huge thanks to our guests for sharing their journey and thanks to you for listening. If you enjoyed this conversation with Justin, be sure to follow the show so you never miss an episode. And if today's story gave you something to think about, share it with a friend or colleague who might need it.
 And until next time, keep learning, keep building and keep your uptime high.`,
   }
+,
+  {
+    episodeNumber: "022",
+    slug: "ep-022-chris-grundemann-from-pulling-cable-to-network-automation-fo",
+    title: `Chris Grundemann - From Pulling Cable to Network Automation Forum`,
+    guest: `Chris Grundemann`,
+    guestTitle: `Founder and Principal Advisor at Khadga Consulting`,
+    guestCompany: ``,
+    guestLinkedIn: "linkedin.com/in/cgrundemann",
+    description: `Chris Grundemann joins Alexis and Kevin to discuss his career evolution from pulling cable to co-founding the Network Automation Forum. Chris shares insights on the challenges of adopting network automation, the impact of AI on the industry, the importance of professional networking, and strategies for maintaining a healthy work-life balance.
+AdSpot Sponsor: Meter
+Most IT teams are managing networks stitched together from years of acquisitions and vendor contracts and nobody's accountable when something breaks. Meter delivers the complete network: hardware, software, and services delivered as a predictable subscription. Upgrade credits, a fully managed install and deployment, and 24/7 support make the transition easy. Companies like Lyft, Mr. Beast, and Bridgewater have already made the switch. Go to meter.com/liu to book a demo.`,
+    airDate: "September 10, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu022-chris-grundemann-from-pulling-cable-to-network-automation-forum/",
+    youtubeUrl: "https://youtu.be/37j7BCmxbo4",
+    transcript: `[Kevin]
+Most IT teams are managing networks stitched together from years of acquisitions and vendor contracts and nobody's accountable when something breaks. Meter delivers the complete network, hardware, software, and services delivered as a predictable subscription. Upgrade credits, a fully managed install and deployment, and 24-7 support make the transition easy.
+Companies like Lyft, MrBeast, and Bridgewater have already made the switch. Go to meter.com slash liu to book a demo now. That's M-E-T-E-R dot com slash liu to book a demo.
+Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected. I'm Kevin, joined by Alexis, and every week we sit down with engineers, leaders, and builders in tech to uncover the stories behind their careers, how they started, what they've learned, and where they're headed next. Our goal is simple, to help you see how far tech can take you, no matter where you start from.
+[Alexis]
+All right, guys, today we've got everything. I don't know if y'all have been with us since the start. I would love to do a comparison of Kevin's intro from like episode one to I think this is episode 22, 23?
+[Kevin]
+Something like that. We're getting up there.
+[Alexis]
+It's crazy. Anyways, we have a very exciting guest for y'all today. One of our dear friends, Chris.
+Now, Chris has had a myriad of different roles in IT. Everything from you were pulling cable, I believe, to start. And now he runs his own technology consulting company and is the co-founder of the Network Automation Forum.
+So Chris, welcome to the show.
+[Chris]
+Hi, thanks for having me on. I'm excited.
+[Alexis]
+Absolutely. Now, could you walk us through... I'd like to start with NAF, or Network Automation Forum.
+Number one, it's top of mind for me because I was just at y'all's event. But two, I feel like programmability is such a big topic today in the industry.
+[Chris]
+Yeah, definitely. So the Network Automation Forum is an organization that Scott Roban and I started about three years ago. And it's exactly what it sounds like.
+It's a forum for network automation. And forum meaning like a salon, like a watering hole, like a drinking fountain. It's a place to come and talk.
+And the organization itself, our main purpose right now anyway, is to hold the Autocon series of events. As you said, you just came and spoke at Autocon 5, which was actually the sixth Autocon because of course, we indexed to zero, which was in Munich this spring. And yeah, it's been amazing.
+It's just been this kind of wildfire that blew up. I like to say that I think Scott and I, we started a campfire in the dark. And as the light washed out, we were like, oh, there's all these people standing out here in the dark.
+And they've come and gathered around because it's just been an enormous response. We had something like 340 people show up at the first one. And then now we're pushing 7-800 people showing up every time three years later.
+This was definitely a group of people that wanted to get together and talk. Yeah.
+[Alexis]
+Yeah. Which I mean, kudos to you for starting something like that. I feel like sometimes having the courage to put yourself out there first to bring people together is always scary.
+Especially around something as... I mean, it seems complicated to me, network automation. I was never really big in programmability, like learning anything related to computer science or software engineering.
+Every time I open a terminal, I'm like, am I going to break it? Where's the semicolon going? And so taking something like that and applying it to infrastructure, at least for me, seems very intimidating.
+[Chris]
+Yeah, absolutely. I think that's been part of the resistance. I mean, one of the things we set out to do, we kind of set the theme of the first event was, why haven't we seen full adoption of network automation yet?
+And I think you're touching on one of the answers there, right? Which is you're taking two of the two very complex fields, so networking, obviously, there's a ton that goes on there. There's tons of protocols, then there's all these vendor differences, and then network differences.
+There's different types of networks with different types of protocols with different types of vendors. And it gets really, really complicated really fast. And then you add in software development and systems engineering on top of that.
+And you say, here, go have fun. And of course, people are intimidated. And of course, people need to come together and share those war stories, both for comfort and confidence, but also to move the industry forward.
+[Alexis]
+And I love the idea of a forum or what you said about bringing people together, because I think that's something, especially in a highly technical world, just being able to share documentation with each other. And it goes a little bit deeper, or maybe you need, I guess, like a safer place to do it than Reddit, or GitHub or some of these other forums where you find people asking questions. You know, having a Slack community, like you guys do, where people can put in questions, search what other people are saying, or have answered in the past is super valuable.
+Especially when sometimes you're running into problems that seem fairly niche, or are very niche.
+[Chris]
+Absolutely. I mean, it is right. I mean, I think network automation is kind of a niche of a niche of a niche.
+In a lot of ways, you look at a broader digital infrastructure, or computer science are kind of two big balloons, but then you're coming down to where those two actually cross. And I think it is a pretty small target. And so there is a small group of people who are really working on this across the world, and giving them a place to actually meet others.
+Because that's another part of it, too, is not just asking the questions, but just knowing that you're not alone. When you're the only network automation engineer at a big company, it can feel really isolating and really lonely. And you can feel completely crazy sometimes, because not everyone wants to go along with what you're trying to push.
+And then you come to Munich, or we're going to go to Tucson in November, and you meet other people who are in the exact same position. And you're like, okay, I'm not insane. I actually know what I'm talking about.
+And I was reminded by that, because there's other people who are seeing the world the same way. And that's really helpful, I think, as well.
+[Kevin]
+You mentioned that being in the terminal and trying to figure out programming is one of the obstacles. What are the other obstacles you're seeing why it hasn't been more grossly adopted?
+[Chris]
+Yeah, I mean, there's a number of things, I think, on the enterprise side. IT, in general, is a cost center for most businesses. And it's just not looked at as a place of growth or innovation.
+And so I think there's a little bit of a bare minimum, just from a company perspective. They're not really looking to... And I'm speaking with a broad brush here.
+I mean, there's companies that are really pushing the envelope and doing a great job. But a lot of enterprises aren't investing in training their engineers for the next new thing. They're not interested in spending, quote, unquote, extra money on something that's already working.
+And so you see some resistance just from that kind of financial aspect, I guess. There's definitely some cultural things around just how things are done and how we see ourselves. And I think some of that bleeds into identity, which is that for a long time, we've really conflated CLI proficiency with network engineering mastery.
+And then separating those two things out is an identity challenge. If I've seen myself as the person who can jump into the CLI on this device and figure this problem out, and then you say, Well, actually, we don't want you to use the CLI anymore. That can be really scary on an individual level.
+So I think there's lots of reasons at the corporate level, at the team level, at the individual level that lead to the resistance. Now, the one thing I will say is most of the resistance at this point, I don't think is actually technical. There are the tools, there are the protocols, there are the methodologies, like we know how to do this.
+Technically, it's all the other stuff that's really hard, which is often the case, I think. Are you seeing AI?
+[Kevin]
+Sorry, are you seeing AI?
+[Alexis]
+We were going to ask the same question.
+[Kevin]
+Okay.
+[Alexis]
+Ask it again.
+[Kevin]
+Okay. Are you seeing that AI has helped bridge that technical gap at all?
+[Chris]
+Yes and no. I think in some ways it's very helpful. I think in some ways it blurs some lines.
+I think that absolutely. I think one of the kind of challenges of network automation adoption has been exactly what Alexis was saying earlier. I'm in the same boat.
+One of the reasons I ended up in network engineering was because I didn't want to write code. I didn't want to go into computer science. I was like, Eh, that looks too much.
+[Alexis]
+That's crazy. That's crazy that you ended up in the position you're in now.
+[Chris]
+Right. Yeah. Well, I mean, it comes full circle and there is some maturity involved and stuff, but I do think a lot of network engineers, to stay on that point just for a second, really, while they're willing to maybe learn a vendor CLI or multiple vendor CLIs, Python is a bridge too far.
+Well, now if I can go to your LLM of choice, and I don't need to actually know the intricacies of Python, but I can spit out a script that kind of does what I need it to, that definitely lowers the bar. That definitely bends the branch lower to steal some quotes from other folks. It makes it a little easier to do some of these things.
+Now, whether or not you're doing it well, if you're using an LLM and don't really know the language, there's lots of questions around all this stuff, but I do think it does make this more accessible. At the very least, you can play with it in a lab and learn about how Python works or go or whatever you want to do. And then play with some of these tools a little more, even if it's Ansible or something else, you can get some of that information from the LLM in a way that's very interactive and easy to use.
+The other side of the coin, I think, is that some of the hype around AI can be overblown, where I think there's some people who think that AI can just magically solve their problems when if they don't have documentation and they add AI, they still don't have documentation. You still have garbage in, garbage out.
+[Alexis]
+I think the other thing is AI can spit out a script, but do you trust the script enough to push it into prod?
+[Chris]
+Right. So yeah. So as I said, it's kind of a double-edged sword.
+I think absolutely and I think part of the AI question is, I don't know that we know what that actually looks like yet. I think we're in the middle, I think, of a pretty big transition. So I think five years from now, AI is going to be absolutely super, super helpful in this realm.
+Right now, it's both. If you're using it well, it's great. But you can also cause bigger problems with it.
+Just like automation, I guess. It's just another form of automation in my mind.
+[Alexis]
+I wonder, I guess, especially when you're pushing code into production on a network level. To give you guys a bit of background, I was just on a call earlier, and we were talking about Megaport acquired a bare metal company, right? And one of the use cases that they're seeing a lot of is they have AI agents that are continuously testing for CICD, right?
+They'll go, they will make code improvements, they will deploy their own compute instance on our bare metal farm by themselves, make sure it works, and then push the change into prod. So if we're looking at that from an infrastructure perspective, or from a network perspective, can you take something like a forward networks, where it is, what's the term for what they do? It's like...
+[Kevin]
+Digital twin?
+[Alexis]
+Yeah, digital twin, right? Where you have a digital twin of your environment, you have an AI agent or an instance where you can go and take a snippet of code from AI, deploy it in your digital twin to make sure nothing breaks, and the change is actually doing what you want it to before you actually apply it to production.
+[Chris]
+And that's where I think, yes, I think there's some industry level maturity needed. I think some people are way ahead on this, obviously, and some people behind. But I think absolutely, AI elements in particular, but AI more generally, has the potential and is acting on that potential right now to really vastly make a lot of things a lot better in this realm.
+So to your point, even just spinning up that lab environment, whether you're using forward or somewhere else, being able to build that lab environment out becomes a lot easier with you working with some agents or you working with an LM than just you by yourself. And then writing those tests, if you're going to do unit tests, or even functional tests, you can write a lot more tests with AI than you can by yourself in a shorter amount of time, which makes it easier to do some of this validation that you're going to do before you push config. So there are definitely ways of use right that AI can make this safer and faster.
+It's just like I said, I just worry about just saying, hey, slap AI on it, it'll work. It's probably bad advice.
+[Alexis]
+100%. So Chris, how... You mentioned earlier that you did not like coding.
+How did you end up in this world?
+[Chris]
+Yeah. So my... As you mentioned earlier, I started out by pulling cable and then fell forward through a couple of jobs.
+And I ended up working for a small wireless internet service provider. This was like the turn of the century, which is just a phrase I like using. And through the century, here in Colorado anyway, there was...
+At this point, early 2000s, there was DSL, and I think even cable internet in the city. But if you went outside the city at all, there was none. It was either put in the six-foot huge net dish or deal with dial-up that might work.
+And so what this company was doing, which a bunch of whispers this time did, was push using wireless internet out to these folks. And it's interesting. I'm going to go into it.
+I'm going to answer your question eventually, I promise. But what they were doing is pulling T1s into somebody's house. Whoever lived on the highest hill in the neighborhood, they would pull a T1 into that person's house, and then throw a Rubbermaid tub full of gear under their deck, and then put an omnidirectional antenna up on the roof.
+And they were using basically Wi-Fi. It was this thing, I think it was called CarlNet, which actually altered Wi-Fi a little bit. But basically, it was proprietary Wi-Fi that was being used for fixed broadband.
+And so then they would put antenna on anybody else's house who wanted service. And so it's a very kind of shoestring thing. It was pushing the envelope a little bit.
+And when I came on board, we ended up building our own router OS, basically, which sounds a lot more grandiose than it is. We basically had a bunch of Perl scripts that ran on a Linux box when it booted up and installed a bunch of IP tables, like static routes and NAT rules that kind of created the routing infrastructure for that ISP. So I kind of started building networking with software, but also in that process.
+So I did learn a lot of... Now, it wasn't Git at the time. It was Subversion.
+It was SVN, what we were using. But I learned basic Linux administration skills. I learned basic coding skills, especially version control and how to work on codebases with other people, and all that stuff.
+But I definitely also knew that writing Perl was not my passion. And so I'm really, really glad that I got that kind of grounding in that really software development and systems engineer world. But I also knew that the networking part was more exciting to me.
+And I think it's just the rules-based nature of it. Routing protocols are pretty cool because they work a certain way, and there's not really another way to do it. When you get into vendor CLIs and stuff, there is.
+But BGP kind of works the same way every time, no matter what. It's very deterministic. It's like, you can't troubleshoot that.
+Whereas a software program can break in so many ways. Now, I really like coding, but I definitely resisted it for a very long time.
+[Kevin]
+Now, were you resisting it while you were doing the Perl scripts and everything like this?
+[Chris]
+Not really. I mean, at that point, that was me being the sole technical person at the company with 2,000 subscribers. So it was much more of like, I'm trying not to incinerate myself.
+So I was just doing whatever. I didn't have a lot of thought about what I did and didn't like. I was answering customer support calls, while hanging off a 1,000-foot antenna, while in the back of my mind, designing the next generation of the network.
+So I didn't have a lot of time to think about it. But I did gravitate towards more pure networking from there. I started digging into like...
+I read a bunch of RFCs, and I learned about that way, and then studied some of the CCNA stuff and got my CCNA. But then I found out about Juniper, and Junos looked a lot more like Linux. And so I really went down that path pretty hard after that.
+But I enjoyed working in the confines of the CLI, I think, better than I did with the blank page of coding, to some degree.
+[Kevin]
+And so from the ISP, you said you got into Junos. Did you work for the company that had Junos? Yeah.
+[Chris]
+So what happened is that business, as a lot of small businesses does, it's kind of a rollercoaster. Eventually, it got to a point where the guy who owned the company owed me enough money that I was like, probably time to leave.
+[Kevin]
+And I found a job...
+[Chris]
+The joys of having a small ISP. Yeah. Exactly.
+So I jumped over to this company that at the time was called Vertella. They were eventually bought. They're part of NTT now, but they were basically an MSP.
+And they were running a Junos backbone, basically. It was actually kind of wild, because they were actually running a Junos backbone, like an MPLS backbone between Juniper routers that was built over GRE tunnels, because they didn't actually have a backbone. They were buying internet access at all the data centers they were in, and then building GRE tunnels between their POPs to create their backbone, and then running MPLS over the top of that.
+[Kevin]
+That was the exposure to Juniper and Junos. And at that time, were you doing programmability still? Or had you abandoned that, you were just a straight network engineer at this point?
+That was pretty much straight network engineering at that point. How did you come back then? You left the dark side, you got out of programmability.
+[Alexis]
+Yeah.
+[Kevin]
+You got back into network engineering, the pure network engineering, the good stuff. And then you got back into programming.
+[Chris]
+Yeah, yeah. Well, so, I mean, it's a long arc there, right? We're talking about probably 20 years.
+But I think to consolidate it down a little bit, a couple of things happened. One, somewhere during those 20 years, my youthful idealism was, I don't want to say shattered, but I came to realize that the right thing technically isn't always the right thing. And basically got a business view of the world, I think.
+So diving into that just a little bit, I got really into the mechanics and the politics behind the internet itself, the regional internet registries, and ICANN, and that kind of stuff, which led me down the like, hey, why isn't everyone using IPv6? And I became one of the IPv6 evangelists in the world. And I was like, literally ended up with a job where part of my job was to fly around the world and tell people to use IPv6.
+And after doing that for years, banging my head against that wall, and knowing it was the right thing to do, but seeing most people just completely ignore it, that hard question of why, I finally answered it. They're like, oh, people do things because they get paid to, whether it's an individual or a company. And I don't wanna be too cynical about it, but companies spend money where they're gonna make money and people go work where they're gonna make money.
+And that was a big revelation to me, because before that, I was just doing things that I thought were right the whole time. And luckily, people were paying me. You fool.
+I think that that's part of it. So starting to look at things from the business perspective, I started to widen my perspective a little bit outside of my little screen to look at the bigger picture. And it became very obvious that the networks we were dealing with at that time needed automation.
+And I say that, but the automation piece never really left. So Vertella was very, very well documented. And this is where I think...
+I think that observability and documentation are huge parts of network automation. And those pieces were consistent. I was lucky enough to work at Vertella, where they had this really, really good system.
+They were an MSP that said yes to everything. And so every single customer was a one-off. But the way that their designers designed things and then documented those designs and those design choices, and then the configurations that resulted from that in engineering, when you were working in the NOC, you could pull all that information up and see what this network looks like, what these devices are meant for, why these choices were made, all that stuff.
+And that level of documentation and knowledge available to the NOC, while it wasn't necessarily automation, having that repository there made our job a lot easier. And then I went to TW Telecom, which was Time Warner Telecom at the time. And they had done a similar thing where they were actually using a MySQL database, all the configs, all the firmware versions, all the part numbers, all the serial numbers, everything was in this MySQL database.
+And so it wasn't a digital twin by any stretch of imagination. But I could script against this database in order to make this happen in the network. And that was probably actually where some of this stuff came back, where we were working on a big network.
+It was the third largest metro Ethernet network in the country at the time, behind AT&T and MCI. And doing things manually sucked. You could do it.
+But during the time I was there, we went from a team of eight being the top tier ops end group that was doing all the maintenance windows. We worked that down to three people because we automated everything. That's amazing.
+With Perl and Bash, mostly, and some expect scripts. Yeah.
+[Alexis]
+And so if you were a network engineer today and your company had no automation, or conversely, if you were a software engineer and you were looking for a job and you wanted to get into networking, what would you do? What would your first step be?
+[Chris]
+Well, those are two very different things, I think. So taking them separately.
+[Alexis]
+Start with your favorite one.
+[Chris]
+Yeah. So if I'm the network engineer who's working at a company with no automation, I mean, it depends. And scale is a factor here.
+The bigger the organization, the more I want to actually go get buy-in. But I say that, but maybe not. I don't know.
+I think day one, figure out how to make your life easier. And I think one of the best ways to start with automation in a scenario like that, where you're the only one doing it, either because you're the only one who works there, or because no one else cares, is read-only automation. So use automation to build your observability, to build your documentation.
+I do a lot of work still to this day with writing little scripts that can pull information off the network and parse it out. Look for config variability. Look for inconsistencies in the way things are configured across devices.
+Just even just pulling it down to have an off-box record. So you can start there. And then you use that to show the people around you like, hey, this is what you can do with this and build it up and build up confidence, both in yourself and your own skills, but then also in the organizational confidence in automation at all.
+And once you've done all the read-only stuff, you've got a really good documentation setup, then you can start thinking about making changes on the network using automation, potentially. Which you may never even need to do, right? There are definitely networks that are small enough and don't change enough that maybe config, automated config generation is not ever needed where you're at.
+There's a lot of cases that fall into that. That doesn't mean you shouldn't be using automation, though. There's lots of other use cases for automation besides just changing configs.
+[Alexis]
+And I think getting involved in the community to figure out where other people are using it and networks of a similar size could give you some ideas if you're stuck.
+[Chris]
+Yeah, obviously, I missed a plug opportunity there. If you're in this situation, obviously, join the NAS Black. Obviously, join the NAS Black.
+Come to Autocon. Yeah, no.
+[Alexis]
+So, Chris, before network engineering, what was your first role in tech? Or did you just naturally land in your wisp?
+[Chris]
+Yeah, no. I think a lot of folks in tech, I definitely had a computer-adjacent upbringing. Like my dad bought a Texas Instruments computer, probably in the 80s.
+I think I learned a lot of math and reading. My mom was also awesome at reading books and teaching us stuff. But I learned a lot from the computer itself and learned how to write BASIC really young.
+And that was on... We didn't have AOL. We had Prodigy.
+But so I had computers in the house and things like that. Typical middle-class upbringing of the 80s and 90s. And that was always there.
+And I was always interested in stuff. I took stuff apart. I don't know if I ever put it back together.
+But that was always there. And then... But then yeah, later, I mean, I...
+Later on, I fell back into it. I ended up... I didn't go to college.
+And so I was out... I was working landscaping jobs. I ended up working at a concrete plant that had...
+I was doing PLC programming, which was neat. Basically, telling robots what to do in the concrete factory. And ended up working at a job where I was basically pulling cable.
+So this was during the housing boom of the 90s, I guess. Late 90s, early 2000s in Colorado. And so we were doing low voltage cabling.
+So I was pulling speaker wire, and cable television wire, and also Ethernet cables inside people's houses. And then I still thought of myself as being tech forward. And so then that led really quickly to like, Oh, I can also configure the router that goes on the end of this kind of thing.
+And through a series of unfortunate events where a company I was working for went out of business. And then another one did the same thing. I ended up being spotted by this guy who we were working alongside, who was running this Wisp.
+And he pulled me over. And that was kind of like... He gave me a break, basically.
+He saw the work habits I had. And at that time, I was pulling... I was doing dish network installs for the company of this Wisp.
+They were doing the one-two punch. They would go out to a neighborhood and be like, Hey, we can get you cable television through dish network. And we can get you internet through hometown access.
+And the dish install company blew up. And the guy who owned the Wisp was like, Hey, why don't you come work for me? And like I said, right after that, he fired all of his technical staff, which was 50% of that was his son.
+And then I just had to figure it all out.
+[Alexis]
+I think it's so interesting because I'll tell people all the time when they're like, I have a non-technical background. I'm working in a restaurant. I want to get into technology.
+I don't really know where to start. And a lot of generic advice like, take a certification. Go take a certification.
+Starting for a certification. Sure. And that is great advice.
+I think you'll learn a lot of things. Maybe coming from a non-technical background, it might be a little bit intimidating. But pulling cable, I mean, especially with the amount of data centers that are going in today, they need hands-on installers.
+And it's a really, really easy way to get your foot in the door to field and have hands-on experience. You might not be configuring anything to start, but you would learn so much on the back end of how things are set up and what's going into a project like that while you're studying.
+[Chris]
+Yeah, absolutely. I totally agree. And I don't want to propose certifications at all.
+Certifications were one of the backbones of my career, for sure. Even just from an organizing learning perspective, I don't know what I don't know. And the certification gives me something to shoot for.
+Now I have a set of things to go learn. And it gives me this goal-oriented way to learn. I really like certifications for that.
+But I have talked to a lot of hiring managers recently who are saying, Hey, one of the problems we're seeing is people are coming in with multiple certifications, but no experience. And that's hard too. And so I agree with you.
+Finding ways to get practical experience, I think is really important. And like you said, I was doing basically construction work. When I was doing low voltage wiring, I was walking around with a tool belt in houses that were being built on job sites, pulling cable.
+It wasn't a very technical looking job at all. It wasn't very technical at all. But it was closer to technology.
+And at the time, I wasn't necessarily trying to get into technology. I was just trying to be able to buy diapers and food and gas in the same week. I was just trying to scrape by and get ahead at that time in my life.
+But I think if you're intentionally trying to get into technology, there are a lot of these corollaries where you can do something that's close to what they're doing and get exposure to it. And if you're doing that while you're doing the certifications, now you have some practical knowledge of maybe you haven't even done it, but you've seen them do it. Or you can get some osmosis learning there by being near the engineering team.
+The other one aside from straight up cable pulling, which is definitely something that I think works. There's a lot of semi-physical jobs, like I said, around data centers and outside plant in general, like fiber splicing and that kind of stuff out in the field. There's some other areas like that, that feel a little bit more like construction and technology, but are definitely a gateway drug, so to speak.
+And the other side where a lot of people came up is through some kind of help desk or NOC, which now there you might need some experience, but the frontline help desk, a lot of that's just opening tickets when somebody calls. You're not actually solving any problems. And so if you're coming from more of that restaurant background, or maybe customer service is more your thing than outside labor, maybe a help desk job somewhere would make sense.
+[Kevin]
+I think what people also don't correlate is that even if you're in a tech adjacent job, like pulling cable, you also meet people who are in the field you want to get into. And like you mentioned, and I've talked about it before, Alexis talked about it, most jobs that you get are from referrals or from knowing people in the industry. And so even if you're pulling cable, there might be a network admin who's installing switches as you're pulling cable.
+You get to talk into him a little bit. He knows you do a good job. Next time you're doing it for a job application, he sees your name.
+That might not be all it takes. It's just that correlation.
+[Alexis]
+Or just being able to talk to people that you meet, like if you're in the building installing something and being friendly enough to strike up a conversation and actually talk and figure out what they're doing.
+[Chris]
+Harder for some of us than others. Yeah, 100%. And I do want to underline that point.
+Because I think it's more true now than ever. This current climate of big tech layoffs, and AI screening systems, and just everything that's going on. The best advice I have for anybody, if you want a job, know somebody who works there.
+And of course, you had to have done that a year or two years before you try to get the job. It's the time to do the reverse network move. So actually, when that WISP was...
+The writing was on the wall that that WISP was going to go... It wasn't going to make it. We weren't going to get paychecks anymore.
+I was like, Okay, I need a job right away. And I knew no one. And what I ended up doing...
+I don't know if this is advice or not. You take it with a grain of salt. I found a company that was hiring.
+And I figured out just from what I found online, that company's email addresses had a certain format. And so I emailed my resume... Instead of to the application, I emailed my resume to the CTO.
+And he did what any responsible person would do. He passed it on to the hiring manager. Now, all of a sudden, I had a not real, but tacit recommendation from the CTO.
+And I got an interview. I don't know if I would have otherwise.
+[Alexis]
+Here's something most IT leaders know, but rarely say out loud. The legacy network model is showing cracks. You've got five vendors with none of them accountable to each other, renewal cycles tracked on spreadsheets, and an IT team spending cycles managing infrastructure instead of moving the business forward.
+The problem isn't that no one wants to fix it. It's that switching can feel risky and overwhelming.
+[Kevin]
+Meter was built to solve exactly that. It's a full-stack network with hardware they designed themselves. Firmware, software, support, all in one.
+They support the migration, offer upgrade credits for existing gear, and the financing is flexible. Companies like Lyft, Mr. Beast, and Bridgewater have already made the switch. If your team is ready to stop managing a patchwork network and start enabling the business, go to meter.com slash liu.
+[Alexis]
+That's m-e-t-e-r dot com slash liu to book a demo.
+[Chris]
+Yeah, I don't know if that's good advice or not, but it was the thing I did. And I'm just kind of highlighting the point that that was the only job I've ever gotten where I didn't know somebody who already worked there, and I kind of teetered it, right? So I definitely want to underline meeting people, knowing people, being nice is super handy for this kind of thing.
+[Kevin]
+Yeah, I think that could backfire. Sending an email out to the CTO or the hiring manager could backfire if that person is very much like, oh, you got to do it the right way. That might disqualify you.
+[Chris]
+So just like you said, for the grain of salt, experience- My point was just that knowing somebody is the best thing if you can build that network. Which ties into... I did that semi-unknowingly.
+For a couple of years, I funded my own travel to Nanog, the North American Network Operators Group meetings. Once I found out about Nanog, I was like, I got to be in this room. And I maxed out a credit card, sending myself to Nanog when I was way too junior that no one else was going to send me to this conference, right?
+[Kevin]
+Yeah.
+[Chris]
+But 100%, those relationships have fueled my entire career since then. Again, not advice. Don't max out credit cards going on trips.
+But getting in the room and meeting people, I think is the best thing you can do for your career. So rolling all the way back, right? Having that tech-adjacent job puts you in the room with those people while you're getting paid to be there.
+No credit card maxing required.
+[Alexis]
+I think the other thing... I've given similar recommendations before. If you need to get around HR, LinkedIn is a great tool.
+I feel like most people have updated LinkedIn profiles. If you can find someone that works at the company, and don't just send them a message and say, Hey, I applied to your company. Can you chat?
+Nine times out of 10, they're not going to answer. But if you put together a very thoughtful message about, Hey, I saw you had an open role. I've already applied to it.
+It looks like it might be on your team. You work in a similar position at this company. I've got a very specific niche question for you about it.
+And I think you can answer it. Would you be willing to hop on the phone for 15 minutes? Ask them about it.
+Ask if there's anyone else on the team you could meet. You could round robin your way through that entire team, and then everyone knows you. So even if you don't get that one role that's open, the odds of them referring you and another one comes open and they're like, Oh, yeah, that one guy that took time to talk to every single engineer on my team.
+He's a good candidate. We all liked him.
+[Chris]
+Yeah. I mean, I think along those lines, right? I think definitely another thing that's helped my career anyway.
+So I think all good advice is autobiographical, because otherwise, how would I know it works? But building your portfolio, right? I definitely...
+And it's even more possible now than ever. But I started a blog really early on and wrote about my certification journey and things I was learning and things like that. And not everyone has the social stamina to make those calls, to be reaching out cold and be like, Hey, can I talk to you about something?
+I don't know. I don't think I could have done that 20 years ago. But what I could do was blog about stuff I knew about.
+And I think people notice that as well. It's a little bit more passive. It's a little bit slower, probably.
+But I think there are different ways, depending on your tolerance for putting yourself out there to find ways to kind of make these connections and grow that sphere of influence, I guess.
+[Kevin]
+I don't know what you'd call it. Bunch of brands. Yeah, for sure.
+So I'm actually in a hiring, managing position now. And anything that a candidate does outside of their nine to five shows that they actually like what they do, they're passionate about it and that kind of stuff. So even if it's blogging or talking about and making videos or making just posts on LinkedIn about learning in public or whatever, that tells me they actually care about technology.
+They're not just looking for a paycheck. And so anything, even if that might not be true, just putting it out there gives that impression. So anything you can do extra outside of your nine to five just showing up is a positive.
+So learn in public, 100%. Yeah.
+[Chris]
+And just on that note a little bit, going on that, I've had barely or overcome fairly bad social anxiety through the course of my life. I still don't love introducing myself to somebody at all. But what I found was a couple of things.
+One, again, going back to the conference thing or events in general, if I knew one person going out and just standing next to them, I ended up meeting a lot of people without having to really put myself out there. Also, another piece of that is I found that volunteering for the program committee or whatever it might be at one of these organizations. So Nanog is a big volunteer organization.
+There's a bunch of others. The Internet Society has chapters all over the world. There's a few of these organizations where you can pretty easily step up and show interest and get on a committee or something and meet people who are also working.
+And it's kind of, to me, for me anyway, it's much lower stakes. I'm not walking up to a random person at a party and introducing myself. I'm on a Zoom call where we're talking about, how do we make this event better?
+Or is this speaker a good speaker? Whatever there is, now there's a reason to talk. And that's where I've built a lot of relationships, where it was a lot easier for me to do without having to put my heart on the platter.
+[Alexis]
+Well, I think you're also... To me... And this is any relationship.
+This isn't even just professional relationships, even just friendships. You need some commonality or common goal. And I think when you're working on a project committee, when you're working on a team, when you're trying to take a new certification, and you have a shared goal that you're both pursuing, it just gives you an easier way to relate to someone without making up conversation like, how's the weather?
+You're from Chicago? Me too. What's your favorite sports team?
+[Chris]
+You're really good at that. You're probably already in sales and not looking at networking at all.
+[Kevin]
+Exactly. I mean, probably. But I mean, that is one of the cool things about these conferences, because you have all these people who are interested in the same thing-ish, all joined together.
+So you automatically have that in common already. So at a NANOG or a Cisco Live or whatever, you can walk up to someone and say, oh, what are you guys running in your environment? Like you can talk about just shop.
+And you automatically have that in common already. So I think it's going to these careers, going to these places that these like people congregate, if you're young in your career, it's easier to do that than for at least for me running up to like or walking up to like a party person at a party and being like, hey, how are you? You know, the small talk crap, which I hate.
+I hate small talk, but I can talk about technology. Like it's completely different thing. So it's intimidating.
+Yes, it's scary. Yes. But someone who's new into technology can still benefit a lot from going to these conferences and just talking to people at the happy hour or talking to people at the, you know, at the end of a session, you know, like, oh, that was really cool session.
+Does that like you could just start up a conversation about work. And I think it's a little easier personally. Absolutely.
+I agree. Yeah.
+[Alexis]
+It gives you like a buffer.
+[Kevin]
+Yeah, exactly. It's the social buffer.
+[Alexis]
+So Chris, you do technology consulting now. How long have you been working for yourself?
+[Chris]
+Yeah. So working for myself, I guess now it's almost six years, five or six years. Yeah, which is pretty awesome.
+Actually, even just thinking about that is kind of cool. For me, that was always... Well, I was going to say it was always a goal.
+I don't know if my like random dreaming about working for myself could count as a goal for most of those years. But it definitely was something that like, you know, I wanted to have. At some point.
+And so it's been really cool to have that actually like happen and be working so far for a few years. Right. And like one of the nice things I think about working for myself, which this may be a delusion, but I'm always kind of like, well, if it doesn't work out, I could always just go get a job.
+Like worst case scenario, I have to get a job, which helps me to take some of the pressure off because it is a wild ride. Right. Like it does change the dynamics of work pretty completely, I think.
+In ways you don't know.
+[Alexis]
+Do you feel like you work more or work less?
+[Chris]
+At first, I definitely worked a lot more. Well, I don't know if that's true. I've always worked a lot.
+Like I've always really kind of thrown everything I had into whatever I was doing. I've had, you know, at least a full time job plus one or two volunteer positions for 20 years. And then almost always like a side project.
+So I kept working the same amount, at least.
+[Alexis]
+You just find new things to fill your time with.
+[Chris]
+Yeah, exactly. But I'm right now working on like actually reversing that a little bit and kind of dialing it back. And like thinking about like, how much do I actually have to work?
+Where do I actually provide value? Maybe it's a crisis thing. I don't know.
+But I've definitely been kind of looking at that. Wait, do I need to be in front of my computer for 60-70 hours a week every week? I'm pretty sure the answer is no.
+And I'm working really hard to not do that. But again, it's kind of like another phase, right, of the career. I definitely...
+I wouldn't trade the 20 years that I spent 60 hours in front of a computer. I wouldn't be where I am if I hadn't done that. But I definitely...
+It feels pretty cool to be at a point where I'm like thinking about, okay, how do I actually reduce the amount of time I work without reducing the value I'm providing?
+[Alexis]
+It's like maximizing almost like your dollars per hour. If you're being very intentional with your time, are you actually working on things that move the needle versus just working?
+[Chris]
+Yeah. And I think that practice is one that I also do. I do a little bit of coaching for a couple of folks.
+And that's something that we work on a lot with my coaching clients is really looking at this. So many of us focus on being busy. Luckily, I think I have done a pretty good job of not doing that.
+Actually, the work I was doing was mostly moving the needle. Obviously, a lot of it was superfluous. There's a lot of just spinning wheels.
+But working to figure out where that is. I think even within the constraints of a job, there are... The reason I was able to do those volunteer positions on top of working the job was because I probably wasn't doing everything in that job that somebody else might have done, if that makes sense.
+And again, I don't know where just anecdote begins and advice ends. But the 80-20 rule of looking at what's the 20% of work I can do to get the 80% output, the good enough output. I've always looked for that.
+And I've always been pretty good at naturally finding that. I think that helps with the self-employment for sure. But even in jobs, knowing that sometimes you don't have to respond to that email and no one's ever going to notice.
+Sometimes you don't have to reply to that email and no one's going to ever notice. And so again, I'm not advocating people to be lazy, but I think paying attention to where you're producing value. What's the thing that you do really well?
+What's the thing that you have to be doing versus somebody slacking you in the middle of the night? Is that actually something you need to do to deal with right now or not?
+[Kevin]
+Yeah. Figuring out that boundary. For me, I'm one of those people who I want to respond to everything.
+I want to be on top of everything. And so if I get an email at four o'clock on a Friday, I want to respond to it. I want to dig into it, figure out what they're asking for, good thing.
+And then I send it out and they don't get a response back because they've already left. They sent it out right before they left.
+[Alexis]
+They're like, I'm out.
+[Kevin]
+I'm done. But I'm sitting there at the computer at six o'clock on a Friday night working because of that. And so it's a hard thing for me to put boundaries to around that and being like, you know, the people that I'm emailing are done.
+So I need to put that same boundary around myself and only put an effort where that effort is going to be productive. And that's really hard to figure out that boundary of what is actually worth my time and effort versus not.
+[Chris]
+It's really, really hard. I think you said what I was trying to say much better than I did, I think. And that's definitely the key, right?
+For me, that's been a big part of learning that I was holding myself to a way higher standard than anybody else was. And not that high standards are bad, but that's how you burn out. And I've definitely, I've burned myself out at least two or three times, depending on how you define burnout.
+I've definitely crashed hard a couple of times.
+[Alexis]
+I mean, high standards are also the reason why you got to where you are. And it's funny, I was going to say that I'm getting flamed or I got flamed like two weeks ago, I posted a post about... What was it?
+Something like burnout isn't real. By all traditional standards, I am burnt out. I'm tired.
+I'm so tired. I've been working 60-70 hour weeks as long as I can remember. Saturday, Sundays don't mean anything.
+But also, I feel like when I'm working on things that are actually aligned to my goals, it doesn't feel like work. It all just kind of feels like part of life because it's something I actually give a shit about. And if you're truly...
+The burnout comes from the random on your to-do list that doesn't move the needle or is all random admin work. And you're trying to coordinate with people that, Kevin, like you said, aren't responding to your emails or your work is contingent on other people doing their job. And then you just end up with all of this frustration.
+But when things are flowing and you feel like you're getting things done, I feel like no matter how hard you work, you feel good about what you're creating.
+[Chris]
+Yeah. I think that's really, really smart. I totally agree that burnout is not necessarily related to the amount of hours you're working or how many days off you take.
+It's much more related to where you're at emotionally and psychologically within that. To your point, if you're doing things you don't want to be doing, that you don't believe in, or that you outright think are wrong, that's where burnout happens. Whereas if you're doing...
+If you're only working on things you want to work on, it's hard to even call it work anymore.
+[Alexis]
+Yeah. 100%.
+[Chris]
+I do still... You still need to have some balance in there, which I know you do. And I'm also getting older, so these things become more important.
+I think some of the advice of when older people give advice to younger people, they're like, Oh, well, you need to eat well, you need to sleep, and you need to exercise. Well, no, you do, old man. When I was young, I didn't have to do any of those things.
+I didn't sleep that much. I didn't eat that well. I didn't exercise that much.
+I did fine. Now I have to do those things. I do think if I had done more of that earlier, I would have been more productive.
+But yeah.
+[Kevin]
+I mean, that's a good point. Is almost working too much and too hard counterproductive at a certain point? I think 100% it is.
+[Chris]
+I think for sure. Now, how much is too much is, I think, again, very personal. How much is too much has definitely changed throughout my life.
+I think one of the things I definitely try to look at now is kind of look at my life much more holistically. Because I think before... Another reason why I was able to work so hard and get so much done and then do multiple projects at the same time, I'm really good at compartmentalizing.
+Like when I'm doing this thing, this thing is the whole world. And then when I'm doing this thing, this thing is the whole world. But what that leads to is, Okay, I'm going through a divorce, and I'm moving across state lines.
+And I'm also working. And I don't necessarily relate those three things. They're like, Oh, wait a minute, these are all three things that are taxing me.
+And I look at, I can handle this one. And I can handle this one. And I can handle this one.
+You know, like, Oh, yeah, I can just keep working 60 hours a week. Why wouldn't I be able to? Oh, because your dog died last week.
+And maybe you need to take... I think, at least for me, that's always been hard. It's like looking, kind of zooming out and being like, Okay, wait a minute.
+If I'm going to be going to my sister's wedding, maybe I shouldn't take on this project right now. And I never even thought that was even an option for much of my life.
+[Alexis]
+You can just say no.
+[Kevin]
+Yeah, but when you're in that, like, I'm in, I'm very much the same way where like, I can just focus and nothing exists outside of what I'm doing. And what I've noticed as I gotten older is that my body keeps the score still, like, even though I'm just focusing on this one project, you know, I'm more tired, I don't not as productive, I don't focus as well. Like, I'm just my body can tell that it's stressed out by all the other 10 things that is going on that I'm currently thinking about, but my body definitely knows it's happening.
+And so you still have to be aware of that anxiety and that stress and all that stuff that's happening on your body. And it's very difficult. Absolutely.
+Absolutely. Yeah.
+[Chris]
+And most of the stuff you can only stuff down for so long, right, eventually. And I think that's where like, at least for me, my definition of burnout is when I finally got to the point where like, it all crumbled because I just been stuffing all this stuff down, just layering on top and like, and then it just kind of eventually falls apart, right? It's not just working too much.
+It's working too much and like ignoring all the other signals. Yep, exactly. I know that laugh.
+And you know what, you probably have to do it at least once.
+[Alexis]
+Just another episode where we bring someone on the podcast, and I end up getting advice that I need to hear. Thanks, Chris.
+[Kevin]
+Yeah.
+[Alexis]
+No comment. I feel attacked. Kevin, say something.
+[Kevin]
+Say something. I'm giving up on you. Did that help?
+[Alexis]
+So Chris, as we wrap up the episode, if you were going to give yourself advice, a younger version of you, either one that wasn't into technology yet, or the Chris who was just starting his career, what would you say?
+[Kevin]
+Oh, wow. That's a really good question.
+[Chris]
+I think I'm going to answer it completely. This is a non-answer, I guess. But one of the things that I have come to realize, like the more experience I've gained, the more years I've lived, is like how certain anything is.
+I think when I was younger, I really, really just really believed the things I believed. And I'm not trying to say there's no such thing as right and wrong. But the lines between a lot of this stuff are way blurrier than we think they are.
+And so again, not just holding yourself to a higher standard, but I was painting myself into boxes because of these beliefs I picked up that I just thought were really black and white. And I had this high, heavy certainty on these certain things. And we're getting in fights with people because they didn't agree with what I agreed in.
+And all of that. I think, honestly, the best advice I could give myself is like, no one actually knows, and reality isn't. And maybe just chill out a little bit.
+I love that.
+[Alexis]
+I love it. So Chris, if someone wants to catch up with you after the podcast, where can they find you?
+[Chris]
+Yeah, most active on LinkedIn these days, or come join the Naff Slack. I'm on there all the time as well.
+[Alexis]
+Yeah, Naff Slack is popping. I'm in it myself. Cool.
+All right, guys. Well, that is it for this episode of Life in Uptime. Huge thanks to Chris for sharing his journey and thanks to you for listening.
+If you enjoyed this conversation, be sure to follow the show so you never miss an episode. And if Chris's story today gave you something to think about, share it with a friend or a colleague who might need it. And until next time, keep learning, keep building, and keep your uptime high.`,
+  }
 ];
