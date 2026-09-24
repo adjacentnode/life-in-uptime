@@ -9423,4 +9423,680 @@ Yeah, Naff Slack is popping. I'm in it myself. Cool.
 All right, guys. Well, that is it for this episode of Life in Uptime. Huge thanks to Chris for sharing his journey and thanks to you for listening.
 If you enjoyed this conversation, be sure to follow the show so you never miss an episode. And if Chris's story today gave you something to think about, share it with a friend or a colleague who might need it. And until next time, keep learning, keep building, and keep your uptime high.`,
   }
+,
+  {
+    episodeNumber: "023",
+    slug: "ep-023-wendell-odom-the-man-who-wrote-the-book",
+    title: `Wendell Odom - The Man Who Wrote THE Book`,
+    guest: `Wendell Odom`,
+    guestTitle: `Networking author & CCIE No. 1624 Emeritus (Cisco certification content writer)`,
+    guestCompany: `CertSkills.com`,
+    guestLinkedIn: "https://www.linkedin.com/in/wendellodom/",
+    description: `Renowned Cisco Press author Wendell Odom shares how he began writing the definitive guide for the CCNA exam. Alexis, Kevin, and Wendell discuss the balance between practical, on-the-job experience and certification study habits. Wendell also reflects on his career as well as the creation of his YouTube channel, Network Upskill.`,
+    airDate: "September 24, 2026",
+    packetPushersUrl: "https://packetpushers.net/podcasts/life-in-uptime/liu023-wendell-odom-the-man-who-wrote-the-book/",
+    youtubeUrl: "https://youtu.be/KjVOShFtLDw",
+    transcript: `[Kevin]
+Welcome to Life in Uptime, the show where we talk with the people behind the networks that keep our world connected.
+[Kevin]
+I'm Kevin, joined by Alexis, and every week we sit down with engineers, leaders, and builders in tech to uncover the stories behind their careers, how they started, what they've learned, and where they're headed next. Our goal is simple, to help you see how far tech can take you, no matter where you start from.
+[Alexis]
+All right, guys, today we have a very special guest on the podcast. We have the Wendell Odom, one of the most famous authors of the CCNA. We're going to dive into his career, what he's doing now, and what the best way to actually study for your certifications are.
+So, Wendell, welcome to the show. So happy to have you here.
+[Wendell]
+It's great to be here. And, you know, I came for the intro, but I'll stay for the conversation. That was great, Kevin.
+Thanks for doing that. But great to hang out with you, too.
+[Kevin]
+Dude, you're one of my heroes. I think you're a hero for a lot of network engineers because we all kind of start with the CCNA. We all start with your Cisco Press book.
+And so that's our first introduction to networking. And so on our journeys in networking, we fall in love with networking. And you're kind of our guide.
+You're our Cupid to help us fall in love with networking. So I feel like everyone has really an affinity for you. And you're such a nice person, like, you know, never meet your heroes.
+And you're like, you're such a dad. That sounds bad. But like, you know, you're just like a normal guy who's down to earth.
+And you're just you're a cool dude. So I really appreciate you being on here. You're one of my heroes.
+And I'm just I'm going to be fangirling this entire episode, I think.
+[Wendell]
+Well, that's kind of you. I'll take the dad nickname anytime. I am a dad and I love being a dad.
+So I'll take it anytime.
+[Kevin]
+So I think we wanted to start out with, you know, you are Cisco Press author. And, you know, that is such a unique job because not only are you an author, which is a niche in itself, but then you're also a networking author. And so you're a niche within a niche.
+And it's really interesting. How did you get started being an author? Like it was with that it just fall into your lap or were you working towards that goal?
+[Wendell]
+I didn't set about to become an author, but it's kind of like, you know, you go through your career and you gravitate toward things you get paid for and things you like to do. And hopefully those overlap. Hopefully.
+[Wendell]
+Yeah, that's right. They don't always. Right.
+[Wendell]
+You know, you might have a job. You're just paying the bills and supporting your family, you know, and you got to do that. But I've been blessed enough to where I recognized I like training.
+So I had jobs that had some training in it and I didn't want to be sitting still at a desk all day long. So I had jobs out in the field where I'm seeing people. And by the time I got around to where I hooked up with Cisco Press to do this book, I'd already gotten my CCIE, which was one of the requirements for who they were hiring to do this.
+And I had some experience doing consulting and writing 50, 100 page consulting reports for companies to do network design.
+[Wendell]
+Sounds terrible.
+[Wendell]
+Writing experience.
+[Kevin]
+Yeah.
+[Wendell]
+Fun. 30 pages on your IP addressing plan.
+[Kevin]
+That sounds terrible.
+[Wendell]
+Yes. And so I had a lot of relevant experience, but it wasn't, oh, one day I'm going to be an author. It was more, hey, I like doing this work and they pay me for it.
+And one thing led to another. But the story is pretty cool. I know you did an episode recently about Cisco Live.
+So in 1998, U.S. East Networkers, the world of solution or was was like a 20 by 30 room, tiny. Cisco Press had a table, like a three by six table. That's all they needed for their five or six books.
+And they had a placard the size of a business card that said, want to write for us? Call Jim.
+[Alexis]
+That's crazy.
+[Wendell]
+Well, just someone's phone number, just like you got it. Wow. Three one seven.
+It was Indianapolis. And they also announced CCNA and CCNP at that show.
+[Alexis]
+Wow. So networkers for those that don't know, networkers was the old version of Cisco Live or it's it's what it's the original Cisco Live.
+[Wendell]
+It's the original. Yes. And they had an East and West show back then.
+So this was the East show. And so I stole the placard so nobody else could call him. No, I didn't.
+[Kevin]
+I would have been so impressed if that had been true. I feel like Windows a gangster. That's right.
+[Wendell]
+But Jim was transitioning jobs. So I called him like every three days for two months. No answer, no call back.
+And eventually his replacement called me. And at the end of it, they said, well, you're the first one we've talked to that qualifies. Which book do you want to write?
+I said, which one will sell more? They said the first one that people have to take is CCNA. Well, that makes sense.
+So that's that's the story of how I landed on it. But I like teaching. So it's.
+[Alexis]
+Did they give you any guidelines or it was just like, go write a book about networking. Like, was there an outline or anything for the certification that you followed or.
+[Wendell]
+Well, no, they they did have the blueprint, the CCA blueprint. But no, I pretty much made it up from there. They they gave no instruction on chapter outline or book features like you've probably seen the do I know this already quiz at the beginning of Cisco Press guides.
+I I made up the phrase, you know, as an example. That's why you're the man, man. So, yes, I made up the book features to start with, and I picked what went where and how long.
+[Kevin]
+Like, how do you even approach that? That's such a large undertaking. And like I write content and I don't have to write little two minute, three minute scripts.
+And sometimes that's really difficult trying to structure and come up with house. How's the best way to get this, you know, this point across or this what I'm trying to get across and having to write such a large not like it's basically a novel. It's huge.
+And you have to, I don't know, logically think about how you're going to structure everything. So was there like a process that you did that with or was just like, or I'm going to just write and see what happens?
+[Wendell]
+Yeah, well, you know, we talked a little before we got on the recording about a little bit of that, but I had the fortunate case of having jobs where I developed full three day, five day long courses as part of the job. So I had already tackled large content projects where you started with a blank canvas, even and less, less guide rails than a certification, because it was like me and a coworker built a five day TCPIP troubleshooting course back in 1991, early days of TCPIP. It was a fantastic course, got a lot of great feedback.
+It was used a lot at IBM where I worked at the time. It was fun to build, but, you know, imagine writing everything in TCPIP and you're going to troubleshoot it. Where do you, how do you scope that?
+[Kevin]
+Like, gosh, that's such a, I can't imagine. I can't imagine. Right.
+Before AI, you'd just be like, just format this for me, organize this for me. And now I couldn't imagine doing it.
+[Wendell]
+Right. It was a blast to do, but yes. So the whole what's in, what's out, how to organize, I'd been noodling on that for different projects for seven or eight years in large scale ways.
+So that helped a lot. But honestly, I was probably five editions in to CCNA before it was natural on how I would organize books. And the books at different levels had their unique challenges, but for CCNA, it was probably the fifth edition of CCNA before it felt somewhat natural in terms of the right kind of organization.
+[Kevin]
+And so speaking of additions, like CCNA changes a lot, certifications change a lot. Did you have to write, like basically start over for each edition or was it like you could copy and paste things and move things around to just add on what was new or was it like a whole new endeavor for you? Yeah.
+[Wendell]
+And it's a, it's a different beast updating a book that you're making, you know, 20% new, 20% goes away. 20% updates in some small way is a way different beast than a blank canvas and you're starting from scratch.
+[Kevin]
+So I can imagine that has its own challenges and its own difficulties trying to make it all flow and make it all make sense.
+[Wendell]
+Yeah. We're living through that right now. You know, we're, we're revving the books and I think you might've talked to Jason Gooley here recently and he's authoring the volume two book this time.
+But the, you know, we talked about it up front. I said, your bigger challenge is going to be when you've got a chapter that needs three new pages, that's a half a page here and a half a page there and it's all Wendell stuff that you're keeping. That's hard, right?
+Imagine updating somebody's content that you're, you know, somebody else's content like you would normally work on, but you're going to add a little bit here and there. That's way harder.
+[Alexis]
+I can tell you. It's so hard. I'm, I'm doing a influencer campaign right now at work because I wear multiple hats.
+Not only am I writing my own content, I'm also helping to teach other people how to talk about Megaport. I was looking at some of Kazen's content this morning, actually.
+[Kevin]
+She was trying to help me a lot.
+[Alexis]
+Improving or giving suggestions to someone else on how to write is an entirely different beast because it's not in your tone of voice. You can't just, and the answer isn't always to just rewrite it how you would write it. You want to coach them on how they would put it in their words.
+And so then like you're looking at their other work, at how they normally speak, you're trying to figure out how to give feedback. I guess in this case, it's a little bit different because you're not even writing things together, right? Like someone's taking your, your older work.
+And so then there's this added pressure of like doing someone else's words justice or building around it. So they still make sense.
+[Wendell]
+Yeah. It's a huge challenge and it's something that, you know, Jason went in eyes wide open on that, but I've coached him through things like, hey, if you've got a chapter that's, you know, more than 25, 30% change, you should probably toss all the words, keep the figures, keep the tables, keep the examples and make the rest of it Jason, right? I mean, not Jason, but Jason Gooley.
+[Kevin]
+He is the godfather of programmability, right?
+[Wendell]
+There you go. AI programmability, just spit it out there. But, but, you know, if it's, you know, 10 or 20% change, let's keep it, you know, Wendell's tongue.
+[Alexis]
+Wendell, how far into your career were you when you decided to begin writing? I think a lot of what Kevin and I struggle with or not maybe struggle is the wrong word.
+[Kevin]
+Speak for yourself.
+[Alexis]
+We're clearly at different points in our career.
+[Kevin]
+Of course. Yes.
+[Alexis]
+And when I encourage people to create content, I always say like, think about what would be most helpful to you. If you were talking to yourself two months ago, what is one thing that you needed to know? If you were writing for yourself or someone in your shoes two years ago, what is someone you need to know?
+And I think creating content from that perspective, like people think that you need to be an expert. Oh, well, I'll wait until I know more. I'll wait until I'm more senior.
+I can't teach someone because I'm just learning myself. But sometimes you, you learn more when you're teaching someone as you go.
+[Wendell]
+Yes.
+[Alexis]
+What I've found, it helps me remember better. It helps me find my own voice or figure out how to explain something in my own words. So I guess what point in your career were you when you took on like, I mean, I create short form content.
+I, I very rarely do videos that are over two or three minutes long. So what point were you in your career where you decided to make this like monumentous piece of work?
+[Wendell]
+Yeah. So I think my volume of experience was probably the 15 year mark when CCNA came out in 1998 and Cisco Press needed it written. And, and honestly, I had reasonable, but not a ton of relevant experience.
+You know, I had technical experience. Yeah. I had it covered.
+I did not have to go learn anything technically to go write it at that point. But I'd never actually written a book. I'd written courses.
+I'd written shorter consulting works, but nothing formalized, nothing that was a cert guide. There were probably some people in the market that were better qualified for me. Definitely some people that were probably, probably had the full set of skills, but I'm the guy that called Jim for every three days for two months until somebody called me back.
+Right. But, but yeah, but I definitely agree with you on the, you should, you should jump in. You should try it and you do get better.
+I mean, that's something, you know, we'll talk about YouTube later. I know, but one of the things that like every famous YouTuber in the materials I read about getting started said I'm way better now than six months ago. And these are like, you know, Jimmy, the beast saying stuff like that.
+Right. So it's like, all right, well, if the most famous doing this are telling me you'll get better and he'll keep getting better forever at this because you know, you just will. I definitely have seen that in my own writing, my own abilities with that, you know, most with organizing and figuring out how to do it.
+Plus just even the simple thing of constructing paragraphs. I, I spent three additions getting better at making line art drawings to communicate basic ideas.
+[Kevin]
+I was going to ask you, like, do you, do you make those are like, I know all the graphics and CCNA books, all that stuff. Do you make those yourself or do you like have an artist do it for you? Like I, those are really nice graphics.
+Like I've, I've tried to do it my own for like my own, like graphics and stuff. I'm like, this is fricking hard. I can't do this crap.
+I got a guy. Okay. Okay.
+Let's make sure.
+[Wendell]
+But you know, since we're talking about, this is the part of the topic here. I did purposefully look into how do you communicate ideas in basic drawings? Robin Williams is the name of a lady that wrote a great book about how to communicate with line art drawings.
+So I devoured that, got myself a professional illustrator, wrote the Pearson Cisco press model of how they make figures. Normally you draw crummy figures by hand, send them to them. They have somebody else draw them.
+You don't see them till you're doing the final review. I draw them before the tech editors even see it. So the tech editors can comment and anything that I write more than two or three paragraphs about, I force myself to sit back and think, how could I communicate at least part of that with a line art drawing?
+And at least attempt to figure. Yeah.
+[Alexis]
+But also it helps break up the text.
+[Wendell]
+Yes. I mean, my goodness, especially for your generation. Yeah.
+You know, I grew up reading thick books to learn and you folks didn't.
+[Kevin]
+I need pictures. I need pictures, Matt.
+[Wendell]
+So I get it. But yeah, that, sorry for the tangent, but yeah.
+[Kevin]
+What I find really interesting is that that relates to short form content that relates to YouTube, where like, if you're just talking on a screen for five minutes, people get bored. People, all the, all the words kind of rumble together. But if you have graphics, if you have, you know, B roll, whatever it is, you have to make a visual for people because it's, it is boring.
+It is like, you kind of, you kind of get lost in it. So that makes total sense. And I love how it applies to video still.
+Yes. Gotta bring it back to video. That's my context for everything, you know, I'll be out in the world at the grocery store and I'll be like, Oh, that'd be a good video.
+I just can't stop. I can't turn it off. Everything.
+[Alexis]
+Once you see it, you can't unsee it.
+[Kevin]
+Yep.
+[Alexis]
+Everything is content. So Wendell, how did you get into networking in the first place?
+[Wendell]
+That's a good one. So.
+[Alexis]
+And also like, I guess, how, how old were you?
+[Wendell]
+Okay.
+[Kevin]
+So. Never ask a gentleman his age, geez.
+[Alexis]
+No, no, no. I'm asking him when he got into networking.
+[Wendell]
+Yes. I appreciate the care with which you asked the question. I got into networking when I was in college.
+So the backstory is I started college. I quickly needed more funding for college than I had. So I started the co-op program.
+They still have them in colleges, but my college was on quarters. So a quarter of school, a quarter of work, a quarter of school, a quarter of work. So it took five years instead of four.
+And I was fortunate enough to get a job at IBM and what today we would call a data center with operating systems group and networking and database and all that. And I didn't get to work with the networking folks immediately, but I saw modern state of the art IT with all the different disciplines, operations, development, et cetera, right up front from age 18, 19, 20. So I moved from engineering to CS and the program I was in even had specialties inside CS and I did networking and operating systems.
+But I knew from working with the networking people, that's what I wanted. I only interviewed for networking jobs, getting out of college. I happened to get out of college at the height of a great boom in the economy in the US.
+So I fell in love with it probably by age 20. I was sold on networking and I've only worked in networking.
+[Kevin]
+Did you have like a, like an origin story where like this thing happened and that's how you knew networking or was it just a slow, slow build?
+[Wendell]
+It was a bit of a slow build over those couple of years, I guess, a couple of years. My, you might consider slow by today's standard. I probably would have been happy working in the operating systems group.
+Database just never clicked for me, but the networking people, everything seemed to be cool and they got out and moved around the different sites a lot. And I might've mentioned that I didn't really want to sit at the desk all the time.
+[Kevin]
+Yeah, that makes sense.
+[Wendell]
+You know, they were climbing under the floor and up in the ceiling and going, you know, it's a IBM had like 6,000 employees at the time. This was an IBM data center and you know, maybe 15 buildings around town. So I got to follow them around and enjoy some of the physical part of it, even as a co-op student.
+So I took a job with that same group when I got out of school. It's very convenient.
+[Kevin]
+So, all right. I have a question. I don't know if you can answer.
+You might not be allowed to answer. So it's, you didn't learn networking through a certification, but you write the certification that pretty much every entry-level networking person. Do you think that certifications learning through the CCNA is the best route to learn networking or do you think on the job learning it, you know, hands-on is the best way?
+[Alexis]
+It's a really good question.
+[Kevin]
+Yeah. I don't like your question. I don't know if you can answer it.
+You might be a little biased. I understand if you can't answer it, we can cut this section out if you need to.
+[Wendell]
+So a takeoff on a phrase from my daughter from when she was younger that we kick around skills rule, certifications drool. All right. So the idea of being, I don't care how you get the skills.
+It's about the skills. So if the certification process gets you the skills, that is the best path for you. Get the skills on the job.
+That is the best path for you. I don't care how you get them, but it's about the skills. Now, of course, there is some marginal benefit of having the certification.
+It proves you made the effort. I'm a big fan of showing that you've made the effort through certification. Now, clearly, I'm, you know, you might see me as biased on that.
+But if I stack up two people and I perceive them to have the same skills and one's got the cert, I can tell you who I perceive is knowing more.
+[Kevin]
+Yeah. It's not even necessarily what they know, but it's also the effort they put in. And, you know, like, I don't know.
+There's a huge debate amongst my followers where, you know, they'll say, like, I've been in the career for 20 years. I've never had a cert. You know, I've had a great career.
+I don't need a cert. It doesn't prove anything at this point. Yeah.
+And then a new person will come in to their job and have, you know, a CCNP with only one year of experience and be the new hot shot with all these big ideas. And the 15 years, you know, network engineer is kind of resentful. And they're like, oh, these kids with the certifications, blah, blah, blah, you know?
+So there's always that debate of whether, like, which one has more merit. And there's never an easy answer. There's not a right answer.
+But I was curious on your take on it.
+[Wendell]
+It would be hard to believe that someone had worked in the job 15 or 20 years and didn't have significantly more skills than the one year plus CCNP person. But, you know, there will come a day when that levels out. Certainly if the person that's willing to do the work to learn on their spare time, they keep learning, right?
+So it can get you to the place you want to go earlier, I think, in your career.
+[Kevin]
+I think it can also give you more breadth of things you're learning. So if you work at a job, you might only see this model switch, this model router, deal with these applications. And that might be the only thing you have to deal with.
+Whereas a certification will give you access and experience in a bunch of different things. Spanning tree. Maybe, you know, you only use spanning tree, I think.
+But this other person did, like, I don't know, layer three. And they have all these other technologies that they've messed around with. And that certification, they've only learned it because of that certification, because they had to do the labs and all that kind of stuff.
+So I think it lets you see a little more than what you'd normally see if you stayed at a single enterprise or a single business for 15 years. So that's always my take, too. Like, just what I was going to say.
+[Alexis]
+I think my favorite thing about certifications is just the learning path that it gives you. Like, I tend to over, what's the word, overwhelm myself or I get like overstimulated. I'm like, oh, my God, there's so many things.
+Like, where do I even start? And I, I really appreciate the list of topics to step through in that. I know if I complete this whole course, I will have a general understanding of these things.
+[Wendell]
+Yeah.
+[Wendell]
+Honestly, I think, yeah.
+[Alexis]
+Hopefully. Yeah.
+[Wendell]
+Yes. The, I think that one point may be the most significant one thing that Cisco has gifted networkers. Building an entire curriculum and then individual certifications that have identified what their research has showed that people out there in the market are actually doing in their jobs because they start with what are people doing, you know, in their jobs.
+And they try to put that into the certifications and with good and bad success sometimes, honestly, you know, but that's the goal. And so giving us that guidance of what to include and what not to over the, over the decades, I think has been a great service to us. Whistle.
+[Kevin]
+Do you, I don't know if you had, if you, if this is just popped into my head, I don't know if this is a good question, not for you, but do you think certifications Like Kevin's it's Kevin's asked all, he's like a kid.
+[Alexis]
+I've never seen him this excited.
+[Kevin]
+He's one of my, I love Wendell. And anyway, so do you think certifications direct some of the industry or do you think certifications should react to the industry? And that makes sense.
+Like, you know, if say best practice, Cisco puts out this thing for the CCNA, so this is how you should configure a spanning tree. And this is how you should do this certain thing. Then the industry will follow that.
+Or should the certification go, this is how the majority of people we're seeing do this. So this is how you should learn it.
+[Wendell]
+Yeah, I don't see that the certifications I have looked at, I don't think the best practices influence is significant.
+[Wendell]
+Okay.
+[Wendell]
+I think they choose what technologies we cover and it might even say things like, hey, you know, put standard ACLs close to the destination and extended close to the source, but that's a pretty well accepted practice. I don't think they're going out there on a limb on different best practices.
+[Wendell]
+Okay.
+[Wendell]
+They probably like, you know, I'll, I'll pick on one. They put, what is it? BPDU filter in the previous CCNA blueprint and they removed it for the next one.
+I think it was a mistake to include it. It's a minor point. I don't think anybody rushed out and said, oh, we got to go use BPDU filter now that it's in there.
+[Kevin]
+I don't, you'd be surprised. I think people like learn about this feature on the certification and go, okay, this is what I learned. We should implement this.
+And they're, they're, you know, they're just the CCNA, whatever. And they don't have a big picture of how the rest of the network might function and why they don't do a certain thing, but they learned this technology. They're like, we should do it.
+We got to go try it out. Yeah, exactly.
+[Wendell]
+So that was, that was actually part of the reason I thought it was bad because it's a very dangerous feature in particular. But, but overall, I, I don't get the sense that the whole it's driving those of us out in the real world to go a given direction that I don't get that sense from it personally. Yeah.
+[Alexis]
+Um, Wendell, I have a question. Yeah. Okay.
+So I would say that you're a little biased with Cisco certifications. Yeah. Have you taken other vendor certifications and how do you think they compare?
+Oh, well, that's like, like a June, like a, like a June OS certification. There's a RISTA certificate, like which one?
+[Wendell]
+I'm thinking hard. No, I have not. I live a sheltered life.
+Um, so I'm not trying to be, uh, sarcastic about that. No, I actually have not taken other vendors certifications. So I, I, what you've taken a few.
+[Alexis]
+I, I've only ever taken one from AWS.
+[Kevin]
+Okay.
+[Alexis]
+Yeah. So I don't know.
+[Kevin]
+Yeah, I haven't either. I'm, I'm a Cisco fan boy, so I haven't, I haven't branched out.
+[Wendell]
+All right. All you people listening need to leave a note and give us a comparison. Is it a Juniper NA?
+[Kevin]
+There's a CCNA equivalent for, uh, Well, it's an interesting question because like I create content and I look at other people's content and I kind of steal what they're doing or, you know, look and be like, oh, they do this kind of stuff. And that's, that's a good idea. Let me copy that.
+So it wouldn't be outside of the realm of, you know, looking at other entry-level certifications, seeing how they teach something or how they do something to maybe incorporate it into your own, you know, your own style, your own writing.
+[Wendell]
+Yeah. Yeah. You know, I've shied away from even looking at other competitive books on CCNA.
+So here's, here's the, here's the flip side of that equation. Say you see how someone presents a topic and they're your competitor and you think, man, that's awesome. And then you end up, you know, it's two years from now and you're writing that topic again and you change your book to be like that.
+Now, technically you haven't broken any copyright, but I would just personally feel a little weird doing that. I would, I would rather say, all right, Wendell, you're a big boy. You go do your best job with the topic.
+Yeah. And I'll learn how to be a better author. I'll learn how to make bigger, better figures.
+I will learn better paragraph construction. I will, I will. By the fourth edition, I was purposely making the core of the chapters no more than 20 pages unless it was an exception so that you didn't have a 50 page chapter, a 12 page chapter and a 60 page chapter and a 12 page chapter.
+You know, they're consistent. They're one sitting to read a chapter. There were 53 chapters in the previous edition, but they were all pretty much things you could do in one study session, you know, that kind of approach.
+So I got better at those kinds of things and that didn't go look at the other person's how they presented a technology topic just because I didn't want to inadvertently steal their way to do it.
+[Kevin]
+That takes so much self-control. Like I, it sounds like a great, like in my head, I'm like, yeah, I should do that. Screw everybody else, you know, make Kevin the best Kevin can be.
+But like, I always wanted to be like, I always want to peek over the other side and be like, what are they doing over there? It is tempting. It's not that I haven't looked.
+[Wendell]
+It's more, it's like, oh, that's really good. I'm going to put this one up. In fact, my wife and I, we would stop by the Borders and Barnes and Noble all the time back in the day when they were both of them.
+But in case you didn't know, there was a competitor to Barnes and Noble that had bookstores back in the day, decades past and look at the competitors. There were multiple and check them out.
+[Kevin]
+But how did it on that note? How did it feel seeing your, your book on the shelves of a, like a Barnes and Noble borders? Like that's a big name.
+That's a big name bookstore. And you're right next to like all these Pulitzer prizes and these crazy, like, not in your books on the shelf. That's, that's, that would be surreal to me.
+[Wendell]
+Yeah, it's, it, you gotta watch your ego when you see that. But yeah, it's, it's pretty heady to, to do that. It's fun.
+We've, we've got several photos with me standing there with the latest edition. But a fun story with that. So the one year we were going to church, we'd stop by after church when a new edition would come out, they had it on the end cap.
+They saw us taking the photo. The manager's like, what you doing there? You know, like they thought we were stealing marketing.
+That's me. And we told them, they said, oh, you got to sign it for us. So I signed it and they put a sticker signed by author.
+It's on the end cap. And, uh, three or four months later, we stopped by, look, my book's still on the end cap. Oh, it's still got the sign by author.
+They've reduced the price on that one copy to try to clear it out of the store. Nobody wants the one with writing in it.
+[Kevin]
+Oh man, I would have bought that in a heartbeat. Just so you know, that would have been, that would be framed. Actually, next time we go to the CC or Cisco, if you're, if you go to Cisco live, I might just buy a copy there and have you sign it just for me so I can put it up there.
+[Alexis]
+But that was funny. Kevin, it sounds like you're an aspiring author.
+[Kevin]
+No, not at all. Are you sure?
+[Alexis]
+Why not? Why not?
+[Kevin]
+You saw my LinkedIn post that I was trying to write. It was okay. It doesn't work out.
+[Alexis]
+I know it was, there was a lot of AI that I removed for you.
+[Kevin]
+I don't write like I can do it on camera. I can do bullet points, but writing like a full on thing is just so hard for me. I don't know.
+I have a mental block. Maybe it's like PTSD from high school and I just, I just can't write something. Video is so much easier for me.
+[Wendell]
+So are you going to do an episode where you talk about your high school experiences, Kevin? Yeah, that's a whole therapy thing.
+[Kevin]
+It's a whole different show. All right. So we're halfway through and before we get too far, I want to talk about CCNA.
+And as a student, as someone who's learning, how best to approach one of your books. I've heard multiple people online saying you should skip around. I've heard people say you should read it straight through.
+People, you know, take the quizzes first and then reference back. Is there a structure that you think have seen the most success?
+[Wendell]
+Yeah, when you create a self-study product for the masses, you just have to accept that one formula won't work for everyone. So you create something that can be used in multiple ways. Now, you still want to have in mind your primary user, secondary user, you know, tertiary and whatever, fouriery would be right.
+But you have the types of users in mind. So the primary user, there's an integrated study plan. So you've got the introduction that tells you about book features, but the very first element before chapter one is called your study plan.
+And it tells you how to use it, right? So it's things like use the chapter as your study session. Use the quiz up front.
+Use the core of the chapter to learn new content. Use the chapter review. Chapter review, do a day or two after you finish learning that content.
+After three or four chapters, you got a part review. Give it a week after the last chapter in the part to do the part review. So you have some spaced learning, right?
+So modern learning theory telling us that you want to have some time to forget. You remember better if you forget a little and then re-review and relearn. So all that kind of thing is baked in.
+And, you know, practice tests that you can use for both review as you go along and then for practicing the exam later. So all those kind of features are built in to the book. It's really, in a weird way, a study system with some book in it.
+The books together, you know, like, you know, eight pounds between them, I think.
+[Alexis]
+I mean, I feel like even just holding yourself accountable to doing that study session or showing up for yourself every day, if you have a goal, like passing a certification, like that in and of itself is no, it's like no small task. I know I've bought, I'm working through a course right now. It's an online course.
+And the class is every Wednesday for an hour and a half. And I show up most of the time. I am about five and a half weeks behind on the homework.
+And as much as I want to do it, I show up, I think it's great. There's a lot of like, I feel like I need to be super focused. I feel like you need to be in the zone.
+I want to sit down and clear away all distractions to do this homework. And man, the amount of times I have with no distractions. Few and far between.
+And I've just had the hardest time clearing my calendar to sit down and focus. Actually learn the material and write and do the work. And I think a lot of times, like, whether it's, you know, this marketing class I'm taking or taking a new certification, like I had the same struggle three years ago when I was trying to pass my CCNA and CCMP.
+Lock an hour on your calendar, sit down, focus, lock in. And hold yourself accountable to doing it.
+[Wendell]
+Yeah, it's hard. It really is. And of late, you know, being 40 something years in your career of late the last five or 10 years, I've spent a lot more time thinking about and looking at habits.
+So, you know, the habit people tell you 50, 60 percent of what you do in a day goes through the habit part of your brain processing rather than your conscious choice. So doing things that build that study session as a habit rather than a willpower or overcoming distraction, et cetera. And I know for my own study, that's helped some.
+I claim I do not claim mastery over overcoming those kind of problems. So, Alexis, it's it really is hard to do. But when I've had success, it's been much more about the building the right habits than about, you know, getting getting stronger at my willpower or my interest in the course or whatever.
+So I've thought about how do I do that with the books and things like that? And I even almost went there with what I put in the books about recommending things to people. But we decided that that was we were turning the book too much into a kind of study based on habit based learning.
+[Alexis]
+Well, I don't know. It is a lot of like inner, I would say, like inner work or personal development work to hold yourself to a higher standard. And, you know, this is it's almost like taking on a new identity of who you want to be.
+Right. Yeah, you are. You are a person that gets up and studies first thing in the morning.
+And you are a person that sits down every day and clears your calendar. And you are a person that is going to pass this exam at the end of your three month period. Like you have to start.
+What is it acting like the person you want to become? Because the only way to actually be them is to take on that person's daily habits every day.
+[Wendell]
+Yes. And if you're if your self-talk is the, you know, I don't do this, I don't do that, then you're heading the other direction. So that's that's all part of it.
+[Alexis]
+So, yeah, trying to trying to get back in shape after being on the road for a year and a half. And unfortunately, now I'm in New York City. There's three pizza places on my block that I walked past on the way to the gym every day.
+And I'm like, oh, no, this is going to be great. This is going to be great.
+[Kevin]
+So don't you want to carb load after you after you squat and all?
+[Alexis]
+Like it's like you go out back and just have I will carb load with my zucchini and my sweet potato fried in as little oil as possible.
+[Kevin]
+Oh, that sounds terrible.
+[Alexis]
+And then I will get my 10,000 steps a day and maybe eight hours of sleep.
+[Wendell]
+All right. So make make a habit of passing at least two of the pizza places every day.
+[Alexis]
+We're going to have a great fall.
+[Kevin]
+So you mentioned you had audiences, you had like four different audiences. What are those audiences?
+[Wendell]
+Yeah. So the dead center is someone that meets the prereqs and nothing more. Is not currently working in the industry.
+So that's who I write to.
+[Wendell]
+Okay.
+[Wendell]
+So I think and also there is no assumption of being a native English speaker. Oh, really? And that's purposeful.
+When I first got to writing for Cisco Press, they went out of their way to say, don't use euphemisms. We'll train that out of you anyway. But a third of their sales were international sales.
+So they said, we have a lot of people that are not native English speakers reading your books. We get massive for the amount of direct feedback we get. It's not unusual to get thank you for writing clear English.
+[Alexis]
+Wow.
+[Wendell]
+Wow. Yeah. Yeah.
+Amazing. I didn't think of that at all. Yeah.
+They told me and they made me stop using euphemisms. So they followed through on their part. But like they quit using your family's names for routers.
+R1, R2 and R3. So the only surviving name in the books is my daughter's name. Like they didn't want to confuse people with U.S. human names rather than generic router R1 and switch S1 kind of things.
+[Alexis]
+You used to nickname your routers after people? You had three routers in a group and one was like Alexis, Kevin and Wendell.
+[Wendell]
+You got it.
+[Alexis]
+No way.
+[Wendell]
+That was fun. Well, the Cisco course used the Flintstones. I used the Flintstones in the first edition.
+Fred, Barney, Wilma and Betty. Of course, you grew up in the U.S. It was kind of fun. Bugs, Daffy.
+Daffy was, of course, the one who got blocked on the ACLs all the time. But if you don't come from here, I know your audience is worldwide, but if you're not a U.S. person and know Wendell's favorite cartoons growing up, it doesn't make any sense to you and it gets in the way of the learning. So the learner, back to the serious part of your question, Kevin, the primary is you know the prereqs, but not more.
+You don't work in the industry. You may or may not be a native English speaker. So clarity over style, I guess I would say.
+So it's a little more basic, a little less familiar by style on purpose because of that. So we'd rather include those people than maybe make it a little more fun or a little more familiar to the U.S. audience but lose 30s.
+[Kevin]
+Yeah, was that difficult in itself? Because you're losing kind of your personality a little bit. You have to be more matter-of-fact.
+[Wendell]
+I grew into it, but I had a lot of great coaching. Like for anybody that wants to get into writing with words, Strunk and White, S-T-R-U-N-K, Strunk and White is the best single resource for learning to write. Strunk is long gone.
+I'm writing that down. But Strunk was the professor. White was his student.
+White took it over. I think White is gone, and it's been taken over by others. It's in like, you know, edition 82.
+And it is not long, and you could pick it up and read it two pages a day and get a nugget to help you be a better writer every day.
+[Kevin]
+That's the elements of style?
+[Wendell]
+The elements of style. You got it.
+[Alexis]
+It makes me think of, I was listening to a podcast, and they were talking about almost how giving yourself more limits can make you more creative. So like the whole reason that Dr. Seuss became the way it is, is because his publisher challenged him to write a book. I think it was like only 75 words, and he could only use certain words off the list.
+I don't remember. And that's the whole way that The Cat in the Hat was born. And it developed his whole like Seussian style of writing, right?
+And in the same way, when you make things more accessible, or a certain type of person, it usually benefits more. Like if you think about a wheelchair ramp, right? Or the fact that if you look at like a street crossing, how the sidewalk, like the curb goes down.
+[Wendell]
+Right.
+[Alexis]
+It was invented for people with wheelchairs. Well, as it turns out, it's great for me when I'm rolling my suitcase up the curb in multiple countries. And a lot of times when you're designing, they were just talking about general design principles, and you always want to design for the most limited user.
+[Wendell]
+Right? Yeah.
+[Alexis]
+And if you do that, it usually inherently benefits multiple types of users who may or may not have that same problem if you're just designing for that one. It almost makes me think of this example of writing.
+[Wendell]
+Yes. So if you then move on to the second case, say you've got somebody that's in their first IT job, maybe they're at the help desk, or maybe they've got some experience. Well, those chapter quizzes that we call them Ditka quizzes like Mike Ditka, but it's do I know this already?
+And you do that, and it says, hey, if you make a great score and you feel like you know the topic, skim the chapter. And you can pick up a little pace if you really think you know the chapter, you know, hit the key topics and move on. So you can get through the material quicker.
+[Alexis]
+Yeah, but you can burn yourself on that real quick when you come up with some of those. Some of those questions on the CCNA are really detailed.
+[Wendell]
+They are. It is. There is risk reward there.
+[Alexis]
+I'll never. Oh, man, I'll never forget. I took it.
+I was one of the first classes. I've got like PTSD. I was one of the first class.
+Also, also for reference, I took my CCNP three times. Like I was not. I passed my CCNA on the first try.
+CCNP, it took me three tries to pass like by by the end of that gauntlet. I was seeing that shit in my sleep. OK, and I'll never forget.
+There was this diagram. I used to do this thing. I would I would say this is not technically cheating.
+OK, I would walk out and I would take a blank piece of paper after I failed. And I still give this piece of advice to anyone. Yes.
+Yes. If you fail the exam, take a blank piece of paper immediately after you walk out and sit there for 30 minutes, write down keywords, draw diagrams like anything that you can remember, because when you walk back in, those are the questions you'll likely see them again. And those are the topics that you are weak on.
+And if you're having trouble remembering it off the top of your head in your car, print out the curriculum guide. It's on, I think, Cisco Learning dot com, where they have like the it's like the list of topics they test on. And you can use that to jog your memory and circle and underline the questions.
+You're like, oh, I remember seeing BGP or OSPF, and I wasn't really sure on how they do. What is it? Not DR, but like how they help.
+They do the shortest path. Like, I wasn't really sure how they calculate the shortest path. What the formula is.
+I should go review that. And you circle or highlight whatever that word is. I did that three times.
+And there was this monster diagram. It was this like OSPF fabric. It took up the whole page.
+And I remember sitting there at the exam, looking at this. And I was like, damn it. It's the same question again.
+Damn it.
+[Wendell]
+It is.
+[Alexis]
+I remember I walked out of the exam. I had it written on like a full page. It was like this big Venn diagram.
+I don't remember anything else other than these two giant circles and it pissing me off.
+[Kevin]
+It reminds me of the meme with the always sunny meme with Charlie's on the whiteboard. Or we've got like lines and like conspiracy everywhere. Alexis in there.
+[Kevin]
+This OSPF diagram.
+[Wendell]
+Well, you're right on it, Alexis. I have formalized what you just described. And it's in the volume two final prep chapter of my books.
+It is gold.
+[Alexis]
+Maybe that's where I got it from.
+[Wendell]
+I tell people your most effective single hour of CCNA prep is the hour after your first attempt. And you go do that.
+[Alexis]
+I think the other piece of advice, just schedule it. I remember people will kick it out and kick it out and kick it out. The day that you open the book and start reading is the day you should schedule your exam.
+This is going to take me about three months. Three months from now, I am going to set a date. And wherever I am with my exam prep at that date is when I will take the exam.
+And if you fail it, you take it again. And if you fail it a second time, you take it a third time.
+[Wendell]
+All right. New policy, new additions. If you buy our books, you have to schedule for three months out, according to Alexis.
+We'll send them to you if they don't.
+[Alexis]
+It's a way of holding yourself accountable. Right? Because otherwise, if you're not taking the exam, you're going to push it out and push it out and push it out.
+And life is always going to get in the way. Things are going to come up. You're going to get busy.
+I mean, just like this class I'm taking, there's no test at the end. I almost wish there was because I think I would have finished all my homework.
+[Wendell]
+Right. Having a little accountability really does help. Yes.
+And certainly if for those that can afford the risk monetarily, it's a no-brainer to schedule it and take it.
+[Kevin]
+So, yes. If your business is paying for it, just keep going. Right.
+Keep rolling through it.
+[Wendell]
+And just so, you know, the listening audience can hear Cisco, not all the time, but most of the time has a deal where if you, you schedule it on your calendar, but don't schedule it with Vue. And when you're ready to schedule it at the Vue testing center for a few weeks ahead, you go to Cisco and search for this deal for a 25% bump in the price. So instead of 300 for 375, you can get this voucher that says, all right, you can take the exam once.
+And if you don't pass it that time, you can take it again within three months when you bought it. So if you're thinking, hey, I like the idea of going ahead and taking it, but I don't want to pay 300 twice. You basically get two takes for 375.
+[Alexis]
+That's a good deal.
+[Wendell]
+Yeah. It's like buying insurance. It is.
+[Alexis]
+Where's the link for that?
+[Wendell]
+You know, it's not on my desk right now, but promo code Wendell Odom. It's not an affiliate link. Unfortunately, you're definitely going to find that one.
+But yeah, if you'd like for me to find it, I'm happy to forward it to you after the recording if you want to post it out there.
+[Alexis]
+Speaking of affiliate, Wendell, Kevin mentioned you had started on YouTube. I'm not a big YouTube user, but how has that been for you?
+[Wendell]
+Well, certainly, selfishly, it's been a blast. So yeah, I say selfish, but I started it as my semi-retirement gig. So I do it for anyone who cares to learn from me, and I do it for me because, yeah, so I spent a lot of my career in roles where I've gotten to create content to help people learn.
+And I thought, you know, I could retire and go on to real life things, but I still like working, but I also don't like deadlines and the pressure. So I've reached the point where I don't have to work, but I also like doing the work. So the YouTube channel has been more of, all right, well, what would I do if I was still doing work, but I unhitched from the people are expecting me to do things for them?
+So that's what I started the YouTube channel for. And the obvious thing to do was like, well, could I create a complete CCNA course eventually? So I'm basically 250 videos into a 500 video CCNA course.
+So we'll see if I get there, but I've really enjoyed making the first half of it. And I've gotten good feedback from those that have chosen to use it. But I think part of the hangup is that, you know, if you start a course, you'd like to be able to finish it and you can finish the course.
+You're just halfway through CCNA content is over. So, you know, if I, if I get done with the content, then I think, you know, people might say, Hey, that's, I love your content, Wendell. And I love the fact that it covers all the CCNA.
+So stay tuned for more on that. But yeah, I, you know, sorry for going on, but I do enjoy it.
+[Alexis]
+Yeah.
+[Wendell]
+I like making new content for the books. So with the videos, different format, different way to teach. So it's been fun to figure out, well, how I've got this content in the book.
+How do I do the same topic in video form? And, you know, you can do different things there. So that's, that's been some of the fun, just as a content creator to figure that out and make them work well together.
+Yeah.
+[Kevin]
+I mean, you, you started out being, you know, teaching in person, right? In classes.
+[Wendell]
+Oh yeah. When I first got into training. Yes.
+The first job I had training, it was probably third Z's training. And then I did full-time training back in the internet boom in the nineties. So I'd be 35 weeks on the road, Monday through Friday on platform.
+[Kevin]
+Yeah. So does, does teaching on YouTube kind of bring you back to that a little bit, bring like teaching in person, being able to actually talk and be animated and all that kind of stuff compared to just writing.
+[Wendell]
+Yes. The teaching part of it does, but you know, what percentage of your video that you make is the, you talking versus the, you prepping.
+[Kevin]
+Yeah. Oh yeah.
+[Wendell]
+Both before and editing.
+[Wendell]
+It's an iceberg.
+[Alexis]
+There's so, there's so much more of it goes into it than people think.
+[Wendell]
+Right. So it's more about the, is ideation a word now? I think it is, but the thinking of how to do it and creating the slides and the drawings then the delivery is important, but the, it's almost more exercising course development kind of skills and enjoying that more so than delivery skills.
+[Kevin]
+Yeah. So what has been your biggest takeaway? You, you kind of started on YouTube without any, you know, video experience, right?
+You weren't a content creator before this other than books. You've been doing it now for a little while. You made 200 some videos.
+What's been your biggest learning thing so far of how your content has changed from when you started to where you are now? Biggest takeaway.
+[Wendell]
+It took a little to get willing to forgive myself for minor speaking mistakes. The experts say people don't really mind if you fumble over your words, sometimes here and there it's like, thank God for that.
+[Kevin]
+Because anyone who listens to the podcast knows when I editing is amazing, but when you're doing this live stuff, man, it's, I fumble over myself constantly. Right.
+[Alexis]
+All the time.
+[Wendell]
+I have a great appreciation for professionals on TV that we can talk for 45 seconds without making a mistake. I'm like 44.5 seconds, maybe, you know, but not 45 seconds, right?
+[Kevin]
+I don't know how they do it. It's a whole different skill and a whole different thing that it's, you have to learn and it's, it's difficult. So I, I've been watching your YouTubes.
+I love them. I was mentioning it on the pre-call, how your content has evolved. And like, you are, you know, you're, you're a YouTuber to me now, like you're, you're doing the thing and you're doing it really well.
+So, uh, if I also love that it's free, it's free content that you're giving out there. So one of the things that like, I've always tried to make is my content. I don't ever want to put behind like a paywall, that kind of thing.
+And I think that being on YouTube, putting your content out there for free allows anyone of any financial status of any creative, any, anything at all, they can go to a library and go to YouTube on their library computer and watch your CCNA videos and, you know, start their career that way. I think it's a whole different Avenue now of people who are going to learn you and, you know, learn from you and start their careers. I think it's, I think it's awesome.
+So based on saying everyone go to windows, YouTube and watches CCNA videos, hopefully, hopefully you finish them in the next couple of years, maybe.
+[Alexis]
+I think what people don't realize, Wendell, I'm looking at your channel now. I don't think people realize that you're the guy that wrote most of the books.
+[Wendell]
+Well, yeah, there is that. So, um, just, just because I did write a bunch of books about CCNA, it doesn't, it's not Wendell Odom wrote all the books, YouTube channel. It's not the long name of it.
+Right. So I could, I could maybe do a better job of marketing that.
+[Alexis]
+Right. I don't think that people put together the distinction that like, this is the same person. I mean, I don't know.
+I, I buy books. I'm going to, I'm going to expose myself a little bit here. I feel like I do this every episode.
+Wendell, I did not read the name of the guy on the CCNA book when I was told to pass it. It was, Hey, you need to pass your CCNA for work. Here's this book.
+And I said, here's the book.
+[Wendell]
+Okay.
+[Alexis]
+I'm going to read this book and take this course. And so I think that maybe, maybe there's some of that going on in the branding too, is that people just didn't put two and two together that you also do YouTube.
+[Wendell]
+Yes. So I think we've connected well with the people that own the book. I think we've got strong synergy there.
+By the way, the videos are organized along with the book. So you've got a major section in the chapter. There's a matching video, right?
+So you get two voices on the same topic and organized the same way. But for the general populace that may not even be using my books, I don't know that we're finding them as often. I get lots of comments on, Oh my goodness, Wendell Odom's on YouTube, kind of a thing.
+It's like, well, I knew that. But, you know, and I get that. And I do think that the fact that I haven't finished the full course is dampening it a bit.
+But, you know, hope, assuming things work out.
+[Alexis]
+It's like a TV show. People, new episodes will come out.
+[Wendell]
+They can follow. New episodes, as soon as I'm done with the books, new episodes will come back. First things first, got to finish the paying project first, and then YouTube will return.
+For sure. But yes, it's fun to do. You know how it is.
+If you enjoy making the content, if it just wasn't for all the other parts of work life, it would be a blast to do, right? It's the managing to find the time to do it where you're not all stressed because of the schedule, right?
+[Kevin]
+Oh, I do have one more question. I've gotten into a debate online with people, and the big debate is, is the CCNA an entry level certification? Oh, and the answer is, well, mine is yes, but a lot of people are saying it's too difficult for someone who's new to technology or, you know, nowadays, everyone knows technology and the fact they can use a computer, they can use a mouse, they can, they know how the basics of things work.
+But let me finish, Alexis. I can already tell, but I think you don't need to have any networking knowledge to learn to go through the CCNA, and so I've gotten some pushback on that. So I wanted your opinion, but Alexis, I think you have something to say before we go into it.
+[Alexis]
+I just have my two cents.
+[Kevin]
+Oh, yeah, give it to me.
+[Alexis]
+So I took my CCNA with no networking background, zero, zero. And I tell people that and they say, well, you had your degree in aerospace engineering. I failed electrical engineering 101.
+The only course I ever failed was the only one I took that was somewhat related to what I do today. And the CCNA was my first intro to networking. So.
+[Kevin]
+So you're on my team.
+[Alexis]
+I'm on your team.
+[Kevin]
+Okay.
+[Alexis]
+I didn't take network plus. I didn't, I was learning the CCNA. And it's also the reason that I say that I like the foundation of the outline of the courses and the roadmap, because that's how I learned.
+I sequentially stepped through the topics and then I was like, okay, I have a fundamental understanding of networking now.
+[Wendell]
+So you're both on the side of it is, it is an entry-level certification. So you've got to define terms, right? So does an entry-level certification mean that, you know, nothing about networking or that you need to know a little about networking entering it?
+[Alexis]
+I mean, nothing, nothing. I knew nothing.
+[Kevin]
+Yeah. Like when I learned it, I, I, I had seen a rack and switch and some cables and I had no idea what any of that was. And I grabbed the CCNA book and dug in and learned everything from scratch.
+[Wendell]
+So I would agree that it's attainable for someone who knows nothing, but as a certification, it, it expects you to know things entering the certification. So you can buy a study resource that teaches you the prerequisites, but there are definitely networking prerequisites to CCNA that are not spelled out in the blueprint. So again, I'm just terms and how you, how you filter the question.
+So certainly you can learn it.
+[Alexis]
+Yeah.
+[Wendell]
+And I'll give you a very specific example since, you know, we're wrapping up here at the end. If you, you know, my little world here, just staring at the blueprints over and over and over and over, they removed the first four or five blueprint items from version 1.1 for the version 2.0 blueprint. And these were basic things.
+Well, you still got to know them. They're still basic foundational things. They're now essentially prerequisites to the new version 2.0 CCNA. And so I'm doing a webinar with the Netacad folks in a couple of weeks. And part of the discussion is, you know, changes in the blueprint. And one of the things is, Hey, they removed like 20 things from the blueprint, but 11 or 12, they're prereqs that you still got to know this stuff.
+So I think Cisco is slowly moving CCNA to be number two.
+[Alexis]
+Oh, well, that's on purpose because they made the CCST. Yeah.
+[Wendell]
+So where it sits today may be different. You know, Alexis, you said three years ago, Kevin, how long ago was it?
+[Kevin]
+Oh God. Yeah. 12 years ago.
+[Wendell]
+So certainly you've got that. I think it is slowly becoming less entry-level because of the number of prereqs that are implied.
+[Alexis]
+Well, crap.
+[Kevin]
+That's not the answer I wanted, Wendell. But no, it's an entry-level certification. Thank you.
+I'm going to use that clip when I post it on social media. Perfect.
+[Alexis]
+Well, I think that people also don't realize that learning and certifications is also a business arm of Cisco. Oh yeah. Like it is a whole business.
+[Wendell]
+Yes. They have a profit motive. They have to make money.
+It's another day.
+[Alexis]
+Why are we adding more certifications? Well, certifications cost money to take. I think there's the industry is changing.
+There's more knowledge to cover. Sure. I think Cisco started with like two certifications and now there's like 20.
+[Wendell]
+I'm making that number up.
+[Alexis]
+I don't know how many there are, but there are a significant amount.
+[Wendell]
+Well, I do have a bit of prior knowledge on the CCST track in that it was motivated to be for high school courses. It's a 50-minute exam, so it could be taken at a high school in a proctored area with a teacher in one class period. That makes sense.
+So the motivation was to say you could have a technology vocational center and CCNA was A, too hard and B, too much. C, too expensive.
+[Alexis]
+I like that.
+[Wendell]
+Yeah, that makes a lot of sense. I have two high school kids.
+[Kevin]
+They may have had profit motive too, but that was the origin of CCST. But now I love it now because I have two high school kids and they're in these business classes and they take these Microsoft exams. And I'm like, Microsoft? Who cares about Microsoft?
+But if that was a Cisco exam, I would change completely. I'd be like, yeah, 100% do that one. So it makes sense.
+[Alexis]
+You can take your Cisco fanboy hat off. It's okay.
+[Kevin]
+No, no, I will not.
+[Alexis]
+Microsoft exam. What is that? Well, Cisco exam, I guess that's what it is.
+[Wendell]
+Exactly. But yeah, but CCST as an entry level for us professionals, it may become that more and more over time. But the original purpose, I agree with you, it's laudable that they did that.
+[Kevin]
+I have another question for you. Sorry. Not related to that specifically, but since you do have some insight in certifications and how they organize things, why did they, number one, they split the CCNA into two, the ICND one and two, and then they removed it and combined it back again.
+Do you know why they did that? Why they combined it back? Or like either, or why they split it up in the first place or combined it back either way.
+[Wendell]
+Yeah. The split it was a practical matter. So back in the day, they had one five-day class that when CCNA started, they built an exam around the class.
+And then as time moved on, bloat happened and they had five-day class and a two-day class and no learning partners offered because you can't make money on a live in-person two-day class. And then it grew to five and a three-day and then five and a five-day. And that was ICND one and two, CCNA grew to that.
+And then you had the two exam or one exam passed to cover it all. And then in 2020, when they made the huge changes, they actually shrunk from the 2016 blueprint to the 2020 blueprint. They removed 50% of the content and added some back, but by volume, I estimated it was 60, 65% by volume in the 2020 version versus 2016 version.
+So it was significantly less to learn.
+[Wendell]
+Yeah.
+[Wendell]
+So that's when they went to the single exam in 2020.
+[Kevin]
+Okay. I was just curious, not related to anything. That was a personal question.
+I just, I just want to know. Thank you. No problem.
+Happy to. All right. I think that takes care of this episode.
+Wendell, where can people find you online?
+[Wendell]
+I'm on LinkedIn and my name, Wendell Odom, and I'm on X with my name there as well. I got there early enough to get my name. And on YouTube, if you search Wendell Odom, you'll find me, but the name of the channel is Network Upskill, but, you know, just search my name.
+You'll find me on YouTube as well. Awesome.
+[Alexis]
+Awesome. Well, thank you for having us on the show. And that is it for this episode of Life in Uptime.
+Huge thanks to Wendell for sharing his journey and thanks to you for listening. If you enjoyed this conversation, be sure to follow the show so you never miss an episode. And if today's story gave you something to think about, share it with a friend or colleague who might need it.
+And until next time, keep learning, keep building, and keep your uptime high.`,
+  }
 ];
