@@ -11,11 +11,23 @@ export interface Episode {
 
 const RSS_URL = "https://packetpushers.net/podcast/life-in-uptime/feed/";
 
+function decodeEntities(text: string): string {
+  return text
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(parseInt(code, 10)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, code) => String.fromCharCode(parseInt(code, 16)))
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, " ");
+}
+
 function extractText(xml: string, tag: string): string {
   const cdataMatch = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, "i").exec(xml);
-  if (cdataMatch) return cdataMatch[1].trim();
+  if (cdataMatch) return decodeEntities(cdataMatch[1].trim());
   const match = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i").exec(xml);
-  return match ? match[1].replace(/<[^>]+>/g, "").trim() : "";
+  return match ? decodeEntities(match[1].replace(/<[^>]+>/g, "").trim()) : "";
 }
 
 function extractAttr(xml: string, tag: string, attr: string): string {
@@ -62,6 +74,7 @@ export async function getEpisodes(): Promise<Episode[]> {
         });
       }
       i++;
+
       if (i > 50) break;
     }
 
